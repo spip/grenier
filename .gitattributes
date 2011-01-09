@@ -1,1 +1,15 @@
 * text=auto !eol
+action/configuration.php -text
+exec/configuration.php -text
+exec/memoriser.php -text
+exec/rechercher_auteur.php -text
+exec/selectionner_auteur.php -text
+/grenier-32.png -text
+inc/afficher_objets.php -text
+inc/formater_article.php -text
+inc/formater_auteur.php -text
+inc/php3.php -text
+inc/presenter_liste.php -text
+inc/selectionner_auteur.php -text
+inc/vieilles_defs.php -text
+/plugin.xml -text
