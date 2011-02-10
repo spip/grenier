@@ -30,7 +30,7 @@ function lien_editer_objet($type,$key,$id){
 // http://doc.spip.org/@lien_voir_objet
 function lien_voir_objet($type,$key,$id){
 	if ($type == 'document') return generer_url_entite($id, 'document');
-	$exec = array('article'=>'articles','breve'=>'breves_voir','rubrique'=>'naviguer','mot'=>'mots_edit', 'signature'=>'controle_petition');
+	$exec = array('article'=>'articles','breve'=>'breve','rubrique'=>'naviguer','mot'=>'mot', 'signature'=>'controle_petition');
 	$exec = isset($exec[$type])?$exec[$type]:$type . "s";
 	return generer_url_ecrire($exec,"$key=$id");
 }
