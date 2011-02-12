@@ -9,6 +9,7 @@ inc/afficher_objets.php -text
 inc/formater_article.php -text
 inc/formater_auteur.php -text
 inc/php3.php -text
+inc/presentation.php -text
 inc/presenter_liste.php -text
 inc/selectionner_auteur.php -text
 inc/vieilles_defs.php -text
