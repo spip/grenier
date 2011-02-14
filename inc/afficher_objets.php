@@ -120,7 +120,7 @@ function afficher_titre_auteur($row){
 // http://doc.spip.org/@afficher_titre_syndic_article
 function afficher_titre_syndic_article($row){
 	return array('', recuperer_fond(
-		'prive/contenu/syndic_article',
+		'prive/objets/contenu/syndic_article',
 		array('id' => $row['id_syndic_article'])
 	));
 }
