@@ -114,7 +114,7 @@ return $GLOBALS[\'browser_layer\'];}
 	$nom = $row[\'nom\'];
 
 	$s = bonhomme_statut($row);
-	$s .= "<a href=\'" . generer_url_ecrire("auteur_infos","id_auteur=$id_auteur") . "\'>";
+	$s .= "<a href=\'" . generer_url_ecrire("auteur","id_auteur=$id_auteur") . "\'>";
 	$s .= typo($nom);
 	$s .= "</a>";
 	$vals[] = $s;

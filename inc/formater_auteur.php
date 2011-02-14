@@ -65,7 +65,7 @@ function inc_formater_auteur_dist($id_auteur, $row=NULL) {
 	else $logo ='';
 
 	$vals[] = "<a href='"
-	. generer_url_ecrire('auteur_infos', "id_auteur=$id_auteur")
+	. generer_url_ecrire('auteur', "id_auteur=$id_auteur")
 	. "'"
 	. (!$row['bio'] ? '' : (" title=\"" . attribut_html(couper(textebrut($row["bio"]), 200)) ."\""))
 	. ">$nom</a>" . $logo;
