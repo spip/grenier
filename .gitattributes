@@ -1,6 +1,9 @@
 * text=auto !eol
 action/configuration.php -text
 exec/configuration.php -text
+exec/convert_sql_utf8.php -text
+exec/convert_utf8.php -text
+exec/informer_auteur.php -text
 exec/memoriser.php -text
 exec/rechercher_auteur.php -text
 exec/selectionner_auteur.php -text
@@ -8,6 +11,7 @@ exec/selectionner_auteur.php -text
 inc/afficher_objets.php -text
 inc/formater_article.php -text
 inc/formater_auteur.php -text
+inc/informer_auteur.php -text
 inc/php3.php -text
 inc/presentation.php -text
 inc/presenter_liste.php -text
