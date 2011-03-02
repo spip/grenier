@@ -121,5 +121,21 @@ function voir_en_ligne ($type, $id, $statut=false, $image='racine-24.png', $af =
 
 }
 
+// http://doc.spip.org/@icone_inline
+function icone_inline($texte, $lien, $fond, $fonction="", $align="", $ajax=false, $javascript=''){
+	// cas d'ajax_action_auteur: faut defaire le boulot
+	// (il faudrait fusionner avec le cas $javascript)
+	if (preg_match(",^<a\shref='([^']*)'([^>]*)>(.*)</a>$,i",$lien,$r)) {
+		list($x,$lien,$atts,$texte)= $r;
+		$javascript .= $atts;
+	}
+
+	// l'ajax de l'espace prive made in php
+	if ($ajax)
+		$javascript .= ' onclick=' . ajax_action_declencheur($lien,$ajax);
+
+	return icone_base($lien, $texte, $fond, $fonction,"verticale $align",$javascript);
+}
+
 
 ?>
