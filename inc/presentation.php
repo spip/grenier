@@ -138,4 +138,101 @@ function icone_inline($texte, $lien, $fond, $fonction="", $align="", $ajax=false
 }
 
 
+// http://doc.spip.org/@navigation_pagination
+function navigation_pagination($num_rows, $nb_aff=10, $href=null, $debut, $tmp_var=null, $on='') {
+
+	$texte = '';
+	$self = parametre_url(self(), 'date', '');
+	$deb_aff = intval($debut);
+
+	for ($i = 0; $i < $num_rows; $i += $nb_aff){
+		$deb = $i + 1;
+
+		// Pagination : si on est trop loin, on met des '...'
+		if (abs($deb-$deb_aff)>101) {
+			if ($deb<$deb_aff) {
+				if (!isset($premiere)) {
+					$premiere = '0 ... ';
+					$texte .= $premiere;
+				}
+			} else {
+				$derniere = ' | ... '.$num_rows;
+				$texte .= $derniere;
+				break;
+			}
+		} else {
+
+			$fin = $i + $nb_aff;
+			if ($fin > $num_rows)
+				$fin = $num_rows;
+
+			if ($deb > 1)
+				$texte .= " |\n";
+			if ($deb_aff + 1 >= $deb AND $deb_aff + 1 <= $fin) {
+				$texte .= "<b>$deb</b>";
+			}
+			else {
+				$script = parametre_url($self, $tmp_var, $deb-1);
+				if ($on) $on = generer_onclic_ajax($href, $tmp_var, $deb-1);
+				$texte .= "<a href=\"$script\"$on>$deb</a>";
+			}
+		}
+	}
+
+	return $texte;
+}
+
+
+// http://doc.spip.org/@generer_onclic_ajax
+function generer_onclic_ajax($url, $idom, $val)
+{
+	return "\nonclick=\"return charger_id_url('"
+	  . parametre_url($url, $idom, $val)
+	  . "','"
+	  . $idom
+	  . '\');"';
+}
+
+//
+// Afficher la hierarchie des rubriques
+//
+
+// http://doc.spip.org/@afficher_hierarchie
+function afficher_hierarchie($id_parent, $editable=true,$id_objet=0,$type='',$id_secteur=0,$restreint='') {
+	$out = recuperer_fond('prive/squelettes/hierarchie/objet',
+					array(
+						'id_parent'=>$id_parent,
+						'objet'=>$type,
+						'id_objet'=>$id_objet,
+						'deplacer'=>_request('deplacer')?'oui':'',
+						'id_secteur'=>$id_secteur,
+						'restreint'=>$restreint,
+						'editable'=>$editable?' ':'',
+					),array('ajax'=>true));
+	$out = pipeline('affiche_hierarchie',array('args'=>array(
+			'id_parent'=>$id_parent,
+			'id_objet'=>$id_objet,
+			'objet'=>$type,
+			'id_secteur'=>$id_secteur,
+			'restreint'=>$restreint,
+			'editable'=>$editable?' ':'',
+			),
+			'data'=>$out));
+
+ 	return $out;
+}
+// Cadre formulaires
+
+// http://doc.spip.org/@debut_cadre_formulaire
+function debut_cadre_formulaire($style=''){return "\n<div class='cadre-formulaire'" .(!$style ? "" : " style='$style'") .">";}
+// http://doc.spip.org/@fin_cadre_formulaire
+function fin_cadre_formulaire($return=false){return "</div>\n";}
+
+// Pour construire des menu avec SELECTED
+// http://doc.spip.org/@mySel
+function mySel($varaut,$variable, $option = NULL) {
+	$res = ' value="'.$varaut.'"' . (($variable==$varaut) ? ' selected="selected"' : '');
+	return  (!isset($option) ? $res : "<option".$res.">$option</option>\n");
+}
+
 ?>
