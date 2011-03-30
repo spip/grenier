@@ -734,7 +734,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 
 'sql_chapo' => '($id_article) {
 	vieilles_log(\'sql_chapo()\');
-	return quete_chapo($id_article);
+	return quete_virtuel($id_article);
   }
   
   ',
