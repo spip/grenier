@@ -235,4 +235,11 @@ function mySel($varaut,$variable, $option = NULL) {
 	return  (!isset($option) ? $res : "<option".$res.">$option</option>\n");
 }
 
+
+// http://doc.spip.org/@bonhomme_statut
+function bonhomme_statut($row) {
+	$puce_statut = charger_fonction('puce_statut', 'inc');
+	return $puce_statut(0, $row['statut'], 0, 'auteur');
+}
+
 ?>
