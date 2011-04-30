@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'unkomprimiert sichern nach @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndikation der Meldungen dieser Website',
+	'icone_creer_mot_cle_breve' => 'Schlagwort anlegen und dieser Meldung zuordnen.',
+	'icone_publier_breve' => 'Meldung veröffentlichen',
+	'icone_refuser_breve' => 'Kurzmeldung ablehnen',
 	'info_base_restauration' => 'Datenbank wird wieder hergestellt.',
+	'info_breves_03' => 'Meldungen',
+	'info_breves_liees_mot' => 'Mit diesem Schlagwort verknüpfte Meldungen',
+	'info_breves_touvees' => 'Gefundene Meldungen',
+	'info_breves_touvees_dans_texte' => 'Gefundene Meldungen (im Text)',
 	'info_erreur_restauration' => 'Fehler bei der Wiederherstellung: Datei nicht vorhanden.',
+	'info_modifier_breve' => 'Meldung bearbeiten:',
+	'info_nombre_breves' => '@nb_breves@ Kurzmeldugen, ',
 	'info_restauration_sauvegarde_insert' => 'Einfügen der Sicherung @archive@ in die Datenbank',
 	'info_sauvegarde_articles' => 'Artikel sichern',
 	'info_sauvegarde_articles_sites_ref' => 'Artikel der verlinkten Sites sichern',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Verlinkte Websites sichern',
 	'info_sauvegarde_type_documents' => 'Dokumenttypen sichern',
 	'info_sauvegarde_visites' => 'Besucherzahlen sichern',
+	'info_une_breve' => 'Eine Meldung, ',
+	'item_mots_cles_association_breves' => 'Meldungen zuordnen',
+	'item_nouvelle_breve' => 'Neue Meldung',
+
+	// L
+	'lien_reponse_breve' => 'Antwort auf Meldung',
+	'lien_reponse_breve_2' => 'Antwort auf Meldung',
 
 	// S
 	'sauvegarde_fusionner' => 'Aktuelle Datenbank und Sicherungskopie zusammenführen',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Sie können die Daten in komprimierter Form sichern und damit Speicherplatz auf dem Server und Downloadzeit sparen.',
 	'texte_admin_tech_04' => 'Um das Zusammenführen mit einer anderen Datenbank vorzubereiten, können Sie die Datensicherung auf eine bestimmte Rubrik beschränken: ',
-	'texte_sauvegarde_compressee' => 'Die Sicherung wird als unkomprimierte Datei @fichier@ angelegt.'
+	'texte_sauvegarde_compressee' => 'Die Sicherung wird als unkomprimierte Datei @fichier@ angelegt.',
+	'titre_nouvelle_breve' => 'Neue Meldung',
+	'titre_page_breves_edit' => 'Meldung bearbeiten: “@titre@”'
 );
 
 ?>

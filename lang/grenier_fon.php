@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_publier_breve' => 'sɔ xó kléwún é lɔ ɖó àtɛ',
+	'icone_refuser_breve' => 'gbɛ xó kléwún ɔ',
 	'info_base_restauration' => 'gbètákɛnxòkplé kò jà àfɔ ɖè jí.',
+	'info_breves_03' => 'xó kléwún lɛ',
+	'info_breves_liees_mot' => 'xó kléwún lɛ ɖê cádó gbètákɛn lɛ wú ɔ',
+	'info_breves_touvees' => 'xó kléwún lɛ ɖê yè mɔ ɔ',
+	'info_breves_touvees_dans_texte' => 'xó kléwún lɛ ɖê yè mɔ ɔ',
 	'info_erreur_restauration' => 'bíblò ɔ jàyì, gbètá ɔ ɖé á.',
+	'info_modifier_breve' => 'ɖyɔ xó kléwún ɔ:',
+	'info_nombre_breves' => '@nb_breves@ xó kléwún,',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Wlí  Wékpá lɛ  hɛn',
 	'info_sauvegarde_articles_sites_ref' => 'Mi Wlí  Wékpá lɛ ɖê sɔ kɛn nâ hɛn',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Mi wlí gblogblojí yé ɖèkúnú ná  lɛ hɛn',
 	'info_sauvegarde_type_documents' => 'Mi wlí wěmá àkpáɖé  lɛ hɛn',
 	'info_sauvegarde_visites' => 'Mi jōnɔ bíbà  lɛ hɛn',
+	'info_une_breve' => 'xó kléwún,',
+	'item_mots_cles_association_breves' => 'xó kléwún',
+	'item_nouvelle_breve' => 'xó kléwún',
+
+	// L
+	'lien_reponse_breve' => 'yígbjè nú xó kléwún é lɔ',
+	'lien_reponse_breve_2' => 'yígbjè nú xó kléwún é lɔ',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'mi ná sɔ mɔ àlì gégé.',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'mi ná wlíhɛn ɖò gbètá ɔ mɛ@fichier@.'
+	'texte_sauvegarde_compressee' => 'mi ná wlíhɛn ɖò gbètá ɔ mɛ@fichier@.',
+	'titre_nouvelle_breve' => 'xó kléwún lɛ',
+	'titre_page_breves_edit' => 'ɖyɔ xó kléwún lɛ : « @titre@ »'
 );
 
 ?>

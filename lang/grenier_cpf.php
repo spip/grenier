@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'sovgard lé pa koprésé èk @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_publier_breve' => 'Pibliyé tit-nouvèl-la',
+	'icone_refuser_breve' => 'Afront tit-nouvèl-la',
 	'info_base_restauration' => 'Labaz lé antrin drosarz son promyé léta.',
+	'info_breves_03' => 'Bann tit-nouvèl',
+	'info_breves_liees_mot' => 'Bann tit-nouvèl an gatiraz èk molaklé-la ',
+	'info_breves_touvees' => 'Bann tit-nouvèl ni la finn trouvé',
+	'info_breves_touvees_dans_texte' => 'Bann tit-nouvèl ni la finn trouvé (dann tèks-la)',
 	'info_erreur_restauration' => 'Kanard dann rotour-sovgard labaz : lo fisyé-la i ékzist pa.',
+	'info_modifier_breve' => 'Sanz la tit-nouvèl :',
+	'info_nombre_breves' => '@nb_breves@ bann tit-nouvèl,',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sovgard bann zartik',
 	'info_sauvegarde_articles_sites_ref' => 'Sovgard bann zartik bann sit référansé',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Sovgard bann sit référansé',
 	'info_sauvegarde_type_documents' => 'Sovgard bann lespès-dokiman',
 	'info_sauvegarde_visites' => 'Sovgard bann vizit',
+	'info_une_breve' => 'inn tit-nouvèl,',
+	'item_mots_cles_association_breves' => 'èk bann tit-nouvèl',
+	'item_nouvelle_breve' => 'Nouvèl tit-nouvèl',
+
+	// L
+	'lien_reponse_breve' => 'Réponn tit-nouvèl-la',
+	'lien_reponse_breve_2' => 'Répons pou tit-nouvèl',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Ou pé swazi sovgard lo fisyé dann manyir-konpersé. Manyir-la i permé rand pli takini lo transfèr d-fisyé sir out lordinatèr oubyin sa lo servèr pou bann sovgard. Lé itil aou pour konsèrv out léspas-diks.',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'Sovgard-la i sra pou fé sir lo fisyé konpèrsé @fichier@.'
+	'texte_sauvegarde_compressee' => 'Sovgard-la i sra pou fé sir lo fisyé konpèrsé @fichier@.',
+	'titre_nouvelle_breve' => 'Nouvèl tit-nouvèl',
+	'titre_page_breves_edit' => 'Sanz la tit-nouvèl : « @titre@ »'
 );
 
 ?>

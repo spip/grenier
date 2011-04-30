@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'Snimiti bez  kompresije pod @fichier@', # MODIF
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_publier_breve' => 'Objavi ovu kratku poruku',
+	'icone_refuser_breve' => 'Odbij ovu kratku poruku',
 	'info_base_restauration' => 'Baza je u toku obnavljanja.',
+	'info_breves_03' => 'kratke poruke',
+	'info_breves_liees_mot' => 'Kratke poruke koje su vezane za ovu kljucnu rijec',
+	'info_breves_touvees' => 'Pronadjene kratke poruke',
+	'info_breves_touvees_dans_texte' => 'Pronadjene kratke poruke (u tekstu)',
 	'info_erreur_restauration' => 'Greska u obnavljanju: nepostojeci dokument.',
+	'info_modifier_breve' => 'Izmijeni kratku poruku:',
+	'info_nombre_breves' => '@nb_breves@ kratke poruke,',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Backup clanaka',
 	'info_sauvegarde_articles_sites_ref' => 'Backup clanaka preporucenih stranica',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Backup preporucenih stranica',
 	'info_sauvegarde_type_documents' => 'Backup tipova dokumenata',
 	'info_sauvegarde_visites' => 'Backup posjeta',
+	'info_une_breve' => 'jedna kratka poruka,',
+	'item_mots_cles_association_breves' => 'za kratke poruke',
+	'item_nouvelle_breve' => 'Nova kratka poruka',
+
+	// L
+	'lien_reponse_breve' => 'Odgovori na kratku poruku',
+	'lien_reponse_breve_2' => 'Odgovori na kratku poruku',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Mozete izabrati pohranjivanje dokumenta u kompresovanoj formi, da bi ste skratili transfer kod vas ili nekog servera za pohranjivanje i da bi ste smanjili prostor na maticnoj ploci. ',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'Pohranjivanje ce se izvrsiti u nekompresovanom dokumentu @fichier@.' # MODIF
+	'texte_sauvegarde_compressee' => 'Pohranjivanje ce se izvrsiti u nekompresovanom dokumentu @fichier@.', # MODIF
+	'titre_nouvelle_breve' => 'Nova kratka poruka',
+	'titre_page_breves_edit' => 'Izmijeni kratku poruku: «  @titre@ »'
 );
 
 ?>

@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'Backup ass nët kompriméiert ënner @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndicatioun vun de Kurzmeldungen vum Site',
+	'icone_creer_mot_cle_breve' => 'E neit Schlësselwuert maachen an et un dës Kurzmeldung bannen',
+	'icone_publier_breve' => 'Dës Kuerzmeldung publizéieren',
+	'icone_refuser_breve' => 'Dës Kuerzmeldung refuséieren',
 	'info_base_restauration' => 'D\'Datebank gët grad restauréiert.',
+	'info_breves_03' => 'Kuerzmeldungen',
+	'info_breves_liees_mot' => 'Kuerzmeldungen déi un dëst Schlësselwuert gebonnen sinn',
+	'info_breves_touvees' => 'Kuerzmeldungen fonnt',
+	'info_breves_touvees_dans_texte' => 'Kuerzmeldungen fonnt (am Text)',
 	'info_erreur_restauration' => 'Fehler bei der Restauratioun: de Fichier gëtt ët nët.',
+	'info_modifier_breve' => 'Kuerzmeldung änneren:',
+	'info_nombre_breves' => '@nb_breves@ Kuerzmeldungen,',
 	'info_restauration_sauvegarde_insert' => 'Insert vum @archive@ an d\'Datebank',
 	'info_sauvegarde_articles' => 'Artikelen späicheren',
 	'info_sauvegarde_articles_sites_ref' => 'Artikelen vun de referenzéierten Siten späicheren',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Referenzéiert Siten späicheren',
 	'info_sauvegarde_type_documents' => 'Dokument-Typen späicheren',
 	'info_sauvegarde_visites' => 'Visiten späicheren',
+	'info_une_breve' => 'eng Kuerzmeldung,',
+	'item_mots_cles_association_breves' => 'vun de Kuerzmeldungen',
+	'item_nouvelle_breve' => 'Nei Kuerzmeldung',
+
+	// L
+	'lien_reponse_breve' => 'Äntwert op d\'Kuerzmeldung',
+	'lien_reponse_breve_2' => 'Äntwert op d\'Kuerzmeldung',
 
 	// S
 	'sauvegarde_fusionner' => 'Déi aktuell Datebank mam Backup fusionnéieren',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Dir kënnt de Fichier kompriméiert späicheren fir méi e séieren Downlued oder Transfert op e Backup-Server, a fir Disk-Plaz ze spueren.',
 	'texte_admin_tech_04' => 'Fir mat enger anerer Datebank ze fusionnéiere kënnt dir de Backup op dës Rubrik begrenzen: ',
-	'texte_sauvegarde_compressee' => 'De Backup gët den nët kompriméierten Fichier @fichier@.'
+	'texte_sauvegarde_compressee' => 'De Backup gët den nët kompriméierten Fichier @fichier@.',
+	'titre_nouvelle_breve' => 'Nei Kuerzmeldung',
+	'titre_page_breves_edit' => 'Kuerzmeldung änneren: "@titre@"'
 );
 
 ?>

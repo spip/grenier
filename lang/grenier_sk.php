@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'save as uncompressed in @fichier@', # MODIF
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication of the site\'s news items',
+	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
+	'icone_publier_breve' => 'Uverejniť túto správu',
+	'icone_refuser_breve' => 'Zamietnuť túto správu',
 	'info_base_restauration' => 'Restoration of the database in progress.', # MODIF
+	'info_breves_03' => 'news items',
+	'info_breves_liees_mot' => 'News associated with this keyword',
+	'info_breves_touvees' => 'News items found',
+	'info_breves_touvees_dans_texte' => 'News items found (in the text)',
 	'info_erreur_restauration' => 'Restoration error: file not found.', # MODIF
+	'info_modifier_breve' => 'Modify the news item:',
+	'info_nombre_breves' => '@nb_breves@ news items,',
 	'info_restauration_sauvegarde_insert' => 'Inserting @archive@ in the database', # MODIF
 	'info_sauvegarde_articles' => 'Backup the articles', # MODIF
 	'info_sauvegarde_articles_sites_ref' => 'Backup articles of referenced sites',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Backup referenced sites',
 	'info_sauvegarde_type_documents' => 'Backup documents types', # MODIF
 	'info_sauvegarde_visites' => 'Backup the visits', # MODIF
+	'info_une_breve' => 'a news item,',
+	'item_mots_cles_association_breves' => 'news items',
+	'item_nouvelle_breve' => 'Nová novinka',
+
+	// L
+	'lien_reponse_breve' => 'Reply to the news item',
+	'lien_reponse_breve_2' => 'Reply to the news item',
 
 	// S
 	'sauvegarde_fusionner' => 'Merge the current database with the backup', # MODIF
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'You can choose to save the file in a compressed form, to 
 	speed up its transfer to your machine or to a backup server and save some disk space.',
 	'texte_admin_tech_04' => 'In order to merge with another database, you can restrict the backup to one section: ',
-	'texte_sauvegarde_compressee' => 'Backup will be stored in the uncompressed file @fichier@.' # MODIF
+	'texte_sauvegarde_compressee' => 'Backup will be stored in the uncompressed file @fichier@.', # MODIF
+	'titre_nouvelle_breve' => 'Nová novinka',
+	'titre_page_breves_edit' => 'Modify the news item: «@titre@»'
 );
 
 ?>

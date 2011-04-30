@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'backup non compresso in @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication delle brevi del sito',
+	'icone_creer_mot_cle_breve' => 'Creare una nuova parola chiave e collegarla a questa breve',
+	'icone_publier_breve' => 'Pubblica questa breve',
+	'icone_refuser_breve' => 'Rifiuta questa breve',
 	'info_base_restauration' => 'Il database è in fase di ripristino.',
+	'info_breves_03' => 'brevi',
+	'info_breves_liees_mot' => 'Le brevi collegate a questa parola chiave',
+	'info_breves_touvees' => 'Brevi trovate',
+	'info_breves_touvees_dans_texte' => 'Brevi trovate (nel testo)',
 	'info_erreur_restauration' => 'Errore di ripristino: file inesistente.',
+	'info_modifier_breve' => 'Modifica la breve:',
+	'info_nombre_breves' => '@nb_breves@ brevi, ',
 	'info_restauration_sauvegarde_insert' => 'Inserimento di @archive@ nel database',
 	'info_sauvegarde_articles' => 'Salva gli articoli',
 	'info_sauvegarde_articles_sites_ref' => 'Salva gli articoli dei siti citati',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Salva i siti in repertorio',
 	'info_sauvegarde_type_documents' => 'Salva i tipi di documento',
 	'info_sauvegarde_visites' => 'Salva le visite',
+	'info_une_breve' => 'una breve, ',
+	'item_mots_cles_association_breves' => 'alle brevi',
+	'item_nouvelle_breve' => 'Nuova breve',
+
+	// L
+	'lien_reponse_breve' => 'Risposta alla breve',
+	'lien_reponse_breve_2' => 'Risposta alla breve',
 
 	// S
 	'sauvegarde_fusionner' => 'Unire il database attuale con la copia di backup',
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Puoi scegliere di salvare il file in forma compressa, al fine di ridurre
 i tempi di trasferimento in rete e di risparmiare dello spazio su disco.',
 	'texte_admin_tech_04' => 'Al fine di una fusione con un altro database, è possibile limitare il salvataggio alla rubrica: ',
-	'texte_sauvegarde_compressee' => 'Il salvataggio avverrà nel file non compresso @fichier@.'
+	'texte_sauvegarde_compressee' => 'Il salvataggio avverrà nel file non compresso @fichier@.',
+	'titre_nouvelle_breve' => 'Nuova breve',
+	'titre_page_breves_edit' => 'Modifica la breve: «@titre@»'
 );
 
 ?>

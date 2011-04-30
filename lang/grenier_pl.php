@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'zapisz w postaci nieskompresowanej w @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Zapisz się do RSS newsów',
+	'icone_creer_mot_cle_breve' => 'Utwórz nowe słowo kluczowe i połącz je z tym newsem',
+	'icone_publier_breve' => 'Publikuj ten news',
+	'icone_refuser_breve' => 'Odrzuć ten news',
 	'info_base_restauration' => 'Trwa odtwarzanie bazy danych.',
+	'info_breves_03' => 'newsy',
+	'info_breves_liees_mot' => 'Newsy powiązane z tym słowem kluczowym',
+	'info_breves_touvees' => 'Newsy znalezione',
+	'info_breves_touvees_dans_texte' => 'Newsy znalezione (w tekście)',
 	'info_erreur_restauration' => 'Błąd odtwarzania : plik nie istnieje.',
+	'info_modifier_breve' => 'Zmiana newsa:',
+	'info_nombre_breves' => '@nb_breves@ newsów,',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Backup artykułów',
 	'info_sauvegarde_articles_sites_ref' => 'Zapisz artykuły ze zlinkowanych stron',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Zapisz zlinkowane strony',
 	'info_sauvegarde_type_documents' => 'Backup typów dokumentów',
 	'info_sauvegarde_visites' => 'Backup odwiedzin',
+	'info_une_breve' => 'news,',
+	'item_mots_cles_association_breves' => 'newsy',
+	'item_nouvelle_breve' => 'Nowy news',
+
+	// L
+	'lien_reponse_breve' => 'Odpowiedz na ten news',
+	'lien_reponse_breve_2' => 'Odpowiedz na ten news',
 
 	// S
 	'sauvegarde_fusionner' => 'Dokonać połączenia istniejącej bazy danych z backupem',
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Możesz wybrać wykonanie kopii bezpieczeńśtwa pod postacią skompresowaną, w celu
  przyspieszenia ściągania pliku lub zapisywania na serwerze, i zarazem oszczędności przestrzeni dyskowej.',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'Backup zostanie zrobiony w nieskompresowanym pliku @fichier@.'
+	'texte_sauvegarde_compressee' => 'Backup zostanie zrobiony w nieskompresowanym pliku @fichier@.',
+	'titre_nouvelle_breve' => 'Nowy news',
+	'titre_page_breves_edit' => 'Edytuj newsa: «@titre@»'
 );
 
 ?>

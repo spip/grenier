@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'save as uncompressed in @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication of site news items',
+	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
+	'icone_publier_breve' => 'Publish this news item',
+	'icone_refuser_breve' => 'Reject this news item',
 	'info_base_restauration' => 'Restoration of the database in progress.',
+	'info_breves_03' => 'news items',
+	'info_breves_liees_mot' => 'News items with this keyword',
+	'info_breves_touvees' => 'News items found',
+	'info_breves_touvees_dans_texte' => 'News items found (in the text)',
 	'info_erreur_restauration' => 'Restoration error: file not found.',
+	'info_modifier_breve' => 'Modify the news item:',
+	'info_nombre_breves' => '@nb_breves@ news items,',
 	'info_restauration_sauvegarde_insert' => 'Inserting @archive@ in the database',
 	'info_sauvegarde_articles' => 'Backup the articles',
 	'info_sauvegarde_articles_sites_ref' => 'Backup articles of referenced sites',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Backup referenced sites',
 	'info_sauvegarde_type_documents' => 'Backup document types',
 	'info_sauvegarde_visites' => 'Backup visitor statistics',
+	'info_une_breve' => 'a news item,',
+	'item_mots_cles_association_breves' => 'news items',
+	'item_nouvelle_breve' => 'New news item',
+
+	// L
+	'lien_reponse_breve' => 'Comment on this news item',
+	'lien_reponse_breve_2' => 'Comment on this news item',
 
 	// S
 	'sauvegarde_fusionner' => 'Merge current database with the backup',
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'You can opt to save the file in compressed format, to
  reduce filesize and allow faster downloading or copying to a backup server.',
 	'texte_admin_tech_04' => 'When merginge two databases, you can restrict the backup to one section: ',
-	'texte_sauvegarde_compressee' => 'Backup will be stored in the uncompressed file @fichier@.'
+	'texte_sauvegarde_compressee' => 'Backup will be stored in the uncompressed file @fichier@.',
+	'titre_nouvelle_breve' => 'New news item',
+	'titre_page_breves_edit' => 'Modify the news item: «@titre@»'
 );
 
 ?>

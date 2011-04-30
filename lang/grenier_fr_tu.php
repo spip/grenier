@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'sauvegarde non compressée sous @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication des brèves du site',
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève',
+	'icone_publier_breve' => 'Publier cette brève',
+	'icone_refuser_breve' => 'Refuser cette brève',
 	'info_base_restauration' => 'La base est en cours de restauration.',
+	'info_breves_03' => 'brèves',
+	'info_breves_liees_mot' => 'Les brèves liées à ce mot-clé',
+	'info_breves_touvees' => 'Brèves trouvées',
+	'info_breves_touvees_dans_texte' => 'Brèves trouvées (dans le texte)',
 	'info_erreur_restauration' => 'Erreur de restauration : fichier inexistant.',
+	'info_modifier_breve' => 'Modifier la brève :',
+	'info_nombre_breves' => '@nb_breves@ brèves,',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base',
 	'info_sauvegarde_articles' => 'Sauvegarder les articles',
 	'info_sauvegarde_articles_sites_ref' => 'Sauvegarder les articles des sites référencés',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Sauvegarder les sites référencés',
 	'info_sauvegarde_type_documents' => 'Sauvegarder les types de documents',
 	'info_sauvegarde_visites' => 'Sauvegarder les visites',
+	'info_une_breve' => 'une brève,',
+	'item_mots_cles_association_breves' => 'aux brèves',
+	'item_nouvelle_breve' => 'Nouvelle brève',
+
+	// L
+	'lien_reponse_breve' => 'Réponse à la brève',
+	'lien_reponse_breve_2' => 'Réponse à la brève',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde',
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Tu peux choisir de sauvegarder le fichier sous forme compressée, afin
 	d\'écourter son transfert chez toi ou sur un serveur de sauvegardes, et d\'économiser de l\'espace disque.',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, tu peux limiter la sauvegarde à la rubrique: ',
-	'texte_sauvegarde_compressee' => 'La sauvegarde sera faite dans le fichier non compressé @fichier@.'
+	'texte_sauvegarde_compressee' => 'La sauvegarde sera faite dans le fichier non compressé @fichier@.',
+	'titre_nouvelle_breve' => 'Nouvelle brève',
+	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »'
 );
 
 ?>

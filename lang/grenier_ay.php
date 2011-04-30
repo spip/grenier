@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'qhanancht\'at jan jitthaptat ukan @fichier@ ',
 
 	// I
+	'ical_lien_rss_breves' => 'Qamawit jisk\'aptatanak apxasiwi ',
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_publier_breve' => 'Aka jisk\'aptata taqir yatiyaña',
+	'icone_refuser_breve' => 'Aka jisk\'aptata janiw saña',
 	'info_base_restauration' => 'Basex askichasiskiwa',
+	'info_breves_03' => 'Jisk\'aptatanaka',
+	'info_breves_liees_mot' => 'Jisk\'aptatanak aka imt\'at arur mayachata',
+	'info_breves_touvees' => 'Jikit jisk\'aptatanak',
+	'info_breves_touvees_dans_texte' => 'Jisk\'aptatanak jikita (sawuna)',
 	'info_erreur_restauration' => 'Sumachawit pantjata. Q\'ipix janiw utjkiti.',
+	'info_modifier_breve' => 'Modifier la brève :', # NEW
+	'info_nombre_breves' => '@nb_breves@ brèves,', # NEW
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sauvegarder les articles', # NEW
 	'info_sauvegarde_articles_sites_ref' => 'Sauvegarder les articles des sites référencés', # NEW
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Sauvegarder les sites référencés', # NEW
 	'info_sauvegarde_type_documents' => 'Sauvegarder les types de documents', # NEW
 	'info_sauvegarde_visites' => 'Sauvegarder les visites', # NEW
+	'info_une_breve' => 'une brève,', # NEW
+	'item_mots_cles_association_breves' => 'aux brèves', # NEW
+	'item_nouvelle_breve' => 'Nouvelle brève', # NEW
+
+	// L
+	'lien_reponse_breve' => 'Réponse à la brève', # NEW
+	'lien_reponse_breve_2' => 'Réponse à la brève', # NEW
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Vous pouvez choisir de sauvegarder le fichier sous forme compressée, afin
 	d\'écourter son transfert chez vous ou sur un serveur de sauvegardes, et d\'économiser de l\'espace disque.', # NEW
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'La sauvegarde sera faite dans le fichier non compressé @fichier@.' # NEW
+	'texte_sauvegarde_compressee' => 'La sauvegarde sera faite dans le fichier non compressé @fichier@.', # NEW
+	'titre_nouvelle_breve' => 'Nouvelle brève', # NEW
+	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »' # NEW
 );
 
 ?>

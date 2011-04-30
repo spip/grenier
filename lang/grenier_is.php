@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => '<NEW> sauvegarde non compressée sous @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_publier_breve' => 'Birta þessa stuttu frétt',
+	'icone_refuser_breve' => 'Hafna þessari stuttu frétt',
 	'info_base_restauration' => '<NEW> La base est en cours de restauration.',
+	'info_breves_03' => '<NEW> brèves',
+	'info_breves_liees_mot' => '<NEW> Les brèves liées à ce mot-clé',
+	'info_breves_touvees' => '<NEW> Brèves trouvées',
+	'info_breves_touvees_dans_texte' => '<NEW> Brèves trouvées (dans le texte)',
 	'info_erreur_restauration' => '<NEW> Erreur de restauration : fichier inexistant.',
+	'info_modifier_breve' => '<NEW> Modifier la brève :',
+	'info_nombre_breves' => '<NEW> @nb_breves@ brèves,',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => '<NEW> Sauvegarder les articles',
 	'info_sauvegarde_articles_sites_ref' => '<NEW> Sauvegarder les articles des sites référencés',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => '<NEW> Sauvegarder les sites référencés',
 	'info_sauvegarde_type_documents' => '<NEW> Sauvegarder les types de documents',
 	'info_sauvegarde_visites' => '<NEW> Sauvegarder les visites',
+	'info_une_breve' => '<NEW> une brève,',
+	'item_mots_cles_association_breves' => '<NEW> aux brèves',
+	'item_nouvelle_breve' => '<NEW> Nouvelle brève',
+
+	// L
+	'lien_reponse_breve' => '<NEW> Réponse à la brève',
+	'lien_reponse_breve_2' => '<NEW> Réponse à la brève',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => '<NEW> Vous pouvez choisir de sauvegarder le fichier sous forme compressée, afin
 	d\'écourter son transfert chez vous ou sur un serveur de sauvegardes, et d\'économiser de l\'espace disque.',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => '<NEW> La sauvegarde sera faite dans le fichier non compressé @fichier@.'
+	'texte_sauvegarde_compressee' => '<NEW> La sauvegarde sera faite dans le fichier non compressé @fichier@.',
+	'titre_nouvelle_breve' => '<NEW> Nouvelle brève',
+	'titre_page_breves_edit' => '<NEW> Modifier la brève : « @titre@ »'
 );
 
 ?>

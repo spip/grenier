@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'còpia de seguretat no comprimida a @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Sindicació de les breus del lloc',
+	'icone_creer_mot_cle_breve' => 'Crear una nova paraula clau i lligar-la a aquesta breu',
+	'icone_publier_breve' => 'Publicar aquesta breu',
+	'icone_refuser_breve' => 'Refusar aquesta breu',
 	'info_base_restauration' => 'La restauració de la base de dades està en curs.',
+	'info_breves_03' => 'breus',
+	'info_breves_liees_mot' => 'Les breus lligades a aquesta paraula clau',
+	'info_breves_touvees' => 'Breus trobades',
+	'info_breves_touvees_dans_texte' => 'Breus trobades (en el text)',
 	'info_erreur_restauration' => 'Error de restauració: fitxer inexistent.',
+	'info_modifier_breve' => 'Modificar la breu:',
+	'info_nombre_breves' => '@nb_breves@ breus,',
 	'info_restauration_sauvegarde_insert' => 'Inserció de @archive@ a la base',
 	'info_sauvegarde_articles' => 'Crear còpia de seguretat dels articles',
 	'info_sauvegarde_articles_sites_ref' => 'Crear còpia de seguretat dels articles dels llocs referenciats',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Guardar els llocs referenciats',
 	'info_sauvegarde_type_documents' => 'Crear còpia de seguretat dels tipus de documents',
 	'info_sauvegarde_visites' => 'Crear còpia de seguretat de les visites',
+	'info_une_breve' => 'una breu,',
+	'item_mots_cles_association_breves' => 'a les breus',
+	'item_nouvelle_breve' => 'Nova breu',
+
+	// L
+	'lien_reponse_breve' => 'Resposta a la breu',
+	'lien_reponse_breve_2' => 'Resposta a la breu',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionar la base actual i la de seguretat',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Es pot triar guardar el fitxer comprimit per retallar temps de transferència fins a casa seva o guardar-lo en un servidor per a còpies de seguretat, i estalviar l\'espai de disc.',
 	'texte_admin_tech_04' => 'En un objectiu de fusió amb una altra base, podeu limitar la còpia de seguretat a la secció:  ',
-	'texte_sauvegarde_compressee' => 'La còpia de seguretat es farà a l\'arxiu no comprimit @fichier@.'
+	'texte_sauvegarde_compressee' => 'La còpia de seguretat es farà a l\'arxiu no comprimit @fichier@.',
+	'titre_nouvelle_breve' => 'Nova breu',
+	'titre_page_breves_edit' => ' Modificar la breu: " @titre@ "'
 );
 
 ?>

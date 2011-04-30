@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'copia de seguridá nun comprimida en @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Sindicación de les breves del sitiu',
+	'icone_creer_mot_cle_breve' => 'Crear una nueva pallabra-clave y lligala con esta breve',
+	'icone_publier_breve' => 'Espublizar esta breve',
+	'icone_refuser_breve' => 'Refugar esta breve',
 	'info_base_restauration' => 'La base ta en procesu de restauración.',
+	'info_breves_03' => 'breves',
+	'info_breves_liees_mot' => 'Les breves lligáes con esta pallabra-clave',
+	'info_breves_touvees' => 'Breves alcontráes',
+	'info_breves_touvees_dans_texte' => 'Breves alcontráes (nel testu)',
 	'info_erreur_restauration' => 'Error na restauración: archivu inesistente.',
+	'info_modifier_breve' => 'Modificar la breve:',
+	'info_nombre_breves' => '@nb_breves@ noticies breves,',
 	'info_restauration_sauvegarde_insert' => 'Amestura de @archive@ na base',
 	'info_sauvegarde_articles' => 'Facer copia de seguridá de los artículos',
 	'info_sauvegarde_articles_sites_ref' => 'Facer copia de seguridá de los artículos de sitios referenciaos',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Facer copia de seguridá de los sitios referenciaos',
 	'info_sauvegarde_type_documents' => 'Facer copia de seguridá de los tipos de documentu',
 	'info_sauvegarde_visites' => 'Facer copia de seguridá de les visites',
+	'info_une_breve' => 'una breve,',
+	'item_mots_cles_association_breves' => 'a les breves',
+	'item_nouvelle_breve' => 'Breve nueva',
+
+	// L
+	'lien_reponse_breve' => 'Respuesta a la breve',
+	'lien_reponse_breve_2' => 'Respuesta a la breve',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionar la base actual y la copia de seguridá',
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Pues escoyer guardar l\'archivu en forma comprimida, col envís
  d\'amenorgar so tresferencia al to ordenador o a un sirvidor de copies de seguridá, y d\'aforrar l\'espaciu en discu.',
 	'texte_admin_tech_04' => 'Si se quier facer una fusión con otra base, pues llendar la copia a la estaya: ',
-	'texte_sauvegarde_compressee' => 'La copia de seguridá va facese nel archivu non comprimíu @fichier@.'
+	'texte_sauvegarde_compressee' => 'La copia de seguridá va facese nel archivu non comprimíu @fichier@.',
+	'titre_nouvelle_breve' => 'Breve nueva',
+	'titre_page_breves_edit' => 'Cambear la breve: «@titre@»'
 );
 
 ?>

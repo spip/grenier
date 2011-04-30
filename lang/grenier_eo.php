@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'savkopio nekompaktita en @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Aboni retejajn fulm-informojn',
+	'icone_creer_mot_cle_breve' => 'Krei novan ŝlosilvorton kaj ligi ĝin kun tiu ĉi fulminformo',
+	'icone_publier_breve' => 'Publikigi tiun fulm-informon',
+	'icone_refuser_breve' => 'Rifuzi tiun fulm-informon',
 	'info_base_restauration' => 'La datenbazo estas restaŭriĝanta.',
+	'info_breves_03' => 'fulm-informoj',
+	'info_breves_liees_mot' => 'La fulm-informoj ligitaj kun tiu ŝlosilvorto',
+	'info_breves_touvees' => 'Trovitaj fulm-informoj',
+	'info_breves_touvees_dans_texte' => 'Trovitaj fulm-informoj (en la teksto)',
 	'info_erreur_restauration' => 'Restaŭro-eraro: neekzistanta dosiero.',
+	'info_modifier_breve' => 'Modifi la fulm-informon:',
+	'info_nombre_breves' => '@nb_breves@ fulm-informoj,',
 	'info_restauration_sauvegarde_insert' => 'Enigo de @archive@ en la datumbazon',
 	'info_sauvegarde_articles' => 'Konservi la artikolojn',
 	'info_sauvegarde_articles_sites_ref' => 'Konservi la artikolojn de la referencigitaj retejoj',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Konservi la referencigitajn retejojn',
 	'info_sauvegarde_type_documents' => 'Konservi la dokumentotipojn',
 	'info_sauvegarde_visites' => 'Konservi la vizitojn',
+	'info_une_breve' => 'fulm-informo,',
+	'item_mots_cles_association_breves' => 'al fulm-informoj',
+	'item_nouvelle_breve' => 'Nova fulm-informo',
+
+	// L
+	'lien_reponse_breve' => 'Respondo al la fulm-informo',
+	'lien_reponse_breve_2' => 'Respondo al la fulm-informo',
 
 	// S
 	'sauvegarde_fusionner' => 'Kunfandi la nunan bazon kaj la savkopion',
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Vi povas elekti konservi la dosieron laŭ densigita formo, por
  rapidigi ties ŝuton hejmen aŭ al konservo-servilo, kaj por ŝpari diskospacon.',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'La savkopio estos farita en la nedensigita dosiero @fichier@.'
+	'texte_sauvegarde_compressee' => 'La savkopio estos farita en la nedensigita dosiero @fichier@.',
+	'titre_nouvelle_breve' => 'Nova fulm-informo',
+	'titre_page_breves_edit' => 'Modifi la fulm-informon: « @titre@ »'
 );
 
 ?>

@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'ច្បាប់ចំលង គ្មានត្រូវបានបង្ហាប់ ជា @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'បញ្ជាប់ពត៌មានខ្លី ​របស់​សៃថ៍',
+	'icone_creer_mot_cle_breve' => 'បង្កើតថ្មី មួយពាក្យគន្លឹះ និងភ្ជាប់វា ទៅរបស់ដំណឹងនេះ',
+	'icone_publier_breve' => 'បោះផ្សាយ ពត៌មានខ្លីនេះ',
+	'icone_refuser_breve' => 'បដិសេធ ខ្ទង់ដំណឹងនេះ',
 	'info_base_restauration' => 'មូលដ្ឋានទិន្នន័យ កំពុងត្រូវបានស្តារ។',
+	'info_breves_03' => 'ខ្ទង់ដំណឹង',
+	'info_breves_liees_mot' => 'ដំណឹងបានភ្ជាប់ជាមួយ ពាក្យគន្លឹះនេះ',
+	'info_breves_touvees' => 'រកឃើញ ខ្ទង់ដំណឹង',
+	'info_breves_touvees_dans_texte' => 'រកឃើញ ខ្ទង់ដំណឹង (ក្នុងអត្ថបទ)',
 	'info_erreur_restauration' => 'កំហុស​ក្នុង​ការ​ចុះ​ឈ្មោះ ៖ ហ្វា​ល​រក​មិនឃើញ',
+	'info_modifier_breve' => 'កែប្រែ ពត៌មានខ្លី៖',
+	'info_nombre_breves' => 'ខ្ទង់ដំណឹង នៃ @nb_breves@,',
 	'info_restauration_sauvegarde_insert' => 'បញ្ចូល @archive@ ក្នុងមូលដ្ឋានទិន្នន័យ',
 	'info_sauvegarde_articles' => 'បង្កើតច្បាប់ចំលង អត្ថបទនានា',
 	'info_sauvegarde_articles_sites_ref' => 'បង្កើតច្បាប់ចំលង អត្ថបទនានា នៃសៃថ៍យោង',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'បង្កើតច្បាប់ចំលង សៃថ៍យោងទាំងឡាយ',
 	'info_sauvegarde_type_documents' => 'ការ​ថត​ទុក​ប្រភេទ​ឯកសារ',
 	'info_sauvegarde_visites' => 'បង្កើតច្បាប់ចំលង ការទស្សនាទាំងឡាយ',
+	'info_une_breve' => 'មួយខ្ទង់ដំណឹង,',
+	'item_mots_cles_association_breves' => 'ខ្ទង់ដំណឹង',
+	'item_nouvelle_breve' => 'ខ្ទង់ដំណឹងថ្មី',
+
+	// L
+	'lien_reponse_breve' => 'ចំលើយ ទៅ​ពត៌មានខ្លី',
+	'lien_reponse_breve_2' => 'ចំលើយ ទៅ​ពត៌មានខ្លី',
 
 	// S
 	'sauvegarde_fusionner' => 'ប​ញ្ជូ​ល​សំណុំ​ទិន្នន័យ​ថ្មីៗ​ជាមួយនឹង​ទិន្នន័យ​ថត​ទុក',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'លោក​អ្នក​អាច​ជ្រើសរើស​រក្សា​ទុក​ហ្វា​ល​ដែល​មាន​ទម្រង់​បន្ថែ​ន​រួច ដើម្បី​ព​ន្លឿ​ន​ការ​ផ្ទេរ​របស់​វា​ទៅ​ម៉ាស៊ីន​របស់​លោក​អ្នក ឬ​ទៅ​ម៉ាស៊ីន​មេ​រក្សា​ទុក និង​ដើម្បី​រក្សា​បាន​នូវ​ថាស​ឌី​ស​ខ្លះៗ​។',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'ឯកសារ​ដែល​បាន​ថត​ទុក​នឹង​ត្រូវ​រក្សា​ទុក​នៅ​ក្នុង​ហ្វា​ល​ដែល​មិន​ប​ណ្ដែ​ន (uncompressed file) @fichier@'
+	'texte_sauvegarde_compressee' => 'ឯកសារ​ដែល​បាន​ថត​ទុក​នឹង​ត្រូវ​រក្សា​ទុក​នៅ​ក្នុង​ហ្វា​ល​ដែល​មិន​ប​ណ្ដែ​ន (uncompressed file) @fichier@',
+	'titre_nouvelle_breve' => 'ខ្ទង់ថ្មី នៃដំណឹង',
+	'titre_page_breves_edit' => 'កែប្រែ ពត៌មានខ្លី ៖ «@titre@»'
 );
 
 ?>

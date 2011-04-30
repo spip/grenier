@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'yon sòvgad sak se pa konprese sou @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_publier_breve' => 'Pibliye tinouvèl',
+	'icone_refuser_breve' => 'Refize tinouvèl',
 	'info_base_restauration' => 'Labaz ap restore',
+	'info_breves_03' => 'tinouvèl yo',
+	'info_breves_liees_mot' => 'Tinouvèl yo ki jwenn ak mokle-a',
+	'info_breves_touvees' => 'Tinouvèl yo ki te fin rannkont',
+	'info_breves_touvees_dans_texte' => 'Tinouvèl yo ki te fin rannkont (nan tèks)',
 	'info_erreur_restauration' => 'Erè pou restorasyon : fichye-an ap pa egsiste.',
+	'info_modifier_breve' => 'Chanje tinouvèl-la :',
+	'info_nombre_breves' => '@nb_breves@ tinouvèl (yo),',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sòvgade atik yo',
 	'info_sauvegarde_articles_sites_ref' => 'Sòvgade atik yo ki nan sit referansé yo',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Sòvgade sit referansé yo',
 	'info_sauvegarde_type_documents' => 'Sòvgade tip-dokiman yo ',
 	'info_sauvegarde_visites' => 'Sòvgade vizit yo ',
+	'info_une_breve' => 'yon tinouvèl,',
+	'item_mots_cles_association_breves' => 'nan tinouvèl yo',
+	'item_nouvelle_breve' => 'Nouvo tinouvèl',
+
+	// L
+	'lien_reponse_breve' => 'Réponn tinouvèl-la',
+	'lien_reponse_breve_2' => 'Réponn tinouvèl-la',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Ou kapab chwazi sòvgad fichye-a nan fòm koprésé, pou rann transfè ali taptap
  sou machin a w osnon yon sèvè pou lasòvgad è pou gad swen pa depanse tro lespas diks lòdinatè.',
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
-	'texte_sauvegarde_compressee' => 'Sovgad ke pou fè nan yon fichye pa koprésé sa-a, ki rele @fichier@.' # MODIF
+	'texte_sauvegarde_compressee' => 'Sovgad ke pou fè nan yon fichye pa koprésé sa-a, ki rele @fichier@.', # MODIF
+	'titre_nouvelle_breve' => 'Nouvo tinouvèl',
+	'titre_page_breves_edit' => 'Chanje tinouvèl-la : « @titre@ »'
 );
 
 ?>

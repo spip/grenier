@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'сохранить распакованным в @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Объединение новостей сайта',
+	'icone_creer_mot_cle_breve' => 'Создать новое ключевое слово и прикрепить его к этой новости',
+	'icone_publier_breve' => 'Опубликовать эту новость',
+	'icone_refuser_breve' => 'Убрать эту новость',
 	'info_base_restauration' => 'Восстановление базы данных в ходе работы.',
+	'info_breves_03' => 'новости',
+	'info_breves_liees_mot' => 'Новости, связанные с этим ключевым словом',
+	'info_breves_touvees' => 'Новости найдены',
+	'info_breves_touvees_dans_texte' => 'Новости найдены(в тексте)',
 	'info_erreur_restauration' => 'Ошибка восстановления: файл не найден.',
+	'info_modifier_breve' => 'Изменить новость:',
+	'info_nombre_breves' => '@nb_breves@ новости,',
 	'info_restauration_sauvegarde_insert' => 'Вставка @архива@ в базу данных',
 	'info_sauvegarde_articles' => 'Резервная копия статей',
 	'info_sauvegarde_articles_sites_ref' => 'Резервная копия статей связанных сайтов',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Резервная копия ссылок на сайты',
 	'info_sauvegarde_type_documents' => 'Резервная копия типов документов',
 	'info_sauvegarde_visites' => 'Резервная копия посещений',
+	'info_une_breve' => 'новость,',
+	'item_mots_cles_association_breves' => 'новости',
+	'item_nouvelle_breve' => 'Новая новость',
+
+	// L
+	'lien_reponse_breve' => 'Ответить на новость',
+	'lien_reponse_breve_2' => 'Ответить на новость',
 
 	// S
 	'sauvegarde_fusionner' => 'Объединить текущую базу данных с резервной копией',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Вы можете архивировать файл с резервной копией для экономии времени копирования.',
 	'texte_admin_tech_04' => 'Вы можете сделать как полную резервную копию сайта, так и копию только одного раздела:',
-	'texte_sauvegarde_compressee' => 'Резервная копия будет сохранена в файле @fichier@.'
+	'texte_sauvegarde_compressee' => 'Резервная копия будет сохранена в файле @fichier@.',
+	'titre_nouvelle_breve' => 'Новая новость',
+	'titre_page_breves_edit' => 'Изменить новость: «@titre@»'
 );
 
 ?>

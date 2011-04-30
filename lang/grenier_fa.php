@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'ذخيره فشرده نشده در@fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'پیوند اخبار کوتاه سایت',
+	'icone_creer_mot_cle_breve' => 'ساختن كليدواژه‌ي جديد و چسباندن آن به اين خبر',
+	'icone_publier_breve' => 'اين مقاله كوتاه را منتشر كنيد',
+	'icone_refuser_breve' => 'اين مقاله كوتاه را رد كنيد',
 	'info_base_restauration' => '.داده پى ها در حال بازسازى ميباشند',
+	'info_breves_03' => 'مقاله هاى كوتاه',
+	'info_breves_liees_mot' => 'مقاله هاى كوتاه مربوط به اين واژه-كليد',
+	'info_breves_touvees' => 'مقاله هاى كوتاه پيدا شده',
+	'info_breves_touvees_dans_texte' => ' (مقاله هاى كوتاه پيدا شده (درون متن',
 	'info_erreur_restauration' => '.اشتباه در بازسازى : فايل موجود نميباشد',
+	'info_modifier_breve' => ':اصلاح مقاله كوتاه',
+	'info_nombre_breves' => 'مقاله كوتاه @nb_breves@ ',
 	'info_restauration_sauvegarde_insert' => 'گنجاندن @archive@ در پايگاه',
 	'info_sauvegarde_articles' => 'مقالات را ذخيره كنيد',
 	'info_sauvegarde_articles_sites_ref' => 'مقالات سايتهاى پيوندى را ذخيره كنيد',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'سايتهاى پيوندى را ذخيره كنيد',
 	'info_sauvegarde_type_documents' => 'انواع اسناد را ذخيره كنيد',
 	'info_sauvegarde_visites' => 'بازديدها را ذخيره كنيد',
+	'info_une_breve' => ',يك مقاله كوتاه',
+	'item_mots_cles_association_breves' => 'به مقالات كوتاه',
+	'item_nouvelle_breve' => 'مقاله كوتاه جديد',
+
+	// L
+	'lien_reponse_breve' => 'پاسخ به مقاله كوتاه',
+	'lien_reponse_breve_2' => 'پاسخ به مقاله كوتاه',
 
 	// S
 	'sauvegarde_fusionner' => 'داده پی کنونی را ادغام و ذخیره کنید',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'شما ميتوانيد گزينش ذخيره كردن فايلها را بصورت فشرده انتخاب كنيد تا مسير انتقالشان را به خودتان يا به سرور ذخيره كوتاه تر كنيد. همچنين فضاى كمترى را در ديسك سخت اشغال كنيد.',
 	'texte_admin_tech_04' => 'براي ادغام با پايگاه‌داده‌هاي ديگر، مي‌توانيد پشتيبان‌گيري (بك‌آپ) را به يك بخش محدود كنيد: ',
-	'texte_sauvegarde_compressee' => 'ذخيره در فايل فشرده نشده صورت خواهد گرفت@fichier@.'
+	'texte_sauvegarde_compressee' => 'ذخيره در فايل فشرده نشده صورت خواهد گرفت@fichier@.',
+	'titre_nouvelle_breve' => 'مقاله كوتاه جديد',
+	'titre_page_breves_edit' => ' اصلاح مقاله كوتاه : « @titre@ »'
 );
 
 ?>

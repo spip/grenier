@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'respaldo no comprimido en @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Sindicación de breves del sitio',
+	'icone_creer_mot_cle_breve' => 'Crear una nueva palabra clave y aplicarla a esta breve',
+	'icone_publier_breve' => 'Publicar esta breve',
+	'icone_refuser_breve' => 'Rechazar esta breve',
 	'info_base_restauration' => 'La base está siendo restaurada',
+	'info_breves_03' => 'breves',
+	'info_breves_liees_mot' => 'Las breves ligadas a esta palabra clave',
+	'info_breves_touvees' => 'Breves localizadas',
+	'info_breves_touvees_dans_texte' => 'Breves localizadas (en el texto)',
 	'info_erreur_restauration' => 'Error de restauración. Archivo inexistente.',
+	'info_modifier_breve' => 'Modificar la breve',
+	'info_nombre_breves' => '@nb_breves@ breves,',
 	'info_restauration_sauvegarde_insert' => 'Inserción de @archive@ en la base',
 	'info_sauvegarde_articles' => 'Guardar los artículos',
 	'info_sauvegarde_articles_sites_ref' => 'Guarar los artículos de los sitios referenciados',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Guardar los sitios referenciados',
 	'info_sauvegarde_type_documents' => 'Guardar los tipos de documentos',
 	'info_sauvegarde_visites' => 'Guardar las visitas',
+	'info_une_breve' => 'una breve,',
+	'item_mots_cles_association_breves' => 'a las breves',
+	'item_nouvelle_breve' => 'Nueva breve',
+
+	// L
+	'lien_reponse_breve' => 'Respuesta a la breve',
+	'lien_reponse_breve_2' => 'Respuesta a la breve',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionar la base actual y el respaldo',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Puedes elegir de guardar el archivo comprimido, y así acortar el tiempo de transferencia hacia tu ordenador o un servidor de respaldo, aparte de ganar espacio en el disco.',
 	'texte_admin_tech_04' => 'En caso de fusión con otra base, la copia de respaldo puede limitarse a la sección: ',
-	'texte_sauvegarde_compressee' => 'La copia de respaldo será guardada en un archivo no comprimido @fichier@.'
+	'texte_sauvegarde_compressee' => 'La copia de respaldo será guardada en un archivo no comprimido @fichier@.',
+	'titre_nouvelle_breve' => 'Nueva breve',
+	'titre_page_breves_edit' => 'Modificar la nota breve: « @titre@ »'
 );
 
 ?>

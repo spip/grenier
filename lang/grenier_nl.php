@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'niet-gecomprimeerde opslag onder @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Syndication van kort van de site',
+	'icone_creer_mot_cle_breve' => 'Een nieuw sleutelwoord creëren en het binden aan dit brève',
+	'icone_publier_breve' => 'Dit nieuwsbericht publiceren',
+	'icone_refuser_breve' => 'Dit nieuwsbericht weigeren',
 	'info_base_restauration' => 'De databank wordt hersteld.',
+	'info_breves_03' => 'nieuwsberichten',
+	'info_breves_liees_mot' => 'Berichten gekoppeld aan dit trefwoord',
+	'info_breves_touvees' => 'Gevonden berichten',
+	'info_breves_touvees_dans_texte' => 'Gevonden berichten (in de tekst)',
 	'info_erreur_restauration' => 'Herstelfout : onbestaande map.',
+	'info_modifier_breve' => 'Bericht wijzigen :',
+	'info_nombre_breves' => '@nb_breves@ berichten,',
 	'info_restauration_sauvegarde_insert' => 'Integratie van @archive@ in de basis',
 	'info_sauvegarde_articles' => 'Artikel redden',
 	'info_sauvegarde_articles_sites_ref' => 'Artikels van de referentiesites bewaren',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'De gekoppelde sites opslaan',
 	'info_sauvegarde_type_documents' => 'Types documenten opslaan',
 	'info_sauvegarde_visites' => 'Backup de bezoeken',
+	'info_une_breve' => 'een bericht',
+	'item_mots_cles_association_breves' => 'de bericht',
+	'item_nouvelle_breve' => 'Nieuw bericht',
+
+	// L
+	'lien_reponse_breve' => 'Beantwoord dit nieuwsbericht',
+	'lien_reponse_breve_2' => 'Beantwoord dit nieuwsbericht',
 
 	// S
 	'sauvegarde_fusionner' => 'De huidige basis en de bescherming fusioneren',
@@ -43,7 +60,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_admin_tech_03' => 'Je kan de reservekopie ook als een gecomprimeerd bestand opslaan, dit om de overzettijd van de server naar je computer sterk in te korten en om schijfruimte te besparen.',
 	'texte_admin_tech_04' => 'Met het oog op fusie met een andere basis, kunt u de bescherming beperken tot de rubriek:',
-	'texte_sauvegarde_compressee' => 'De reservekopie zal gemaakt worden in het niet-gecomprimeerde bestand @fichier@.'
+	'texte_sauvegarde_compressee' => 'De reservekopie zal gemaakt worden in het niet-gecomprimeerde bestand @fichier@.',
+	'titre_nouvelle_breve' => 'Nieuw bericht',
+	'titre_page_breves_edit' => 'Wijzigen bericht : «@titre@»'
 );
 
 ?>

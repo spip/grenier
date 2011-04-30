@@ -12,8 +12,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'copia de seguridade sen comprimir en @fichier@',
 
 	// I
+	'ical_lien_rss_breves' => 'Afiliación das breves do web',
+	'icone_creer_mot_cle_breve' => 'Crear un nova palabra chave e ligala a esta breve',
+	'icone_publier_breve' => 'Publica esta breve',
+	'icone_refuser_breve' => 'Rexeitar esta breve',
 	'info_base_restauration' => 'A base está en proceso de restauración.',
+	'info_breves_03' => 'breves',
+	'info_breves_liees_mot' => 'As breves ligadas a esta palabra chave',
+	'info_breves_touvees' => 'Breves atopadas',
+	'info_breves_touvees_dans_texte' => 'Breves atopadas (no texto)',
 	'info_erreur_restauration' => 'Erro de restauración: o ficheiro non existe.',
+	'info_modifier_breve' => 'Modificar a breve:',
+	'info_nombre_breves' => '@nb_breves@ breves,',
 	'info_restauration_sauvegarde_insert' => 'Inserción de @archive@ na base de datos',
 	'info_sauvegarde_articles' => 'Gardar os artigos',
 	'info_sauvegarde_articles_sites_ref' => 'Gardar os artigos dos webs referidos',
@@ -34,6 +44,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_sites_references' => 'Gardar os webs referidos',
 	'info_sauvegarde_type_documents' => 'Gardar os tipos de documentos',
 	'info_sauvegarde_visites' => 'Gardar as visitas',
+	'info_une_breve' => 'unha breve,',
+	'item_mots_cles_association_breves' => 'ás breves',
+	'item_nouvelle_breve' => 'Nova breve',
+
+	// L
+	'lien_reponse_breve' => 'Resposta á breve',
+	'lien_reponse_breve_2' => 'Resposta á breve',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionar a base de datos actual e a copia de seguridade',
@@ -44,7 +61,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_03' => 'Pode escoller gardar o ficheiro en formato comprimido, para optimizar
   a transferencia ou a copia nun servidor de copias de seguridade, e para aforrar espazo no disco.',
 	'texte_admin_tech_04' => 'Nun intento de fusión con outra base, pode limitar a copia de seguridade á sección:',
-	'texte_sauvegarde_compressee' => 'A copia de seguridade será feita no ficheiro sen comprimir @fichier@.'
+	'texte_sauvegarde_compressee' => 'A copia de seguridade será feita no ficheiro sen comprimir @fichier@.',
+	'titre_nouvelle_breve' => 'Nova breve',
+	'titre_page_breves_edit' => 'Modificar a breve: « @titre@ »'
 );
 
 ?>
