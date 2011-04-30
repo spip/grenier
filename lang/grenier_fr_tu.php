@@ -1,6 +1,8 @@
 <?php
 // This is a SPIP language file  --  Ceci est un fichier langue de SPIP
-// Fichier source, a modifier dans svn://zone.spip.org/spip-zone/_core_/plugins/grenier/lang/
+// extrait automatiquement de http://www.spip.net/trad-lang/
+// ** ne pas modifier le fichier **
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
@@ -26,7 +28,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Sauvegarder les pétitions',
 	'info_sauvegarde_refers' => 'Sauvegarder les referers',
 	'info_sauvegarde_reussi_01' => 'Sauvegarde réussie.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez',
+	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Tu peux',
 	'info_sauvegarde_rubriques' => 'Sauvegarder les rubriques',
 	'info_sauvegarde_signatures' => 'Sauvegarder les signatures de pétitions',
 	'info_sauvegarde_sites_references' => 'Sauvegarder les sites référencés',
@@ -39,9 +41,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :',
 
 	// T
-	'texte_admin_tech_03' => 'Vous pouvez choisir de sauvegarder le fichier sous forme compressée, afin
-	d\'écourter son transfert chez vous ou sur un serveur de sauvegardes, et d\'économiser de l\'espace disque.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ',
+	'texte_admin_tech_03' => 'Tu peux choisir de sauvegarder le fichier sous forme compressée, afin
+	d\'écourter son transfert chez toi ou sur un serveur de sauvegardes, et d\'économiser de l\'espace disque.',
+	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, tu peux limiter la sauvegarde à la rubrique: ',
 	'texte_sauvegarde_compressee' => 'La sauvegarde sera faite dans le fichier non compressé @fichier@.'
 );
 
