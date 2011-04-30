@@ -23,5 +23,6 @@ inc/presenter_liste.php -text
 inc/ressembler.php -text
 inc/selectionner_auteur.php -text
 inc/vieilles_defs.php -text
+lang/grenier_fr.php -text
 /plugin.xml -text
 prive/objets/editer/dater.html -text
