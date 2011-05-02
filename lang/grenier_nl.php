@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'Beantwoord dit nieuwsbericht',
-	'lien_reponse_breve_2' => 'Beantwoord dit nieuwsbericht',
 
 	// S
 	'sauvegarde_fusionner' => 'De huidige basis en de bescherming fusioneren',

@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'Respont d\'ar berrskrid',
-	'lien_reponse_breve_2' => 'Respont d\'ar berrskrid',
 
 	// S
 	'sauvegarde_fusionner' => 'Kendeuziñ an diaz red gant ar savete',

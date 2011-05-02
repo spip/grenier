@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'Bu kısa habere yanıt',
-	'lien_reponse_breve_2' => 'Bu kısa habere yanıt',
 
 	// S
 	'sauvegarde_fusionner' => 'Mevcut veritabanı ile yedeği birleştir',

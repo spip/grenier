@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'ចំលើយ ទៅ​ពត៌មានខ្លី',
-	'lien_reponse_breve_2' => 'ចំលើយ ទៅ​ពត៌មានខ្លី',
 
 	// S
 	'sauvegarde_fusionner' => 'ប​ញ្ជូ​ល​សំណុំ​ទិន្នន័យ​ថ្មីៗ​ជាមួយនឹង​ទិន្នន័យ​ថត​ទុក',

@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'R3p1y 70 7h3 n3w5 173m',
-	'lien_reponse_breve_2' => 'R3p1y 70 7h3 n3w5 173m',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW

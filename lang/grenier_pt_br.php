@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'Resposta à nota',
-	'lien_reponse_breve_2' => 'Resposta à nota',
 
 	// S
 	'sauvegarde_fusionner' => 'Combinar a base atual e a cópia de segurança',

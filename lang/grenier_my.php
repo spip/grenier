@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'သတင်းအချက်သို့ အကြောင်းပြန်ပါ',
-	'lien_reponse_breve_2' => 'သတင်းအချက်သို့ အကြောင်းပြန်ပါ',
 
 	// S
 	'sauvegarde_fusionner' => 'လက်ရှိ အချက်လက်သိုလှောင်မှုကို အရံကူးထားသောအရာနှင့် ပေါင်းစည်းပေးပါ',

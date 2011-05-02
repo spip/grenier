@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'Risposta alla breve',
-	'lien_reponse_breve_2' => 'Risposta alla breve',
 
 	// S
 	'sauvegarde_fusionner' => 'Unire il database attuale con la copia di backup',

@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'Comment on this news item',
-	'lien_reponse_breve_2' => 'Comment on this news item',
 
 	// S
 	'sauvegarde_fusionner' => 'Merge current database with the backup',

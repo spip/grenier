@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_reponse_breve' => 'Äntwert op d\'Kuerzmeldung',
-	'lien_reponse_breve_2' => 'Äntwert op d\'Kuerzmeldung',
 
 	// S
 	'sauvegarde_fusionner' => 'Déi aktuell Datebank mam Backup fusionnéieren',
