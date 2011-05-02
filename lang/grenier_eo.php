@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'la vizitantoj de la publika retejo kiam ili sendas mesaĝon en forumon. ',
+	'bouton_forum_petition' => 'FORUMO &amp; PETSKRIBO', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'savkopio kompaktita en @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'savkopio nekompaktita en @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Datenbazo-problemo, via mesaĝo ne estas registrita.',
 
 	// I
 	'ical_lien_rss_breves' => 'Aboni retejajn fulm-informojn',
 	'icone_creer_mot_cle_breve' => 'Krei novan ŝlosilvorton kaj ligi ĝin kun tiu ĉi fulminformo',
+	'icone_forum_administrateur' => 'Forumo de la mastrumantoj',
+	'icone_forum_suivi' => 'Supervido de la forumoj',
 	'icone_publier_breve' => 'Publikigi tiun fulm-informon',
 	'icone_refuser_breve' => 'Rifuzi tiun fulm-informon',
 	'info_base_restauration' => 'La datenbazo estas restaŭriĝanta.',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'La fulm-informoj ligitaj kun tiu ŝlosilvorto',
 	'info_breves_touvees' => 'Trovitaj fulm-informoj',
 	'info_breves_touvees_dans_texte' => 'Trovitaj fulm-informoj (en la teksto)',
+	'info_echange_message' => 'SPIP ebligas interŝanĝon de mesaĝoj kaj la starigon de privataj diskutforumoj
+ inter la partoprenantoj de la retejo. Vi povas aktivigi aŭ
+ malaktivigi tiun funkcion.',
 	'info_erreur_restauration' => 'Restaŭro-eraro: neekzistanta dosiero.',
+	'info_forum_administrateur' => 'forumo de la mastrumantoj',
+	'info_forum_interne' => 'interna forumo',
+	'info_forum_ouvert' => 'En la privata spaco de la retejo, forumo estas malfermita al ĉiuj
+  registritaj redaktantoj. Vi povas, ĉi-sube, aktivigi
+  plian forumon, rezervitan nur al mastrumantoj.',
+	'info_gauche_suivi_forum' => 'La paĝo pri <i>superkontrolo de la forumoj</i> estas mastrumilo de via retejo (kaj ne diskutejo aŭ redaktejo). Ĝi afiŝas ĉiujn kontribuaĵojn de la publika forumo pri tiu artikolo, kaj ebligas al vi mastrumi tiujn kontribuaĵojn.',
 	'info_modifier_breve' => 'Modifi la fulm-informon:',
 	'info_nombre_breves' => '@nb_breves@ fulm-informoj,',
+	'info_option_ne_pas_faire_suivre' => 'Ne plusendi la mesaĝojn de la forumoj',
 	'info_restauration_sauvegarde_insert' => 'Enigo de @archive@ en la datumbazon',
 	'info_sauvegarde_articles' => 'Konservi la artikolojn',
 	'info_sauvegarde_articles_sites_ref' => 'Konservi la artikolojn de la referencigitaj retejoj',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nova fulm-informo',
 
 	// L
+	'lien_forum_public' => 'Mastrumi la publikan forumon de tiu ĉi artikolo',
 	'lien_reponse_breve' => 'Respondo al la fulm-informo',
 
 	// S
@@ -62,7 +80,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'La savkopio estos farita en la nedensigita dosiero @fichier@.',
 	'titre_nouvelle_breve' => 'Nova fulm-informo',
-	'titre_page_breves_edit' => 'Modifi la fulm-informon: « @titre@ »'
+	'titre_page_breves_edit' => 'Modifi la fulm-informon: « @titre@ »',
+	'titre_page_forum' => 'Forumo de la mastrumantoj',
+	'titre_page_forum_envoi' => 'Sendi mesaĝon',
+	'titre_page_statistiques_messages_forum' => 'Forumaj mesaĝoj'
 );
 
 ?>

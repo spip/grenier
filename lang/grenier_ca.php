@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'els visitants del lloc públic quan posen un missatge a un fòrum.',
+	'bouton_forum_petition' => 'FÒRUM &amp; PETICIÓ',
 	'bouton_radio_sauvegarde_compressee' => 'còpia de seguretat comprimida a @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'còpia de seguretat no comprimida a @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Problema de la base de dades, el vostre missatge no s\'ha registrat.',
 
 	// I
 	'ical_lien_rss_breves' => 'Sindicació de les breus del lloc',
 	'icone_creer_mot_cle_breve' => 'Crear una nova paraula clau i lligar-la a aquesta breu',
+	'icone_forum_administrateur' => 'Fòrum dels administradors/administradores',
+	'icone_forum_suivi' => 'Seguiment dels fòrums',
 	'icone_publier_breve' => 'Publicar aquesta breu',
 	'icone_refuser_breve' => 'Refusar aquesta breu',
 	'info_base_restauration' => 'La restauració de la base de dades està en curs.',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Les breus lligades a aquesta paraula clau',
 	'info_breves_touvees' => 'Breus trobades',
 	'info_breves_touvees_dans_texte' => 'Breus trobades (en el text)',
+	'info_echange_message' => 'SPIP permet l\'intercanvi de missatges i la creació de fòrums de discussió
+  privats entre els participants d\'un lloc. Podeu habilitar o
+  inhabilitar aquesta funcionalitat.',
 	'info_erreur_restauration' => 'Error de restauració: fitxer inexistent.',
+	'info_forum_administrateur' => ' fòrum dels administradors',
+	'info_forum_interne' => 'fòrum intern',
+	'info_forum_ouvert' => 'Dins l\'espai privat del lloc, hi ha un fòrum obert a tots
+  els redactors registrats. Més avall, podeu activar un fòrum suplementari,
+  reservat només als adminsitradors. ',
+	'info_gauche_suivi_forum' => 'La pàgina de <i>seguiment dels fòrums</i> és una eina de gestió del vostre lloc Web (i no un espai de discussió o de redacció). Mostra totes les contribucions del fòrum públic d\'aquest article i us permet gestionar aquestes contribucions.',
 	'info_modifier_breve' => 'Modificar la breu:',
 	'info_nombre_breves' => '@nb_breves@ breus,',
+	'info_option_ne_pas_faire_suivre' => 'No reenviar els missatges dels fòrums',
 	'info_restauration_sauvegarde_insert' => 'Inserció de @archive@ a la base',
 	'info_sauvegarde_articles' => 'Crear còpia de seguretat dels articles',
 	'info_sauvegarde_articles_sites_ref' => 'Crear còpia de seguretat dels articles dels llocs referenciats',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nova breu',
 
 	// L
+	'lien_forum_public' => 'Gestionar el fòrum públic d\'aquest article',
 	'lien_reponse_breve' => 'Resposta a la breu',
 
 	// S
@@ -61,7 +79,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'En un objectiu de fusió amb una altra base, podeu limitar la còpia de seguretat a la secció:  ',
 	'texte_sauvegarde_compressee' => 'La còpia de seguretat es farà a l\'arxiu no comprimit @fichier@.',
 	'titre_nouvelle_breve' => 'Nova breu',
-	'titre_page_breves_edit' => ' Modificar la breu: " @titre@ "'
+	'titre_page_breves_edit' => ' Modificar la breu: " @titre@ "',
+	'titre_page_forum' => 'Fòrum dels administradors',
+	'titre_page_forum_envoi' => 'Enviar un missatge',
+	'titre_page_statistiques_messages_forum' => 'Missatges de fòrum'
 );
 
 ?>

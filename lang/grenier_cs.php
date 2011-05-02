@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'návštěvníci veřejného webu, když posílají zprávu do diskusní skupiny.',
+	'bouton_forum_petition' => 'FÓRUM A PETICE', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'uložit komprimovaně v  @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'uložit nekomprimovaně v @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Kvůli problémům s databází nebylo možné vaši zprávu zaznamenat.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication of the site\'s news items', # NEW
 	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item', # NEW
+	'icone_forum_administrateur' => 'Diskusní skupina správců',
+	'icone_forum_suivi' => 'Navazující zprávy diskusní skupiny',
 	'icone_publier_breve' => 'Zveřejnit novinku',
 	'icone_refuser_breve' => 'Odmítnout novinku',
 	'info_base_restauration' => 'Databáze se obnovuje.',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Novinky spojené s tímto klíčovým slovem',
 	'info_breves_touvees' => 'Nalezené novinky',
 	'info_breves_touvees_dans_texte' => 'Nalezené novinky (v textu)',
+	'info_echange_message' => 'Systém SPIP umožňuje výměnu zpráv a vytváření soukromých
+  diskusních skupin pro účastníky webu. Tuto funkci můžete
+  zapnout nebo vypnout.',
 	'info_erreur_restauration' => 'Chyba při obnově: soubor neexistuje.',
+	'info_forum_administrateur' => 'diskusní skupina správců',
+	'info_forum_interne' => 'interní diskusní skupina',
+	'info_forum_ouvert' => 'V privátní části webu je diskusní skupina otevřena všem
+  zaregistrovaným redaktorům. Zde můžete aktivovat další diskusní
+  skupinu vyhrazenou pouze pro správce.',
+	'info_gauche_suivi_forum' => 'Stránka pro <i>sledování diskusních skupin</i> je určena ke správě vašeho webu (nejedná se o prostor pro diskusi ani pro redigování). Jsou na ní zobrazeny všechny diskusní příspěvky z veřejné skupiny a umožňuje vám jejich správu.', # MODIF
 	'info_modifier_breve' => 'Změnit novinku:',
 	'info_nombre_breves' => '@nb_breves@ novinky,',
+	'info_option_ne_pas_faire_suivre' => 'Nesledovat zprávy z diskusní skupiny',
 	'info_restauration_sauvegarde_insert' => 'Inserting @archive@ in the database', # NEW
 	'info_sauvegarde_articles' => 'Uložit články',
 	'info_sauvegarde_articles_sites_ref' => 'Uložit články z webu, na který vede odkaz',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nová novinka',
 
 	// L
+	'lien_forum_public' => 'Správa veřejné diskusní skupiny k tomuto článku',
 	'lien_reponse_breve' => 'Odpověď na novinku',
 
 	// S
@@ -62,7 +80,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'In order to merge with another database, you can restrict the backup to one section: ', # NEW
 	'texte_sauvegarde_compressee' => 'Záloha bude uložena do nekomprimovaného souboru @fichier@.',
 	'titre_nouvelle_breve' => 'Nová novinka',
-	'titre_page_breves_edit' => 'Změnit novinku: "@titre@"'
+	'titre_page_breves_edit' => 'Změnit novinku: "@titre@"',
+	'titre_page_forum' => 'Diskusní skupina správců',
+	'titre_page_forum_envoi' => 'Odeslat zprávu',
+	'titre_page_statistiques_messages_forum' => 'Forum messages' # NEW
 );
 
 ?>

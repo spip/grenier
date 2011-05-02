@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'vizitè yo sou sit piblik kan jan y p mèt yon mesaj andan yon fowom.',
+	'bouton_forum_petition' => 'FOWOM &amp; PETISYON', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'yon sòvgad konprese sou @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'yon sòvgad sak se pa konprese sou @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Pwoblèm ak bazdone, mesaj ou te pa enskri.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
 	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_forum_administrateur' => 'Fowom pou komandè yo',
+	'icone_forum_suivi' => 'Swiv tout fowom yo',
 	'icone_publier_breve' => 'Pibliye tinouvèl',
 	'icone_refuser_breve' => 'Refize tinouvèl',
 	'info_base_restauration' => 'Labaz ap restore',
@@ -21,9 +28,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Tinouvèl yo ki jwenn ak mokle-a',
 	'info_breves_touvees' => 'Tinouvèl yo ki te fin rannkont',
 	'info_breves_touvees_dans_texte' => 'Tinouvèl yo ki te fin rannkont (nan tèks)',
+	'info_echange_message' => 'SPIP ka pémè lechanj mesaj ek kreyasyon fowom kozman privé
+ ant tout moun ka soutni sit la. W kap mèt oubyen kraze fonksyonalite a.',
 	'info_erreur_restauration' => 'Erè pou restorasyon : fichye-an ap pa egsiste.',
+	'info_forum_administrateur' => 'fowom pou komandè yo',
+	'info_forum_interne' => 'fowom andan sit la',
+	'info_forum_ouvert' => 'Nan lespas privé sit-la, yon fowom gen ouvè pou tout moun
+ ki rédaktè enskri. W kapab mèt, isit-anba, yon fowom
+ anplis, ki résèvé pou komandé yo sèlman.',
+	'info_gauche_suivi_forum' => 'Paj <i>swivi fowom yo</i> se outiy pou sit ou (kontrè yon espas pou soutni ek ekri ant zot itlizatè). Li afich tout patisipasyon nan fowom piblik yon atik ak rann w kapab okipe yo.',
 	'info_modifier_breve' => 'Chanje tinouvèl-la :',
 	'info_nombre_breves' => '@nb_breves@ tinouvèl (yo),',
+	'info_option_ne_pas_faire_suivre' => 'Voye pa mesaj fowom yo ',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sòvgade atik yo',
 	'info_sauvegarde_articles_sites_ref' => 'Sòvgade atik yo ki nan sit referansé yo',
@@ -49,6 +65,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nouvo tinouvèl',
 
 	// L
+	'lien_forum_public' => 'Zèr fowom piblik atik la',
 	'lien_reponse_breve' => 'Réponn tinouvèl-la',
 
 	// S
@@ -62,7 +79,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Sovgad ke pou fè nan yon fichye pa koprésé sa-a, ki rele @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Nouvo tinouvèl',
-	'titre_page_breves_edit' => 'Chanje tinouvèl-la : « @titre@ »'
+	'titre_page_breves_edit' => 'Chanje tinouvèl-la : « @titre@ »',
+	'titre_page_forum' => 'Fowom komandè yo',
+	'titre_page_forum_envoi' => 'Voye yon mesaj',
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

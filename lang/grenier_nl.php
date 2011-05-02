@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'bezoekers van de publieke site die een bericht op het forum posten',
+	'bouton_forum_petition' => 'FORUM &amp; PETITIE', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'gecomprimeerde opslag onder @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'niet-gecomprimeerde opslag onder @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Probleem met databank, je bericht is niet geregistreerd.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication van kort van de site',
 	'icone_creer_mot_cle_breve' => 'Een nieuw sleutelwoord creëren en het binden aan dit brève',
+	'icone_forum_administrateur' => 'Forum van de beheerders',
+	'icone_forum_suivi' => 'Opvolging van de forums',
 	'icone_publier_breve' => 'Dit nieuwsbericht publiceren',
 	'icone_refuser_breve' => 'Dit nieuwsbericht weigeren',
 	'info_base_restauration' => 'De databank wordt hersteld.',
@@ -21,9 +28,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Berichten gekoppeld aan dit trefwoord',
 	'info_breves_touvees' => 'Gevonden berichten',
 	'info_breves_touvees_dans_texte' => 'Gevonden berichten (in de tekst)',
+	'info_echange_message' => 'SPIP voorziet in de mogelijkheid om berichten uit te wisselen en private discussieforums op te
+    starten tussen de deelnemers aan de site.Wil je deze mogelijkheid aan- of uitzetten ?',
 	'info_erreur_restauration' => 'Herstelfout : onbestaande map.',
+	'info_forum_administrateur' => 'Forum van de beheerders',
+	'info_forum_interne' => 'intern forum',
+	'info_forum_ouvert' => 'Een forum in het private deel van de site is toegankelijk
+  voor alle geregistreerde redacteurs. Hieronder kan je een
+  extra forum aanmaken dat alleen bestemd is voor de beheerders.',
+	'info_gauche_suivi_forum' => 'De pagina voor <i>opvolging van de forums</i> is een plek voor beheer van je site (en dus niet voor discussie of redactie). Alle bijdragen aan het publieke forum aansluitend op die artikel worden getoond en kan je hier beheren.',
 	'info_modifier_breve' => 'Bericht wijzigen :',
 	'info_nombre_breves' => '@nb_breves@ berichten,',
+	'info_option_ne_pas_faire_suivre' => 'Berichten uit de forums niet laten opvolgen',
 	'info_restauration_sauvegarde_insert' => 'Integratie van @archive@ in de basis',
 	'info_sauvegarde_articles' => 'Artikel redden',
 	'info_sauvegarde_articles_sites_ref' => 'Artikels van de referentiesites bewaren',
@@ -49,6 +65,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nieuw bericht',
 
 	// L
+	'lien_forum_public' => 'Beheer het publieke forum van dit artikel',
 	'lien_reponse_breve' => 'Beantwoord dit nieuwsbericht',
 
 	// S
@@ -61,7 +78,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Met het oog op fusie met een andere basis, kunt u de bescherming beperken tot de rubriek:',
 	'texte_sauvegarde_compressee' => 'De reservekopie zal gemaakt worden in het niet-gecomprimeerde bestand @fichier@.',
 	'titre_nouvelle_breve' => 'Nieuw bericht',
-	'titre_page_breves_edit' => 'Wijzigen bericht : «@titre@»'
+	'titre_page_breves_edit' => 'Wijzigen bericht : «@titre@»',
+	'titre_page_forum' => 'Forum van de beheerders',
+	'titre_page_forum_envoi' => 'Een bericht versturen',
+	'titre_page_statistiques_messages_forum' => 'Berichten van forum'
 );
 
 ?>

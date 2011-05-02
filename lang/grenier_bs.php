@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'posjetitelji stranice za publiku, ako postavljaju poruku u  forum.',
+	'bouton_forum_petition' => 'PETICIJA & FORUM', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'Snimiti sa kompresijom pod @fichier@', # MODIF
 	'bouton_radio_sauvegarde_non_compressee' => 'Snimiti bez  kompresije pod @fichier@', # MODIF
+
+	// F
+	'forum_probleme_database' => 'Problem sa bazom podataka, Vasa poruka nije registrovana.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
 	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_forum_administrateur' => 'Forum administratora',
+	'icone_forum_suivi' => 'Pracenje foruma',
 	'icone_publier_breve' => 'Objavi ovu kratku poruku',
 	'icone_refuser_breve' => 'Odbij ovu kratku poruku',
 	'info_base_restauration' => 'Baza je u toku obnavljanja.',
@@ -21,9 +28,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Kratke poruke koje su vezane za ovu kljucnu rijec',
 	'info_breves_touvees' => 'Pronadjene kratke poruke',
 	'info_breves_touvees_dans_texte' => 'Pronadjene kratke poruke (u tekstu)',
+	'info_echange_message' => 'SPIP dozvoljava razmjenu poruka izmedju ucesnika stranice i kreiranje privatnih foruma za diskusiju. Mozete ukljuciti ili iskljuciti ovu funkciju.',
 	'info_erreur_restauration' => 'Greska u obnavljanju: nepostojeci dokument.',
+	'info_forum_administrateur' => 'forum administratora',
+	'info_forum_interne' => 'interni forum',
+	'info_forum_ouvert' => 'Forum na privatnoj stranici je otvoren svim regristrovanim urednicima. Ispod mozete aktivirati dodatni forum, koji je rezervisan samo za administratore.',
+	'info_gauche_suivi_forum' => 'Strana <i>pracenja foruma</i> je alatka za rukovodjene vasom stranicom (ne prostor za diskusiju  i redakciju). Ona izlistava sve doprinose javnog foruma ovog clanka i dozvoljava rukovodjenje tim doprinosima.', # MODIF
 	'info_modifier_breve' => 'Izmijeni kratku poruku:',
 	'info_nombre_breves' => '@nb_breves@ kratke poruke,',
+	'info_option_ne_pas_faire_suivre' => 'Onemoguci prosljedjivanje poruka na forumima',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Backup clanaka',
 	'info_sauvegarde_articles_sites_ref' => 'Backup clanaka preporucenih stranica',
@@ -49,6 +62,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nova kratka poruka',
 
 	// L
+	'lien_forum_public' => 'Uredi javni forum ovog clanka',
 	'lien_reponse_breve' => 'Odgovori na kratku poruku',
 
 	// S
@@ -61,7 +75,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Pohranjivanje ce se izvrsiti u nekompresovanom dokumentu @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Nova kratka poruka',
-	'titre_page_breves_edit' => 'Izmijeni kratku poruku: «  @titre@ »'
+	'titre_page_breves_edit' => 'Izmijeni kratku poruku: «  @titre@ »',
+	'titre_page_forum' => 'Forum administratora',
+	'titre_page_forum_envoi' => 'Posalji poruku',
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

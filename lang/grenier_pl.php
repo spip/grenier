@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'odwiedzający publiczną stronę, kiedy umieszczają wiadomość na forum.',
+	'bouton_forum_petition' => 'FORUM &amp; OGŁOSZENIA', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'zapisz w postaci skompresowanej w @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'zapisz w postaci nieskompresowanej w @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Problem z bazą danych, Twoja wiadomość nie mogła być zapisana.',
 
 	// I
 	'ical_lien_rss_breves' => 'Zapisz się do RSS newsów',
 	'icone_creer_mot_cle_breve' => 'Utwórz nowe słowo kluczowe i połącz je z tym newsem',
+	'icone_forum_administrateur' => 'Forum administratorów',
+	'icone_forum_suivi' => 'Kontynuacja forum',
 	'icone_publier_breve' => 'Publikuj ten news',
 	'icone_refuser_breve' => 'Odrzuć ten news',
 	'info_base_restauration' => 'Trwa odtwarzanie bazy danych.',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Newsy powiązane z tym słowem kluczowym',
 	'info_breves_touvees' => 'Newsy znalezione',
 	'info_breves_touvees_dans_texte' => 'Newsy znalezione (w tekście)',
+	'info_echange_message' => 'SPIP pozwala na wymianę wiadomości i utworzenie Forum dyskusyjnego
+  prywatnie pomiędzy użytkownikami tej strony. Możesz włączyć lub wyłączyć
+  tę funkcję.',
 	'info_erreur_restauration' => 'Błąd odtwarzania : plik nie istnieje.',
+	'info_forum_administrateur' => 'forum administratorów',
+	'info_forum_interne' => 'forum wewnętrzne',
+	'info_forum_ouvert' => 'W strefie prywatnej, forum jest otwarte dla wszystkich
+  zarejestrownych redaktorów. Możecie także aktywować
+  dodatkowe forum, zarezerwowane jedynie dla adminów.',
+	'info_gauche_suivi_forum' => 'Strona <i>obserwacji forum</i> jest narzędziem zarządzania stroną (nie, miejscem dyskusji czy redakcji). Wyświetla ona wszystkie komentarze do danego artykułu na forum publicznym i pozwala edytować owe komentarze.',
 	'info_modifier_breve' => 'Zmiana newsa:',
 	'info_nombre_breves' => '@nb_breves@ newsów,',
+	'info_option_ne_pas_faire_suivre' => 'Nie przesyłać wiadomości tego forum',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Backup artykułów',
 	'info_sauvegarde_articles_sites_ref' => 'Zapisz artykuły ze zlinkowanych stron',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nowy news',
 
 	// L
+	'lien_forum_public' => 'Zarządzaj forum publicznym tego artykułu',
 	'lien_reponse_breve' => 'Odpowiedz na ten news',
 
 	// S
@@ -62,7 +80,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Backup zostanie zrobiony w nieskompresowanym pliku @fichier@.',
 	'titre_nouvelle_breve' => 'Nowy news',
-	'titre_page_breves_edit' => 'Edytuj newsa: «@titre@»'
+	'titre_page_breves_edit' => 'Edytuj newsa: «@titre@»',
+	'titre_page_forum' => 'Forum administratorów',
+	'titre_page_forum_envoi' => 'Wyślij wiadomość',
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'Jonɔbatɔ gblogbloji ɔ tɔn whénu yé nɔ sɛ wɛn ɖo agun ɔ mɛ ɔ',
+	'bouton_forum_petition' => 'Pképklé kpodo xojla kpo', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz',
 	'bouton_radio_sauvegarde_non_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz',
+
+	// F
+	'forum_probleme_database' => 'gbètákɛnxòkplé ɔ gbàfɔ, yè sìwú wlí wɛn mì tɔn hɛn á',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
 	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_forum_administrateur' => 'kpékpé gán lɛ tɔn',
+	'icone_forum_suivi' => 'àgun cícɔ',
 	'icone_publier_breve' => 'sɔ xó kléwún é lɔ ɖó àtɛ',
 	'icone_refuser_breve' => 'gbɛ xó kléwún ɔ',
 	'info_base_restauration' => 'gbètákɛnxòkplé kò jà àfɔ ɖè jí.',
@@ -21,9 +28,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'xó kléwún lɛ ɖê cádó gbètákɛn lɛ wú ɔ',
 	'info_breves_touvees' => 'xó kléwún lɛ ɖê yè mɔ ɔ',
 	'info_breves_touvees_dans_texte' => 'xó kléwún lɛ ɖê yè mɔ ɔ',
+	'info_echange_message' => 'xó kpó ɖò yìyì wɛ',
 	'info_erreur_restauration' => 'bíblò ɔ jàyì, gbètá ɔ ɖé á.',
+	'info_forum_administrateur' => 'Tìtòtɔ lɛ sín kpíkplé',
+	'info_forum_interne' => 'Kpékplé xɔmɛ tɔn ',
+	'info_forum_ouvert' => 'nyɔwlántɔ lɛ sin àgùn ',
+	'info_gauche_suivi_forum' => 'wémà é lɔ Tìtòtɔ lɛ kɛɖɛ wɛ síwú dàlɔmɛ',
 	'info_modifier_breve' => 'ɖyɔ xó kléwún ɔ:',
 	'info_nombre_breves' => '@nb_breves@ xó kléwún,',
+	'info_option_ne_pas_faire_suivre' => 'Mi mà nɔ kpɔn wɛn lɛ ɖò kplékplé ɔ mɛ wó',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Wlí  Wékpá lɛ  hɛn',
 	'info_sauvegarde_articles_sites_ref' => 'Mi Wlí  Wékpá lɛ ɖê sɔ kɛn nâ hɛn',
@@ -49,6 +62,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'xó kléwún',
 
 	// L
+	'lien_forum_public' => 'mi tò mɛ ɖò kplékplé mɛ ɔ lɛ',
 	'lien_reponse_breve' => 'yígbjè nú xó kléwún é lɔ',
 
 	// S
@@ -61,7 +75,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'mi ná wlíhɛn ɖò gbètá ɔ mɛ@fichier@.',
 	'titre_nouvelle_breve' => 'xó kléwún lɛ',
-	'titre_page_breves_edit' => 'ɖyɔ xó kléwún lɛ : « @titre@ »'
+	'titre_page_breves_edit' => 'ɖyɔ xó kléwún lɛ : « @titre@ »',
+	'titre_page_forum' => 'tìtòtɔ lɛ sín kplékplé',
+	'titre_page_forum_envoi' => 'sɛ wɛn dó',
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

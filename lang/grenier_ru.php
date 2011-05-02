@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'посетители основной части сайта, когда они размещают сообщение на форуме.',
+	'bouton_forum_petition' => 'ФОРУМ И КОММЕНТАРИИ', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'сохранить сжатым в @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'сохранить распакованным в @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Проблема базы данных, ваше сообщение не могло быть записано.',
 
 	// I
 	'ical_lien_rss_breves' => 'Объединение новостей сайта',
 	'icone_creer_mot_cle_breve' => 'Создать новое ключевое слово и прикрепить его к этой новости',
+	'icone_forum_administrateur' => 'Форум администраторов',
+	'icone_forum_suivi' => 'Отслеживать форумы',
 	'icone_publier_breve' => 'Опубликовать эту новость',
 	'icone_refuser_breve' => 'Убрать эту новость',
 	'info_base_restauration' => 'Восстановление базы данных в ходе работы.',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Новости, связанные с этим ключевым словом',
 	'info_breves_touvees' => 'Новости найдены',
 	'info_breves_touvees_dans_texte' => 'Новости найдены(в тексте)',
+	'info_echange_message' => 'SPIP позволяет организовывать приватные
+  форумы для обсуждений между участниками сайта. Вы можете включить или 
+  отключить эту функцию.',
 	'info_erreur_restauration' => 'Ошибка восстановления: файл не найден.',
+	'info_forum_administrateur' => 'административный форум',
+	'info_forum_interne' => 'внутренний форум',
+	'info_forum_ouvert' => 'В административной части сайта, форум открыт для всех 
+  зарегистрированных редакторов. Ниже Вы можете включить 
+  дополнительный форум для отдельных администраторов.',
+	'info_gauche_suivi_forum' => '<i>Продолжение форумов </i> страница - инструмент управления Вашего сайта (не область обсуждения или редактирования). Она показывает все вклады основного форума этой статьи и позволяет Вам управлять этими вкладами.',
 	'info_modifier_breve' => 'Изменить новость:',
 	'info_nombre_breves' => '@nb_breves@ новости,',
+	'info_option_ne_pas_faire_suivre' => 'Не отправлять сообщения c форумов',
 	'info_restauration_sauvegarde_insert' => 'Вставка @архива@ в базу данных',
 	'info_sauvegarde_articles' => 'Резервная копия статей',
 	'info_sauvegarde_articles_sites_ref' => 'Резервная копия статей связанных сайтов',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Новая новость',
 
 	// L
+	'lien_forum_public' => 'Управлять этой статьей основного форума',
 	'lien_reponse_breve' => 'Ответить на новость',
 
 	// S
@@ -61,7 +79,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Вы можете сделать как полную резервную копию сайта, так и копию только одного раздела:',
 	'texte_sauvegarde_compressee' => 'Резервная копия будет сохранена в файле @fichier@.',
 	'titre_nouvelle_breve' => 'Новая новость',
-	'titre_page_breves_edit' => 'Изменить новость: «@titre@»'
+	'titre_page_breves_edit' => 'Изменить новость: «@titre@»',
+	'titre_page_forum' => 'Форум администраторов',
+	'titre_page_forum_envoi' => 'Отправить сообщение',
+	'titre_page_statistiques_messages_forum' => 'Форум сообщений'
 );
 
 ?>

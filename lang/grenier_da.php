@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'besøgende på det offentlige websted når de sender meddelelse til et forum',
+	'bouton_forum_petition' => 'FORUM &amp; APPELLER', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'gem komprimeret i @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'gem ukomprimeret i @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Databaseproblem, dit indlæg er ikke modtaget.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
 	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_forum_administrateur' => 'Administratorforum',
+	'icone_forum_suivi' => 'Forumopfølgning',
 	'icone_publier_breve' => 'Offentliggør nyhed',
 	'icone_refuser_breve' => 'Afvis nyhed',
 	'info_base_restauration' => 'Genoprettelse af databasen er i gang.',
@@ -21,9 +28,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Nyheder knyttet til dette nøgleord',
 	'info_breves_touvees' => 'Fundne nyheder',
 	'info_breves_touvees_dans_texte' => 'Nyheder fundet (i teksten)',
+	'info_echange_message' => 'SPIP tillader udveksling af meddelelser og oprettelse af private diskussionsforummer mellem deltagere på webstedet. Du kan til- eller fravælge denne funktion.',
 	'info_erreur_restauration' => 'Fejl under genopretning: fil findes ikke.',
+	'info_forum_administrateur' => 'administratorforum',
+	'info_forum_interne' => 'internt forum',
+	'info_forum_ouvert' => 'I det private afsnit af webstedet er der et forum åbent for alle registrerede redaktører. Nedenfor kan du åbne et ekstra forum alene for administratorer.',
+	'info_gauche_suivi_forum' => '<i>Forumopfølgning</i> er et administrationsværktøj (ikke et diskussions- eller redigeringsområde). Det viser alle indlæg i det offentlige forum knyttet til en bestemt artikel og giver dig mulighed for at administrere indlæggene.',
 	'info_modifier_breve' => 'Ret nyhed:',
 	'info_nombre_breves' => '@nb_breves@ nyheder,',
+	'info_option_ne_pas_faire_suivre' => 'Videresend ikke meddelelser i forummer',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sikkerhedskopi af artikler',
 	'info_sauvegarde_articles_sites_ref' => 'Sikkerhedskopi af henvisninger til websteder',
@@ -49,6 +62,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Ny nyhed',
 
 	// L
+	'lien_forum_public' => 'Vedligehold denne artikels offentlige forum',
 	'lien_reponse_breve' => 'Kommenter denne nyhed',
 
 	// S
@@ -61,7 +75,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Sikkerhedskopien vil blive lagt i den ukomprimerede fil @fichier@.',
 	'titre_nouvelle_breve' => 'Ny nyhed',
-	'titre_page_breves_edit' => 'Ret nyhed: «@titre@»'
+	'titre_page_breves_edit' => 'Ret nyhed: «@titre@»',
+	'titre_page_forum' => 'Administratorforum',
+	'titre_page_forum_envoi' => 'Send meddelelse',
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

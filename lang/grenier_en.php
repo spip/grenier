@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'visitors of the public site when they post a message in a forum.',
+	'bouton_forum_petition' => 'FORUM &amp; PETITION',
 	'bouton_radio_sauvegarde_compressee' => 'save as compressed in @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'save as uncompressed in @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Database problem, your message could not be recorded.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication of site news items',
 	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
+	'icone_forum_administrateur' => 'Administrators\' forum',
+	'icone_forum_suivi' => 'Manage forums',
 	'icone_publier_breve' => 'Publish this news item',
 	'icone_refuser_breve' => 'Reject this news item',
 	'info_base_restauration' => 'Restoration of the database in progress.',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'News items with this keyword',
 	'info_breves_touvees' => 'News items found',
 	'info_breves_touvees_dans_texte' => 'News items found (in the text)',
+	'info_echange_message' => 'SPIP allows the exchange of messages and the creation of private
+  discussion forums for site members. You can enable or
+  disable this feature.',
 	'info_erreur_restauration' => 'Restoration error: file not found.',
+	'info_forum_administrateur' => 'administrators\' forum',
+	'info_forum_interne' => 'internal forum',
+	'info_forum_ouvert' => 'A forum is available to all
+  registered editors in the site\'s private area. You can enable an
+  extra forum reserved for the administrators here.',
+	'info_gauche_suivi_forum' => 'The <i>forum management</i> page is a site management tool (not a discussion or editing area). It displays all the contributions to the public forum of this article and allows you to manage these contributions.',
 	'info_modifier_breve' => 'Modify the news item:',
 	'info_nombre_breves' => '@nb_breves@ news items,',
+	'info_option_ne_pas_faire_suivre' => 'Do not forward forum messages',
 	'info_restauration_sauvegarde_insert' => 'Inserting @archive@ in the database',
 	'info_sauvegarde_articles' => 'Backup the articles',
 	'info_sauvegarde_articles_sites_ref' => 'Backup articles of referenced sites',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'New news item',
 
 	// L
+	'lien_forum_public' => 'Manage the public forum for this article',
 	'lien_reponse_breve' => 'Comment on this news item',
 
 	// S
@@ -62,7 +80,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'When merginge two databases, you can restrict the backup to one section: ',
 	'texte_sauvegarde_compressee' => 'Backup will be stored in the uncompressed file @fichier@.',
 	'titre_nouvelle_breve' => 'New news item',
-	'titre_page_breves_edit' => 'Modify the news item: «@titre@»'
+	'titre_page_breves_edit' => 'Modify the news item: «@titre@»',
+	'titre_page_forum' => 'Administrators forum',
+	'titre_page_forum_envoi' => 'Send a message',
+	'titre_page_statistiques_messages_forum' => 'Forum messages'
 );
 
 ?>

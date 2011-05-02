@@ -8,14 +8,21 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'Độc giả lúc gửi góp ý trên diễn đàn.',
+	'bouton_forum_petition' => 'DIỄN ĐÀN &amp; THỈNH NGUYỆN THƯ', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'lưu trữ lại dưới dạng nén trong
 @fichier@', # MODIF
 	'bouton_radio_sauvegarde_non_compressee' => 'lưu trữ lại dưới dạng thường trong
 @fichier@', # MODIF
 
+	// F
+	'forum_probleme_database' => 'Có vấn đề với database, thư tín của bạn không lưu trữ được.',
+
 	// I
 	'ical_lien_rss_breves' => 'Syndication of the site\'s news items', # NEW
 	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item', # NEW
+	'icone_forum_administrateur' => 'Diễn đàn quản trị viên',
+	'icone_forum_suivi' => 'Quản trị diễn đàn',
 	'icone_publier_breve' => 'Ðăng mẫu tin này',
 	'icone_refuser_breve' => 'Từ chối tin ngắn này',
 	'info_base_restauration' => 'Đang hồi phục lại database.',
@@ -23,9 +30,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Những tin ngắn liên hệ đến từ then chốt này',
 	'info_breves_touvees' => 'Những tin ngắn tìm thấy',
 	'info_breves_touvees_dans_texte' => 'Những tin ngắn tìm thấy (trong văn bản)',
+	'info_echange_message' => 'SPIP cho phép trao đổi thư tín và lập ra những diễn đàn trao đổi riêng giữa các tham dự viên. Bạn có thể tắt/mở đặc điểm này.',
 	'info_erreur_restauration' => 'Lỗi phục hồi: không tìm thấy hồ sơ.',
+	'info_forum_administrateur' => 'Diễn đàn quản trị viên',
+	'info_forum_interne' => 'Diễn đàn nội bộ',
+	'info_forum_ouvert' => 'Trong vùng riêng, một diễn đàn được mở ra cho mọi chủ bút đã có ghi danh. Bạn có thể tắt/mở một diễn đàn phụ trội dành riêng cho các quản trị viên.',
+	'info_gauche_suivi_forum' => 'Trang <i>Quản trị Diễn Đàn</i> là một phương tiện quản trị của trang web (không dùng để trao đổi hay sửa đổi). Trang này liệt kê tất cả mọi thư tín trong diễn đàn công cộng của bài này và cho phép bạn quản trị những thư tín này.',
 	'info_modifier_breve' => 'Sửa đổi tin ngắn:',
 	'info_nombre_breves' => '@nb_breves@ tin ngắn, ',
+	'info_option_ne_pas_faire_suivre' => 'Đừng chuyển thư tín của diễn đàn',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Dự trữ các bài vở',
 	'info_sauvegarde_articles_sites_ref' => 'Dự trữ bài vở của các website nối kết',
@@ -51,6 +64,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Tin ngắn mới',
 
 	// L
+	'lien_forum_public' => 'Quản trị diễn đàn công của bài này',
 	'lien_reponse_breve' => 'Hồi âm tin ngắn',
 
 	// S
@@ -63,7 +77,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Dự trữ sẽ chứa trong hồ sơ không nén @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Tin ngắn mới',
-	'titre_page_breves_edit' => 'Sửa đổi tin ngắn: «@titre@»'
+	'titre_page_breves_edit' => 'Sửa đổi tin ngắn: «@titre@»',
+	'titre_page_forum' => 'Diễn đàn cho các quản lý',
+	'titre_page_forum_envoi' => 'Gửi thư tín',
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

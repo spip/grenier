@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'i visitatori del sito pubblico quando scrivono un messaggio in un forum.',
+	'bouton_forum_petition' => 'FORUM E PETIZIONE', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'backup compresso in @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'backup non compresso in @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Problema nel database. Il tuo messaggio non è stato registrato.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication delle brevi del sito',
 	'icone_creer_mot_cle_breve' => 'Creare una nuova parola chiave e collegarla a questa breve',
+	'icone_forum_administrateur' => 'Forum degli amministratori',
+	'icone_forum_suivi' => 'Monitoraggio dei forum',
 	'icone_publier_breve' => 'Pubblica questa breve',
 	'icone_refuser_breve' => 'Rifiuta questa breve',
 	'info_base_restauration' => 'Il database è in fase di ripristino.',
@@ -21,9 +28,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Le brevi collegate a questa parola chiave',
 	'info_breves_touvees' => 'Brevi trovate',
 	'info_breves_touvees_dans_texte' => 'Brevi trovate (nel testo)',
+	'info_echange_message' => 'SPIP permette lo scambio di messaggi e la costituzione di forum di discussione
+privati tra i membri del sito. Puoi attivare o disattivare questa funzionalità.',
 	'info_erreur_restauration' => 'Errore di ripristino: file inesistente.',
+	'info_forum_administrateur' => 'forum degli amministratori',
+	'info_forum_interne' => 'forum interno',
+	'info_forum_ouvert' => 'Nell\'area riservata del sito, è disponibile un forum per
+tutti i redattori registrati. È anche possibile attivare un
+secondo forum riservato ai soli amministratori.',
+	'info_gauche_suivi_forum' => 'La pagina di <i>monitoraggio dei forum</i> è uno strumento di gestione del sito (e non uno spazio di discussione o di redazione). In essa sono pubblicati tutti i contributi del forum pubblico di quest\'articolo, permettendone la gestione.',
 	'info_modifier_breve' => 'Modifica la breve:',
 	'info_nombre_breves' => '@nb_breves@ brevi, ',
+	'info_option_ne_pas_faire_suivre' => 'Non segnalare i nuovi messaggi',
 	'info_restauration_sauvegarde_insert' => 'Inserimento di @archive@ nel database',
 	'info_sauvegarde_articles' => 'Salva gli articoli',
 	'info_sauvegarde_articles_sites_ref' => 'Salva gli articoli dei siti citati',
@@ -49,6 +65,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nuova breve',
 
 	// L
+	'lien_forum_public' => 'Gestisci il forum pubblico di quest\'articolo',
 	'lien_reponse_breve' => 'Risposta alla breve',
 
 	// S
@@ -62,7 +79,10 @@ i tempi di trasferimento in rete e di risparmiare dello spazio su disco.',
 	'texte_admin_tech_04' => 'Al fine di una fusione con un altro database, è possibile limitare il salvataggio alla rubrica: ',
 	'texte_sauvegarde_compressee' => 'Il salvataggio avverrà nel file non compresso @fichier@.',
 	'titre_nouvelle_breve' => 'Nuova breve',
-	'titre_page_breves_edit' => 'Modifica la breve: «@titre@»'
+	'titre_page_breves_edit' => 'Modifica la breve: «@titre@»',
+	'titre_page_forum' => 'Forum degli amministratori',
+	'titre_page_forum_envoi' => 'Invia un messaggio',
+	'titre_page_statistiques_messages_forum' => 'Messaggi dei forum'
 );
 
 ?>

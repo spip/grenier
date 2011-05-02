@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'los vesitaires dau sit public quand mandan un messatge dins un forum.',
+	'bouton_forum_petition' => 'FORUM E PETICION', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida sos @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sos @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Problema de basa de donadas, vòstre messatge s\'es pas registrat.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
 	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_forum_administrateur' => 'Forum daus administrators',
+	'icone_forum_suivi' => 'Segut daus forums',
 	'icone_publier_breve' => 'Publicar quela breva',
 	'icone_refuser_breve' => 'Refusar quela breva',
 	'info_base_restauration' => 'La basa es en cors de restauracion.',
@@ -21,9 +28,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Las brevas liadas a queu mot clau',
 	'info_breves_touvees' => 'Brevas trobadas',
 	'info_breves_touvees_dans_texte' => 'Brevas trobadas (dins lo text)',
+	'info_echange_message' => 'SPIP permet d\'eschamjar daus messatges e de constituir daus forums privats de discussion entre los participants dau sit. Podetz activar o desactivar quela foncionalitat.',
 	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.',
+	'info_forum_administrateur' => 'forum daus administrators',
+	'info_forum_interne' => 'forum interne',
+	'info_forum_ouvert' => 'Dins l\'espaci privat dau sit, un forum es dobert a tots los redactors registrats. Podetz, çai sos, activar un forum suplementari, reservat nonmàs aus administrators.',
+	'info_gauche_suivi_forum' => 'La pagina de <i>segut daus forums</i> es un esplech de gestion de vòstre sit (mas es pas un espaci per discutir o per redigir). Aficha totas las contribucions dau forum public de quel article e vos permet de gerir quelas contribucions.',
 	'info_modifier_breve' => 'Modificar la breva:',
 	'info_nombre_breves' => '@nb_breves@ brevas, ',
+	'info_option_ne_pas_faire_suivre' => 'Pas far segre los messatges daus forums',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sauvagardar los articles',
 	'info_sauvegarde_articles_sites_ref' => 'Sauvagardar los articles daus sits referenciats',
@@ -49,6 +62,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Breva nuòva',
 
 	// L
+	'lien_forum_public' => 'Gerir lo forum public de quel article',
 	'lien_reponse_breve' => 'Responsa a la breva',
 
 	// S
@@ -62,7 +76,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'La sauvagarda se fará dins lo fichier non comprimit @fichier@.',
 	'titre_nouvelle_breve' => 'Breva novela',
-	'titre_page_breves_edit' => 'Modificar la breva: «@titre@»'
+	'titre_page_breves_edit' => 'Modificar la breva: «@titre@»',
+	'titre_page_forum' => 'Forum per los administrators',
+	'titre_page_forum_envoi' => 'Mandar un messatge',
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

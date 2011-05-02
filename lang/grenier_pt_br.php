@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'os visitantes do site público desde que eles postem uma mensagem num fórum.',
+	'bouton_forum_petition' => 'FÓRUM E PETIÇÃO',
 	'bouton_radio_sauvegarde_compressee' => 'Cópia de segurança compactadas em @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'Cópia de segurança não compactada em @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Problema de base da dados: sua mensagem não foi cadastrada.',
 
 	// I
 	'ical_lien_rss_breves' => 'Sindicação das notas do site',
 	'icone_creer_mot_cle_breve' => 'Criar uma nova palavra-chave e associá-la a esta nota',
+	'icone_forum_administrateur' => 'Fórum dos administradores',
+	'icone_forum_suivi' => 'Acompanhamento dos fóruns',
 	'icone_publier_breve' => 'Publicar esta nota',
 	'icone_refuser_breve' => 'Recusar esta nota',
 	'info_base_restauration' => 'A base está sendo restaurada.',
@@ -21,9 +28,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'As notas associadas a esta palavra-chave',
 	'info_breves_touvees' => 'Notas encontradas',
 	'info_breves_touvees_dans_texte' => 'Notas encontradas (no texto)',
+	'info_echange_message' => 'O SPIP permite a troca de mensagens e a formação de fóruns de discussão privados entre os participantes do site. Você pode ativar ou desativar esta funcionalidade.',
 	'info_erreur_restauration' => 'Erro de restauração: arquivo inexistente.',
+	'info_forum_administrateur' => 'fórum dos administradores',
+	'info_forum_interne' => 'fórum interno',
+	'info_forum_ouvert' => 'Na área privada do site, há um fórum aberto à participação de todos os redatores cadastrados. Abaixo, você pode ativar um fórum suplementar, reservado apenas aos administradores.',
+	'info_gauche_suivi_forum' => 'A página de <i>acompanhamento dos fóruns</i> é uma ferramenta de gestão do seu site (e não um espaço de discussão ou de redação). Ela exibe todas as contrubuições do fórum público desta matéria e permite-lhe gerenciar suas contribuições.',
 	'info_modifier_breve' => 'Editar a nota:',
 	'info_nombre_breves' => '@nb_breves@ notas,',
+	'info_option_ne_pas_faire_suivre' => 'Não encaminhar as mensagens dos fóruns',
 	'info_restauration_sauvegarde_insert' => 'Inserção de @archive@ na base',
 	'info_sauvegarde_articles' => 'Fazer cópia de segurança das matérias',
 	'info_sauvegarde_articles_sites_ref' => 'Fazer cópia de segurança das matérias dos sites referenciados',
@@ -49,6 +62,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nova nota',
 
 	// L
+	'lien_forum_public' => 'Gerenciar o fórum público desta matéria',
 	'lien_reponse_breve' => 'Resposta à nota',
 
 	// S
@@ -61,7 +75,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Com o objetivo de fusão com outra base de dados, você pode limitar a cópia de segurança à seção: ',
 	'texte_sauvegarde_compressee' => 'A cópia de segurança da base será feita no arquivo não compactado @fichier@.',
 	'titre_nouvelle_breve' => 'Nova nota',
-	'titre_page_breves_edit' => 'Editar a nota: &amp;laquo;@titre@&amp;raquo;'
+	'titre_page_breves_edit' => 'Editar a nota: &amp;laquo;@titre@&amp;raquo;',
+	'titre_page_forum' => 'Fórum dos administradore',
+	'titre_page_forum_envoi' => 'Enviar uma mensagem',
+	'titre_page_statistiques_messages_forum' => 'Mensagens de fórum'
 );
 
 ?>

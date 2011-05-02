@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'jach\'a qamaw utat tumpirinaka, aruskipañanakan aruskipapxi ukja',
+	'bouton_forum_petition' => 'ARUSKIPAÑA &amp; IYAWSATANAKA', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'Jitthaptat qhanañcht\'ata ukan @fichier@ ',
 	'bouton_radio_sauvegarde_non_compressee' => 'qhanancht\'at jan jitthaptat ukan @fichier@ ',
+
+	// F
+	'forum_probleme_database' => 'Pirwan yatiyawinakax jan waliru puritaw, yatiyawimax janiw qillqaskiti',
 
 	// I
 	'ical_lien_rss_breves' => 'Qamawit jisk\'aptatanak apxasiwi ',
 	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
+	'icone_forum_administrateur' => 'Aruskipañawi apnaqirinakana',
+	'icone_forum_suivi' => 'Aruskipañanakat uñch\'ukiwi',
 	'icone_publier_breve' => 'Aka jisk\'aptata taqir yatiyaña',
 	'icone_refuser_breve' => 'Aka jisk\'aptata janiw saña',
 	'info_base_restauration' => 'Basex askichasiskiwa',
@@ -21,9 +28,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Jisk\'aptatanak aka imt\'at arur mayachata',
 	'info_breves_touvees' => 'Jikit jisk\'aptatanak',
 	'info_breves_touvees_dans_texte' => 'Jisk\'aptatanak jikita (sawuna)',
+	'info_echange_message' => 'Kuntix lurañatak muntaxa, spip ukax yatiyawinak turkakipi ukhamarak jark\'at aruskipañanak qamawit arsurinakkam utji. Akax naktataspaw ukjamarak jiwt\'ayataspaw.',
 	'info_erreur_restauration' => 'Sumachawit pantjata. Q\'ipix janiw utjkiti.',
+	'info_forum_administrateur' => 'Qutu apnaqirita aruskipañawi',
+	'info_forum_interne' => 'manqhat aruskipañawi',
+	'info_forum_ouvert' => 'Qamawit ch\'usawj jark\'atapanx Taqpach qillqatanakatakikiw mä aruskipañawiw utji. Ukxarux, Mä aruskipañaw apxatat apnaqirinakatakikiw naktayaña.',
+	'info_gauche_suivi_forum' => 'Web qamawixa &lt;i&gt;aruskipañawinakat uñch\'ukiwi&lt;/i&gt; mä irnaqañatak qamawimat apnaqawiwa ( janiw aruskipaw qamawxakiti ukhamarak janiw qillqayaw qamawxakiti). Taqpach yanapanaka aruskipañawinakat aka qillqatata ukhamarak apnaqayaraktamwa.',
 	'info_modifier_breve' => 'Modifier la brève :', # NEW
 	'info_nombre_breves' => '@nb_breves@ brèves,', # NEW
+	'info_option_ne_pas_faire_suivre' => 'Ne pas faire suivre les messages des forums', # NEW
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sauvegarder les articles', # NEW
 	'info_sauvegarde_articles_sites_ref' => 'Sauvegarder les articles des sites référencés', # NEW
@@ -49,6 +62,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nouvelle brève', # NEW
 
 	// L
+	'lien_forum_public' => 'Gérer le forum public de cet article', # NEW
 	'lien_reponse_breve' => 'Réponse à la brève', # NEW
 
 	// S
@@ -62,7 +76,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'La sauvegarde sera faite dans le fichier non compressé @fichier@.', # NEW
 	'titre_nouvelle_breve' => 'Nouvelle brève', # NEW
-	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »' # NEW
+	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »', # NEW
+	'titre_page_forum' => 'Forum des administrateurs', # NEW
+	'titre_page_forum_envoi' => 'Envoyer un message', # NEW
+	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
 );
 
 ?>

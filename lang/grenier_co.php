@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'i visitori di u situ pùbblicu quand\'elli scrivenu un messagiu in un foru.',
+	'bouton_forum_petition' => 'FORU È PETIZIONE', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'backup cumpressu in @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'backup micca cumpressu in @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Prublemu di basa di dati, ùn hè statu arregistratu u vostru messagiu.',
 
 	// I
 	'ical_lien_rss_breves' => 'Sindicazione di i dispacci di u situ',
 	'icone_creer_mot_cle_breve' => 'Creà un nuvellu segnu è assucià lu à stu dispacciu',
+	'icone_forum_administrateur' => 'Foru di l\'amministratori',
+	'icone_forum_suivi' => 'Guardia di i fori',
 	'icone_publier_breve' => 'Pubblicà stu dispacciu',
 	'icone_refuser_breve' => 'Rifiutà stu dispacciu',
 	'info_base_restauration' => 'A basa di dati hè in corsu di ricuperazione.',
@@ -21,9 +28,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'I dispacci alleati à stu segnu',
 	'info_breves_touvees' => 'Dispacci trovi',
 	'info_breves_touvees_dans_texte' => 'Dispacci trovi (in u testu)',
+	'info_echange_message' => 'SPIP permette u scambiu di messagi è a creazione di fori privati di ragiunate
+		frà i participanti di u situ. Pudete puru attivà o disattivà sta funziunalità.',
 	'info_erreur_restauration' => 'Errore di ricuperazione : schedariu inesistente.',
+	'info_forum_administrateur' => 'foru di l\'amministratori',
+	'info_forum_interne' => 'foru internu',
+	'info_forum_ouvert' => 'In u spaziu privatu di u situ, hè apertu un foru à tutti i scrittori arregistrati.
+	Pudete dinù attivà un altru foru quì sottu, riservatu solu à l\'amministratori.',
+	'info_gauche_suivi_forum' => 'A pàgina di <i>guardia di i fori</i> hè un arnese di gestione di u situ (è micca un spaziu di ragiunata o di scrittura). 
+		Nentru ci venenu pubblicati tutti i cuntributi di u foru pùbblicu di st\'artìculu, è vi permette a gestione di sti cuntributi.',
 	'info_modifier_breve' => 'Mudificà u dispacciu :',
 	'info_nombre_breves' => '@nb_breves@ dispacci, ',
+	'info_option_ne_pas_faire_suivre' => 'Ùn signalà micca i novi messagi',
 	'info_restauration_sauvegarde_insert' => 'Inserimentu di @archive@ in a basa di dati',
 	'info_sauvegarde_articles' => 'Salvà l\'artìculi',
 	'info_sauvegarde_articles_sites_ref' => 'Salvà l\'artìculi di i siti riferiti',
@@ -49,6 +65,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nuvellu dispacciu',
 
 	// L
+	'lien_forum_public' => 'Gestisce u foru pùbblicu di st\'artìculu',
 	'lien_reponse_breve' => 'Risposta à i dispacci',
 
 	// S
@@ -62,7 +79,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'S\'ellu hè in u scopu di mischjà cù un\'altra basa di dati, pudete puru limità u salvamentu à a rùbbrica : ',
 	'texte_sauvegarde_compressee' => 'U salvamentu si ferà in u schedariu micca cumpressu @fichier@.',
 	'titre_nouvelle_breve' => 'Nuvellu dispacciu',
-	'titre_page_breves_edit' => 'Mudificà i dispacci : «@titre@»'
+	'titre_page_breves_edit' => 'Mudificà i dispacci : «@titre@»',
+	'titre_page_forum' => 'Foru di l\'amministratori',
+	'titre_page_forum_envoi' => 'Mandà un messagiu',
+	'titre_page_statistiques_messages_forum' => 'Messagi di i fori'
 );
 
 ?>

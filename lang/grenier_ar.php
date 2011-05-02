@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'زوار الموقع العمومي حين يرسلون مشاركة الى المنتدى',
+	'bouton_forum_petition' => 'المنتدى والعرائض',
 	'bouton_radio_sauvegarde_compressee' => 'حفظ بملف مضغوط في @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'حفظ بملف غير مضغوط في @fichier@',
+
+	// F
+	'forum_probleme_database' => 'مشكلة في قاعدة البيانات، لم يتم تسجيل مشاركتك.',
 
 	// I
 	'ical_lien_rss_breves' => 'ترخيص أخبار الموقع',
 	'icone_creer_mot_cle_breve' => 'إنشاء مفتاح جديد وربطه بهذا الخبر',
+	'icone_forum_administrateur' => 'منتدى المديرين',
+	'icone_forum_suivi' => 'متابعة المنتديات',
 	'icone_publier_breve' => 'نشر هذا الخبر',
 	'icone_refuser_breve' => 'رفض هذا الخبر',
 	'info_base_restauration' => 'القاعدة قيد الاسترجاع',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'الأخبار المرتبطة بهذا المفتاح',
 	'info_breves_touvees' => 'الأخبار التي عثر عليها',
 	'info_breves_touvees_dans_texte' => 'الأخبار التي عثر عليها (في المادة)',
+	'info_echange_message' => 'يتيح SPIP  تبادل الرسائل وإنشاء منتديات نقاش
+خاصة بين المشتركين في الموقع. يمكنك تفعيل هذه
+الوظيفة أو إيقافها.',
 	'info_erreur_restauration' => 'خطأ إسترجاع: ملف غير موجود.',
+	'info_forum_administrateur' => 'منتدى الإدارة',
+	'info_forum_interne' => 'المنتدى الداخلي',
+	'info_forum_ouvert' => 'في مجال الموقع الخاص، هناك منتدى مفتوح لجميع
+المحررين المسجلين. يمكنك أدناه، تفعيل
+منتدى إضافي محصور بالمدراء.',
+	'info_gauche_suivi_forum' => 'تشكل صفحة <b>متابعة المنتديات</b> أداة إدارة للموقع (وليست مجالاً للنقاش أو التحرير). تعرض هذه الصفحة كل مشاركات المنتدى العام وتتيح إدارة هذه المشاركات.',
 	'info_modifier_breve' => 'تعديل الخبر:',
 	'info_nombre_breves' => '@nb_breves@ خبر،',
+	'info_option_ne_pas_faire_suivre' => 'عدم تمرير مشاركات المنتديات',
 	'info_restauration_sauvegarde_insert' => 'إدراج @archive@ في القاعدة',
 	'info_sauvegarde_articles' => 'نسخ إحتياطي للمقالات',
 	'info_sauvegarde_articles_sites_ref' => 'نسخ إحتياطي لمقالات المواقع المبوبة',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'خبر جديد',
 
 	// L
+	'lien_forum_public' => 'إدارة المنتدى العمومي لهذا المقال',
 	'lien_reponse_breve' => 'الرد على الخبر',
 
 	// S
@@ -62,7 +80,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'من اجل الدمج في قاعدة اخرى، يمكن اقتصار النسخة الاحتياطية على القسم:',
 	'texte_sauvegarde_compressee' => 'سيتم حفظ النسخة الاحتياطية في ملف غير مضغوط @fichier@.',
 	'titre_nouvelle_breve' => 'خبر جديد',
-	'titre_page_breves_edit' => 'تعديل الخبر: «@titre@»'
+	'titre_page_breves_edit' => 'تعديل الخبر: «@titre@»',
+	'titre_page_forum' => 'منتدى الإدارة',
+	'titre_page_forum_envoi' => 'إرسال مشاركة',
+	'titre_page_statistiques_messages_forum' => 'مشاركات المنتدى'
 );
 
 ?>

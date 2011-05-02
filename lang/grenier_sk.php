@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'visitors of the public site when they post a message on a forum.', # MODIF
+	'bouton_forum_petition' => 'FORUM &amp; PETITION', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'save as compressed in @fichier@', # MODIF
 	'bouton_radio_sauvegarde_non_compressee' => 'save as uncompressed in @fichier@', # MODIF
+
+	// F
+	'forum_probleme_database' => 'Database problem, your message could not be recorded.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication of the site\'s news items',
 	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
+	'icone_forum_administrateur' => 'Fórum administrátorov',
+	'icone_forum_suivi' => 'Forums follow-up', # MODIF
 	'icone_publier_breve' => 'Uverejniť túto správu',
 	'icone_refuser_breve' => 'Zamietnuť túto správu',
 	'info_base_restauration' => 'Restoration of the database in progress.', # MODIF
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'News associated with this keyword',
 	'info_breves_touvees' => 'News items found',
 	'info_breves_touvees_dans_texte' => 'News items found (in the text)',
+	'info_echange_message' => 'Systém SPIP umožňuje výměnu zpráv a vytváření soukromých
+  diskusních skupin pro účastníky webu. Tuto funkci můžete
+  zapnout nebo vypnout.', # NEW
 	'info_erreur_restauration' => 'Restoration error: file not found.', # MODIF
+	'info_forum_administrateur' => 'administrators\' forum', # MODIF
+	'info_forum_interne' => 'internal forum', # MODIF
+	'info_forum_ouvert' => 'In the site\'s private area, a forum is open to all
+		registered editors. Below, you can enable an
+		extra forum reserved for the administrators.',
+	'info_gauche_suivi_forum' => 'The <i>forums follow-up</i> page is a management tool of your site (not a discussion or editing area). It displays all the contributions of the public forum of this article and allows you to manage these contributions.', # MODIF
 	'info_modifier_breve' => 'Modify the news item:',
 	'info_nombre_breves' => '@nb_breves@ news items,',
+	'info_option_ne_pas_faire_suivre' => 'Do not forward forums messages', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Inserting @archive@ in the database', # MODIF
 	'info_sauvegarde_articles' => 'Backup the articles', # MODIF
 	'info_sauvegarde_articles_sites_ref' => 'Backup articles of referenced sites',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Nová novinka',
 
 	// L
+	'lien_forum_public' => 'Spravovať verejne fórum tohto článku',
 	'lien_reponse_breve' => 'Reply to the news item',
 
 	// S
@@ -62,7 +80,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'In order to merge with another database, you can restrict the backup to one section: ',
 	'texte_sauvegarde_compressee' => 'Backup will be stored in the uncompressed file @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Nová novinka',
-	'titre_page_breves_edit' => 'Modify the news item: «@titre@»'
+	'titre_page_breves_edit' => 'Modify the news item: «@titre@»',
+	'titre_page_forum' => 'Administrators forum', # MODIF
+	'titre_page_forum_envoi' => 'Poslať správu',
+	'titre_page_statistiques_messages_forum' => 'Forum messages' # MODIF
 );
 
 ?>

@@ -8,12 +8,19 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'los visitantes del sitiu públicu cuando pongan un mensaxe nun foru',
+	'bouton_forum_petition' => 'FORU &amp; SOLICITÚ', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'copia de seguridá comprimida en @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'copia de seguridá nun comprimida en @fichier@',
+
+	// F
+	'forum_probleme_database' => 'Problema de base datos, el to mensaxe nun quedó rexistráu.',
 
 	// I
 	'ical_lien_rss_breves' => 'Sindicación de les breves del sitiu',
 	'icone_creer_mot_cle_breve' => 'Crear una nueva pallabra-clave y lligala con esta breve',
+	'icone_forum_administrateur' => 'Foru d\'alministradores',
+	'icone_forum_suivi' => 'Siguimientu de los foros',
 	'icone_publier_breve' => 'Espublizar esta breve',
 	'icone_refuser_breve' => 'Refugar esta breve',
 	'info_base_restauration' => 'La base ta en procesu de restauración.',
@@ -21,9 +28,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Les breves lligáes con esta pallabra-clave',
 	'info_breves_touvees' => 'Breves alcontráes',
 	'info_breves_touvees_dans_texte' => 'Breves alcontráes (nel testu)',
+	'info_echange_message' => 'SPIP permite l\'intercambéu de mensaxes y la creación de foros de discutiniu
+  privaos ente los participantes nel sitiu. Pues activar o
+  desactivar esta carauterística.',
 	'info_erreur_restauration' => 'Error na restauración: archivu inesistente.',
+	'info_forum_administrateur' => 'foru de los alministradores',
+	'info_forum_interne' => 'foru internu',
+	'info_forum_ouvert' => 'Nel espaciu priváu del sitiu, hai un foru abiertu a tolos
+  redactores rexistráos. Equí embaxo puedes activar un
+  foru suplementariu, acutáu sólo pa los alministradores.',
+	'info_gauche_suivi_forum' => 'La páxina de <i>siguimientu de los foros</i> ye una ferramienta de xestión del sitiu Web (y non un espaciu pal discutiniu o la redaición). Amuesa toles contribuciones del foru públicu d\'esti artículu y te permite remanar eses contribuciones.',
 	'info_modifier_breve' => 'Modificar la breve:',
 	'info_nombre_breves' => '@nb_breves@ noticies breves,',
+	'info_option_ne_pas_faire_suivre' => 'Nun mandar copia de los mensaxes de los foros',
 	'info_restauration_sauvegarde_insert' => 'Amestura de @archive@ na base',
 	'info_sauvegarde_articles' => 'Facer copia de seguridá de los artículos',
 	'info_sauvegarde_articles_sites_ref' => 'Facer copia de seguridá de los artículos de sitios referenciaos',
@@ -49,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Breve nueva',
 
 	// L
+	'lien_forum_public' => 'Xestionar el foru públicu d\'esti artículu',
 	'lien_reponse_breve' => 'Respuesta a la breve',
 
 	// S
@@ -62,7 +80,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'texte_admin_tech_04' => 'Si se quier facer una fusión con otra base, pues llendar la copia a la estaya: ',
 	'texte_sauvegarde_compressee' => 'La copia de seguridá va facese nel archivu non comprimíu @fichier@.',
 	'titre_nouvelle_breve' => 'Breve nueva',
-	'titre_page_breves_edit' => 'Cambear la breve: «@titre@»'
+	'titre_page_breves_edit' => 'Cambear la breve: «@titre@»',
+	'titre_page_forum' => 'Foru de los alministradores',
+	'titre_page_forum_envoi' => 'Unviar un mensaxe',
+	'titre_page_statistiques_messages_forum' => 'Mensaxes de foros'
 );
 
 ?>
