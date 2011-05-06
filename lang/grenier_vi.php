@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'Độc giả lúc gửi góp ý trên diễn đàn.',
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => 'DIỄN ĐÀN &amp; THỈNH NGUYỆN THƯ', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'lưu trữ lại dưới dạng nén trong
 @fichier@', # MODIF

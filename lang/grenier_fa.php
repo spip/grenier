@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'بازديد كنندهاى سايت همگانى هنگامى كه پيامى در سخنگاه ميفرستند',
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => 'سخنگاه و در خواست ', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'ذخيره فشرده در  @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'ذخيره فشرده نشده در@fichier@',

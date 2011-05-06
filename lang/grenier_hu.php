@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'a nyilvános honlap látogatói, ha küldenek üzenetet a fórumba.',
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => 'FÓRUM ÉS ALÁÍRÁSGYŰJTÉS (Petició)', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'tömörített mentés a következön: @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'nem tömörített mentés a következőn: @fichier@',

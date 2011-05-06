@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'Jonɔbatɔ gblogbloji ɔ tɔn whénu yé nɔ sɛ wɛn ɖo agun ɔ mɛ ɔ',
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => 'Pképklé kpodo xojla kpo', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz',
 	'bouton_radio_sauvegarde_non_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz',

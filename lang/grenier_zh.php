@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => '在论坛上发表消息的站点访问者.',
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => '论坛和请求', # MODIF
 	'bouton_radio_sauvegarde_compressee' => '存为压缩文件@fichier@', # MODIF
 	'bouton_radio_sauvegarde_non_compressee' => '存为不压缩的文件@fichier@', # MODIF

@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'ဖိုရမ်တွင် မှာကြားချက်များထားရှိပြီး အများသုံးဝက်ဘ်ဆိုက်သို့ ဝင်ရောက်ကြည့်ရှုသူများ',
+	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => 'ဖိုရမ် &amp; တောင်းဆိုမှု', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'ချုံ့ထားပြီး @fichier@ တွင်သိမ်းဆည်းရန်',
 	'bouton_radio_sauvegarde_non_compressee' => 'ချုံ့မထားဘဲ @fichier@ တွင်သိမ်းဆည်းရန်',
