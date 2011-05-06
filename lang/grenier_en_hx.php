@@ -8,7 +8,6 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => 'F0RUM & P371710N', # MODIF
 	'bouton_radio_sauvegarde_compressee' => '54v3 45 c0mpr3553d 1n @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => '54v3 45 unc0mpr3553d 1n @fichier@',

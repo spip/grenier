@@ -8,7 +8,6 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_checkbox_qui_attribue_mot_cle_visiteurs' => 'les visiteurs du site public lorsqu\'ils postent un message dans un forum.', # NEW
 	'bouton_forum_petition' => 'វេទិកា &amp; បណ្តឹងជំទាស់', # MODIF
 	'bouton_radio_sauvegarde_compressee' => 'ច្បាប់ចំលង ត្រូវបានបង្ហាប់ ជា @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'ច្បាប់ចំលង គ្មានត្រូវបានបង្ហាប់ ជា @fichier@',
