@@ -9,4 +9,5 @@
 	<prefix>grenier</prefix>
 	<categorie>outil</categorie>
 	<necessite id="SPIP" version="[3.0.0-dev;)" />
+	<traduire gestionnaire="salvatore" module="grenier" reference="fr" />
 </plugin>
