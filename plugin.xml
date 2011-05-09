@@ -7,5 +7,6 @@
 	<etat>test</etat>
 	<description>Fonctions et API d&eacute;pr&eacute;ci&eacute;es</description>
 	<prefix>grenier</prefix>
-
+	<categorie>outil</categorie>
+	<necessite id="SPIP" version="[3.0.0-dev;)" />
 </plugin>
