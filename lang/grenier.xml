@@ -40,7 +40,9 @@
 	<langue code="fr_sc">
 		<traducteur nom="yann7" />
 	</langue>
-	<langue code="fr_tu" />
+	<langue code="fr_tu">
+		<traducteur nom="beatnick" />
+	</langue>
 	<langue code="gl">
 		<traducteur nom="webmaster3" />
 	</langue>
