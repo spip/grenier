@@ -5,6 +5,7 @@
 	<version>0.1.0</version>
 	<version_base>0.1.0</version_base>
 	<etat>test</etat>
+	<slogan>Fonctions et API SPIP d&eacute;pr&eacute;ci&eacute;es</slogan>
 	<description>Fonctions et API d&eacute;pr&eacute;ci&eacute;es</description>
 	<prefix>grenier</prefix>
 	<categorie>outil</categorie>
