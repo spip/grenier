@@ -834,7 +834,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 
 	global $browser_name;
 
-	$evt = (preg_match(",msie,i", $browser_name) ? " onmouseover=\"changeclass(this,\'tr_liste_over\');\" onmouseout=\"changeclass(this,\'tr_liste\');\"" :\'\');
+	$evt = (preg_match(",msie,i", $browser_name) ? " onmouseover=\"jQuery(this).attr(\'class\',\'tr_liste_over\');\" onmouseout=\"jQuery(this).attr(\'class\',\'tr_liste\');\"" :\'\');
 
 	reset($largeurs);
 	if ($styles) reset($styles);

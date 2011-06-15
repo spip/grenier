@@ -39,8 +39,8 @@ function inc_presenter_liste_dist($requete, $fonc, &$prims, $own, $force, $style
 	if ($spip_display != 4) {
 		$evt = !preg_match(",msie,i", $GLOBALS['browser_name']) ? ''
 		: "
-			onmouseover=\"changeclass(this,'tr_liste_over');\"
-			onmouseout=\"changeclass(this,'tr_liste');\"" ;
+			onmouseover=\"jQuery(this).attr('class','tr_liste_over');\"
+			onmouseout=\"jQuery(this).attr('class','tr_liste')\"" ;
 
 		$table = $head = '';
 		$th = 0;
