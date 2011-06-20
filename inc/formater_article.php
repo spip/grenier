@@ -12,6 +12,7 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 include_spip('inc/afficher_objets');
+include_spip('inc/autoriser'); // auteurs_article
 // Fonction appelee dans une boucle, calculer les invariants au premier appel.
 // obsolete, utilise uniquement par afficher_objets
 
