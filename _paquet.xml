@@ -1,0 +1,17 @@
+<paquet
+	prefix="grenier"
+	categorie="outil"
+	version="0.1.0"
+	etat="test"
+	compatibilite="[3.0.0-dev;["
+	logo="grenier-32.png"
+	schema="0.1.0"
+>	
+
+	<nom>Grenier</nom>
+	<!-- Fonctions et API SPIP dépréciées -->
+
+	<auteur>Collectif SPIP</auteur>
+
+	<traduire module="grenier" reference="fr" gestionnaire="salvatore" />
+</paquet>
