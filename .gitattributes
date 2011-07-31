@@ -100,6 +100,5 @@ lang/grenier_ty.php -text
 lang/grenier_ur.php -text
 lang/grenier_vi.php -text
 lang/grenier_zh.php -text
-/plugin.xml -text
 prive/javascript/layer_old.js -text
 prive/objets/editer/dater.html -text

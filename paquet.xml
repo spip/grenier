@@ -1,12 +1,11 @@
 <paquet
 	prefix="grenier"
 	categorie="outil"
-	version="0.1.0"
+	version="0.2.0"
 	etat="test"
-	compatibilite="[3.0.0-dev;["
+	compatibilite="[3.0.0-alpha2;["
 	logo="grenier-32.png"
-	schema="0.1.0"
->	
+>
 
 	<nom>Grenier</nom>
 	<!-- Fonctions et API SPIP dépréciées -->
