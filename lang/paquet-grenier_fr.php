@@ -1,18 +1,13 @@
 <?php
-
-// Ceci est un fichier langue de SPIP -- This is a SPIP language file
-// Fichier produit par PlugOnet
-// Module: paquet-grenier
-// Langue: fr
-// Date: 30-07-2011 15:01:37
-// Items: 2
-
+// This is a SPIP language file  --  Ceci est un fichier langue de SPIP
+// Fichier source, a modifier dans svn://zone.spip.org/spip-zone/_core_/plugins/grenier/lang/
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
-// G
+	// G
 	'grenier_description' => 'Fonctions et API dépréciées',
-	'grenier_slogan' => 'Fonctions et API SPIP dépréciées',
+	'grenier_slogan' => 'Fonctions et API SPIP dépréciées'
 );
+
 ?>
