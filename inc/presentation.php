@@ -199,7 +199,7 @@ function generer_onclic_ajax($url, $idom, $val)
 
 // http://doc.spip.org/@afficher_hierarchie
 function afficher_hierarchie($id_parent, $editable=true,$id_objet=0,$type='',$id_secteur=0,$restreint='') {
-	$out = recuperer_fond('prive/squelettes/hierarchie/objet',
+	$out = recuperer_fond('prive/squelettes/hierarchie/dist',
 					array(
 						'id_parent'=>$id_parent,
 						'objet'=>$type,
