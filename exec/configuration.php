@@ -19,7 +19,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 // http://doc.spip.org/@exec_configurer_dist
 function exec_configuration_dist()
 {
-	if(!autoriser('configurer', _request('configuration'))) {
+	if(!autoriser('configurer', '_'._request('configuration'))) {
 		include_spip('inc/minipres');
 		echo minipres(_T('info_acces_interdit'));
 		exit;

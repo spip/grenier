@@ -27,7 +27,7 @@ function action_configuration_dist() {
 
 	# ceinture & bretelles, a priori le test dans exec_configurer
 	# suffit a empecher d'obtenir un hash qui passe le test ci-dessus
-	if(!autoriser('configurer', _request('configuration'))) {
+	if(!autoriser('configurer', '_'._request('configuration'))) {
 		include_spip('inc/minipres');
 		echo minipres(_T('info_acces_interdit'));
 		exit;
