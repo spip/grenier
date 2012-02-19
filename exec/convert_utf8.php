@@ -17,7 +17,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 // http://doc.spip.org/@convert_utf8_non
 function convert_utf8_non($action, $message) {
 
-	echo minipres($action, ('<p>'.$message. "</p>\n<p style='text-align: right'><a href='" . generer_url_ecrire("config_lang"). "'> &gt;&gt; "._T('icone_retour')."</a></p>"));
+	echo minipres($action, ('<p>'.$message. "</p>\n<p style='text-align: right'><a href='" . generer_url_ecrire("configurer_langue"). "'> &gt;&gt; "._T('icone_retour')."</a></p>"));
 }
 
 // http://doc.spip.org/@exec_convert_utf8_dist
@@ -39,7 +39,7 @@ function exec_convert_utf8_dist() {
 			convert_utf8_non($action,
 					  _T('utf8_convert_erreur_orig', array('charset' => "<b>".$charset_orig."</b>")));
 
-		// ne pas convertir si deja utf8 
+		// ne pas convertir si deja utf8
 		// ou si l'interface du serveur ne comprend rien
 		else if (($charset_orig == 'utf-8'))
 			convert_utf8_non($action,
