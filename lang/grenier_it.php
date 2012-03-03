@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORUM E PETIZIONE', # MODIF
+	'bouton_forum_petition' => 'FORUM E PETIZIONI',
 	'bouton_radio_sauvegarde_compressee' => 'backup compresso in @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'backup non compresso in @fichier@',
 
