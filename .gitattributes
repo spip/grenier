@@ -103,6 +103,7 @@ lang/grenier_zh.php -text
 lang/paquet-grenier.xml -text
 lang/paquet-grenier_ar.php -text
 lang/paquet-grenier_en.php -text
+lang/paquet-grenier_it.php -text
 lang/paquet-grenier_sk.php -text
 prive/javascript/layer_old.js -text
 prive/objets/editer/dater.html -text
