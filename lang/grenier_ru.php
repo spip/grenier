@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'ФОРУМ И КОММЕНТАРИИ', # MODIF
+	'bouton_forum_petition' => 'ФОРУМ И КОММЕНТАРИИ',
 	'bouton_radio_sauvegarde_compressee' => 'сохранить сжатым в @fichier@',
 	'bouton_radio_sauvegarde_non_compressee' => 'сохранить распакованным в @fichier@',
 
@@ -81,7 +81,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Изменить новость: «@titre@»',
 	'titre_page_forum' => 'Форум администраторов',
 	'titre_page_forum_envoi' => 'Отправить сообщение',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_statistiques_messages_forum' => 'Сообщения форума'
 );
 
 ?>
