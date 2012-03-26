@@ -25,7 +25,9 @@
 	<langue code="eo" />
 	<langue code="es" />
 	<langue code="eu" />
-	<langue code="fa" />
+	<langue code="fa" url="http://trad.spip.org/tradlang_module/grenier?lang_cible=fa">
+		<traducteur nom="Davood Hossein" lien="http://trad.spip.org/auteur/davood-hossein" />
+	</langue>
 	<langue code="fi" />
 	<langue code="fon" />
 	<langue code="fr" />
