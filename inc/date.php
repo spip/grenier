@@ -21,15 +21,8 @@ function my_sel($num, $tex, $comp) {
 
 // http://doc.spip.org/@format_mysql_date
 function format_mysql_date($annee=0, $mois=0, $jour=0, $h=0, $m=0, $s=0) {
-	$annee = sprintf("%04s",$annee);
-	$mois = sprintf("%02s",$mois);
-
-	if ($annee == "0000") $mois = 0;
-	if ($mois == "00") $jour = 0;
-
-	return sprintf("%04u",$annee) . '-' . sprintf("%02u",$mois) . '-'
-		. sprintf("%02u",$jour) . ' ' . sprintf("%02u",$h) . ':'
-		. sprintf("%02u",$m) . ':' . sprintf("%02u",$s);
+	include_spip('base/abstract_sql');
+	return sql_format_date($annee, $mois, $jour, $h, $m, $s);
 }
 
 
