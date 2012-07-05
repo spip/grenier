@@ -16,7 +16,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 
 // http://doc.spip.org/@exec_convert_sql_utf8_dist
-function exec_convert_sql_utf8_dist() {
+function exec_base_convert_sql_utf8_dist() {
 	include_spip('inc/minipres');
 	include_spip('inc/charsets');
 	$charset_spip = $GLOBALS['meta']['charset'];

@@ -1,8 +1,10 @@
 * text=auto !eol
 action/configuration.php -text
+base/convert_sql_utf8.php -text
+base/convert_utf8.php -text
+exec/base_convert_sql_utf8.php -text
+exec/base_convert_utf8.php -text
 exec/configuration.php -text
-exec/convert_sql_utf8.php -text
-exec/convert_utf8.php -text
 exec/informer_auteur.php -text
 exec/memoriser.php -text
 exec/rechercher_auteur.php -text
