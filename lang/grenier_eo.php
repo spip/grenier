@@ -70,13 +70,11 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// S
 	'sauvegarde_fusionner' => 'Kunfandi la nunan bazon kaj la savkopion',
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
 	'sauvegarde_url_origine' => 'Eventuale, la retadreso de la origina retejo :',
 
 	// T
 	'texte_admin_tech_03' => 'Vi povas elekti konservi la dosieron laŭ densigita formo, por
  rapidigi ties ŝuton hejmen aŭ al konservo-servilo, kaj por ŝpari diskospacon.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'La savkopio estos farita en la nedensigita dosiero @fichier@.',
 	'titre_nouvelle_breve' => 'Nova fulm-informo',
 	'titre_page_breves_edit' => 'Modifi la fulm-informon: « @titre@ »',

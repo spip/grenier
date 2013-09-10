@@ -40,7 +40,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Zmiana newsa:',
 	'info_nombre_breves' => '@nb_breves@ newsów,',
 	'info_option_ne_pas_faire_suivre' => 'Nie przesyłać wiadomości tego forum',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Backup artykułów',
 	'info_sauvegarde_articles_sites_ref' => 'Zapisz artykuły ze zlinkowanych stron',
 	'info_sauvegarde_auteurs' => 'Backup autorów',
@@ -54,7 +53,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Zapisz ogłoszenia',
 	'info_sauvegarde_refers' => 'Zapisz odnośniki',
 	'info_sauvegarde_reussi_01' => 'Backup zakończył się pomyślnie.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Kopia bezpieczeństwa działów',
 	'info_sauvegarde_signatures' => 'Zapisz podpisy petycji',
 	'info_sauvegarde_sites_references' => 'Zapisz zlinkowane strony',
@@ -70,19 +68,16 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// S
 	'sauvegarde_fusionner' => 'Dokonać połączenia istniejącej bazy danych z backupem',
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
 	'sauvegarde_url_origine' => 'Ewentualnie, URL strony oryginalnej :',
 
 	// T
 	'texte_admin_tech_03' => 'Możesz wybrać wykonanie kopii bezpieczeńśtwa pod postacią skompresowaną, w celu
  przyspieszenia ściągania pliku lub zapisywania na serwerze, i zarazem oszczędności przestrzeni dyskowej.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Backup zostanie zrobiony w nieskompresowanym pliku @fichier@.',
 	'titre_nouvelle_breve' => 'Nowy news',
 	'titre_page_breves_edit' => 'Edytuj newsa: «@titre@»',
 	'titre_page_forum' => 'Forum administratorów',
-	'titre_page_forum_envoi' => 'Wyślij wiadomość',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Wyślij wiadomość'
 );
 
 ?>

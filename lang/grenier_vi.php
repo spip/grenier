@@ -18,8 +18,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Có vấn đề với database, thư tín của bạn không lưu trữ được.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication of the site\'s news items', # NEW
-	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item', # NEW
 	'icone_forum_administrateur' => 'Diễn đàn quản trị viên',
 	'icone_forum_suivi' => 'Quản trị diễn đàn',
 	'icone_publier_breve' => 'Ðăng mẫu tin này',
@@ -38,7 +36,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Sửa đổi tin ngắn:',
 	'info_nombre_breves' => '@nb_breves@ tin ngắn, ',
 	'info_option_ne_pas_faire_suivre' => 'Đừng chuyển thư tín của diễn đàn',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Dự trữ các bài vở',
 	'info_sauvegarde_articles_sites_ref' => 'Dự trữ bài vở của các website nối kết',
 	'info_sauvegarde_auteurs' => 'Dự trữ các tác giả',
@@ -52,7 +49,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Dự trữ các thỉnh nguyện thư',
 	'info_sauvegarde_refers' => 'Dự trữ referrers',
 	'info_sauvegarde_reussi_01' => 'Dự trữ thành công.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Dự trữ các đề mục',
 	'info_sauvegarde_signatures' => 'Dự trữ các chữ ký thỉnh nguyện thư',
 	'info_sauvegarde_sites_references' => 'Dự trữ các website nối kết',
@@ -66,20 +62,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'Quản trị diễn đàn công của bài này',
 	'lien_reponse_breve' => 'Hồi âm tin ngắn',
 
-	// S
-	'sauvegarde_fusionner' => 'Merge the current database with the backup', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'If necessary, the URL of the source site:', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'Bạn có thể chọn giữ hồ sơ trong dạng nén để sao chép, chuyển tải cho lẹ, cũng như tiết kiệm được chỗ trong dĩa.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Dự trữ sẽ chứa trong hồ sơ không nén @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Tin ngắn mới',
 	'titre_page_breves_edit' => 'Sửa đổi tin ngắn: «@titre@»',
 	'titre_page_forum' => 'Diễn đàn cho các quản lý',
-	'titre_page_forum_envoi' => 'Gửi thư tín',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Gửi thư tín'
 );
 
 ?>

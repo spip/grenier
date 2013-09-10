@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => '数据库问题,您的消息未能保存.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => '管理员论坛',
 	'icone_forum_suivi' => '跟踪论坛',
 	'icone_publier_breve' => '发表简要',
@@ -40,7 +38,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => '修改新闻:',
 	'info_nombre_breves' => '@nb_breves@ 新闻,',
 	'info_option_ne_pas_faire_suivre' => '不要转寄论坛消息',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => '备份文章',
 	'info_sauvegarde_articles_sites_ref' => '备份引用站点的文章',
 	'info_sauvegarde_auteurs' => '备份作者',
@@ -54,7 +51,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => '备份请求',
 	'info_sauvegarde_refers' => '备份参考',
 	'info_sauvegarde_reussi_01' => '备份成功.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => '备份专栏',
 	'info_sauvegarde_signatures' => '备份请求签名',
 	'info_sauvegarde_sites_references' => '备份引用站点',
@@ -68,21 +64,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => '管理文章的公共论坛',
 	'lien_reponse_breve' => '回应新闻',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => '你可以选择保存文件为压缩格式, to 
  为加速传输你的机器或你的服务器,保留磁盘空间.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => '备份将在未压缩文件 @fichier@.', # MODIF
 	'titre_nouvelle_breve' => '新新闻',
 	'titre_page_breves_edit' => '修改新闻: «@titre@»',
 	'titre_page_forum' => '管理论坛',
-	'titre_page_forum_envoi' => '发送消息',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => '发送消息'
 );
 
 ?>

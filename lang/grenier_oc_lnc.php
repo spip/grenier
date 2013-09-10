@@ -36,7 +36,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Modificar la brèva:',
 	'info_nombre_breves' => '@nb_breves@ brèvas, ',
 	'info_option_ne_pas_faire_suivre' => 'Far pas seguir los messatges dels forums',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Salvagardar los articles',
 	'info_sauvegarde_articles_sites_ref' => 'Salvagardar los articles dels sits referenciats',
 	'info_sauvegarde_auteurs' => 'Salvagardar los autors',
@@ -50,7 +49,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Salvagardar las peticions',
 	'info_sauvegarde_refers' => 'Salvagardar los referidors',
 	'info_sauvegarde_reussi_01' => 'Salvagarda capitada.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Salvagardar las rubricas',
 	'info_sauvegarde_signatures' => 'Salvagardar las signaturas de peticions',
 	'info_sauvegarde_sites_references' => 'Salvagardar los sits referenciats',
@@ -66,19 +64,16 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionar la basa actuala e lo salvament',
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
 	'sauvegarde_url_origine' => 'Eventualament, URL del sit d\'origina :',
 
 	// T
 	'texte_admin_tech_03' => 'Podètz causir de salvagardar lo fichièr jos forma comprimida, per tal
  d\'abrivar son transferiment en cò vòstre o a un servidor de salvagardas, e per tal d\'estalviar d\'espaci disc.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'La salvagarda se farà dins lo fichièr non comprimit @fichier@.',
 	'titre_nouvelle_breve' => 'Brèva novèla',
 	'titre_page_breves_edit' => 'Modificar la brèva: «@titre@»',
 	'titre_page_forum' => 'Forum pels administrators',
-	'titre_page_forum_envoi' => 'Mandar un messatge',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Mandar un messatge'
 );
 
 ?>

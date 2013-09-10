@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'データベースの問題、あなたのメッセージを記録することが出来ませんでした。',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => '管理者用の掲示板',
 	'icone_forum_suivi' => '掲示板の続報',
 	'icone_publier_breve' => 'このニュースを掲げる',
@@ -39,7 +37,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => '修正するニュース:',
 	'info_nombre_breves' => '@nb_breves@ ニュース、',
 	'info_option_ne_pas_faire_suivre' => '前の掲示板のメッセージを送らない',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => '記事類をバックアップ',
 	'info_sauvegarde_articles_sites_ref' => '参照されたサイトの記事をバックアップ',
 	'info_sauvegarde_auteurs' => '著者達をバックアップ',
@@ -53,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => '署名類のバックアップ',
 	'info_sauvegarde_refers' => '参照類のバックアップ',
 	'info_sauvegarde_reussi_01' => 'バックアップは成功しました。',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'セクション類をバックアップ',
 	'info_sauvegarde_signatures' => '署名機能の署名類をバックアップ',
 	'info_sauvegarde_sites_references' => '参照されたサイト類をバックアップ',
@@ -67,20 +63,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'この記事の公開掲示板を管理',
 	'lien_reponse_breve' => 'ニュースに返信',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'ファイルを圧縮して保存するか未圧縮で保存するか決められます。圧縮すると、あなたのマシンかバックアップサーバーへの転送は早くなり、大きさが若干小さくなります。',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => '@fichier@ に圧縮してない状態でバックアップされます。',
 	'titre_nouvelle_breve' => '新しいニュース',
 	'titre_page_breves_edit' => 'ニュースの変更: «@titre@»',
 	'titre_page_forum' => '管理者用の掲示板',
-	'titre_page_forum_envoi' => 'メッセージを送る',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'メッセージを送る'
 );
 
 ?>

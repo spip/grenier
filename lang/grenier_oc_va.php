@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Problèma de basa de donaas, vòstre messatge s\'es pas registrat.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => 'Forum dels administrators',
 	'icone_forum_suivi' => 'Seguit dels forums',
 	'icone_publier_breve' => 'Publicar aquela brèva',
@@ -36,7 +34,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Modificar la brèva:',
 	'info_nombre_breves' => '@nb_breves@ brèvas, ',
 	'info_option_ne_pas_faire_suivre' => 'Pas far sègre los messatges dels forums',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sauvagardar los articles',
 	'info_sauvegarde_articles_sites_ref' => 'Sauvagardar los articles dels sits referenciats',
 	'info_sauvegarde_auteurs' => 'Sauvagardar los autors',
@@ -50,7 +47,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Sauvagardar las peticions',
 	'info_sauvegarde_refers' => 'Sauvagardar los referiors',
 	'info_sauvegarde_reussi_01' => 'Sauvagarda abotia.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Sauvagardar las rubricas',
 	'info_sauvegarde_signatures' => 'Sauvagardar las signaturas de peticions',
 	'info_sauvegarde_sites_references' => 'Sauvagardar los sits referenciats',
@@ -64,21 +60,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'Gerir lo forum public d\'aquel article',
 	'lien_reponse_breve' => 'Respònsa a la brèva',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'Poètz chausir de sauvagardar lo fichier sos forma comprimia, a fin
  d\'abrivar son transferiment vèrs vos o en cò d\'un servior de sauvagardas, e a fin d\'esparnhar d\'espaci disc.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'La sauvagarda se farà dins lo fichier non comprimit @fichier@.',
 	'titre_nouvelle_breve' => 'Brèva novèla',
 	'titre_page_breves_edit' => 'Modificar la brèva: «@titre@»',
 	'titre_page_forum' => 'Forum per los administrators',
-	'titre_page_forum_envoi' => 'Mandar un messatge',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Mandar un messatge'
 );
 
 ?>

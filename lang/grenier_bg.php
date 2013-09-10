@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Проблем с базата данни: съобщението Ви не бе запаметено.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => 'Форум на администраторите',
 	'icone_forum_suivi' => 'Допълнения във форумите',
 	'icone_publier_breve' => 'Публикуване на новината',
@@ -40,7 +38,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Промяна настройките на новините:',
 	'info_nombre_breves' => '@nb_breves@ новини,',
 	'info_option_ne_pas_faire_suivre' => 'Без препращане на съобщения от форума',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Архивиране на статиите',
 	'info_sauvegarde_articles_sites_ref' => 'Архивиране на статии от сайтове с препратки',
 	'info_sauvegarde_auteurs' => 'Архив на авторите',
@@ -54,7 +51,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Архив на молбите',
 	'info_sauvegarde_refers' => 'Архивиране на референтите',
 	'info_sauvegarde_reussi_01' => 'Архивирането завърши успешно.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Архив на рубриките',
 	'info_sauvegarde_signatures' => 'Архив на заявените молби',
 	'info_sauvegarde_sites_references' => 'Архивиране на свързани сайтове',
@@ -68,21 +64,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'Управление на публичния форум към статията',
 	'lien_reponse_breve' => 'Отговор на новината',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'За да спестите дисково пространство можете да изберете или
  да съхраните файла в компресиран вид, или да засилите трансфера му до Вашата машина или до архивен сървър.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Архивът ще бъде запазен в некомресираният файл @fichier@.',
 	'titre_nouvelle_breve' => 'Новина',
 	'titre_page_breves_edit' => 'Промяна на новината: "@titre@"',
 	'titre_page_forum' => 'Форум на администраторите',
-	'titre_page_forum_envoi' => 'Изпращане на съобщение',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Изпращане на съобщение'
 );
 
 ?>

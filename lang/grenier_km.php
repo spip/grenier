@@ -50,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'បង្កើតច្បាប់ចំលង បណ្តឹងជំទាស់ទាំងឡាយ',
 	'info_sauvegarde_refers' => 'បង្កើតច្បាប់ចំលង ឧបករយោងទាំងឡាយ',
 	'info_sauvegarde_reussi_01' => 'ការបង្កើតច្បាប់ចំលង បានជោគជ័យ។',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'បង្កើតច្បាប់ចំលង ផ្នែកទាំងឡាយ',
 	'info_sauvegarde_signatures' => 'បង្កើតច្បាប់ចំលង ហត្ថលេខាទាំងឡាយ នៃបណ្តឹងជំទាស់',
 	'info_sauvegarde_sites_references' => 'បង្កើតច្បាប់ចំលង សៃថ៍យោងទាំងឡាយ',
@@ -66,18 +65,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// S
 	'sauvegarde_fusionner' => 'ប​ញ្ជូ​ល​សំណុំ​ទិន្នន័យ​ថ្មីៗ​ជាមួយនឹង​ទិន្នន័យ​ថត​ទុក',
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
 	'sauvegarde_url_origine' => 'ទោះយ៉ាងណា, អាសយដ្ឋាន URL នៃសៃថ៍ប្រភព៖',
 
 	// T
 	'texte_admin_tech_03' => 'លោក​អ្នក​អាច​ជ្រើសរើស​រក្សា​ទុក​ហ្វា​ល​ដែល​មាន​ទម្រង់​បន្ថែ​ន​រួច ដើម្បី​ព​ន្លឿ​ន​ការ​ផ្ទេរ​របស់​វា​ទៅ​ម៉ាស៊ីន​របស់​លោក​អ្នក ឬ​ទៅ​ម៉ាស៊ីន​មេ​រក្សា​ទុក និង​ដើម្បី​រក្សា​បាន​នូវ​ថាស​ឌី​ស​ខ្លះៗ​។',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'ឯកសារ​ដែល​បាន​ថត​ទុក​នឹង​ត្រូវ​រក្សា​ទុក​នៅ​ក្នុង​ហ្វា​ល​ដែល​មិន​ប​ណ្ដែ​ន (uncompressed file) @fichier@',
 	'titre_nouvelle_breve' => 'ខ្ទង់ថ្មី នៃដំណឹង',
 	'titre_page_breves_edit' => 'កែប្រែ ពត៌មានខ្លី ៖ «@titre@»',
 	'titre_page_forum' => 'វេទិកា​អ្នកគ្រប់គ្រង​ប្រព័ន្ធ',
-	'titre_page_forum_envoi' => 'ផ្ញើ​សារ',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'ផ្ញើ​សារ'
 );
 
 ?>

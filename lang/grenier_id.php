@@ -17,7 +17,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// I
 	'ical_lien_rss_breves' => 'Sindikasi artikel berita situs',
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => 'Forum administrator',
 	'icone_forum_suivi' => 'Tindak lanjut forum',
 	'icone_publier_breve' => 'Publikasi artikel berita ini',
@@ -40,7 +39,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Modifikasi artikel berita:',
 	'info_nombre_breves' => '@nb_breves@ artikel berita,',
 	'info_option_ne_pas_faire_suivre' => 'Jangan teruskan pesan forum',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Backup artikel',
 	'info_sauvegarde_articles_sites_ref' => 'Backup artikel-artikel dari situs-situs referensi',
 	'info_sauvegarde_auteurs' => 'Backup penulis',
@@ -54,7 +52,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Backup petisi',
 	'info_sauvegarde_refers' => 'Backup pereferensi',
 	'info_sauvegarde_reussi_01' => 'Backup berhasil.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Backup Bagian',
 	'info_sauvegarde_signatures' => 'Backup tanda tangan petisi',
 	'info_sauvegarde_sites_references' => 'Backup situs-situs referensi',
@@ -70,19 +67,16 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// S
 	'sauvegarde_fusionner' => 'Gabung database sekarang dengan backup',
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
 	'sauvegarde_url_origine' => 'Jika diperlukan, URL situs sumber:',
 
 	// T
 	'texte_admin_tech_03' => 'Anda dapat memilih untuk menyimpan berkas dalam bentuk kompresi 
 	untuk mempercepat tranfer ke mesin anda atau server backup dan menyimpan sejumlah ruangan di disk.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Backup akan disimpan dalam berkas tidak terkompresi @fichier@.',
 	'titre_nouvelle_breve' => 'Artikel berita baru',
 	'titre_page_breves_edit' => 'Modifikasi artikel berita: «@titre@»',
 	'titre_page_forum' => 'Forum administrator',
-	'titre_page_forum_envoi' => 'Kirim sebuah pesan',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Kirim sebuah pesan'
 );
 
 ?>

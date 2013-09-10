@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Problema de base de dados, a sua mensagem não foi registada.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => 'Fórum dos administradores',
 	'icone_forum_suivi' => 'Seguimento dos fóruns',
 	'icone_publier_breve' => 'Publicar esta notícia',
@@ -40,7 +38,6 @@ entre os participantes do sítio. Pode activar ou
 	'info_modifier_breve' => 'Modificar a notícia :',
 	'info_nombre_breves' => '@nb_breves@ notícias,',
 	'info_option_ne_pas_faire_suivre' => 'Não fazer seguir as mensagens dos fóruns',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Salvaguardar os artigos',
 	'info_sauvegarde_articles_sites_ref' => 'Salvaguardar os artigos dos sítios referenciados',
 	'info_sauvegarde_auteurs' => 'Salvaguardar os autores',
@@ -54,7 +51,6 @@ entre os participantes do sítio. Pode activar ou
 	'info_sauvegarde_petitions' => 'Salvaguardar os abaixo-assinados',
 	'info_sauvegarde_refers' => 'Salvaguardar os referers',
 	'info_sauvegarde_reussi_01' => 'Salvaguarda bem sucedida',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Salvaguardar as rubricas',
 	'info_sauvegarde_signatures' => 'Salvaguardar as assinaturas de abaixo-assinados',
 	'info_sauvegarde_sites_references' => 'Salvaguardar os sítios referenciados',
@@ -68,21 +64,14 @@ entre os participantes do sítio. Pode activar ou
 	'lien_forum_public' => 'Gerir o fórum público deste artigo',
 	'lien_reponse_breve' => 'Resposta à notícia',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'Pode escolher a salvaguarda do ficheiro sob a forma comprimida, para
 encurtar a sua transferência para o seu computador ou para um servidor de salvaguarda e poupar o espaço do disco.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'A salvaguarda far-se-á no ficheiro não comprimido @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Nova notícia',
 	'titre_page_breves_edit' => 'Modificar a notícia : « @titre@ »',
 	'titre_page_forum' => 'Fórum dos administradores',
-	'titre_page_forum_envoi' => 'Enviar uma mensagem',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Enviar uma mensagem'
 );
 
 ?>

@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'gbètákɛnxòkplé ɔ gbàfɔ, yè sìwú wlí wɛn mì tɔn hɛn á',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => 'kpékpé gán lɛ tɔn',
 	'icone_forum_suivi' => 'àgun cícɔ',
 	'icone_publier_breve' => 'sɔ xó kléwún é lɔ ɖó àtɛ',
@@ -36,7 +34,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'ɖyɔ xó kléwún ɔ:',
 	'info_nombre_breves' => '@nb_breves@ xó kléwún,',
 	'info_option_ne_pas_faire_suivre' => 'Mi mà nɔ kpɔn wɛn lɛ ɖò kplékplé ɔ mɛ wó',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Wlí  Wékpá lɛ  hɛn',
 	'info_sauvegarde_articles_sites_ref' => 'Mi Wlí  Wékpá lɛ ɖê sɔ kɛn nâ hɛn',
 	'info_sauvegarde_auteurs' => 'Wlí nyɔwlántɔ lɛ hɛn',
@@ -50,7 +47,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Mi wlí xójíjlá lɛ hɛn',
 	'info_sauvegarde_refers' => 'Mi wlí referers lɛ hɛn',
 	'info_sauvegarde_reussi_01' => 'Wlíhɛn nyɔ.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Mi wlí àkpáxwé lɛ hɛn',
 	'info_sauvegarde_signatures' => 'Mi wlí àlɔɖówěmá kpó xójíjlá lɛ hɛn',
 	'info_sauvegarde_sites_references' => 'Mi wlí gblogblojí yé ɖèkúnú ná  lɛ hɛn',
@@ -64,20 +60,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'mi tò mɛ ɖò kplékplé mɛ ɔ lɛ',
 	'lien_reponse_breve' => 'yígbjè nú xó kléwún é lɔ',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'mi ná sɔ mɔ àlì gégé.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'mi ná wlíhɛn ɖò gbètá ɔ mɛ@fichier@.',
 	'titre_nouvelle_breve' => 'xó kléwún lɛ',
 	'titre_page_breves_edit' => 'ɖyɔ xó kléwún lɛ : « @titre@ »',
 	'titre_page_forum' => 'tìtòtɔ lɛ sín kplékplé',
-	'titre_page_forum_envoi' => 'sɛ wɛn dó',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'sɛ wɛn dó'
 );
 
 ?>

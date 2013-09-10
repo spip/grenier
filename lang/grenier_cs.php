@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Kvůli problémům s databází nebylo možné vaši zprávu zaznamenat.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication of the site\'s news items', # NEW
-	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item', # NEW
 	'icone_forum_administrateur' => 'Diskusní skupina správců',
 	'icone_forum_suivi' => 'Navazující zprávy diskusní skupiny',
 	'icone_publier_breve' => 'Zveřejnit novinku',
@@ -40,7 +38,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Změnit novinku:',
 	'info_nombre_breves' => '@nb_breves@ novinky,',
 	'info_option_ne_pas_faire_suivre' => 'Nesledovat zprávy z diskusní skupiny',
-	'info_restauration_sauvegarde_insert' => 'Inserting @archive@ in the database', # NEW
 	'info_sauvegarde_articles' => 'Uložit články',
 	'info_sauvegarde_articles_sites_ref' => 'Uložit články z webu, na který vede odkaz',
 	'info_sauvegarde_auteurs' => 'Uložit autory',
@@ -54,7 +51,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Uložit petice',
 	'info_sauvegarde_refers' => 'Uložit osoby, které zadali odkazy',
 	'info_sauvegarde_reussi_01' => 'Uložení proběhlo úspěšně.',
-	'info_sauvegarde_rubrique_reussi' => 'The tables of the @titre@ section have been saved to @archive@. You can', # NEW
 	'info_sauvegarde_rubriques' => 'Uložit sekce',
 	'info_sauvegarde_signatures' => 'Uložit podpisy pod peticemi',
 	'info_sauvegarde_sites_references' => 'Uložit weby na něž vedou odkazy',
@@ -68,21 +64,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'Správa veřejné diskusní skupiny k tomuto článku',
 	'lien_reponse_breve' => 'Odpověď na novinku',
 
-	// S
-	'sauvegarde_fusionner' => 'Merge the current database with the backup', # NEW
-	'sauvegarde_fusionner_depublier' => 'Unpublish the merged objects', # NEW
-	'sauvegarde_url_origine' => 'If necessary, the URL of the source site:', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'Můžete se rozhodnout o uložení komprimovaného souboru. Tím zkrátíte
  dobu potřebnou k jeho přenosu u vás nebo na serveru kde máte zálohy a ušetříte místo na disku.',
-	'texte_admin_tech_04' => 'In order to merge with another database, you can restrict the backup to one section: ', # NEW
 	'texte_sauvegarde_compressee' => 'Záloha bude uložena do nekomprimovaného souboru @fichier@.',
 	'titre_nouvelle_breve' => 'Nová novinka',
 	'titre_page_breves_edit' => 'Změnit novinku: "@titre@"',
 	'titre_page_forum' => 'Diskusní skupina správců',
-	'titre_page_forum_envoi' => 'Odeslat zprávu',
-	'titre_page_statistiques_messages_forum' => 'Forum messages' # NEW
+	'titre_page_forum_envoi' => 'Odeslat zprávu'
 );
 
 ?>

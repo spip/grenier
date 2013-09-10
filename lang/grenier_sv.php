@@ -54,7 +54,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Säkerhetskopiera namninsamlingarna',
 	'info_sauvegarde_refers' => 'Säkerhetskopiera länkarna',
 	'info_sauvegarde_reussi_01' => 'Säkerhetskopieringen lyckades.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Säkerhetskopiera avdelningarna',
 	'info_sauvegarde_signatures' => 'Säkerhetskopiera namininsamlingarnas underskrifter',
 	'info_sauvegarde_sites_references' => 'säkerhetskopiera länkade sajter',
@@ -68,21 +67,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'Hantera den här artikelns publika forum',
 	'lien_reponse_breve' => 'Skriv ett svar på nyheten',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'Du kan välja att spara filen i komprimerad form för att 
  snabba upp överföringen till din dator eller till en backupserver och spara lite diskutrymme.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Säkerhetskopian kommer att sparas okomprimerad i filen @fichier@.',
 	'titre_nouvelle_breve' => 'Ny nyhet',
 	'titre_page_breves_edit' => 'Editera nyheten: «@titre@»',
 	'titre_page_forum' => 'Administratörernas forum',
-	'titre_page_forum_envoi' => 'Sänd ett meddelande',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Sänd ett meddelande'
 );
 
 ?>

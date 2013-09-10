@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Problem sa bazom podataka, Vasa poruka nije registrovana.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => 'Forum administratora',
 	'icone_forum_suivi' => 'Pracenje foruma',
 	'icone_publier_breve' => 'Objavi ovu kratku poruku',
@@ -36,7 +34,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Izmijeni kratku poruku:',
 	'info_nombre_breves' => '@nb_breves@ kratke poruke,',
 	'info_option_ne_pas_faire_suivre' => 'Onemoguci prosljedjivanje poruka na forumima',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Backup clanaka',
 	'info_sauvegarde_articles_sites_ref' => 'Backup clanaka preporucenih stranica',
 	'info_sauvegarde_auteurs' => 'Backup autora',
@@ -50,7 +47,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Backup peticija',
 	'info_sauvegarde_refers' => 'Backup refera',
 	'info_sauvegarde_reussi_01' => 'Backup uspijeo.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Backup rubrika',
 	'info_sauvegarde_signatures' => 'Backup potpisa peticija',
 	'info_sauvegarde_sites_references' => 'Backup preporucenih stranica',
@@ -64,20 +60,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'Uredi javni forum ovog clanka',
 	'lien_reponse_breve' => 'Odgovori na kratku poruku',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'Mozete izabrati pohranjivanje dokumenta u kompresovanoj formi, da bi ste skratili transfer kod vas ili nekog servera za pohranjivanje i da bi ste smanjili prostor na maticnoj ploci. ',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Pohranjivanje ce se izvrsiti u nekompresovanom dokumentu @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Nova kratka poruka',
 	'titre_page_breves_edit' => 'Izmijeni kratku poruku: «  @titre@ »',
 	'titre_page_forum' => 'Forum administratora',
-	'titre_page_forum_envoi' => 'Posalji poruku',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Posalji poruku'
 );
 
 ?>

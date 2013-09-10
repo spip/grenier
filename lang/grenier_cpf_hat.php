@@ -16,8 +16,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Pwoblèm ak bazdone, mesaj ou te pa enskri.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # NEW
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
 	'icone_forum_administrateur' => 'Fowom pou komandè yo',
 	'icone_forum_suivi' => 'Swiv tout fowom yo',
 	'icone_publier_breve' => 'Pibliye tinouvèl',
@@ -39,7 +37,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_modifier_breve' => 'Chanje tinouvèl-la :',
 	'info_nombre_breves' => '@nb_breves@ tinouvèl (yo),',
 	'info_option_ne_pas_faire_suivre' => 'Voye pa mesaj fowom yo ',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
 	'info_sauvegarde_articles' => 'Sòvgade atik yo',
 	'info_sauvegarde_articles_sites_ref' => 'Sòvgade atik yo ki nan sit referansé yo',
 	'info_sauvegarde_auteurs' => 'Sòvgade lotè yo ',
@@ -53,7 +50,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Sòvgade petisyon yo ',
 	'info_sauvegarde_refers' => 'Sòvgade rèfèrè yo ',
 	'info_sauvegarde_reussi_01' => 'Sòvgad-la te mache',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Sòvgade ribrik yo ',
 	'info_sauvegarde_signatures' => 'Sòvgade tout siyati nan petisyon yo ',
 	'info_sauvegarde_sites_references' => 'Sòvgade sit referansé yo',
@@ -67,21 +63,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_forum_public' => 'Zèr fowom piblik atik la',
 	'lien_reponse_breve' => 'Réponn tinouvèl-la',
 
-	// S
-	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde', # NEW
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :', # NEW
-
 	// T
 	'texte_admin_tech_03' => 'Ou kapab chwazi sòvgad fichye-a nan fòm koprésé, pou rann transfè ali taptap
  sou machin a w osnon yon sèvè pou lasòvgad è pou gad swen pa depanse tro lespas diks lòdinatè.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Sovgad ke pou fè nan yon fichye pa koprésé sa-a, ki rele @fichier@.', # MODIF
 	'titre_nouvelle_breve' => 'Nouvo tinouvèl',
 	'titre_page_breves_edit' => 'Chanje tinouvèl-la : « @titre@ »',
 	'titre_page_forum' => 'Fowom komandè yo',
-	'titre_page_forum_envoi' => 'Voye yon mesaj',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Voye yon mesaj'
 );
 
 ?>
