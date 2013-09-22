@@ -13,7 +13,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sos @fichier@',
 
 	// F
-	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s\'es pas registrat.',
+	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s’es pas registrat.',
 
 	// I
 	'icone_forum_administrateur' => 'Forum daus administrators',
@@ -25,12 +25,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Las brèvas liadas a aquel mot clau',
 	'info_breves_touvees' => 'Brèvas trobadas',
 	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dins lo tèxt)',
-	'info_echange_message' => 'SPIP permet d\'eschamjar de messatges e de constituir de forums privats de discussion entre los participants dau sit. Podètz activar o desactivar aquela foncionalitat.',
+	'info_echange_message' => 'SPIP permet d’eschamjar de messatges e de constituir de forums privats de discussion entre los participants dau sit. Podètz activar o desactivar aquela foncionalitat.',
 	'info_erreur_restauration' => 'Error de restauracion: fichèir inexistent.',
 	'info_forum_administrateur' => 'forum daus administrators',
 	'info_forum_interne' => 'forum intèrne',
-	'info_forum_ouvert' => 'Dins l\'espaci privat dau sit, un forum es bade vèrs totes los redactors registrats. Podètz, çai sos, activar un forum suplementari, reservat mas aus administrators.',
-	'info_gauche_suivi_forum' => 'La pagina de <i>segut daus forums</i> es un espleit de gestion de vòstre sit (mas z-es pas un espaci per discutir o per redigir). Aficha totas las contribucions dau forum public d\'aquel article e vos permet de gerir aquelas contribucions.',
+	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un forum es bade vèrs totes los redactors registrats. Podètz, çai sos, activar un forum suplementari, reservat mas aus administrators.',
+	'info_gauche_suivi_forum' => 'La pagina de <i>segut daus forums</i> es un espleit de gestion de vòstre sit (mas z-es pas un espaci per discutir o per redigir). Aficha totas las contribucions dau forum public d’aquel article e vos permet de gerir aquelas contribucions.',
 	'info_modifier_breve' => 'Modificar la brèva:',
 	'info_nombre_breves' => '@nb_breves@ brèvas, ',
 	'info_option_ne_pas_faire_suivre' => 'Pas far sègre los messatges daus forums',
@@ -57,12 +57,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Brèva nuòva',
 
 	// L
-	'lien_forum_public' => 'Gerir lo forum public d\'aquel article',
+	'lien_forum_public' => 'Gerir lo forum public d’aquel article',
 	'lien_reponse_breve' => 'Responsa a la brèva',
 
 	// T
 	'texte_admin_tech_03' => 'Podètz chausir de sauvagardar lo fichèir sos forma comprimida, a fin
- d\'abrivar son transferiment chas vos o chas un servidor de sauvagardas, e a fin d\'estaujar d\'espaci disc.',
+ d’abrivar son transferiment chas vos o chas un servidor de sauvagardas, e a fin d’estaujar d’espaci disc.',
 	'texte_sauvegarde_compressee' => 'La sauvagarda se fará dins lo fichèir non comprimit @fichier@.',
 	'titre_nouvelle_breve' => 'Brèva novèla',
 	'titre_page_breves_edit' => 'Modificar la brèva: «@titre@»',

@@ -71,7 +71,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// S
 	'sauvegarde_fusionner' => 'Mevcut veritabanı ile yedeği birleştir',
 	'sauvegarde_fusionner_depublier' => 'Birleştirilmiş nesneleri yayınlama',
-	'sauvegarde_url_origine' => 'Kaynak sitenin URL\'si :',
+	'sauvegarde_url_origine' => 'Kaynak sitenin URL’si :',
 
 	// T
 	'texte_admin_tech_03' => 'Sizin sunucunuza ya da bir yedekleme sunucusuna transferini hızlandırmak,

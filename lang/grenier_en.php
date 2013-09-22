@@ -18,7 +18,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// I
 	'ical_lien_rss_breves' => 'Syndication of site news items',
 	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
-	'icone_forum_administrateur' => 'Administrators\' forum',
+	'icone_forum_administrateur' => 'Administrators’ forum',
 	'icone_forum_suivi' => 'Manage forums',
 	'icone_publier_breve' => 'Publish this news item',
 	'icone_refuser_breve' => 'Reject this news item',
@@ -31,10 +31,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
   discussion forums for site members. You can enable or
   disable this feature.',
 	'info_erreur_restauration' => 'Restoration error: file not found.',
-	'info_forum_administrateur' => 'administrators\' forum',
+	'info_forum_administrateur' => 'administrators’ forum',
 	'info_forum_interne' => 'internal forum',
 	'info_forum_ouvert' => 'A forum is available to all
-  registered editors in the site\'s private area. You can enable an
+  registered editors in the site’s private area. You can enable an
   extra forum reserved for the administrators here.',
 	'info_gauche_suivi_forum' => 'The <i>forum management</i> page is a site management tool (not a discussion or editing area). It displays all the contributions to the public forum of this article and allows you to manage these contributions.',
 	'info_modifier_breve' => 'Modify the news item:',

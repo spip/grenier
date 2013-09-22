@@ -18,7 +18,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// I
 	'ical_lien_rss_breves' => 'Sindicación de les breves del sitiu',
 	'icone_creer_mot_cle_breve' => 'Crear una nueva pallabra-clave y lligala con esta breve',
-	'icone_forum_administrateur' => 'Foru d\'alministradores',
+	'icone_forum_administrateur' => 'Foru d’alministradores',
 	'icone_forum_suivi' => 'Siguimientu de los foros',
 	'icone_publier_breve' => 'Espublizar esta breve',
 	'icone_refuser_breve' => 'Refugar esta breve',
@@ -27,7 +27,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Les breves lligáes con esta pallabra-clave',
 	'info_breves_touvees' => 'Breves alcontráes',
 	'info_breves_touvees_dans_texte' => 'Breves alcontráes (nel testu)',
-	'info_echange_message' => 'SPIP permite l\'intercambéu de mensaxes y la creación de foros de discutiniu
+	'info_echange_message' => 'SPIP permite l’intercambéu de mensaxes y la creación de foros de discutiniu
   privaos ente los participantes nel sitiu. Pues activar o
   desactivar esta carauterística.',
 	'info_erreur_restauration' => 'Error na restauración: archivu inesistente.',
@@ -36,7 +36,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_forum_ouvert' => 'Nel espaciu priváu del sitiu, hai un foru abiertu a tolos
   redactores rexistráos. Equí embaxo puedes activar un
   foru suplementariu, acutáu sólo pa los alministradores.',
-	'info_gauche_suivi_forum' => 'La páxina de <i>siguimientu de los foros</i> ye una ferramienta de xestión del sitiu Web (y non un espaciu pal discutiniu o la redaición). Amuesa toles contribuciones del foru públicu d\'esti artículu y te permite remanar eses contribuciones.',
+	'info_gauche_suivi_forum' => 'La páxina de <i>siguimientu de los foros</i> ye una ferramienta de xestión del sitiu Web (y non un espaciu pal discutiniu o la redaición). Amuesa toles contribuciones del foru públicu d’esti artículu y te permite remanar eses contribuciones.',
 	'info_modifier_breve' => 'Modificar la breve:',
 	'info_nombre_breves' => '@nb_breves@ noticies breves,',
 	'info_option_ne_pas_faire_suivre' => 'Nun mandar copia de los mensaxes de los foros',
@@ -65,17 +65,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Breve nueva',
 
 	// L
-	'lien_forum_public' => 'Xestionar el foru públicu d\'esti artículu',
+	'lien_forum_public' => 'Xestionar el foru públicu d’esti artículu',
 	'lien_reponse_breve' => 'Respuesta a la breve',
 
 	// S
 	'sauvegarde_fusionner' => 'Fusionar la base actual y la copia de seguridá',
 	'sauvegarde_fusionner_depublier' => 'Desespublizar los oxetos fusionaos',
-	'sauvegarde_url_origine' => 'Si ye\'l casu, URL del sitiu d\'orixe:',
+	'sauvegarde_url_origine' => 'Si ye’l casu, URL del sitiu d’orixe:',
 
 	// T
-	'texte_admin_tech_03' => 'Pues escoyer guardar l\'archivu en forma comprimida, col envís
- d\'amenorgar so tresferencia al to ordenador o a un sirvidor de copies de seguridá, y d\'aforrar l\'espaciu en discu.',
+	'texte_admin_tech_03' => 'Pues escoyer guardar l’archivu en forma comprimida, col envís
+ d’amenorgar so tresferencia al to ordenador o a un sirvidor de copies de seguridá, y d’aforrar l’espaciu en discu.',
 	'texte_admin_tech_04' => 'Si se quier facer una fusión con otra base, pues llendar la copia a la estaya: ',
 	'texte_sauvegarde_compressee' => 'La copia de seguridá va facese nel archivu non comprimíu @fichier@.',
 	'titre_nouvelle_breve' => 'Breve nueva',

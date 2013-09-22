@@ -13,7 +13,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sota @fichier@',
 
 	// F
-	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s\'es pas registrat.',
+	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s’es pas registrat.',
 
 	// I
 	'icone_forum_administrateur' => 'Forum deis administrators',
@@ -25,12 +25,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Lei brèvas liadas a aqueu mot clau',
 	'info_breves_touvees' => 'Brèvas trobadas',
 	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dins lo tèxt)',
-	'info_echange_message' => 'SPIP permet d\'escambiar de messatges e de constituir de forums privats de discussion entre lei participants dau sit. Podètz activar o desactivar aquela foncionalitat.',
+	'info_echange_message' => 'SPIP permet d’escambiar de messatges e de constituir de forums privats de discussion entre lei participants dau sit. Podètz activar o desactivar aquela foncionalitat.',
 	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.',
 	'info_forum_administrateur' => 'forum deis administrators',
 	'info_forum_interne' => 'forum intèrne',
-	'info_forum_ouvert' => 'Dins l\'espaci privat dau sit, un forum es dobèrt a totei lei redactors registrats. Podètz, çai sota, activar un forum suplementari, reservat ren qu\'ais administrators.',
-	'info_gauche_suivi_forum' => 'La pagina de <i>seguit dei forums</i> es una aisina de gestion dau vòstre sit (mai es pas un espaci per discutir o per redigir). Aficha totei lei contribucions dau forum public d\'aquel article e vos permet de gerir aquelei contribucions.',
+	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un forum es dobèrt a totei lei redactors registrats. Podètz, çai sota, activar un forum suplementari, reservat ren qu’ais administrators.',
+	'info_gauche_suivi_forum' => 'La pagina de <i>seguit dei forums</i> es una aisina de gestion dau vòstre sit (mai es pas un espaci per discutir o per redigir). Aficha totei lei contribucions dau forum public d’aquel article e vos permet de gerir aquelei contribucions.',
 	'info_modifier_breve' => 'Modificar la brèva:',
 	'info_nombre_breves' => '@nb_breves@ brèvas, ',
 	'info_option_ne_pas_faire_suivre' => 'Pas faire seguir lei messatges dei forums',
@@ -39,7 +39,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_auteurs' => 'Sauvagardar leis autors',
 	'info_sauvegarde_breves' => 'Sauvagardar lei brèvas',
 	'info_sauvegarde_documents' => 'Sauvagardar lei documents',
-	'info_sauvegarde_echouee' => 'Se la sauvagarda s\'es encalada(«Maximum execution time exceeded»),',
+	'info_sauvegarde_echouee' => 'Se la sauvagarda s’es encalada(«Maximum execution time exceeded»),',
 	'info_sauvegarde_forums' => 'Sauvagardar lei forums',
 	'info_sauvegarde_groupe_mots' => 'Sauvagardar lei grops de mots',
 	'info_sauvegarde_messages' => 'Sauvagardar lei messatges',
@@ -57,12 +57,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'Brèva nòva',
 
 	// L
-	'lien_forum_public' => 'Gerir lo forum public d\'aquel article',
+	'lien_forum_public' => 'Gerir lo forum public d’aquel article',
 	'lien_reponse_breve' => 'Respònsa a la brèva',
 
 	// T
 	'texte_admin_tech_03' => 'Podètz chausir de sauvagardar lo fichier sota forma comprimida, per fin
- d\'abrivar son transferiment au vòstre o a un servidor de sauvagardas, e per fin d\'esparnhar d\'espaci disc.',
+ d’abrivar son transferiment au vòstre o a un servidor de sauvagardas, e per fin d’esparnhar d’espaci disc.',
 	'texte_sauvegarde_compressee' => 'La sauvagarda se farà dins lo fichier non comprimit @fichier@.',
 	'titre_nouvelle_breve' => 'Brèva novèla',
 	'titre_page_breves_edit' => 'Modificar la brèva: «@titre@»',

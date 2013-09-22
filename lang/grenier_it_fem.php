@@ -32,10 +32,10 @@ privati tra i membri del sito. Puoi attivare o disattivare questa funzionalità.
 	'info_erreur_restauration' => 'Errore di ripristino: file inesistente.',
 	'info_forum_administrateur' => 'forum delle amministratrici',
 	'info_forum_interne' => 'forum interno',
-	'info_forum_ouvert' => 'Nell\'area riservata del sito, è disponibile un forum per
+	'info_forum_ouvert' => 'Nell’area riservata del sito, è disponibile un forum per
 tutte le redattrici registrate. È anche possibile attivare un
 secondo forum riservato alle sole amministratrici.',
-	'info_gauche_suivi_forum' => 'La pagina di <i>monitoraggio dei forum</i> è uno strumento di gestione del sito (e non uno spazio di discussione o di redazione). In essa sono pubblicati tutti i contributi del forum pubblico di quest\'articolo, permettendone la gestione.',
+	'info_gauche_suivi_forum' => 'La pagina di <i>monitoraggio dei forum</i> è uno strumento di gestione del sito (e non uno spazio di discussione o di redazione). In essa sono pubblicati tutti i contributi del forum pubblico di quest’articolo, permettendone la gestione.',
 	'info_modifier_breve' => 'Modifica la breve:',
 	'info_nombre_breves' => '@nb_breves@ brevi, ',
 	'info_option_ne_pas_faire_suivre' => 'Non segnalare i nuovi messaggi',
@@ -64,7 +64,7 @@ secondo forum riservato alle sole amministratrici.',
 	'item_nouvelle_breve' => 'Nuova breve',
 
 	// L
-	'lien_forum_public' => 'Gestisci il forum pubblico di quest\'articolo',
+	'lien_forum_public' => 'Gestisci il forum pubblico di quest’articolo',
 	'lien_reponse_breve' => 'Risposta alla breve',
 
 	// S

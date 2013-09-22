@@ -16,7 +16,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'D474b453 pr0b13m, y0ur m3554g3 c0u1d n07 b3 r3c0rd3d.',
 
 	// I
-	'icone_forum_administrateur' => '4dm1n157r470r5\' f0rum',
+	'icone_forum_administrateur' => '4dm1n157r470r5’ f0rum',
 	'icone_forum_suivi' => 'F0rum5 f0110w-up',
 	'icone_publier_breve' => 'Pub115h 7h15 n3w5 173m',
 	'icone_refuser_breve' => 'R3j3c7 7h15 n3w5 173m',
@@ -29,9 +29,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 		d15cu5510n f0rum5 b37w33n p4r71c1p4n75 70 7h3 5173. Y0u c4n 3n4b13 0r
 		d154b13 7h15 f347ur3.',
 	'info_erreur_restauration' => 'R3570r4710n 3rr0r: f113 n07 f0und.',
-	'info_forum_administrateur' => '4dm1n157r470r5\' f0rum',
+	'info_forum_administrateur' => '4dm1n157r470r5’ f0rum',
 	'info_forum_interne' => '1n73rn41 f0rum',
-	'info_forum_ouvert' => '1n 7h3 5173\'5 pr1v473 4r34, 4 f0rum 15 0p3n 70 411
+	'info_forum_ouvert' => '1n 7h3 5173’5 pr1v473 4r34, 4 f0rum 15 0p3n 70 411
 		r3g1573r3d 3d170r5. B310w, y0u c4n 3n4b13 4n
 		3x7r4 f0rum r353rv3d f0r 7h3 4dm1n157r470r5.',
 	'info_gauche_suivi_forum' => '7h3 <1>f0rum5 f0110w-up</1> p4g3 15 4 m4n4g3m3n7 7001 0f y0ur 5173 (n07 4 d15cu5510n 0r 3d171ng 4r34). 17 d15p14y5 411 7h3 c0n7r1bu710n5 0f 7h3 pub11c f0rum 0f 7h15 4r71c13 4nd 4110w5 y0u 70 m4n4g3 7h353 c0n7r1bu710n5.',
@@ -61,7 +61,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'item_nouvelle_breve' => 'N3w n3w5 173m',
 
 	// L
-	'lien_forum_public' => 'M4n4g3 7h15 4r71c13\'5 pub11c f0rum',
+	'lien_forum_public' => 'M4n4g3 7h15 4r71c13’5 pub11c f0rum',
 	'lien_reponse_breve' => 'R3p1y 70 7h3 n3w5 173m',
 
 	// T

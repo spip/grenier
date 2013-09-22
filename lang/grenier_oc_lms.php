@@ -13,7 +13,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sos @fichier@',
 
 	// F
-	'forum_probleme_database' => 'Problema de basa de donadas, vòstre messatge s\'es pas registrat.',
+	'forum_probleme_database' => 'Problema de basa de donadas, vòstre messatge s’es pas registrat.',
 
 	// I
 	'icone_forum_administrateur' => 'Forum daus administrators',
@@ -25,11 +25,11 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Las brevas liadas a queu mot clau',
 	'info_breves_touvees' => 'Brevas trobadas',
 	'info_breves_touvees_dans_texte' => 'Brevas trobadas (dins lo text)',
-	'info_echange_message' => 'SPIP permet d\'eschamjar daus messatges e de constituir daus forums privats de discussion entre los participants dau sit. Podetz activar o desactivar quela foncionalitat.',
+	'info_echange_message' => 'SPIP permet d’eschamjar daus messatges e de constituir daus forums privats de discussion entre los participants dau sit. Podetz activar o desactivar quela foncionalitat.',
 	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.',
 	'info_forum_administrateur' => 'forum daus administrators',
 	'info_forum_interne' => 'forum interne',
-	'info_forum_ouvert' => 'Dins l\'espaci privat dau sit, un forum es dobert a tots los redactors registrats. Podetz, çai sos, activar un forum suplementari, reservat nonmàs aus administrators.',
+	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un forum es dobert a tots los redactors registrats. Podetz, çai sos, activar un forum suplementari, reservat nonmàs aus administrators.',
 	'info_gauche_suivi_forum' => 'La pagina de <i>segut daus forums</i> es un esplech de gestion de vòstre sit (mas es pas un espaci per discutir o per redigir). Aficha totas las contribucions dau forum public de quel article e vos permet de gerir quelas contribucions.',
 	'info_modifier_breve' => 'Modificar la breva:',
 	'info_nombre_breves' => '@nb_breves@ brevas, ',
@@ -62,7 +62,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// T
 	'texte_admin_tech_03' => 'Podetz chausir de sauvagardar lo fichier sos forma comprimida, per fin
- d\'abrivar son transferiment chas vos o chas un servidor de sauvagardas, e per fin d\'eschivar de l\'espaci disc.',
+ d’abrivar son transferiment chas vos o chas un servidor de sauvagardas, e per fin d’eschivar de l’espaci disc.',
 	'texte_sauvegarde_compressee' => 'La sauvagarda se fará dins lo fichier non comprimit @fichier@.',
 	'titre_nouvelle_breve' => 'Breva novela',
 	'titre_page_breves_edit' => 'Modificar la breva: «@titre@»',

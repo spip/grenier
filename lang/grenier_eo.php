@@ -30,14 +30,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_echange_message' => 'SPIP ebligas interŝanĝon de mesaĝoj kaj la starigon de privataj diskutforumoj
  inter la partoprenantoj de la retejo. Vi povas aktivigi aŭ
  malaktivigi tiun funkcion.',
-	'info_erreur_restauration' => 'Restaŭro-eraro: neekzistanta dosiero.',
+	'info_erreur_restauration' => 'Restaŭro-eraro : neekzistanta dosiero.',
 	'info_forum_administrateur' => 'forumo de la mastrumantoj',
 	'info_forum_interne' => 'interna forumo',
 	'info_forum_ouvert' => 'En la privata spaco de la retejo, forumo estas malfermita al ĉiuj
   registritaj redaktantoj. Vi povas, ĉi-sube, aktivigi
   plian forumon, rezervitan nur al mastrumantoj.',
 	'info_gauche_suivi_forum' => 'La paĝo pri <i>superkontrolo de la forumoj</i> estas mastrumilo de via retejo (kaj ne diskutejo aŭ redaktejo). Ĝi afiŝas ĉiujn kontribuaĵojn de la publika forumo pri tiu artikolo, kaj ebligas al vi mastrumi tiujn kontribuaĵojn.',
-	'info_modifier_breve' => 'Modifi la fulm-informon:',
+	'info_modifier_breve' => 'Modifi la fulm-informon :',
 	'info_nombre_breves' => '@nb_breves@ fulm-informoj,',
 	'info_option_ne_pas_faire_suivre' => 'Ne plusendi la mesaĝojn de la forumoj',
 	'info_restauration_sauvegarde_insert' => 'Enigo de @archive@ en la datumbazon',
@@ -46,7 +46,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_auteurs' => 'Konservi la aŭtorojn',
 	'info_sauvegarde_breves' => 'Konservi la fulm-informojn',
 	'info_sauvegarde_documents' => 'Konservi la dokumentojn',
-	'info_sauvegarde_echouee' => 'Se la konservo malsukcesis («Maximum execution time exceeded»),',
+	'info_sauvegarde_echouee' => 'Se la konservo malsukcesis (« Maximum execution time exceeded »),',
 	'info_sauvegarde_forums' => 'Konservi la forumojn',
 	'info_sauvegarde_groupe_mots' => 'Konservi la vortogrupojn',
 	'info_sauvegarde_messages' => 'Konservi la mesaĝojn',
@@ -70,14 +70,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// S
 	'sauvegarde_fusionner' => 'Kunfandi la nunan bazon kaj la savkopion',
-	'sauvegarde_url_origine' => 'Eventuale, la retadreso de la origina retejo :',
+	'sauvegarde_url_origine' => 'Eventuale, la retadreso de la origina retejo :',
 
 	// T
 	'texte_admin_tech_03' => 'Vi povas elekti konservi la dosieron laŭ densigita formo, por
  rapidigi ties ŝuton hejmen aŭ al konservo-servilo, kaj por ŝpari diskospacon.',
 	'texte_sauvegarde_compressee' => 'La savkopio estos farita en la nedensigita dosiero @fichier@.',
 	'titre_nouvelle_breve' => 'Nova fulm-informo',
-	'titre_page_breves_edit' => 'Modifi la fulm-informon: « @titre@ »',
+	'titre_page_breves_edit' => 'Modifi la fulm-informon : « @titre@ »',
 	'titre_page_forum' => 'Forumo de la mastrumantoj',
 	'titre_page_forum_envoi' => 'Sendi mesaĝon',
 	'titre_page_statistiques_messages_forum' => 'Forumaj mesaĝoj'

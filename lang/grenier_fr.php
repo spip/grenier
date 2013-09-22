@@ -11,7 +11,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'sauvegarde non compressée sous @fichier@',
 
 	// F
-	'forum_probleme_database' => 'Problème de base de données, votre message n\'a pas été enregistré.',
+	'forum_probleme_database' => 'Problème de base de données, votre message n’a pas été enregistré.',
 
 	// I
 	'ical_lien_rss_breves' => 'Syndication des brèves du site',
@@ -25,17 +25,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_breves_liees_mot' => 'Les brèves liées à ce mot-clé',
 	'info_breves_touvees' => 'Brèves trouvées',
 	'info_breves_touvees_dans_texte' => 'Brèves trouvées (dans le texte)',
-	'info_echange_message' => 'SPIP permet l\'échange de messages et la constitution de forums de discussion
+	'info_echange_message' => 'SPIP permet l’échange de messages et la constitution de forums de discussion
 		privés entre les participants du site. Vous pouvez activer ou
 		désactiver cette fonctionnalité.',
-	'info_erreur_restauration' => 'Erreur de restauration : fichier inexistant.',
+	'info_erreur_restauration' => 'Erreur de restauration : fichier inexistant.',
 	'info_forum_administrateur' => 'forum des administrateurs',
 	'info_forum_interne' => 'forum interne',
-	'info_forum_ouvert' => 'Dans l\'espace privé du site, un forum est ouvert à tous
+	'info_forum_ouvert' => 'Dans l’espace privé du site, un forum est ouvert à tous
 		les rédacteurs enregistrés. Vous pouvez, ci-dessous, activer un
 		forum supplémentaire, réservé aux seuls administrateurs.',
 	'info_gauche_suivi_forum' => 'La page de <i>suivi des forums</i> est un outil de gestion de votre site (et non un espace de discussion ou de rédaction). Elle affiche toutes les contributions du forum public de cet article et vous permet de gérer ces contributions.',
-	'info_modifier_breve' => 'Modifier la brève :',
+	'info_modifier_breve' => 'Modifier la brève :',
 	'info_nombre_breves' => '@nb_breves@ brèves,',
 	'info_option_ne_pas_faire_suivre' => 'Ne pas faire suivre les messages des forums',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base',
@@ -44,7 +44,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_auteurs' => 'Sauvegarder les auteurs',
 	'info_sauvegarde_breves' => 'Sauvegarder les brèves',
 	'info_sauvegarde_documents' => 'Sauvegarder les documents',
-	'info_sauvegarde_echouee' => 'Si la sauvegarde a échoué («Maximum execution time exceeded»),',
+	'info_sauvegarde_echouee' => 'Si la sauvegarde a échoué (« Maximum execution time exceeded »),',
 	'info_sauvegarde_forums' => 'Sauvegarder les forums',
 	'info_sauvegarde_groupe_mots' => 'Sauvegarder les groupes de mots',
 	'info_sauvegarde_messages' => 'Sauvegarder les messages',
@@ -69,15 +69,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// S
 	'sauvegarde_fusionner' => 'Fusionner la base actuelle et la sauvegarde',
 	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés',
-	'sauvegarde_url_origine' => 'Eventuellement, URL du site d\'origine :',
+	'sauvegarde_url_origine' => 'Eventuellement, URL du site d’origine :',
 
 	// T
 	'texte_admin_tech_03' => 'Vous pouvez choisir de sauvegarder le fichier sous forme compressée, afin
-	d\'écourter son transfert chez vous ou sur un serveur de sauvegardes, et d\'économiser de l\'espace disque.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ',
+	d’écourter son transfert chez vous ou sur un serveur de sauvegardes, et d’économiser de l’espace disque.',
+	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique : ',
 	'texte_sauvegarde_compressee' => 'La sauvegarde sera faite dans le fichier non compressé @fichier@.',
 	'titre_nouvelle_breve' => 'Nouvelle brève',
-	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »',
+	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »',
 	'titre_page_forum' => 'Forum des administrateurs',
 	'titre_page_forum_envoi' => 'Envoyer un message',
 	'titre_page_statistiques_messages_forum' => 'Messages de forum'

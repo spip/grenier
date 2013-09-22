@@ -16,7 +16,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'forum_probleme_database' => 'Database problem, your message could not be recorded.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication of the site\'s news items',
+	'ical_lien_rss_breves' => 'Syndication of the site’s news items',
 	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
 	'icone_forum_administrateur' => 'Fórum administrátorov',
 	'icone_forum_suivi' => 'Sledovanie diskusných fór',
@@ -33,7 +33,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_erreur_restauration' => 'Chyba pri obnove: súbor sa nenašiel.',
 	'info_forum_administrateur' => 'diskusné fórum administrátorov',
 	'info_forum_interne' => 'interné diskusné fórum',
-	'info_forum_ouvert' => 'In the site\'s private area, a forum is open to all
+	'info_forum_ouvert' => 'In the site’s private area, a forum is open to all
 		registered editors. Below, you can enable an
 		extra forum reserved for the administrators.',
 	'info_gauche_suivi_forum' => 'Stránka na <i>sledovanie diskusných fór</i> je riadiaci nástroj vášho webu (nie zóna na diskusie alebo úpravy). Uvádza všetky príspevky verejného diskusného fóra k tomuto článku a umožňuje vám o týchto príspevkoch rozhodovať.',
