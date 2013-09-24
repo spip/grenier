@@ -36,7 +36,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_forum_ouvert' => 'Dentro do espazo privado do web, hai un foro aberto
   a toda os usuarios rexistrados. Aquí abaixo pode activar un foro
   complementar, reservado ao equipo de xestión.',
-	'info_gauche_suivi_forum' => 'A p&aacute;xina de <i>seguimento dos foros</i> &eeacute; unha ferramenta de xesti&oacute;n do web (e non un espazo de discusi&oacute;n ou de redacci&oacute;n). Mostra todas as contribuci&oacute;ns no foro p&uacute;blico deste artigo e permite xestionar estas contribuci&oacute;ns.',
+	'info_gauche_suivi_forum' => 'A páxina de <i>seguimento dos foros</i> &eeacute; unha ferramenta de xestión do web (e non un espazo de discusión ou de redacción). Mostra todas as contribucións no foro público deste artigo e permite xestionar estas contribucións.',
 	'info_modifier_breve' => 'Modificar a breve:',
 	'info_nombre_breves' => '@nb_breves@ breves,',
 	'info_option_ne_pas_faire_suivre' => 'Non enviar avisos das mensaxes dos foros',
