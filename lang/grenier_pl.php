@@ -9,37 +9,37 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM & OGŁOSZENIA', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'zapisz w postaci skompresowanej w @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'zapisz w postaci nieskompresowanej w @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'zapisz w postaci skompresowanej w @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'zapisz w postaci nieskompresowanej w @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problem z bazą danych, Twoja wiadomość nie mogła być zapisana.',
+	'forum_probleme_database' => 'Problem z bazą danych, Twoja wiadomość nie mogła być zapisana.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Zapisz się do RSS newsów',
-	'icone_creer_mot_cle_breve' => 'Utwórz nowe słowo kluczowe i połącz je z tym newsem',
-	'icone_forum_administrateur' => 'Forum administratorów',
-	'icone_forum_suivi' => 'Kontynuacja forum',
-	'icone_publier_breve' => 'Publikuj ten news',
-	'icone_refuser_breve' => 'Odrzuć ten news',
-	'info_base_restauration' => 'Trwa odtwarzanie bazy danych.',
-	'info_breves_03' => 'newsy',
-	'info_breves_liees_mot' => 'Newsy powiązane z tym słowem kluczowym',
-	'info_breves_touvees' => 'Newsy znalezione',
-	'info_breves_touvees_dans_texte' => 'Newsy znalezione (w tekście)',
+	'ical_lien_rss_breves' => 'Zapisz się do RSS newsów', # MODIF
+	'icone_creer_mot_cle_breve' => 'Utwórz nowe słowo kluczowe i połącz je z tym newsem', # MODIF
+	'icone_forum_administrateur' => 'Forum administratorów', # MODIF
+	'icone_forum_suivi' => 'Kontynuacja forum', # MODIF
+	'icone_publier_breve' => 'Publikuj ten news', # MODIF
+	'icone_refuser_breve' => 'Odrzuć ten news', # MODIF
+	'info_base_restauration' => 'Trwa odtwarzanie bazy danych.', # MODIF
+	'info_breves_03' => 'newsy', # MODIF
+	'info_breves_liees_mot' => 'Newsy powiązane z tym słowem kluczowym', # MODIF
+	'info_breves_touvees' => 'Newsy znalezione', # MODIF
+	'info_breves_touvees_dans_texte' => 'Newsy znalezione (w tekście)', # MODIF
 	'info_echange_message' => 'SPIP pozwala na wymianę wiadomości i utworzenie Forum dyskusyjnego
   prywatnie pomiędzy użytkownikami tej strony. Możesz włączyć lub wyłączyć
-  tę funkcję.',
-	'info_erreur_restauration' => 'Błąd odtwarzania : plik nie istnieje.',
-	'info_forum_administrateur' => 'forum administratorów',
-	'info_forum_interne' => 'forum wewnętrzne',
+  tę funkcję.', # MODIF
+	'info_erreur_restauration' => 'Błąd odtwarzania : plik nie istnieje.', # MODIF
+	'info_forum_administrateur' => 'forum administratorów', # MODIF
+	'info_forum_interne' => 'forum wewnętrzne', # MODIF
 	'info_forum_ouvert' => 'W strefie prywatnej, forum jest otwarte dla wszystkich
   zarejestrownych redaktorów. Możecie także aktywować
-  dodatkowe forum, zarezerwowane jedynie dla adminów.',
-	'info_gauche_suivi_forum' => 'Strona <i>obserwacji forum</i> jest narzędziem zarządzania stroną (nie, miejscem dyskusji czy redakcji). Wyświetla ona wszystkie komentarze do danego artykułu na forum publicznym i pozwala edytować owe komentarze.',
-	'info_modifier_breve' => 'Zmiana newsa:',
-	'info_nombre_breves' => '@nb_breves@ newsów,',
-	'info_option_ne_pas_faire_suivre' => 'Nie przesyłać wiadomości tego forum',
+  dodatkowe forum, zarezerwowane jedynie dla adminów.', # MODIF
+	'info_gauche_suivi_forum' => 'Strona <i>obserwacji forum</i> jest narzędziem zarządzania stroną (nie, miejscem dyskusji czy redakcji). Wyświetla ona wszystkie komentarze do danego artykułu na forum publicznym i pozwala edytować owe komentarze.', # MODIF
+	'info_modifier_breve' => 'Zmiana newsa:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ newsów,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Nie przesyłać wiadomości tego forum', # MODIF
 	'info_sauvegarde_articles' => 'Backup artykułów',
 	'info_sauvegarde_articles_sites_ref' => 'Zapisz artykuły ze zlinkowanych stron',
 	'info_sauvegarde_auteurs' => 'Backup autorów',

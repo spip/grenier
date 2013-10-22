@@ -9,34 +9,34 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FOWOM & PETISYON', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'yon sòvgad konprese sou @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'yon sòvgad sak se pa konprese sou @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'yon sòvgad konprese sou @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'yon sòvgad sak se pa konprese sou @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Pwoblèm ak bazdone, mesaj ou te pa enskri.',
+	'forum_probleme_database' => 'Pwoblèm ak bazdone, mesaj ou te pa enskri.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Fowom pou komandè yo',
-	'icone_forum_suivi' => 'Swiv tout fowom yo',
-	'icone_publier_breve' => 'Pibliye tinouvèl',
-	'icone_refuser_breve' => 'Refize tinouvèl',
-	'info_base_restauration' => 'Labaz ap restore',
-	'info_breves_03' => 'tinouvèl yo',
-	'info_breves_liees_mot' => 'Tinouvèl yo ki jwenn ak mokle-a',
-	'info_breves_touvees' => 'Tinouvèl yo ki te fin rannkont',
-	'info_breves_touvees_dans_texte' => 'Tinouvèl yo ki te fin rannkont (nan tèks)',
+	'icone_forum_administrateur' => 'Fowom pou komandè yo', # MODIF
+	'icone_forum_suivi' => 'Swiv tout fowom yo', # MODIF
+	'icone_publier_breve' => 'Pibliye tinouvèl', # MODIF
+	'icone_refuser_breve' => 'Refize tinouvèl', # MODIF
+	'info_base_restauration' => 'Labaz ap restore', # MODIF
+	'info_breves_03' => 'tinouvèl yo', # MODIF
+	'info_breves_liees_mot' => 'Tinouvèl yo ki jwenn ak mokle-a', # MODIF
+	'info_breves_touvees' => 'Tinouvèl yo ki te fin rannkont', # MODIF
+	'info_breves_touvees_dans_texte' => 'Tinouvèl yo ki te fin rannkont (nan tèks)', # MODIF
 	'info_echange_message' => 'SPIP ka pémè lechanj mesaj ek kreyasyon fowom kozman privé
- ant tout moun ka soutni sit la. W kap mèt oubyen kraze fonksyonalite a.',
-	'info_erreur_restauration' => 'Erè pou restorasyon : fichye-an ap pa egsiste.',
-	'info_forum_administrateur' => 'fowom pou komandè yo',
-	'info_forum_interne' => 'fowom andan sit la',
+ ant tout moun ka soutni sit la. W kap mèt oubyen kraze fonksyonalite a.', # MODIF
+	'info_erreur_restauration' => 'Erè pou restorasyon : fichye-an ap pa egsiste.', # MODIF
+	'info_forum_administrateur' => 'fowom pou komandè yo', # MODIF
+	'info_forum_interne' => 'fowom andan sit la', # MODIF
 	'info_forum_ouvert' => 'Nan lespas privé sit-la, yon fowom gen ouvè pou tout moun
  ki rédaktè enskri. W kapab mèt, isit-anba, yon fowom
- anplis, ki résèvé pou komandé yo sèlman.',
-	'info_gauche_suivi_forum' => 'Paj <i>swivi fowom yo</i> se outiy pou sit ou (kontrè yon espas pou soutni ek ekri ant zot itlizatè). Li afich tout patisipasyon nan fowom piblik yon atik ak rann w kapab okipe yo.',
-	'info_modifier_breve' => 'Chanje tinouvèl-la :',
-	'info_nombre_breves' => '@nb_breves@ tinouvèl (yo),',
-	'info_option_ne_pas_faire_suivre' => 'Voye pa mesaj fowom yo ',
+ anplis, ki résèvé pou komandé yo sèlman.', # MODIF
+	'info_gauche_suivi_forum' => 'Paj <i>swivi fowom yo</i> se outiy pou sit ou (kontrè yon espas pou soutni ek ekri ant zot itlizatè). Li afich tout patisipasyon nan fowom piblik yon atik ak rann w kapab okipe yo.', # MODIF
+	'info_modifier_breve' => 'Chanje tinouvèl-la :', # MODIF
+	'info_nombre_breves' => '@nb_breves@ tinouvèl (yo),', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Voye pa mesaj fowom yo ', # MODIF
 	'info_sauvegarde_articles' => 'Sòvgade atik yo',
 	'info_sauvegarde_articles_sites_ref' => 'Sòvgade atik yo ki nan sit referansé yo',
 	'info_sauvegarde_auteurs' => 'Sòvgade lotè yo ',

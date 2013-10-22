@@ -9,31 +9,31 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM E PETICION', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida devath @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida devath @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida devath @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida devath @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problèma de basa de dadas, lo vòste messatge non s’ei pas registrat.',
+	'forum_probleme_database' => 'Problèma de basa de dadas, lo vòste messatge non s’ei pas registrat.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Forum deus administrators',
-	'icone_forum_suivi' => 'Seguit deus forums',
-	'icone_publier_breve' => 'Publicar aquera brèva',
-	'icone_refuser_breve' => 'Arrefusar aquera brèva',
-	'info_base_restauration' => 'La basa qu’ei en cors de restauracion.',
-	'info_breves_03' => 'brèvas',
-	'info_breves_liees_mot' => 'Las brèvas ligadas a aqueth mot clau',
-	'info_breves_touvees' => 'Brèvas trobadas',
-	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dens lo tèxt)',
-	'info_echange_message' => 'SPIP que permet d’escambiar messatges e de constituir forums privats de discussion entre los participants deu sit. Que podetz activar o desactivar aquera foncionalitat.',
-	'info_erreur_restauration' => 'Error de restauracion: fichièr inexistent.',
-	'info_forum_administrateur' => 'forum deus administrators',
-	'info_forum_interne' => 'forum intèrne',
-	'info_forum_ouvert' => 'Dens l’espaci privat deu sit, un forum qu’ei aubèrt a tots los redactors registrats. Que podetz, ça devath, activar un forum suplementari, reservat aus administrators sonque.',
-	'info_gauche_suivi_forum' => 'La pagina de <i>seguit deus forums</i> qu’ei un gatge de gestion deu vòste sit (mes n’ei pas un espaci tà discutir o tà redigir). Qu’aficha totas las contribucions deu forum public d’aqueth article e que’vs permet de gerir aqueras contribucions.',
-	'info_modifier_breve' => 'Modificar la brèva:',
-	'info_nombre_breves' => '@nb_breves@ brèvas, ',
-	'info_option_ne_pas_faire_suivre' => 'Non har pas seguir los messatges deus forums',
+	'icone_forum_administrateur' => 'Forum deus administrators', # MODIF
+	'icone_forum_suivi' => 'Seguit deus forums', # MODIF
+	'icone_publier_breve' => 'Publicar aquera brèva', # MODIF
+	'icone_refuser_breve' => 'Arrefusar aquera brèva', # MODIF
+	'info_base_restauration' => 'La basa qu’ei en cors de restauracion.', # MODIF
+	'info_breves_03' => 'brèvas', # MODIF
+	'info_breves_liees_mot' => 'Las brèvas ligadas a aqueth mot clau', # MODIF
+	'info_breves_touvees' => 'Brèvas trobadas', # MODIF
+	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dens lo tèxt)', # MODIF
+	'info_echange_message' => 'SPIP que permet d’escambiar messatges e de constituir forums privats de discussion entre los participants deu sit. Que podetz activar o desactivar aquera foncionalitat.', # MODIF
+	'info_erreur_restauration' => 'Error de restauracion: fichièr inexistent.', # MODIF
+	'info_forum_administrateur' => 'forum deus administrators', # MODIF
+	'info_forum_interne' => 'forum intèrne', # MODIF
+	'info_forum_ouvert' => 'Dens l’espaci privat deu sit, un forum qu’ei aubèrt a tots los redactors registrats. Que podetz, ça devath, activar un forum suplementari, reservat aus administrators sonque.', # MODIF
+	'info_gauche_suivi_forum' => 'La pagina de <i>seguit deus forums</i> qu’ei un gatge de gestion deu vòste sit (mes n’ei pas un espaci tà discutir o tà redigir). Qu’aficha totas las contribucions deu forum public d’aqueth article e que’vs permet de gerir aqueras contribucions.', # MODIF
+	'info_modifier_breve' => 'Modificar la brèva:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ brèvas, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Non har pas seguir los messatges deus forums', # MODIF
 	'info_sauvegarde_articles' => 'Sauvagardar los articles',
 	'info_sauvegarde_articles_sites_ref' => 'Sauvagardar los articles deus sits referenciats',
 	'info_sauvegarde_auteurs' => 'Sauvagardar los autors',

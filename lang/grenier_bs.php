@@ -13,27 +13,27 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'Snimiti bez  kompresije pod @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problem sa bazom podataka, Vasa poruka nije registrovana.',
+	'forum_probleme_database' => 'Problem sa bazom podataka, Vasa poruka nije registrovana.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Forum administratora',
-	'icone_forum_suivi' => 'Pracenje foruma',
-	'icone_publier_breve' => 'Objavi ovu kratku poruku',
-	'icone_refuser_breve' => 'Odbij ovu kratku poruku',
-	'info_base_restauration' => 'Baza je u toku obnavljanja.',
-	'info_breves_03' => 'kratke poruke',
-	'info_breves_liees_mot' => 'Kratke poruke koje su vezane za ovu kljucnu rijec',
-	'info_breves_touvees' => 'Pronadjene kratke poruke',
-	'info_breves_touvees_dans_texte' => 'Pronadjene kratke poruke (u tekstu)',
-	'info_echange_message' => 'SPIP dozvoljava razmjenu poruka izmedju ucesnika stranice i kreiranje privatnih foruma za diskusiju. Mozete ukljuciti ili iskljuciti ovu funkciju.',
-	'info_erreur_restauration' => 'Greska u obnavljanju: nepostojeci dokument.',
-	'info_forum_administrateur' => 'forum administratora',
-	'info_forum_interne' => 'interni forum',
-	'info_forum_ouvert' => 'Forum na privatnoj stranici je otvoren svim regristrovanim urednicima. Ispod mozete aktivirati dodatni forum, koji je rezervisan samo za administratore.',
+	'icone_forum_administrateur' => 'Forum administratora', # MODIF
+	'icone_forum_suivi' => 'Pracenje foruma', # MODIF
+	'icone_publier_breve' => 'Objavi ovu kratku poruku', # MODIF
+	'icone_refuser_breve' => 'Odbij ovu kratku poruku', # MODIF
+	'info_base_restauration' => 'Baza je u toku obnavljanja.', # MODIF
+	'info_breves_03' => 'kratke poruke', # MODIF
+	'info_breves_liees_mot' => 'Kratke poruke koje su vezane za ovu kljucnu rijec', # MODIF
+	'info_breves_touvees' => 'Pronadjene kratke poruke', # MODIF
+	'info_breves_touvees_dans_texte' => 'Pronadjene kratke poruke (u tekstu)', # MODIF
+	'info_echange_message' => 'SPIP dozvoljava razmjenu poruka izmedju ucesnika stranice i kreiranje privatnih foruma za diskusiju. Mozete ukljuciti ili iskljuciti ovu funkciju.', # MODIF
+	'info_erreur_restauration' => 'Greska u obnavljanju: nepostojeci dokument.', # MODIF
+	'info_forum_administrateur' => 'forum administratora', # MODIF
+	'info_forum_interne' => 'interni forum', # MODIF
+	'info_forum_ouvert' => 'Forum na privatnoj stranici je otvoren svim regristrovanim urednicima. Ispod mozete aktivirati dodatni forum, koji je rezervisan samo za administratore.', # MODIF
 	'info_gauche_suivi_forum' => 'Strana <i>pracenja foruma</i> je alatka za rukovodjene vasom stranicom (ne prostor za diskusiju  i redakciju). Ona izlistava sve doprinose javnog foruma ovog clanka i dozvoljava rukovodjenje tim doprinosima.', # MODIF
-	'info_modifier_breve' => 'Izmijeni kratku poruku:',
-	'info_nombre_breves' => '@nb_breves@ kratke poruke,',
-	'info_option_ne_pas_faire_suivre' => 'Onemoguci prosljedjivanje poruka na forumima',
+	'info_modifier_breve' => 'Izmijeni kratku poruku:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ kratke poruke,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Onemoguci prosljedjivanje poruka na forumima', # MODIF
 	'info_sauvegarde_articles' => 'Backup clanaka',
 	'info_sauvegarde_articles_sites_ref' => 'Backup clanaka preporucenih stranica',
 	'info_sauvegarde_auteurs' => 'Backup autora',

@@ -9,37 +9,37 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUMO & PETSKRIBO', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'savkopio kompaktita en @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'savkopio nekompaktita en @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'savkopio kompaktita en @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'savkopio nekompaktita en @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Datenbazo-problemo, via mesaĝo ne estas registrita.',
+	'forum_probleme_database' => 'Datenbazo-problemo, via mesaĝo ne estas registrita.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Aboni retejajn fulm-informojn',
-	'icone_creer_mot_cle_breve' => 'Krei novan ŝlosilvorton kaj ligi ĝin kun tiu ĉi fulminformo',
-	'icone_forum_administrateur' => 'Forumo de la mastrumantoj',
-	'icone_forum_suivi' => 'Supervido de la forumoj',
-	'icone_publier_breve' => 'Publikigi tiun fulm-informon',
-	'icone_refuser_breve' => 'Rifuzi tiun fulm-informon',
-	'info_base_restauration' => 'La datenbazo estas restaŭriĝanta.',
-	'info_breves_03' => 'fulm-informoj',
-	'info_breves_liees_mot' => 'La fulm-informoj ligitaj kun tiu ŝlosilvorto',
-	'info_breves_touvees' => 'Trovitaj fulm-informoj',
-	'info_breves_touvees_dans_texte' => 'Trovitaj fulm-informoj (en la teksto)',
+	'ical_lien_rss_breves' => 'Aboni retejajn fulm-informojn', # MODIF
+	'icone_creer_mot_cle_breve' => 'Krei novan ŝlosilvorton kaj ligi ĝin kun tiu ĉi fulminformo', # MODIF
+	'icone_forum_administrateur' => 'Forumo de la mastrumantoj', # MODIF
+	'icone_forum_suivi' => 'Supervido de la forumoj', # MODIF
+	'icone_publier_breve' => 'Publikigi tiun fulm-informon', # MODIF
+	'icone_refuser_breve' => 'Rifuzi tiun fulm-informon', # MODIF
+	'info_base_restauration' => 'La datenbazo estas restaŭriĝanta.', # MODIF
+	'info_breves_03' => 'fulm-informoj', # MODIF
+	'info_breves_liees_mot' => 'La fulm-informoj ligitaj kun tiu ŝlosilvorto', # MODIF
+	'info_breves_touvees' => 'Trovitaj fulm-informoj', # MODIF
+	'info_breves_touvees_dans_texte' => 'Trovitaj fulm-informoj (en la teksto)', # MODIF
 	'info_echange_message' => 'SPIP ebligas interŝanĝon de mesaĝoj kaj la starigon de privataj diskutforumoj
  inter la partoprenantoj de la retejo. Vi povas aktivigi aŭ
- malaktivigi tiun funkcion.',
-	'info_erreur_restauration' => 'Restaŭro-eraro : neekzistanta dosiero.',
-	'info_forum_administrateur' => 'forumo de la mastrumantoj',
-	'info_forum_interne' => 'interna forumo',
+ malaktivigi tiun funkcion.', # MODIF
+	'info_erreur_restauration' => 'Restaŭro-eraro : neekzistanta dosiero.', # MODIF
+	'info_forum_administrateur' => 'forumo de la mastrumantoj', # MODIF
+	'info_forum_interne' => 'interna forumo', # MODIF
 	'info_forum_ouvert' => 'En la privata spaco de la retejo, forumo estas malfermita al ĉiuj
   registritaj redaktantoj. Vi povas, ĉi-sube, aktivigi
-  plian forumon, rezervitan nur al mastrumantoj.',
-	'info_gauche_suivi_forum' => 'La paĝo pri <i>superkontrolo de la forumoj</i> estas mastrumilo de via retejo (kaj ne diskutejo aŭ redaktejo). Ĝi afiŝas ĉiujn kontribuaĵojn de la publika forumo pri tiu artikolo, kaj ebligas al vi mastrumi tiujn kontribuaĵojn.',
-	'info_modifier_breve' => 'Modifi la fulm-informon :',
-	'info_nombre_breves' => '@nb_breves@ fulm-informoj,',
-	'info_option_ne_pas_faire_suivre' => 'Ne plusendi la mesaĝojn de la forumoj',
+  plian forumon, rezervitan nur al mastrumantoj.', # MODIF
+	'info_gauche_suivi_forum' => 'La paĝo pri <i>superkontrolo de la forumoj</i> estas mastrumilo de via retejo (kaj ne diskutejo aŭ redaktejo). Ĝi afiŝas ĉiujn kontribuaĵojn de la publika forumo pri tiu artikolo, kaj ebligas al vi mastrumi tiujn kontribuaĵojn.', # MODIF
+	'info_modifier_breve' => 'Modifi la fulm-informon :', # MODIF
+	'info_nombre_breves' => '@nb_breves@ fulm-informoj,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Ne plusendi la mesaĝojn de la forumoj', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Enigo de @archive@ en la datumbazon',
 	'info_sauvegarde_articles' => 'Konservi la artikolojn',
 	'info_sauvegarde_articles_sites_ref' => 'Konservi la artikolojn de la referencigitaj retejoj',

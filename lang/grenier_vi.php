@@ -15,27 +15,27 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Có vấn đề với database, thư tín của bạn không lưu trữ được.',
+	'forum_probleme_database' => 'Có vấn đề với database, thư tín của bạn không lưu trữ được.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Diễn đàn quản trị viên',
-	'icone_forum_suivi' => 'Quản trị diễn đàn',
-	'icone_publier_breve' => 'Ðăng mẫu tin này',
-	'icone_refuser_breve' => 'Từ chối tin ngắn này',
-	'info_base_restauration' => 'Đang hồi phục lại database.',
-	'info_breves_03' => ' tin ngắn',
-	'info_breves_liees_mot' => 'Những tin ngắn liên hệ đến từ then chốt này',
-	'info_breves_touvees' => 'Những tin ngắn tìm thấy',
-	'info_breves_touvees_dans_texte' => 'Những tin ngắn tìm thấy (trong văn bản)',
-	'info_echange_message' => 'SPIP cho phép trao đổi thư tín và lập ra những diễn đàn trao đổi riêng giữa các tham dự viên. Bạn có thể tắt/mở đặc điểm này.',
-	'info_erreur_restauration' => 'Lỗi phục hồi: không tìm thấy hồ sơ.',
-	'info_forum_administrateur' => 'Diễn đàn quản trị viên',
-	'info_forum_interne' => 'Diễn đàn nội bộ',
-	'info_forum_ouvert' => 'Trong vùng riêng, một diễn đàn được mở ra cho mọi chủ bút đã có ghi danh. Bạn có thể tắt/mở một diễn đàn phụ trội dành riêng cho các quản trị viên.',
-	'info_gauche_suivi_forum' => 'Trang <i>Quản trị Diễn Đàn</i> là một phương tiện quản trị của trang web (không dùng để trao đổi hay sửa đổi). Trang này liệt kê tất cả mọi thư tín trong diễn đàn công cộng của bài này và cho phép bạn quản trị những thư tín này.',
-	'info_modifier_breve' => 'Sửa đổi tin ngắn:',
-	'info_nombre_breves' => '@nb_breves@ tin ngắn, ',
-	'info_option_ne_pas_faire_suivre' => 'Đừng chuyển thư tín của diễn đàn',
+	'icone_forum_administrateur' => 'Diễn đàn quản trị viên', # MODIF
+	'icone_forum_suivi' => 'Quản trị diễn đàn', # MODIF
+	'icone_publier_breve' => 'Ðăng mẫu tin này', # MODIF
+	'icone_refuser_breve' => 'Từ chối tin ngắn này', # MODIF
+	'info_base_restauration' => 'Đang hồi phục lại database.', # MODIF
+	'info_breves_03' => ' tin ngắn', # MODIF
+	'info_breves_liees_mot' => 'Những tin ngắn liên hệ đến từ then chốt này', # MODIF
+	'info_breves_touvees' => 'Những tin ngắn tìm thấy', # MODIF
+	'info_breves_touvees_dans_texte' => 'Những tin ngắn tìm thấy (trong văn bản)', # MODIF
+	'info_echange_message' => 'SPIP cho phép trao đổi thư tín và lập ra những diễn đàn trao đổi riêng giữa các tham dự viên. Bạn có thể tắt/mở đặc điểm này.', # MODIF
+	'info_erreur_restauration' => 'Lỗi phục hồi: không tìm thấy hồ sơ.', # MODIF
+	'info_forum_administrateur' => 'Diễn đàn quản trị viên', # MODIF
+	'info_forum_interne' => 'Diễn đàn nội bộ', # MODIF
+	'info_forum_ouvert' => 'Trong vùng riêng, một diễn đàn được mở ra cho mọi chủ bút đã có ghi danh. Bạn có thể tắt/mở một diễn đàn phụ trội dành riêng cho các quản trị viên.', # MODIF
+	'info_gauche_suivi_forum' => 'Trang <i>Quản trị Diễn Đàn</i> là một phương tiện quản trị của trang web (không dùng để trao đổi hay sửa đổi). Trang này liệt kê tất cả mọi thư tín trong diễn đàn công cộng của bài này và cho phép bạn quản trị những thư tín này.', # MODIF
+	'info_modifier_breve' => 'Sửa đổi tin ngắn:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ tin ngắn, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Đừng chuyển thư tín của diễn đàn', # MODIF
 	'info_sauvegarde_articles' => 'Dự trữ các bài vở',
 	'info_sauvegarde_articles_sites_ref' => 'Dự trữ bài vở của các website nối kết',
 	'info_sauvegarde_auteurs' => 'Dự trữ các tác giả',

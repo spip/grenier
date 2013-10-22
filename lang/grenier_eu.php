@@ -9,35 +9,35 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'Foroa eta eskaera', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'ecrire/data/dump.xml.gzdelakoan kopia konprimitua',
-	'bouton_radio_sauvegarde_non_compressee' => 'ecrire/data/dump.xml delakoan kopia ez-konprimitua',
+	'bouton_radio_sauvegarde_compressee' => 'ecrire/data/dump.xml.gzdelakoan kopia konprimitua', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'ecrire/data/dump.xml delakoan kopia ez-konprimitua', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Datu-basearen arazoa, zure mezua ez dago erregistraturik.',
+	'forum_probleme_database' => 'Datu-basearen arazoa, zure mezua ez dago erregistraturik.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Guneko laburren sindikazioa',
-	'icone_creer_mot_cle_breve' => 'Gako-hitz berri bat sortu eta labur huni lotu',
-	'icone_forum_administrateur' => 'Administratzaileen foroa',
-	'icone_forum_suivi' => 'Foroen gestioa',
-	'icone_publier_breve' => 'Berri labur hau argitaratu',
-	'icone_refuser_breve' => 'Berri labur hau ez onartu',
-	'info_base_restauration' => 'Basea berrezarriaizaten ari da',
-	'info_breves_03' => 'berri laburrak',
-	'info_breves_liees_mot' => 'Gako-hitz honi lotutako berri laburrak',
-	'info_breves_touvees' => 'Aurkitutako berri laburrak',
-	'info_breves_touvees_dans_texte' => '(Testuan) aurkitutako berri laburrak',
+	'ical_lien_rss_breves' => 'Guneko laburren sindikazioa', # MODIF
+	'icone_creer_mot_cle_breve' => 'Gako-hitz berri bat sortu eta labur huni lotu', # MODIF
+	'icone_forum_administrateur' => 'Administratzaileen foroa', # MODIF
+	'icone_forum_suivi' => 'Foroen gestioa', # MODIF
+	'icone_publier_breve' => 'Berri labur hau argitaratu', # MODIF
+	'icone_refuser_breve' => 'Berri labur hau ez onartu', # MODIF
+	'info_base_restauration' => 'Basea berrezarriaizaten ari da', # MODIF
+	'info_breves_03' => 'berri laburrak', # MODIF
+	'info_breves_liees_mot' => 'Gako-hitz honi lotutako berri laburrak', # MODIF
+	'info_breves_touvees' => 'Aurkitutako berri laburrak', # MODIF
+	'info_breves_touvees_dans_texte' => '(Testuan) aurkitutako berri laburrak', # MODIF
 	'info_echange_message' => 'SPIPek guneko partehartzaileen arteko mezuen trukaketa eta foro pribatuak ahalbidetzen ditu.
-Funtzionalitate hau aktiba edo desaktibatzen ahal duzu.',
-	'info_erreur_restauration' => 'Lehengoratze akatsa. Fitxeroa ez dago.',
-	'info_forum_administrateur' => 'Administrazio taldearen foroa ',
-	'info_forum_interne' => 'Barruko forua',
+Funtzionalitate hau aktiba edo desaktibatzen ahal duzu.', # MODIF
+	'info_erreur_restauration' => 'Lehengoratze akatsa. Fitxeroa ez dago.', # MODIF
+	'info_forum_administrateur' => 'Administrazio taldearen foroa ', # MODIF
+	'info_forum_interne' => 'Barruko forua', # MODIF
 	'info_forum_ouvert' => 'Gunearen eremu pribatuan,erregistratuta dauden idazlari guztientzako foro bat zabalik dago.
- Behean, foro gehigarribat aktiba dezakezu, bakarrik administratzaileentzako erreserbatuta.',
-	'info_gauche_suivi_forum' => 'Foroak jarraitzeko orrialdea zureguneko kudeaketa-tresna bat da (eta ez eztabaida edo idazketa-eremu bat). Artikulu honen foro publikoko kontribuzio guztiak bistaratzen ditu eta kontribuzio hauek administratzen uzten dizu.',
-	'info_modifier_breve' => 'Berri laburra aldatu',
-	'info_nombre_breves' => '@nb_breves@ labur,',
-	'info_option_ne_pas_faire_suivre' => 'Ez bidali foroetako mezuak',
+ Behean, foro gehigarribat aktiba dezakezu, bakarrik administratzaileentzako erreserbatuta.', # MODIF
+	'info_gauche_suivi_forum' => 'Foroak jarraitzeko orrialdea zureguneko kudeaketa-tresna bat da (eta ez eztabaida edo idazketa-eremu bat). Artikulu honen foro publikoko kontribuzio guztiak bistaratzen ditu eta kontribuzio hauek administratzen uzten dizu.', # MODIF
+	'info_modifier_breve' => 'Berri laburra aldatu', # MODIF
+	'info_nombre_breves' => '@nb_breves@ labur,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Ez bidali foroetako mezuak', # MODIF
 	'info_restauration_sauvegarde_insert' => '@archive@ datu-basean txertatu',
 	'info_sauvegarde_articles' => 'Artikuluen ziurtasun kopia egin',
 	'info_sauvegarde_articles_sites_ref' => 'Gune erreferentziatuetako artikuluak gorde',

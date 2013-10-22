@@ -9,31 +9,31 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM E PETICION', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida sos @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sos @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida sos @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sos @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problema de basa de donadas, vòstre messatge s’es pas registrat.',
+	'forum_probleme_database' => 'Problema de basa de donadas, vòstre messatge s’es pas registrat.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Forum daus administrators',
-	'icone_forum_suivi' => 'Segut daus forums',
-	'icone_publier_breve' => 'Publicar quela breva',
-	'icone_refuser_breve' => 'Refusar quela breva',
-	'info_base_restauration' => 'La basa es en cors de restauracion.',
-	'info_breves_03' => 'brevas',
-	'info_breves_liees_mot' => 'Las brevas liadas a queu mot clau',
-	'info_breves_touvees' => 'Brevas trobadas',
-	'info_breves_touvees_dans_texte' => 'Brevas trobadas (dins lo text)',
-	'info_echange_message' => 'SPIP permet d’eschamjar daus messatges e de constituir daus forums privats de discussion entre los participants dau sit. Podetz activar o desactivar quela foncionalitat.',
-	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.',
-	'info_forum_administrateur' => 'forum daus administrators',
-	'info_forum_interne' => 'forum interne',
-	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un forum es dobert a tots los redactors registrats. Podetz, çai sos, activar un forum suplementari, reservat nonmàs aus administrators.',
-	'info_gauche_suivi_forum' => 'La pagina de <i>segut daus forums</i> es un esplech de gestion de vòstre sit (mas es pas un espaci per discutir o per redigir). Aficha totas las contribucions dau forum public de quel article e vos permet de gerir quelas contribucions.',
-	'info_modifier_breve' => 'Modificar la breva:',
-	'info_nombre_breves' => '@nb_breves@ brevas, ',
-	'info_option_ne_pas_faire_suivre' => 'Pas far segre los messatges daus forums',
+	'icone_forum_administrateur' => 'Forum daus administrators', # MODIF
+	'icone_forum_suivi' => 'Segut daus forums', # MODIF
+	'icone_publier_breve' => 'Publicar quela breva', # MODIF
+	'icone_refuser_breve' => 'Refusar quela breva', # MODIF
+	'info_base_restauration' => 'La basa es en cors de restauracion.', # MODIF
+	'info_breves_03' => 'brevas', # MODIF
+	'info_breves_liees_mot' => 'Las brevas liadas a queu mot clau', # MODIF
+	'info_breves_touvees' => 'Brevas trobadas', # MODIF
+	'info_breves_touvees_dans_texte' => 'Brevas trobadas (dins lo text)', # MODIF
+	'info_echange_message' => 'SPIP permet d’eschamjar daus messatges e de constituir daus forums privats de discussion entre los participants dau sit. Podetz activar o desactivar quela foncionalitat.', # MODIF
+	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.', # MODIF
+	'info_forum_administrateur' => 'forum daus administrators', # MODIF
+	'info_forum_interne' => 'forum interne', # MODIF
+	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un forum es dobert a tots los redactors registrats. Podetz, çai sos, activar un forum suplementari, reservat nonmàs aus administrators.', # MODIF
+	'info_gauche_suivi_forum' => 'La pagina de <i>segut daus forums</i> es un esplech de gestion de vòstre sit (mas es pas un espaci per discutir o per redigir). Aficha totas las contribucions dau forum public de quel article e vos permet de gerir quelas contribucions.', # MODIF
+	'info_modifier_breve' => 'Modificar la breva:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ brevas, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Pas far segre los messatges daus forums', # MODIF
 	'info_sauvegarde_articles' => 'Sauvagardar los articles',
 	'info_sauvegarde_articles_sites_ref' => 'Sauvagardar los articles daus sits referenciats',
 	'info_sauvegarde_auteurs' => 'Sauvagardar los autors',

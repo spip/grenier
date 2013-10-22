@@ -13,14 +13,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => 'lagre (ukomprimert) i @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Database problem. Din melding kunne ikke lagres.',
+	'forum_probleme_database' => 'Database problem. Din melding kunne ikke lagres.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Administratorforum',
-	'icone_forum_suivi' => 'Oppfølging av forum',
-	'info_echange_message' => 'SPIP støtter private meldinger og forum. Du kan slå denne funksjonen av og på.',
-	'info_modifier_breve' => 'Endre nyheten:',
-	'info_nombre_breves' => '@nb_breves@ nyheter,',
+	'icone_forum_administrateur' => 'Administratorforum', # MODIF
+	'icone_forum_suivi' => 'Oppfølging av forum', # MODIF
+	'info_echange_message' => 'SPIP støtter private meldinger og forum. Du kan slå denne funksjonen av og på.', # MODIF
+	'info_modifier_breve' => 'Endre nyheten:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ nyheter,', # MODIF
 	'info_sauvegarde_articles' => 'Ta sikkerhetskopi av artiklene',
 	'info_sauvegarde_articles_sites_ref' => 'Ta sikkerhetskopi av refererte nettsteder',
 	'info_sauvegarde_auteurs' => 'Ta sikkerhetskopi av forfatterne',

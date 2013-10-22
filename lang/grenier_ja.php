@@ -9,34 +9,34 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => '掲示板と署名機能', # MODIF
-	'bouton_radio_sauvegarde_compressee' => '圧縮して、@fichier@に保存する',
-	'bouton_radio_sauvegarde_non_compressee' => '未圧縮で、@fichier@に保存する',
+	'bouton_radio_sauvegarde_compressee' => '圧縮して、@fichier@に保存する', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => '未圧縮で、@fichier@に保存する', # MODIF
 
 	// F
-	'forum_probleme_database' => 'データベースの問題、あなたのメッセージを記録することが出来ませんでした。',
+	'forum_probleme_database' => 'データベースの問題、あなたのメッセージを記録することが出来ませんでした。', # MODIF
 
 	// I
-	'icone_forum_administrateur' => '管理者用の掲示板',
-	'icone_forum_suivi' => '掲示板の続報',
-	'icone_publier_breve' => 'このニュースを掲げる',
-	'icone_refuser_breve' => 'このニュースを拒む',
-	'info_base_restauration' => '進行中のデータベースの修復。',
-	'info_breves_03' => 'ニュース',
-	'info_breves_liees_mot' => 'このキーワードに関連するニュース',
-	'info_breves_touvees' => 'ニュースが見つかりました。',
-	'info_breves_touvees_dans_texte' => 'ニュースが見つかりました（文中）。',
+	'icone_forum_administrateur' => '管理者用の掲示板', # MODIF
+	'icone_forum_suivi' => '掲示板の続報', # MODIF
+	'icone_publier_breve' => 'このニュースを掲げる', # MODIF
+	'icone_refuser_breve' => 'このニュースを拒む', # MODIF
+	'info_base_restauration' => '進行中のデータベースの修復。', # MODIF
+	'info_breves_03' => 'ニュース', # MODIF
+	'info_breves_liees_mot' => 'このキーワードに関連するニュース', # MODIF
+	'info_breves_touvees' => 'ニュースが見つかりました。', # MODIF
+	'info_breves_touvees_dans_texte' => 'ニュースが見つかりました（文中）。', # MODIF
 	'info_echange_message' => 'SPIPSはメッセージの交換を可能とし、サイトの参加者との私的な議論用の掲示板を作ります。あなたはこの機能を
-  有効または無効にすることが出来ます。',
-	'info_erreur_restauration' => '復元エラー：ファイルが見つかりません。',
-	'info_forum_administrateur' => '管理者用の掲示板',
-	'info_forum_interne' => '関係者用の掲示板',
+  有効または無効にすることが出来ます。', # MODIF
+	'info_erreur_restauration' => '復元エラー：ファイルが見つかりません。', # MODIF
+	'info_forum_administrateur' => '管理者用の掲示板', # MODIF
+	'info_forum_interne' => '関係者用の掲示板', # MODIF
 	'info_forum_ouvert' => 'サイトのプライベートエリアの中で、掲示板はすべての登録されたエディターに公開されています。
   下で、あなたは管理者のために
-  予約された特別なフォーラムを有効にすることができます。',
-	'info_gauche_suivi_forum' => '<i>掲示板の続報</i>ページはあなたのサイトの管理道具です。（議論したりエリアを編集できません）。この記事の公開掲示板のすべての貢献を表示して、それら貢献を管理することが可能です。',
-	'info_modifier_breve' => '修正するニュース:',
-	'info_nombre_breves' => '@nb_breves@ ニュース、',
-	'info_option_ne_pas_faire_suivre' => '前の掲示板のメッセージを送らない',
+  予約された特別なフォーラムを有効にすることができます。', # MODIF
+	'info_gauche_suivi_forum' => '<i>掲示板の続報</i>ページはあなたのサイトの管理道具です。（議論したりエリアを編集できません）。この記事の公開掲示板のすべての貢献を表示して、それら貢献を管理することが可能です。', # MODIF
+	'info_modifier_breve' => '修正するニュース:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ ニュース、', # MODIF
+	'info_option_ne_pas_faire_suivre' => '前の掲示板のメッセージを送らない', # MODIF
 	'info_sauvegarde_articles' => '記事類をバックアップ',
 	'info_sauvegarde_articles_sites_ref' => '参照されたサイトの記事をバックアップ',
 	'info_sauvegarde_auteurs' => '著者達をバックアップ',

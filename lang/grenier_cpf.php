@@ -9,32 +9,32 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FOROM & FILSINYATIR', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Sovgard lé koprésé èk @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'sovgard lé pa koprésé èk @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'Sovgard lé koprésé èk @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'sovgard lé pa koprésé èk @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Astèr néna inn larlik èk out bazdodné. Porézon sa minm, out modékri la pwinn finn dèt anrozistré.',
+	'forum_probleme_database' => 'Astèr néna inn larlik èk out bazdodné. Porézon sa minm, out modékri la pwinn finn dèt anrozistré.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Forom kozman bann komandèr',
-	'icone_forum_suivi' => 'Swivi bann forom',
-	'icone_publier_breve' => 'Pibliyé tit-nouvèl-la',
-	'icone_refuser_breve' => 'Afront tit-nouvèl-la',
-	'info_base_restauration' => 'Labaz lé antrin drosarz son promyé léta.',
-	'info_breves_03' => 'Bann tit-nouvèl',
-	'info_breves_liees_mot' => 'Bann tit-nouvèl an gatiraz èk molaklé-la ',
-	'info_breves_touvees' => 'Bann tit-nouvèl ni la finn trouvé',
-	'info_breves_touvees_dans_texte' => 'Bann tit-nouvèl ni la finn trouvé (dann tèks-la)',
+	'icone_forum_administrateur' => 'Forom kozman bann komandèr', # MODIF
+	'icone_forum_suivi' => 'Swivi bann forom', # MODIF
+	'icone_publier_breve' => 'Pibliyé tit-nouvèl-la', # MODIF
+	'icone_refuser_breve' => 'Afront tit-nouvèl-la', # MODIF
+	'info_base_restauration' => 'Labaz lé antrin drosarz son promyé léta.', # MODIF
+	'info_breves_03' => 'Bann tit-nouvèl', # MODIF
+	'info_breves_liees_mot' => 'Bann tit-nouvèl an gatiraz èk molaklé-la ', # MODIF
+	'info_breves_touvees' => 'Bann tit-nouvèl ni la finn trouvé', # MODIF
+	'info_breves_touvees_dans_texte' => 'Bann tit-nouvèl ni la finn trouvé (dann tèks-la)', # MODIF
 	'info_echange_message' => 'Èk SPIP ou pé anvwayé bann modékri é fé zwé bann forom kozman
-(forom privé) antrozot. Lé posib mèt ou dégrèn fonksyon-la kom sak ou vé.',
-	'info_erreur_restauration' => 'Kanard dann rotour-sovgard labaz : lo fisyé-la i ékzist pa.',
-	'info_forum_administrateur' => 'forom bann komandèr',
-	'info_forum_interne' => 'forom-dodan',
-	'info_forum_ouvert' => 'Dann léspas privé lo sit, inn forom lé ouver pou tout bann lotèr. Ou pé osi fé zwé inn ot forom sèlman pou bann komandèr. Anon vwar anba tèrla.',
-	'info_gauche_suivi_forum' => 'Paz <i>swivi bann forom</i> lé inn zoutiy pou zèr an liyn out sit (pa inn léspas kozman o lékritir). Li afis tout bann kontribusyon dann forom-déor pou lartik-minm. Ou pé zèr tout banna dopwi lapazwèb-la.',
-	'info_modifier_breve' => 'Sanz la tit-nouvèl :',
-	'info_nombre_breves' => '@nb_breves@ bann tit-nouvèl,',
-	'info_option_ne_pas_faire_suivre' => 'Anpés fé swiv bann modékri bann forom',
+(forom privé) antrozot. Lé posib mèt ou dégrèn fonksyon-la kom sak ou vé.', # MODIF
+	'info_erreur_restauration' => 'Kanard dann rotour-sovgard labaz : lo fisyé-la i ékzist pa.', # MODIF
+	'info_forum_administrateur' => 'forom bann komandèr', # MODIF
+	'info_forum_interne' => 'forom-dodan', # MODIF
+	'info_forum_ouvert' => 'Dann léspas privé lo sit, inn forom lé ouver pou tout bann lotèr. Ou pé osi fé zwé inn ot forom sèlman pou bann komandèr. Anon vwar anba tèrla.', # MODIF
+	'info_gauche_suivi_forum' => 'Paz <i>swivi bann forom</i> lé inn zoutiy pou zèr an liyn out sit (pa inn léspas kozman o lékritir). Li afis tout bann kontribusyon dann forom-déor pou lartik-minm. Ou pé zèr tout banna dopwi lapazwèb-la.', # MODIF
+	'info_modifier_breve' => 'Sanz la tit-nouvèl :', # MODIF
+	'info_nombre_breves' => '@nb_breves@ bann tit-nouvèl,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Anpés fé swiv bann modékri bann forom', # MODIF
 	'info_sauvegarde_articles' => 'Sovgard bann zartik',
 	'info_sauvegarde_articles_sites_ref' => 'Sovgard bann zartik bann sit référansé',
 	'info_sauvegarde_auteurs' => 'Sovgard bann lotèr',

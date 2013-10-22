@@ -9,33 +9,33 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM & PETICION', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Salvagarda comprimida jos @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'Salvagarda non comprimida jos @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'Salvagarda comprimida jos @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'Salvagarda non comprimida jos @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s’es pas registrat.',
+	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s’es pas registrat.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Sindicacion de las brèvas del sit',
-	'icone_creer_mot_cle_breve' => 'Crear un mot-clau nòu e lo ligar a aquela brèva',
-	'icone_forum_administrateur' => 'Forum dels administrators',
-	'icone_forum_suivi' => 'Seguit dels forums',
-	'icone_publier_breve' => 'Publicar aquela brèva',
-	'icone_refuser_breve' => 'Refusar aquela brèva',
-	'info_base_restauration' => 'La basa es en cors de restauracion.',
-	'info_breves_03' => 'brèvas',
-	'info_breves_liees_mot' => 'Las brèvas ligadas a aquel mot clau',
-	'info_breves_touvees' => 'Brèvas trobadas',
-	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dins lo tèxt)',
-	'info_echange_message' => 'SPIP permet d’escambiar de messatges e de constituir de forums privats de discussion entre los participants del sit. Podètz activar o desactivar aquela foncionalitat.',
-	'info_erreur_restauration' => 'Error de restauracion : fichièr inexistent.',
-	'info_forum_administrateur' => 'forum dels administrators',
-	'info_forum_interne' => 'forum intèrne',
-	'info_forum_ouvert' => 'Dins l’espaci privat del sit, un forum es dobèrt a totes los redactors registrats . Podètz, çai jos, activar un forum suplementari, reservat als administrators sonque.',
-	'info_gauche_suivi_forum' => 'La pagina de <i>seguit dels forums</i> es una aisina de gestion del vòstre sit (mas es pas un espaci per discutir o per redigir). Aficha totas las contribucions del forum public d’aquel article e vos permet de gerir aquelas contribucions.',
-	'info_modifier_breve' => 'Modificar la brèva:',
-	'info_nombre_breves' => '@nb_breves@ brèvas, ',
-	'info_option_ne_pas_faire_suivre' => 'Far pas seguir los messatges dels forums',
+	'ical_lien_rss_breves' => 'Sindicacion de las brèvas del sit', # MODIF
+	'icone_creer_mot_cle_breve' => 'Crear un mot-clau nòu e lo ligar a aquela brèva', # MODIF
+	'icone_forum_administrateur' => 'Forum dels administrators', # MODIF
+	'icone_forum_suivi' => 'Seguit dels forums', # MODIF
+	'icone_publier_breve' => 'Publicar aquela brèva', # MODIF
+	'icone_refuser_breve' => 'Refusar aquela brèva', # MODIF
+	'info_base_restauration' => 'La basa es en cors de restauracion.', # MODIF
+	'info_breves_03' => 'brèvas', # MODIF
+	'info_breves_liees_mot' => 'Las brèvas ligadas a aquel mot clau', # MODIF
+	'info_breves_touvees' => 'Brèvas trobadas', # MODIF
+	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dins lo tèxt)', # MODIF
+	'info_echange_message' => 'SPIP permet d’escambiar de messatges e de constituir de forums privats de discussion entre los participants del sit. Podètz activar o desactivar aquela foncionalitat.', # MODIF
+	'info_erreur_restauration' => 'Error de restauracion : fichièr inexistent.', # MODIF
+	'info_forum_administrateur' => 'forum dels administrators', # MODIF
+	'info_forum_interne' => 'forum intèrne', # MODIF
+	'info_forum_ouvert' => 'Dins l’espaci privat del sit, un forum es dobèrt a totes los redactors registrats . Podètz, çai jos, activar un forum suplementari, reservat als administrators sonque.', # MODIF
+	'info_gauche_suivi_forum' => 'La pagina de <i>seguit dels forums</i> es una aisina de gestion del vòstre sit (mas es pas un espaci per discutir o per redigir). Aficha totas las contribucions del forum public d’aquel article e vos permet de gerir aquelas contribucions.', # MODIF
+	'info_modifier_breve' => 'Modificar la brèva:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ brèvas, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Far pas seguir los messatges dels forums', # MODIF
 	'info_sauvegarde_articles' => 'Salvagardar los articles',
 	'info_sauvegarde_articles_sites_ref' => 'Salvagardar los articles dels sits referenciats',
 	'info_sauvegarde_auteurs' => 'Salvagardar los autors',

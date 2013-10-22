@@ -9,35 +9,35 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'ФОРУМ и МОЛБИ', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Запазване в компресиран вид в @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'Запазване в некомпресиран вид в @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'Запазване в компресиран вид в @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'Запазване в некомпресиран вид в @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Проблем с базата данни: съобщението Ви не бе запаметено.',
+	'forum_probleme_database' => 'Проблем с базата данни: съобщението Ви не бе запаметено.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Форум на администраторите',
-	'icone_forum_suivi' => 'Допълнения във форумите',
-	'icone_publier_breve' => 'Публикуване на новината',
-	'icone_refuser_breve' => 'Отхвърляне на новината',
-	'info_base_restauration' => 'Базата данни е в процес на възстановяване.',
-	'info_breves_03' => 'Нови публикации',
-	'info_breves_liees_mot' => 'Новини, свързани с ключовата дума',
-	'info_breves_touvees' => 'Намерени новини',
-	'info_breves_touvees_dans_texte' => 'Намерени новини (в текста)',
+	'icone_forum_administrateur' => 'Форум на администраторите', # MODIF
+	'icone_forum_suivi' => 'Допълнения във форумите', # MODIF
+	'icone_publier_breve' => 'Публикуване на новината', # MODIF
+	'icone_refuser_breve' => 'Отхвърляне на новината', # MODIF
+	'info_base_restauration' => 'Базата данни е в процес на възстановяване.', # MODIF
+	'info_breves_03' => 'Нови публикации', # MODIF
+	'info_breves_liees_mot' => 'Новини, свързани с ключовата дума', # MODIF
+	'info_breves_touvees' => 'Намерени новини', # MODIF
+	'info_breves_touvees_dans_texte' => 'Намерени новини (в текста)', # MODIF
 	'info_echange_message' => 'СПИП позволява обмяната на съобщения и създаването на лични
   форуми за дискусия между участниците на сайта. Това свойство може
-  да се включва или изключва по желание.',
-	'info_erreur_restauration' => 'Грешка при възстановяване: файлът не беше намерен.',
-	'info_forum_administrateur' => 'форум за администратори',
-	'info_forum_interne' => 'вътрешен форум',
+  да се включва или изключва по желание.', # MODIF
+	'info_erreur_restauration' => 'Грешка при възстановяване: файлът не беше намерен.', # MODIF
+	'info_forum_administrateur' => 'форум за администратори', # MODIF
+	'info_forum_interne' => 'вътрешен форум', # MODIF
 	'info_forum_ouvert' => 'В личната зона на сайта форумът е достъпен за всички
   регистрирани редактори. По-надолу можете да
-  активирате допълнителен форум, запазен за администраторите.',
-	'info_gauche_suivi_forum' => 'Страницата <i>Допълнения във форумите</i> е инструмент за управление на сайта (а не зона за дискусии или за публикации). Тя показва целия принос от съобщения в публичния форум на статията и позволява боравенето с тези съобщения.',
-	'info_modifier_breve' => 'Промяна настройките на новините:',
-	'info_nombre_breves' => '@nb_breves@ новини,',
-	'info_option_ne_pas_faire_suivre' => 'Без препращане на съобщения от форума',
+  активирате допълнителен форум, запазен за администраторите.', # MODIF
+	'info_gauche_suivi_forum' => 'Страницата <i>Допълнения във форумите</i> е инструмент за управление на сайта (а не зона за дискусии или за публикации). Тя показва целия принос от съобщения в публичния форум на статията и позволява боравенето с тези съобщения.', # MODIF
+	'info_modifier_breve' => 'Промяна настройките на новините:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ новини,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Без препращане на съобщения от форума', # MODIF
 	'info_sauvegarde_articles' => 'Архивиране на статиите',
 	'info_sauvegarde_articles_sites_ref' => 'Архивиране на статии от сайтове с препратки',
 	'info_sauvegarde_auteurs' => 'Архив на авторите',

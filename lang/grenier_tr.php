@@ -9,37 +9,37 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM & İMZA KAMPANYASI', # MODIF
-	'bouton_radio_sauvegarde_compressee' => '@fichier@ altında sıkıştırılmış olarak sakla',
-	'bouton_radio_sauvegarde_non_compressee' => '<b>ecrire/data/dump.xml.gz</b> altında sıkıştırılmamış olarak sakla',
+	'bouton_radio_sauvegarde_compressee' => '@fichier@ altında sıkıştırılmış olarak sakla', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => '<b>ecrire/data/dump.xml.gz</b> altında sıkıştırılmamış olarak sakla', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Veritabanı sorunu, mesajınız kaydedilemedi.',
+	'forum_probleme_database' => 'Veritabanı sorunu, mesajınız kaydedilemedi.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Sitenin kısa haberlerinin paylaşımı',
-	'icone_creer_mot_cle_breve' => 'Yeni bir anahtar sözcük oluştur ve bu kısa habere bağla',
-	'icone_forum_administrateur' => 'Yöneticiler forumu',
-	'icone_forum_suivi' => 'Forum takibi',
-	'icone_publier_breve' => 'Bu kısa haberi yayınla',
-	'icone_refuser_breve' => 'Bu haberi reddet',
-	'info_base_restauration' => 'Veritabanının geri yüklenmesi sürüyor.',
-	'info_breves_03' => 'kısa haberle',
-	'info_breves_liees_mot' => 'Bu anahtar sözcüğe bağlı kısa haberler',
-	'info_breves_touvees' => 'Bulunan haberler',
-	'info_breves_touvees_dans_texte' => '(metin içerisinde) bulunan haberler ',
+	'ical_lien_rss_breves' => 'Sitenin kısa haberlerinin paylaşımı', # MODIF
+	'icone_creer_mot_cle_breve' => 'Yeni bir anahtar sözcük oluştur ve bu kısa habere bağla', # MODIF
+	'icone_forum_administrateur' => 'Yöneticiler forumu', # MODIF
+	'icone_forum_suivi' => 'Forum takibi', # MODIF
+	'icone_publier_breve' => 'Bu kısa haberi yayınla', # MODIF
+	'icone_refuser_breve' => 'Bu haberi reddet', # MODIF
+	'info_base_restauration' => 'Veritabanının geri yüklenmesi sürüyor.', # MODIF
+	'info_breves_03' => 'kısa haberle', # MODIF
+	'info_breves_liees_mot' => 'Bu anahtar sözcüğe bağlı kısa haberler', # MODIF
+	'info_breves_touvees' => 'Bulunan haberler', # MODIF
+	'info_breves_touvees_dans_texte' => '(metin içerisinde) bulunan haberler ', # MODIF
 	'info_echange_message' => 'SPIP site katılımcıları arasında ileti alışverişi
                            ve özel sohbet forumları oluşturma olanağı verir.
-                           Bu işlevi çalıştırabilir veya durdurabilirsiniz.',
-	'info_erreur_restauration' => 'Geri yüklemede hata: dosya bulunamadı.',
-	'info_forum_administrateur' => 'Yöneticiler forumu',
-	'info_forum_interne' => 'İç forum',
+                           Bu işlevi çalıştırabilir veya durdurabilirsiniz.', # MODIF
+	'info_erreur_restauration' => 'Geri yüklemede hata: dosya bulunamadı.', # MODIF
+	'info_forum_administrateur' => 'Yöneticiler forumu', # MODIF
+	'info_forum_interne' => 'İç forum', # MODIF
 	'info_forum_ouvert' => 'Sitenin özel alanında, tüm kayıtlı yazarlara açık olan bir forum mevcuttur.
                         Aşağıda, sadece yöneticilere özel, 
-                        fazladan bir forumu çalıştırabilirsiniz.',
-	'info_gauche_suivi_forum' => '<i>Forumları izleme</i> sayfası sitenizi yönetme aracıdır (sohbet, ya da yazı yazma alanı değildir). Bir makaleye kamu forumundan yapılan tüm katkıları gösterir ve bu katkıları yönetmenizi sağlar.',
-	'info_modifier_breve' => 'Kısa haberi değiştir :',
-	'info_nombre_breves' => '@nb_breves@ kısa haber,',
-	'info_option_ne_pas_faire_suivre' => 'Forum iletilerini gönderme',
+                        fazladan bir forumu çalıştırabilirsiniz.', # MODIF
+	'info_gauche_suivi_forum' => '<i>Forumları izleme</i> sayfası sitenizi yönetme aracıdır (sohbet, ya da yazı yazma alanı değildir). Bir makaleye kamu forumundan yapılan tüm katkıları gösterir ve bu katkıları yönetmenizi sağlar.', # MODIF
+	'info_modifier_breve' => 'Kısa haberi değiştir :', # MODIF
+	'info_nombre_breves' => '@nb_breves@ kısa haber,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Forum iletilerini gönderme', # MODIF
 	'info_restauration_sauvegarde_insert' => '@archive@ in veri tabanına eklenmesi',
 	'info_sauvegarde_articles' => 'Makaleleri yedekle',
 	'info_sauvegarde_articles_sites_ref' => 'Atıfta bulunulan sitelerin makalelerini yedekle',

@@ -11,19 +11,19 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_forum_petition' => 'FORUM & PETITION', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Tietokantavirhe, viestiäsi ei voitu tallentaa.',
+	'forum_probleme_database' => 'Tietokantavirhe, viestiäsi ei voitu tallentaa.', # MODIF
 
 	// I
-	'info_base_restauration' => 'Tietokannan palautus käynnissä.',
-	'info_breves_03' => 'uutisotsikoita',
-	'info_breves_liees_mot' => 'Tähän hakusanaan liittyviä uutisia',
-	'info_breves_touvees' => 'Uutisotsikoita löytyi',
-	'info_breves_touvees_dans_texte' => 'Uutisaiheita löytyi (tekstin joukossa)',
-	'info_forum_administrateur' => 'ylläpitäjän foorumi',
-	'info_forum_interne' => 'sisäinen foorumi',
-	'info_modifier_breve' => 'Muokkaa uutisotsikoita:',
-	'info_nombre_breves' => '@nb_breves@ uutisotsikoita,',
-	'info_option_ne_pas_faire_suivre' => 'Älä lähetä edelleen foorumien viestejä',
+	'info_base_restauration' => 'Tietokannan palautus käynnissä.', # MODIF
+	'info_breves_03' => 'uutisotsikoita', # MODIF
+	'info_breves_liees_mot' => 'Tähän hakusanaan liittyviä uutisia', # MODIF
+	'info_breves_touvees' => 'Uutisotsikoita löytyi', # MODIF
+	'info_breves_touvees_dans_texte' => 'Uutisaiheita löytyi (tekstin joukossa)', # MODIF
+	'info_forum_administrateur' => 'ylläpitäjän foorumi', # MODIF
+	'info_forum_interne' => 'sisäinen foorumi', # MODIF
+	'info_modifier_breve' => 'Muokkaa uutisotsikoita:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ uutisotsikoita,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Älä lähetä edelleen foorumien viestejä', # MODIF
 	'info_sauvegarde_articles' => 'Varmistuskopioi artikkelit',
 	'info_sauvegarde_articles_sites_ref' => 'Varmistuskopioi referoitujen  sivustojen artikkelit ',
 	'info_sauvegarde_auteurs' => 'Varmistuskopioi kirjoittajat',

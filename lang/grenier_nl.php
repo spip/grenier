@@ -8,37 +8,37 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORUM & PETITIE',
-	'bouton_radio_sauvegarde_compressee' => 'gecomprimeerde opslag onder @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'niet-gecomprimeerde opslag onder @fichier@',
+	'bouton_forum_petition' => 'FORUM & PETITIE', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'gecomprimeerde opslag onder @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'niet-gecomprimeerde opslag onder @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Probleem met databank, je bericht is niet geregistreerd.',
+	'forum_probleme_database' => 'Probleem met databank, je bericht is niet geregistreerd.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication van kort van de site',
-	'icone_creer_mot_cle_breve' => 'Een nieuw sleutelwoord creëren en het binden aan dit brève',
-	'icone_forum_administrateur' => 'Forum van de beheerders',
-	'icone_forum_suivi' => 'Opvolging van de forums',
-	'icone_publier_breve' => 'Dit nieuwsbericht publiceren',
-	'icone_refuser_breve' => 'Dit nieuwsbericht weigeren',
-	'info_base_restauration' => 'De databank wordt hersteld.',
-	'info_breves_03' => 'nieuwsberichten',
-	'info_breves_liees_mot' => 'Berichten gekoppeld aan dit trefwoord',
-	'info_breves_touvees' => 'Gevonden berichten',
-	'info_breves_touvees_dans_texte' => 'Gevonden berichten (in de tekst)',
+	'ical_lien_rss_breves' => 'Syndication van kort van de site', # MODIF
+	'icone_creer_mot_cle_breve' => 'Een nieuw sleutelwoord creëren en het binden aan dit brève', # MODIF
+	'icone_forum_administrateur' => 'Forum van de beheerders', # MODIF
+	'icone_forum_suivi' => 'Opvolging van de forums', # MODIF
+	'icone_publier_breve' => 'Dit nieuwsbericht publiceren', # MODIF
+	'icone_refuser_breve' => 'Dit nieuwsbericht weigeren', # MODIF
+	'info_base_restauration' => 'De databank wordt hersteld.', # MODIF
+	'info_breves_03' => 'nieuwsberichten', # MODIF
+	'info_breves_liees_mot' => 'Berichten gekoppeld aan dit trefwoord', # MODIF
+	'info_breves_touvees' => 'Gevonden berichten', # MODIF
+	'info_breves_touvees_dans_texte' => 'Gevonden berichten (in de tekst)', # MODIF
 	'info_echange_message' => 'SPIP voorziet in de mogelijkheid om berichten uit te wisselen en private discussieforums op te
-    starten tussen de deelnemers aan de site.Wil je deze mogelijkheid aan- of uitzetten ?',
-	'info_erreur_restauration' => 'Herstelfout : onbestaande map.',
-	'info_forum_administrateur' => 'Forum van de beheerders',
-	'info_forum_interne' => 'intern forum',
+    starten tussen de deelnemers aan de site.Wil je deze mogelijkheid aan- of uitzetten ?', # MODIF
+	'info_erreur_restauration' => 'Herstelfout : onbestaande map.', # MODIF
+	'info_forum_administrateur' => 'Forum van de beheerders', # MODIF
+	'info_forum_interne' => 'intern forum', # MODIF
 	'info_forum_ouvert' => 'Een forum in het private deel van de site is toegankelijk
   voor alle geregistreerde redacteurs. Hieronder kan je een
-  extra forum aanmaken dat alleen bestemd is voor de beheerders.',
-	'info_gauche_suivi_forum' => 'De pagina voor <i>opvolging van de forums</i> is een plek voor beheer van je site (en dus niet voor discussie of redactie). Alle bijdragen aan het publieke forum aansluitend op die artikel worden getoond en kan je hier beheren.',
-	'info_modifier_breve' => 'Bericht wijzigen :',
-	'info_nombre_breves' => '@nb_breves@ berichten,',
-	'info_option_ne_pas_faire_suivre' => 'Berichten uit de forums niet laten opvolgen',
+  extra forum aanmaken dat alleen bestemd is voor de beheerders.', # MODIF
+	'info_gauche_suivi_forum' => 'De pagina voor <i>opvolging van de forums</i> is een plek voor beheer van je site (en dus niet voor discussie of redactie). Alle bijdragen aan het publieke forum aansluitend op die artikel worden getoond en kan je hier beheren.', # MODIF
+	'info_modifier_breve' => 'Bericht wijzigen :', # MODIF
+	'info_nombre_breves' => '@nb_breves@ berichten,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Berichten uit de forums niet laten opvolgen', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Integratie van @archive@ in de basis',
 	'info_sauvegarde_articles' => 'Artikel redden',
 	'info_sauvegarde_articles_sites_ref' => 'Artikels van de referentiesites bewaren',

@@ -9,31 +9,31 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM E PETICION', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida sota @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sota @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida sota @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sota @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s’es pas registrat.',
+	'forum_probleme_database' => 'Problèma de basa de donadas, vòstre messatge s’es pas registrat.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Forum deis administrators',
-	'icone_forum_suivi' => 'Seguit dei forums',
-	'icone_publier_breve' => 'Publicar aquela brèva',
-	'icone_refuser_breve' => 'Refusar aquela brèva',
-	'info_base_restauration' => 'La basa es en cors de restauracion.',
-	'info_breves_03' => 'brèvas',
-	'info_breves_liees_mot' => 'Lei brèvas liadas a aqueu mot clau',
-	'info_breves_touvees' => 'Brèvas trobadas',
-	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dins lo tèxt)',
-	'info_echange_message' => 'SPIP permet d’escambiar de messatges e de constituir de forums privats de discussion entre lei participants dau sit. Podètz activar o desactivar aquela foncionalitat.',
-	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.',
-	'info_forum_administrateur' => 'forum deis administrators',
-	'info_forum_interne' => 'forum intèrne',
-	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un forum es dobèrt a totei lei redactors registrats. Podètz, çai sota, activar un forum suplementari, reservat ren qu’ais administrators.',
-	'info_gauche_suivi_forum' => 'La pagina de <i>seguit dei forums</i> es una aisina de gestion dau vòstre sit (mai es pas un espaci per discutir o per redigir). Aficha totei lei contribucions dau forum public d’aquel article e vos permet de gerir aquelei contribucions.',
-	'info_modifier_breve' => 'Modificar la brèva:',
-	'info_nombre_breves' => '@nb_breves@ brèvas, ',
-	'info_option_ne_pas_faire_suivre' => 'Pas faire seguir lei messatges dei forums',
+	'icone_forum_administrateur' => 'Forum deis administrators', # MODIF
+	'icone_forum_suivi' => 'Seguit dei forums', # MODIF
+	'icone_publier_breve' => 'Publicar aquela brèva', # MODIF
+	'icone_refuser_breve' => 'Refusar aquela brèva', # MODIF
+	'info_base_restauration' => 'La basa es en cors de restauracion.', # MODIF
+	'info_breves_03' => 'brèvas', # MODIF
+	'info_breves_liees_mot' => 'Lei brèvas liadas a aqueu mot clau', # MODIF
+	'info_breves_touvees' => 'Brèvas trobadas', # MODIF
+	'info_breves_touvees_dans_texte' => 'Brèvas trobadas (dins lo tèxt)', # MODIF
+	'info_echange_message' => 'SPIP permet d’escambiar de messatges e de constituir de forums privats de discussion entre lei participants dau sit. Podètz activar o desactivar aquela foncionalitat.', # MODIF
+	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.', # MODIF
+	'info_forum_administrateur' => 'forum deis administrators', # MODIF
+	'info_forum_interne' => 'forum intèrne', # MODIF
+	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un forum es dobèrt a totei lei redactors registrats. Podètz, çai sota, activar un forum suplementari, reservat ren qu’ais administrators.', # MODIF
+	'info_gauche_suivi_forum' => 'La pagina de <i>seguit dei forums</i> es una aisina de gestion dau vòstre sit (mai es pas un espaci per discutir o per redigir). Aficha totei lei contribucions dau forum public d’aquel article e vos permet de gerir aquelei contribucions.', # MODIF
+	'info_modifier_breve' => 'Modificar la brèva:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ brèvas, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Pas faire seguir lei messatges dei forums', # MODIF
 	'info_sauvegarde_articles' => 'Sauvagardar leis articles',
 	'info_sauvegarde_articles_sites_ref' => 'Sauvagardar leis articles dei sits referenciats',
 	'info_sauvegarde_auteurs' => 'Sauvagardar leis autors',

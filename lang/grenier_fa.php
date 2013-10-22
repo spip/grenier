@@ -8,34 +8,34 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => ' (طومار) سخنگاه و درخواست ',
-	'bouton_radio_sauvegarde_compressee' => 'ذخيره فشرده در  @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'ذخيره فشرده نشده در@fichier@',
+	'bouton_forum_petition' => ' (طومار) سخنگاه و درخواست ', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'ذخيره فشرده در  @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'ذخيره فشرده نشده در@fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'نقص در داده پى ها، پيام شما ثبت نشده',
+	'forum_probleme_database' => 'نقص در داده پى ها، پيام شما ثبت نشده', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'پیوند اخبار کوتاه سایت',
-	'icone_creer_mot_cle_breve' => 'ساختن كليدواژه‌ي جديد و چسباندن آن به اين خبر',
-	'icone_forum_administrateur' => 'سخنگاه براى گردانند گان سايت',
-	'icone_forum_suivi' => 'دنباله سخنگاه',
-	'icone_publier_breve' => 'اين مقاله كوتاه را منتشر كنيد',
-	'icone_refuser_breve' => 'اين مقاله كوتاه را رد كنيد',
-	'info_base_restauration' => '.داده پى ها در حال بازسازى ميباشند',
-	'info_breves_03' => 'مقاله هاى كوتاه',
-	'info_breves_liees_mot' => 'مقاله هاى كوتاه مربوط به اين واژه-كليد',
-	'info_breves_touvees' => 'مقاله هاى كوتاه پيدا شده',
-	'info_breves_touvees_dans_texte' => ' (مقاله هاى كوتاه پيدا شده (درون متن',
-	'info_echange_message' => 'اين سيستم امكان تبادل پيام و مباحثه خصوصى را بين كاربران سايت ميدهد. شما ميتوانيد اين كاربرد را فعال يا غير فعال كنيد',
-	'info_erreur_restauration' => '.اشتباه در بازسازى : فايل موجود نميباشد',
-	'info_forum_administrateur' => 'سخنگاه براى گردانند گان سايت',
-	'info_forum_interne' => 'سخنگاه داخلى',
-	'info_forum_ouvert' => 'در قسمت همگانى سايت، يك سخنگاه براى همه نگارند گان موجود ميباشد. شما ميتوانيد، در زير يك سخنگاه اضافى مربوط به گردانند گان سايت را فعال كنيد.',
-	'info_gauche_suivi_forum' => 'صفحه دنباله سخنگاه از ابزار اداره سايتتان ميباشد (و نه مكانى براى بحث يا نگارش) و امكان اعلان تمام پيامها ى سخنگاه همگانى اين مقاله و همچنين اداره پيامها را بشما ميدهد',
-	'info_modifier_breve' => ':اصلاح مقاله كوتاه',
-	'info_nombre_breves' => 'مقاله كوتاه @nb_breves@ ',
-	'info_option_ne_pas_faire_suivre' => 'پيام هاى سخنگاه را ارسال نكنيد',
+	'ical_lien_rss_breves' => 'پیوند اخبار کوتاه سایت', # MODIF
+	'icone_creer_mot_cle_breve' => 'ساختن كليدواژه‌ي جديد و چسباندن آن به اين خبر', # MODIF
+	'icone_forum_administrateur' => 'سخنگاه براى گردانند گان سايت', # MODIF
+	'icone_forum_suivi' => 'دنباله سخنگاه', # MODIF
+	'icone_publier_breve' => 'اين مقاله كوتاه را منتشر كنيد', # MODIF
+	'icone_refuser_breve' => 'اين مقاله كوتاه را رد كنيد', # MODIF
+	'info_base_restauration' => '.داده پى ها در حال بازسازى ميباشند', # MODIF
+	'info_breves_03' => 'مقاله هاى كوتاه', # MODIF
+	'info_breves_liees_mot' => 'مقاله هاى كوتاه مربوط به اين واژه-كليد', # MODIF
+	'info_breves_touvees' => 'مقاله هاى كوتاه پيدا شده', # MODIF
+	'info_breves_touvees_dans_texte' => ' (مقاله هاى كوتاه پيدا شده (درون متن', # MODIF
+	'info_echange_message' => 'اين سيستم امكان تبادل پيام و مباحثه خصوصى را بين كاربران سايت ميدهد. شما ميتوانيد اين كاربرد را فعال يا غير فعال كنيد', # MODIF
+	'info_erreur_restauration' => '.اشتباه در بازسازى : فايل موجود نميباشد', # MODIF
+	'info_forum_administrateur' => 'سخنگاه براى گردانند گان سايت', # MODIF
+	'info_forum_interne' => 'سخنگاه داخلى', # MODIF
+	'info_forum_ouvert' => 'در قسمت همگانى سايت، يك سخنگاه براى همه نگارند گان موجود ميباشد. شما ميتوانيد، در زير يك سخنگاه اضافى مربوط به گردانند گان سايت را فعال كنيد.', # MODIF
+	'info_gauche_suivi_forum' => 'صفحه دنباله سخنگاه از ابزار اداره سايتتان ميباشد (و نه مكانى براى بحث يا نگارش) و امكان اعلان تمام پيامها ى سخنگاه همگانى اين مقاله و همچنين اداره پيامها را بشما ميدهد', # MODIF
+	'info_modifier_breve' => ':اصلاح مقاله كوتاه', # MODIF
+	'info_nombre_breves' => 'مقاله كوتاه @nb_breves@ ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'پيام هاى سخنگاه را ارسال نكنيد', # MODIF
 	'info_restauration_sauvegarde_insert' => 'گنجاندن @archive@ در پايگاه',
 	'info_sauvegarde_articles' => 'مقالات را ذخيره كنيد',
 	'info_sauvegarde_articles_sites_ref' => 'مقالات سايتهاى پيوندى را ذخيره كنيد',

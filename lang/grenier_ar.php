@@ -8,38 +8,38 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'المنتدى والعرائض',
-	'bouton_radio_sauvegarde_compressee' => 'حفظ بملف مضغوط في @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'حفظ بملف غير مضغوط في @fichier@',
+	'bouton_forum_petition' => 'المنتدى والعرائض', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'حفظ بملف مضغوط في @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'حفظ بملف غير مضغوط في @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'مشكلة في قاعدة البيانات، لم يتم تسجيل مشاركتك.',
+	'forum_probleme_database' => 'مشكلة في قاعدة البيانات، لم يتم تسجيل مشاركتك.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'ترخيص أخبار الموقع',
-	'icone_creer_mot_cle_breve' => 'إنشاء مفتاح جديد وربطه بهذا الخبر',
-	'icone_forum_administrateur' => 'منتدى المديرين',
-	'icone_forum_suivi' => 'متابعة المنتديات',
-	'icone_publier_breve' => 'نشر هذا الخبر',
-	'icone_refuser_breve' => 'رفض هذا الخبر',
-	'info_base_restauration' => 'القاعدة قيد الاسترجاع',
-	'info_breves_03' => 'الأخبار',
-	'info_breves_liees_mot' => 'الأخبار المرتبطة بهذا المفتاح',
-	'info_breves_touvees' => 'الأخبار التي عثر عليها',
-	'info_breves_touvees_dans_texte' => 'الأخبار التي عثر عليها (في المادة)',
+	'ical_lien_rss_breves' => 'ترخيص أخبار الموقع', # MODIF
+	'icone_creer_mot_cle_breve' => 'إنشاء مفتاح جديد وربطه بهذا الخبر', # MODIF
+	'icone_forum_administrateur' => 'منتدى المديرين', # MODIF
+	'icone_forum_suivi' => 'متابعة المنتديات', # MODIF
+	'icone_publier_breve' => 'نشر هذا الخبر', # MODIF
+	'icone_refuser_breve' => 'رفض هذا الخبر', # MODIF
+	'info_base_restauration' => 'القاعدة قيد الاسترجاع', # MODIF
+	'info_breves_03' => 'الأخبار', # MODIF
+	'info_breves_liees_mot' => 'الأخبار المرتبطة بهذا المفتاح', # MODIF
+	'info_breves_touvees' => 'الأخبار التي عثر عليها', # MODIF
+	'info_breves_touvees_dans_texte' => 'الأخبار التي عثر عليها (في المادة)', # MODIF
 	'info_echange_message' => 'يتيح SPIP  تبادل الرسائل وإنشاء منتديات نقاش
 خاصة بين المشتركين في الموقع. يمكنك تفعيل هذه
-الوظيفة أو إيقافها.',
-	'info_erreur_restauration' => 'خطأ إسترجاع: ملف غير موجود.',
-	'info_forum_administrateur' => 'منتدى الإدارة',
-	'info_forum_interne' => 'المنتدى الداخلي',
+الوظيفة أو إيقافها.', # MODIF
+	'info_erreur_restauration' => 'خطأ إسترجاع: ملف غير موجود.', # MODIF
+	'info_forum_administrateur' => 'منتدى الإدارة', # MODIF
+	'info_forum_interne' => 'المنتدى الداخلي', # MODIF
 	'info_forum_ouvert' => 'في مجال الموقع الخاص، هناك منتدى مفتوح لجميع
 المحررين المسجلين. يمكنك أدناه، تفعيل
-منتدى إضافي محصور بالمدراء.',
-	'info_gauche_suivi_forum' => 'تشكل صفحة <b>متابعة المنتديات</b> أداة إدارة للموقع (وليست مجالاً للنقاش أو التحرير). تعرض هذه الصفحة كل مشاركات المنتدى العام وتتيح إدارة هذه المشاركات.',
-	'info_modifier_breve' => 'تعديل الخبر:',
-	'info_nombre_breves' => '@nb_breves@ خبر،',
-	'info_option_ne_pas_faire_suivre' => 'عدم تمرير مشاركات المنتديات',
+منتدى إضافي محصور بالمدراء.', # MODIF
+	'info_gauche_suivi_forum' => 'تشكل صفحة <b>متابعة المنتديات</b> أداة إدارة للموقع (وليست مجالاً للنقاش أو التحرير). تعرض هذه الصفحة كل مشاركات المنتدى العام وتتيح إدارة هذه المشاركات.', # MODIF
+	'info_modifier_breve' => 'تعديل الخبر:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ خبر،', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'عدم تمرير مشاركات المنتديات', # MODIF
 	'info_restauration_sauvegarde_insert' => 'إدراج @archive@ في القاعدة',
 	'info_sauvegarde_articles' => 'نسخ إحتياطي للمقالات',
 	'info_sauvegarde_articles_sites_ref' => 'نسخ إحتياطي لمقالات المواقع المبوبة',

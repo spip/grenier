@@ -8,38 +8,38 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORUM & PETITION',
-	'bouton_radio_sauvegarde_compressee' => 'save as compressed in @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'save as uncompressed in @fichier@',
+	'bouton_forum_petition' => 'FORUM & PETITION', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'save as compressed in @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'save as uncompressed in @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Database problem, your message could not be recorded.',
+	'forum_probleme_database' => 'Database problem, your message could not be recorded.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication of site news items',
-	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
-	'icone_forum_administrateur' => 'Administrators’ forum',
-	'icone_forum_suivi' => 'Manage forums',
-	'icone_publier_breve' => 'Publish this news item',
-	'icone_refuser_breve' => 'Reject this news item',
-	'info_base_restauration' => 'Restoration of the database in progress.',
-	'info_breves_03' => 'news items',
-	'info_breves_liees_mot' => 'News items with this keyword',
-	'info_breves_touvees' => 'News items found',
-	'info_breves_touvees_dans_texte' => 'News items found (in the text)',
+	'ical_lien_rss_breves' => 'Syndication of site news items', # MODIF
+	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item', # MODIF
+	'icone_forum_administrateur' => 'Administrators’ forum', # MODIF
+	'icone_forum_suivi' => 'Manage forums', # MODIF
+	'icone_publier_breve' => 'Publish this news item', # MODIF
+	'icone_refuser_breve' => 'Reject this news item', # MODIF
+	'info_base_restauration' => 'Restoration of the database in progress.', # MODIF
+	'info_breves_03' => 'news items', # MODIF
+	'info_breves_liees_mot' => 'News items with this keyword', # MODIF
+	'info_breves_touvees' => 'News items found', # MODIF
+	'info_breves_touvees_dans_texte' => 'News items found (in the text)', # MODIF
 	'info_echange_message' => 'SPIP allows the exchange of messages and the creation of private
   discussion forums for site members. You can enable or
-  disable this feature.',
-	'info_erreur_restauration' => 'Restoration error: file not found.',
-	'info_forum_administrateur' => 'administrators’ forum',
-	'info_forum_interne' => 'internal forum',
+  disable this feature.', # MODIF
+	'info_erreur_restauration' => 'Restoration error: file not found.', # MODIF
+	'info_forum_administrateur' => 'administrators’ forum', # MODIF
+	'info_forum_interne' => 'internal forum', # MODIF
 	'info_forum_ouvert' => 'A forum is available to all
   registered editors in the site’s private area. You can enable an
-  extra forum reserved for the administrators here.',
-	'info_gauche_suivi_forum' => 'The <i>forum management</i> page is a site management tool (not a discussion or editing area). It displays all the contributions to the public forum of this article and allows you to manage these contributions.',
-	'info_modifier_breve' => 'Modify the news item:',
-	'info_nombre_breves' => '@nb_breves@ news items,',
-	'info_option_ne_pas_faire_suivre' => 'Do not forward forum messages',
+  extra forum reserved for the administrators here.', # MODIF
+	'info_gauche_suivi_forum' => 'The <i>forum management</i> page is a site management tool (not a discussion or editing area). It displays all the contributions to the public forum of this article and allows you to manage these contributions.', # MODIF
+	'info_modifier_breve' => 'Modify the news item:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ news items,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Do not forward forum messages', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Inserting @archive@ in the database',
 	'info_sauvegarde_articles' => 'Backup the articles',
 	'info_sauvegarde_articles_sites_ref' => 'Backup articles of referenced sites',

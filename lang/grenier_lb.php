@@ -8,34 +8,34 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORUM & PETITIOUN',
-	'bouton_radio_sauvegarde_compressee' => 'Backup ass kompriméiert ënner @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'Backup ass nët kompriméiert ënner @fichier@',
+	'bouton_forum_petition' => 'FORUM & PETITIOUN', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'Backup ass kompriméiert ënner @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'Backup ass nët kompriméiert ënner @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problem mat der Datebank, äre Message gouf nët enregistréiert.',
+	'forum_probleme_database' => 'Problem mat der Datebank, äre Message gouf nët enregistréiert.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Syndicatioun vun de Kurzmeldungen vum Site',
-	'icone_creer_mot_cle_breve' => 'E neit Schlësselwuert maachen an et un dës Kurzmeldung bannen',
-	'icone_forum_administrateur' => 'Forum vun den Adminstrateuren',
-	'icone_forum_suivi' => 'Suivi vun den Forum’en',
-	'icone_publier_breve' => 'Dës Kuerzmeldung publizéieren',
-	'icone_refuser_breve' => 'Dës Kuerzmeldung refuséieren',
-	'info_base_restauration' => 'D’Datebank gët grad restauréiert.',
-	'info_breves_03' => 'Kuerzmeldungen',
-	'info_breves_liees_mot' => 'Kuerzmeldungen déi un dëst Schlësselwuert gebonnen sinn',
-	'info_breves_touvees' => 'Kuerzmeldungen fonnt',
-	'info_breves_touvees_dans_texte' => 'Kuerzmeldungen fonnt (am Text)',
-	'info_echange_message' => 'SPIP erlaabt d’Schécken vu Messagen a privat Forum’en tëschent den Mataarbechter vum Site. Dir kënnt dës Fonktionnalitéit an- oder ausschalten.',
-	'info_erreur_restauration' => 'Fehler bei der Restauratioun: de Fichier gëtt ët nët.',
-	'info_forum_administrateur' => 'Forum vun den Administrateuren',
-	'info_forum_interne' => 'Internen Forum',
-	'info_forum_ouvert' => 'Am privaten Deel vum Site gët ët e Forum fir d’Redakteren. Dir kënnt hei nach e Forum, just fir d’Administrateuren, aschalten.',
-	'info_gauche_suivi_forum' => 'D’Säit <i>Gestioun Forum’en</i> ass fir d’Maintenance (an nët fir ze diskutéieren oder ze schreiwen). Si weist all d’Beiträg vum öffentlëche Forum fir dësen Artikel an erlaabt dës Beiträg ze géréieren.',
-	'info_modifier_breve' => 'Kuerzmeldung änneren:',
-	'info_nombre_breves' => '@nb_breves@ Kuerzmeldungen,',
-	'info_option_ne_pas_faire_suivre' => 'D’Messagen vun de Forum’en nët schécken',
+	'ical_lien_rss_breves' => 'Syndicatioun vun de Kurzmeldungen vum Site', # MODIF
+	'icone_creer_mot_cle_breve' => 'E neit Schlësselwuert maachen an et un dës Kurzmeldung bannen', # MODIF
+	'icone_forum_administrateur' => 'Forum vun den Adminstrateuren', # MODIF
+	'icone_forum_suivi' => 'Suivi vun den Forum’en', # MODIF
+	'icone_publier_breve' => 'Dës Kuerzmeldung publizéieren', # MODIF
+	'icone_refuser_breve' => 'Dës Kuerzmeldung refuséieren', # MODIF
+	'info_base_restauration' => 'D’Datebank gët grad restauréiert.', # MODIF
+	'info_breves_03' => 'Kuerzmeldungen', # MODIF
+	'info_breves_liees_mot' => 'Kuerzmeldungen déi un dëst Schlësselwuert gebonnen sinn', # MODIF
+	'info_breves_touvees' => 'Kuerzmeldungen fonnt', # MODIF
+	'info_breves_touvees_dans_texte' => 'Kuerzmeldungen fonnt (am Text)', # MODIF
+	'info_echange_message' => 'SPIP erlaabt d’Schécken vu Messagen a privat Forum’en tëschent den Mataarbechter vum Site. Dir kënnt dës Fonktionnalitéit an- oder ausschalten.', # MODIF
+	'info_erreur_restauration' => 'Fehler bei der Restauratioun: de Fichier gëtt ët nët.', # MODIF
+	'info_forum_administrateur' => 'Forum vun den Administrateuren', # MODIF
+	'info_forum_interne' => 'Internen Forum', # MODIF
+	'info_forum_ouvert' => 'Am privaten Deel vum Site gët ët e Forum fir d’Redakteren. Dir kënnt hei nach e Forum, just fir d’Administrateuren, aschalten.', # MODIF
+	'info_gauche_suivi_forum' => 'D’Säit <i>Gestioun Forum’en</i> ass fir d’Maintenance (an nët fir ze diskutéieren oder ze schreiwen). Si weist all d’Beiträg vum öffentlëche Forum fir dësen Artikel an erlaabt dës Beiträg ze géréieren.', # MODIF
+	'info_modifier_breve' => 'Kuerzmeldung änneren:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ Kuerzmeldungen,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'D’Messagen vun de Forum’en nët schécken', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Insert vum @archive@ an d’Datebank',
 	'info_sauvegarde_articles' => 'Artikelen späicheren',
 	'info_sauvegarde_articles_sites_ref' => 'Artikelen vun de referenzéierten Siten späicheren',

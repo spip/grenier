@@ -8,37 +8,37 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORU È PETIZIONE',
-	'bouton_radio_sauvegarde_compressee' => 'backup cumpressu in @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'backup micca cumpressu in @fichier@',
+	'bouton_forum_petition' => 'FORU È PETIZIONE', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'backup cumpressu in @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'backup micca cumpressu in @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Prublemu di basa di dati, ùn hè statu arregistratu u vostru messagiu.',
+	'forum_probleme_database' => 'Prublemu di basa di dati, ùn hè statu arregistratu u vostru messagiu.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Sindicazione di i dispacci di u situ',
-	'icone_creer_mot_cle_breve' => 'Creà un nuvellu segnu è assucià lu à stu dispacciu',
-	'icone_forum_administrateur' => 'Foru di l’amministratori',
-	'icone_forum_suivi' => 'Guardia di i fori',
-	'icone_publier_breve' => 'Pubblicà stu dispacciu',
-	'icone_refuser_breve' => 'Rifiutà stu dispacciu',
-	'info_base_restauration' => 'A basa di dati hè in corsu di ricuperazione.',
-	'info_breves_03' => 'dispacci',
-	'info_breves_liees_mot' => 'I dispacci alleati à stu segnu',
-	'info_breves_touvees' => 'Dispacci trovi',
-	'info_breves_touvees_dans_texte' => 'Dispacci trovi (in u testu)',
+	'ical_lien_rss_breves' => 'Sindicazione di i dispacci di u situ', # MODIF
+	'icone_creer_mot_cle_breve' => 'Creà un nuvellu segnu è assucià lu à stu dispacciu', # MODIF
+	'icone_forum_administrateur' => 'Foru di l’amministratori', # MODIF
+	'icone_forum_suivi' => 'Guardia di i fori', # MODIF
+	'icone_publier_breve' => 'Pubblicà stu dispacciu', # MODIF
+	'icone_refuser_breve' => 'Rifiutà stu dispacciu', # MODIF
+	'info_base_restauration' => 'A basa di dati hè in corsu di ricuperazione.', # MODIF
+	'info_breves_03' => 'dispacci', # MODIF
+	'info_breves_liees_mot' => 'I dispacci alleati à stu segnu', # MODIF
+	'info_breves_touvees' => 'Dispacci trovi', # MODIF
+	'info_breves_touvees_dans_texte' => 'Dispacci trovi (in u testu)', # MODIF
 	'info_echange_message' => 'SPIP permette u scambiu di messagi è a creazione di fori privati di ragiunate
-		frà i participanti di u situ. Pudete puru attivà o disattivà sta funziunalità.',
-	'info_erreur_restauration' => 'Errore di ricuperazione : schedariu inesistente.',
-	'info_forum_administrateur' => 'foru di l’amministratori',
-	'info_forum_interne' => 'foru internu',
+		frà i participanti di u situ. Pudete puru attivà o disattivà sta funziunalità.', # MODIF
+	'info_erreur_restauration' => 'Errore di ricuperazione : schedariu inesistente.', # MODIF
+	'info_forum_administrateur' => 'foru di l’amministratori', # MODIF
+	'info_forum_interne' => 'foru internu', # MODIF
 	'info_forum_ouvert' => 'In u spaziu privatu di u situ, hè apertu un foru à tutti i scrittori arregistrati.
-	Pudete dinù attivà un altru foru quì sottu, riservatu solu à l’amministratori.',
+	Pudete dinù attivà un altru foru quì sottu, riservatu solu à l’amministratori.', # MODIF
 	'info_gauche_suivi_forum' => 'A pàgina di <i>guardia di i fori</i> hè un arnese di gestione di u situ (è micca un spaziu di ragiunata o di scrittura). 
-		Nentru ci venenu pubblicati tutti i cuntributi di u foru pùbblicu di st’artìculu, è vi permette a gestione di sti cuntributi.',
-	'info_modifier_breve' => 'Mudificà u dispacciu :',
-	'info_nombre_breves' => '@nb_breves@ dispacci, ',
-	'info_option_ne_pas_faire_suivre' => 'Ùn signalà micca i novi messagi',
+		Nentru ci venenu pubblicati tutti i cuntributi di u foru pùbblicu di st’artìculu, è vi permette a gestione di sti cuntributi.', # MODIF
+	'info_modifier_breve' => 'Mudificà u dispacciu :', # MODIF
+	'info_nombre_breves' => '@nb_breves@ dispacci, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Ùn signalà micca i novi messagi', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Inserimentu di @archive@ in a basa di dati',
 	'info_sauvegarde_articles' => 'Salvà l’artìculi',
 	'info_sauvegarde_articles_sites_ref' => 'Salvà l’artìculi di i siti riferiti',

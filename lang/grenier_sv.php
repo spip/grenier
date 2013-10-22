@@ -9,37 +9,37 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM & NAMNINSAMLINGAR', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'spara komprimerat i @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'spara utan att komprimera i @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'spara komprimerat i @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'spara utan att komprimera i @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Databas-problem, ditt meddelande kunde inte sparas.',
+	'forum_probleme_database' => 'Databas-problem, ditt meddelande kunde inte sparas.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Syndikering av sajtens nyheter',
-	'icone_creer_mot_cle_breve' => 'Skapa ett nytt nyckelord och koppla det till den här nyheten',
-	'icone_forum_administrateur' => 'Administratörernas forum',
-	'icone_forum_suivi' => 'Vidare till forumen',
-	'icone_publier_breve' => 'Publicera nyhet',
-	'icone_refuser_breve' => 'Refusera nyheten',
-	'info_base_restauration' => 'Återskapande av databasen pågår.',
-	'info_breves_03' => 'Nyheter',
-	'info_breves_liees_mot' => 'Nyheter knutna till det här nyckelordet',
-	'info_breves_touvees' => 'Nyheter funna',
-	'info_breves_touvees_dans_texte' => 'Nyheter funna (i texten)',
+	'ical_lien_rss_breves' => 'Syndikering av sajtens nyheter', # MODIF
+	'icone_creer_mot_cle_breve' => 'Skapa ett nytt nyckelord och koppla det till den här nyheten', # MODIF
+	'icone_forum_administrateur' => 'Administratörernas forum', # MODIF
+	'icone_forum_suivi' => 'Vidare till forumen', # MODIF
+	'icone_publier_breve' => 'Publicera nyhet', # MODIF
+	'icone_refuser_breve' => 'Refusera nyheten', # MODIF
+	'info_base_restauration' => 'Återskapande av databasen pågår.', # MODIF
+	'info_breves_03' => 'Nyheter', # MODIF
+	'info_breves_liees_mot' => 'Nyheter knutna till det här nyckelordet', # MODIF
+	'info_breves_touvees' => 'Nyheter funna', # MODIF
+	'info_breves_touvees_dans_texte' => 'Nyheter funna (i texten)', # MODIF
 	'info_echange_message' => 'SPIP tillåter utbyte av meddelanden och skapandet av privata
   diskussionsforum bland sajtens deltagare. Du kan tillåta
-  eller förbjuda det.',
-	'info_erreur_restauration' => 'Fel vid återskapande: filen finns inte.',
-	'info_forum_administrateur' => 'Administratörernas forum',
-	'info_forum_interne' => 'Internt forum',
+  eller förbjuda det.', # MODIF
+	'info_erreur_restauration' => 'Fel vid återskapande: filen finns inte.', # MODIF
+	'info_forum_administrateur' => 'Administratörernas forum', # MODIF
+	'info_forum_interne' => 'Internt forum', # MODIF
 	'info_forum_ouvert' => 'I sajtens privata del är ett forum öppet för alla
   redaktörer. Nedan kan du aktivera ett
-  extra forum reserverat för administratörerna.',
-	'info_gauche_suivi_forum' => 'Sidna för<i>forumuppföljning</i> är ett administrationsverktyg för din sajt (inte en diskussions- eller redigeringsida). Den visar alla bidrag till det publika forum som hör till artikeln och där kan du hantera bidragen contributions.',
-	'info_modifier_breve' => 'Editera nyheten:',
-	'info_nombre_breves' => '@nb_breves@ nyheter,',
-	'info_option_ne_pas_faire_suivre' => 'Vidarebefordra inte forummeddelanden',
+  extra forum reserverat för administratörerna.', # MODIF
+	'info_gauche_suivi_forum' => 'Sidna för<i>forumuppföljning</i> är ett administrationsverktyg för din sajt (inte en diskussions- eller redigeringsida). Den visar alla bidrag till det publika forum som hör till artikeln och där kan du hantera bidragen contributions.', # MODIF
+	'info_modifier_breve' => 'Editera nyheten:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ nyheter,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Vidarebefordra inte forummeddelanden', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Läser in @archive@ i databasen',
 	'info_sauvegarde_articles' => 'Backa upp artiklarna',
 	'info_sauvegarde_articles_sites_ref' => 'Säkerhetskopiera artiklar från länkade sajter',

@@ -9,31 +9,31 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'Pképklé kpodo xojla kpo', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz',
-	'bouton_radio_sauvegarde_non_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz',
+	'bouton_radio_sauvegarde_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'wiwlihɛn ɖo wiwlanmɛ /data/dump.xml.gz', # MODIF
 
 	// F
-	'forum_probleme_database' => 'gbètákɛnxòkplé ɔ gbàfɔ, yè sìwú wlí wɛn mì tɔn hɛn á',
+	'forum_probleme_database' => 'gbètákɛnxòkplé ɔ gbàfɔ, yè sìwú wlí wɛn mì tɔn hɛn á', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'kpékpé gán lɛ tɔn',
-	'icone_forum_suivi' => 'àgun cícɔ',
-	'icone_publier_breve' => 'sɔ xó kléwún é lɔ ɖó àtɛ',
-	'icone_refuser_breve' => 'gbɛ xó kléwún ɔ',
-	'info_base_restauration' => 'gbètákɛnxòkplé kò jà àfɔ ɖè jí.',
-	'info_breves_03' => 'xó kléwún lɛ',
-	'info_breves_liees_mot' => 'xó kléwún lɛ ɖê cádó gbètákɛn lɛ wú ɔ',
-	'info_breves_touvees' => 'xó kléwún lɛ ɖê yè mɔ ɔ',
-	'info_breves_touvees_dans_texte' => 'xó kléwún lɛ ɖê yè mɔ ɔ',
-	'info_echange_message' => 'xó kpó ɖò yìyì wɛ',
-	'info_erreur_restauration' => 'bíblò ɔ jàyì, gbètá ɔ ɖé á.',
-	'info_forum_administrateur' => 'Tìtòtɔ lɛ sín kpíkplé',
-	'info_forum_interne' => 'Kpékplé xɔmɛ tɔn ',
-	'info_forum_ouvert' => 'nyɔwlántɔ lɛ sin àgùn ',
-	'info_gauche_suivi_forum' => 'wémà é lɔ Tìtòtɔ lɛ kɛɖɛ wɛ síwú dàlɔmɛ',
-	'info_modifier_breve' => 'ɖyɔ xó kléwún ɔ:',
-	'info_nombre_breves' => '@nb_breves@ xó kléwún,',
-	'info_option_ne_pas_faire_suivre' => 'Mi mà nɔ kpɔn wɛn lɛ ɖò kplékplé ɔ mɛ wó',
+	'icone_forum_administrateur' => 'kpékpé gán lɛ tɔn', # MODIF
+	'icone_forum_suivi' => 'àgun cícɔ', # MODIF
+	'icone_publier_breve' => 'sɔ xó kléwún é lɔ ɖó àtɛ', # MODIF
+	'icone_refuser_breve' => 'gbɛ xó kléwún ɔ', # MODIF
+	'info_base_restauration' => 'gbètákɛnxòkplé kò jà àfɔ ɖè jí.', # MODIF
+	'info_breves_03' => 'xó kléwún lɛ', # MODIF
+	'info_breves_liees_mot' => 'xó kléwún lɛ ɖê cádó gbètákɛn lɛ wú ɔ', # MODIF
+	'info_breves_touvees' => 'xó kléwún lɛ ɖê yè mɔ ɔ', # MODIF
+	'info_breves_touvees_dans_texte' => 'xó kléwún lɛ ɖê yè mɔ ɔ', # MODIF
+	'info_echange_message' => 'xó kpó ɖò yìyì wɛ', # MODIF
+	'info_erreur_restauration' => 'bíblò ɔ jàyì, gbètá ɔ ɖé á.', # MODIF
+	'info_forum_administrateur' => 'Tìtòtɔ lɛ sín kpíkplé', # MODIF
+	'info_forum_interne' => 'Kpékplé xɔmɛ tɔn ', # MODIF
+	'info_forum_ouvert' => 'nyɔwlántɔ lɛ sin àgùn ', # MODIF
+	'info_gauche_suivi_forum' => 'wémà é lɔ Tìtòtɔ lɛ kɛɖɛ wɛ síwú dàlɔmɛ', # MODIF
+	'info_modifier_breve' => 'ɖyɔ xó kléwún ɔ:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ xó kléwún,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Mi mà nɔ kpɔn wɛn lɛ ɖò kplékplé ɔ mɛ wó', # MODIF
 	'info_sauvegarde_articles' => 'Wlí  Wékpá lɛ  hɛn',
 	'info_sauvegarde_articles_sites_ref' => 'Mi Wlí  Wékpá lɛ ɖê sɔ kɛn nâ hɛn',
 	'info_sauvegarde_auteurs' => 'Wlí nyɔwlántɔ lɛ hɛn',

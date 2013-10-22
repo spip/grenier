@@ -9,31 +9,31 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM & APPELLER', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'gem komprimeret i @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'gem ukomprimeret i @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'gem komprimeret i @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'gem ukomprimeret i @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Databaseproblem, dit indlæg er ikke modtaget.',
+	'forum_probleme_database' => 'Databaseproblem, dit indlæg er ikke modtaget.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => 'Administratorforum',
-	'icone_forum_suivi' => 'Forumopfølgning',
-	'icone_publier_breve' => 'Offentliggør nyhed',
-	'icone_refuser_breve' => 'Afvis nyhed',
-	'info_base_restauration' => 'Genoprettelse af databasen er i gang.',
-	'info_breves_03' => 'nyheder',
-	'info_breves_liees_mot' => 'Nyheder knyttet til dette nøgleord',
-	'info_breves_touvees' => 'Fundne nyheder',
-	'info_breves_touvees_dans_texte' => 'Nyheder fundet (i teksten)',
-	'info_echange_message' => 'SPIP tillader udveksling af meddelelser og oprettelse af private diskussionsforummer mellem deltagere på webstedet. Du kan til- eller fravælge denne funktion.',
-	'info_erreur_restauration' => 'Fejl under genopretning: fil findes ikke.',
-	'info_forum_administrateur' => 'administratorforum',
-	'info_forum_interne' => 'internt forum',
-	'info_forum_ouvert' => 'I det private afsnit af webstedet er der et forum åbent for alle registrerede redaktører. Nedenfor kan du åbne et ekstra forum alene for administratorer.',
-	'info_gauche_suivi_forum' => '<i>Forumopfølgning</i> er et administrationsværktøj (ikke et diskussions- eller redigeringsområde). Det viser alle indlæg i det offentlige forum knyttet til en bestemt artikel og giver dig mulighed for at administrere indlæggene.',
-	'info_modifier_breve' => 'Ret nyhed:',
-	'info_nombre_breves' => '@nb_breves@ nyheder,',
-	'info_option_ne_pas_faire_suivre' => 'Videresend ikke meddelelser i forummer',
+	'icone_forum_administrateur' => 'Administratorforum', # MODIF
+	'icone_forum_suivi' => 'Forumopfølgning', # MODIF
+	'icone_publier_breve' => 'Offentliggør nyhed', # MODIF
+	'icone_refuser_breve' => 'Afvis nyhed', # MODIF
+	'info_base_restauration' => 'Genoprettelse af databasen er i gang.', # MODIF
+	'info_breves_03' => 'nyheder', # MODIF
+	'info_breves_liees_mot' => 'Nyheder knyttet til dette nøgleord', # MODIF
+	'info_breves_touvees' => 'Fundne nyheder', # MODIF
+	'info_breves_touvees_dans_texte' => 'Nyheder fundet (i teksten)', # MODIF
+	'info_echange_message' => 'SPIP tillader udveksling af meddelelser og oprettelse af private diskussionsforummer mellem deltagere på webstedet. Du kan til- eller fravælge denne funktion.', # MODIF
+	'info_erreur_restauration' => 'Fejl under genopretning: fil findes ikke.', # MODIF
+	'info_forum_administrateur' => 'administratorforum', # MODIF
+	'info_forum_interne' => 'internt forum', # MODIF
+	'info_forum_ouvert' => 'I det private afsnit af webstedet er der et forum åbent for alle registrerede redaktører. Nedenfor kan du åbne et ekstra forum alene for administratorer.', # MODIF
+	'info_gauche_suivi_forum' => '<i>Forumopfølgning</i> er et administrationsværktøj (ikke et diskussions- eller redigeringsområde). Det viser alle indlæg i det offentlige forum knyttet til en bestemt artikel og giver dig mulighed for at administrere indlæggene.', # MODIF
+	'info_modifier_breve' => 'Ret nyhed:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ nyheder,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Videresend ikke meddelelser i forummer', # MODIF
 	'info_sauvegarde_articles' => 'Sikkerhedskopi af artikler',
 	'info_sauvegarde_articles_sites_ref' => 'Sikkerhedskopi af henvisninger til websteder',
 	'info_sauvegarde_auteurs' => 'Sikkerhedskopi af forfattere',

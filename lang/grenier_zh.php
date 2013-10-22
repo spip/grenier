@@ -13,31 +13,31 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_sauvegarde_non_compressee' => '存为不压缩的文件@fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => '数据库问题,您的消息未能保存.',
+	'forum_probleme_database' => '数据库问题,您的消息未能保存.', # MODIF
 
 	// I
-	'icone_forum_administrateur' => '管理员论坛',
-	'icone_forum_suivi' => '跟踪论坛',
-	'icone_publier_breve' => '发表简要',
-	'icone_refuser_breve' => '拒绝该简要',
-	'info_base_restauration' => '正在修复数据库.',
-	'info_breves_03' => '简要',
-	'info_breves_liees_mot' => '与关键词关键的简要',
-	'info_breves_touvees' => '找到的简要',
-	'info_breves_touvees_dans_texte' => '(在文本中)找到的简要',
+	'icone_forum_administrateur' => '管理员论坛', # MODIF
+	'icone_forum_suivi' => '跟踪论坛', # MODIF
+	'icone_publier_breve' => '发表简要', # MODIF
+	'icone_refuser_breve' => '拒绝该简要', # MODIF
+	'info_base_restauration' => '正在修复数据库.', # MODIF
+	'info_breves_03' => '简要', # MODIF
+	'info_breves_liees_mot' => '与关键词关键的简要', # MODIF
+	'info_breves_touvees' => '找到的简要', # MODIF
+	'info_breves_touvees_dans_texte' => '(在文本中)找到的简要', # MODIF
 	'info_echange_message' => 'SPIP 允许在讨论者中交换消息和私有讨论论坛
   . 你可激活或
-  使这个特性不可用.',
-	'info_erreur_restauration' => '恢复失败: 文件未找到.',
-	'info_forum_administrateur' => '管理者论坛',
-	'info_forum_interne' => '内部论坛',
+  使这个特性不可用.', # MODIF
+	'info_erreur_restauration' => '恢复失败: 文件未找到.', # MODIF
+	'info_forum_administrateur' => '管理者论坛', # MODIF
+	'info_forum_interne' => '内部论坛', # MODIF
 	'info_forum_ouvert' => '站点的私有区, 论坛对
   所有注册用户开放. 下面, 你可以激活一个为管理员
-  保留的论坛.',
+  保留的论坛.', # MODIF
 	'info_gauche_suivi_forum' => ' <i>论坛跟踪</i> 页是你站点的一个管理工具 (不是讨论或编辑区). 它显示这篇文章的所有论坛出版物并允许你管理这些出版物.', # MODIF
-	'info_modifier_breve' => '修改新闻:',
-	'info_nombre_breves' => '@nb_breves@ 新闻,',
-	'info_option_ne_pas_faire_suivre' => '不要转寄论坛消息',
+	'info_modifier_breve' => '修改新闻:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ 新闻,', # MODIF
+	'info_option_ne_pas_faire_suivre' => '不要转寄论坛消息', # MODIF
 	'info_sauvegarde_articles' => '备份文章',
 	'info_sauvegarde_articles_sites_ref' => '备份引用站点的文章',
 	'info_sauvegarde_auteurs' => '备份作者',

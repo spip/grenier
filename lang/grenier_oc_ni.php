@@ -9,32 +9,32 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FÒRO & PETICION', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida sota @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sota @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'Sauvagarda comprimida sota @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'Sauvagarda non comprimida sota @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problèma de basa de donadas, lo voastre messatge es pas estat registrat.',
+	'forum_probleme_database' => 'Problèma de basa de donadas, lo voastre messatge es pas estat registrat.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Sindicacion dei brèvas dau sit',
-	'icone_forum_administrateur' => 'Fòro dei administrators',
-	'icone_forum_suivi' => 'Seguit dei fòros',
-	'icone_publier_breve' => 'Publicar aquela brèva',
-	'icone_refuser_breve' => 'Refudar aquela brèva',
-	'info_base_restauration' => 'La basa es en cors de restauracion.',
-	'info_breves_03' => 'brèvas',
-	'info_breves_liees_mot' => 'Li brèvas ligadi à-n-aqueu mòt clau',
-	'info_breves_touvees' => 'Brèvas trobadi',
-	'info_breves_touvees_dans_texte' => 'Brèvas trobadi (dins lo tèxt)',
-	'info_echange_message' => 'SPIP permete l’escambi de messatges e la constitucion de fòros privats de discucion entre lu participants dau sit. Podètz activar ò desactivar aquela foncionalitat',
-	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.',
-	'info_forum_administrateur' => 'fòro dei administrators',
-	'info_forum_interne' => 'fòro interne',
-	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un fòro es dubèrt à toi lu redactors registrats. Podètz, çai sota, activar un fòro suplementari, reservat ai solets administrators.',
-	'info_gauche_suivi_forum' => 'La pàgina de <i>seguit dei fòros</i> es una aisina de gestion dau voastre sit (ma es pas un espaci de discussion ò de redaccion). Fa paréisser toti li contribucions dau fòro public d’aquel article e vos permete de gerar aqueli contribucions.',
-	'info_modifier_breve' => 'Modificar la brèva:',
-	'info_nombre_breves' => '@nb_breves@ brèvas, ',
-	'info_option_ne_pas_faire_suivre' => 'Non faire sègre lu messatges dei fòros',
+	'ical_lien_rss_breves' => 'Sindicacion dei brèvas dau sit', # MODIF
+	'icone_forum_administrateur' => 'Fòro dei administrators', # MODIF
+	'icone_forum_suivi' => 'Seguit dei fòros', # MODIF
+	'icone_publier_breve' => 'Publicar aquela brèva', # MODIF
+	'icone_refuser_breve' => 'Refudar aquela brèva', # MODIF
+	'info_base_restauration' => 'La basa es en cors de restauracion.', # MODIF
+	'info_breves_03' => 'brèvas', # MODIF
+	'info_breves_liees_mot' => 'Li brèvas ligadi à-n-aqueu mòt clau', # MODIF
+	'info_breves_touvees' => 'Brèvas trobadi', # MODIF
+	'info_breves_touvees_dans_texte' => 'Brèvas trobadi (dins lo tèxt)', # MODIF
+	'info_echange_message' => 'SPIP permete l’escambi de messatges e la constitucion de fòros privats de discucion entre lu participants dau sit. Podètz activar ò desactivar aquela foncionalitat', # MODIF
+	'info_erreur_restauration' => 'Error de restauracion: fichier inexistent.', # MODIF
+	'info_forum_administrateur' => 'fòro dei administrators', # MODIF
+	'info_forum_interne' => 'fòro interne', # MODIF
+	'info_forum_ouvert' => 'Dins l’espaci privat dau sit, un fòro es dubèrt à toi lu redactors registrats. Podètz, çai sota, activar un fòro suplementari, reservat ai solets administrators.', # MODIF
+	'info_gauche_suivi_forum' => 'La pàgina de <i>seguit dei fòros</i> es una aisina de gestion dau voastre sit (ma es pas un espaci de discussion ò de redaccion). Fa paréisser toti li contribucions dau fòro public d’aquel article e vos permete de gerar aqueli contribucions.', # MODIF
+	'info_modifier_breve' => 'Modificar la brèva:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ brèvas, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Non faire sègre lu messatges dei fòros', # MODIF
 	'info_sauvegarde_articles' => 'Sauvagardar lu articles',
 	'info_sauvegarde_articles_sites_ref' => 'Sauvagardar lu articles dei sits referençats',
 	'info_sauvegarde_auteurs' => 'Sauvagardar lu autors',
