@@ -9,36 +9,36 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM E PETIZIONE', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'backup compresso in @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'backup non compresso in @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'backup compresso in @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'backup non compresso in @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problema nel database. Il tuo messaggio non è stato registrato.',
+	'forum_probleme_database' => 'Problema nel database. Il tuo messaggio non è stato registrato.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication delle brevi del sito',
-	'icone_creer_mot_cle_breve' => 'Creare una nuova parola chiave e collegarla a questa breve',
-	'icone_forum_administrateur' => 'Forum delle amministratrici',
-	'icone_forum_suivi' => 'Monitoraggio dei forum',
-	'icone_publier_breve' => 'Pubblica questa breve',
-	'icone_refuser_breve' => 'Rifiuta questa breve',
-	'info_base_restauration' => 'Il database è in fase di ripristino.',
-	'info_breves_03' => 'brevi',
-	'info_breves_liees_mot' => 'Le brevi collegate a questa parola chiave',
-	'info_breves_touvees' => 'Brevi trovate',
-	'info_breves_touvees_dans_texte' => 'Brevi trovate (nel testo)',
+	'ical_lien_rss_breves' => 'Syndication delle brevi del sito', # MODIF
+	'icone_creer_mot_cle_breve' => 'Creare una nuova parola chiave e collegarla a questa breve', # MODIF
+	'icone_forum_administrateur' => 'Forum delle amministratrici', # MODIF
+	'icone_forum_suivi' => 'Monitoraggio dei forum', # MODIF
+	'icone_publier_breve' => 'Pubblica questa breve', # MODIF
+	'icone_refuser_breve' => 'Rifiuta questa breve', # MODIF
+	'info_base_restauration' => 'Il database è in fase di ripristino.', # MODIF
+	'info_breves_03' => 'brevi', # MODIF
+	'info_breves_liees_mot' => 'Le brevi collegate a questa parola chiave', # MODIF
+	'info_breves_touvees' => 'Brevi trovate', # MODIF
+	'info_breves_touvees_dans_texte' => 'Brevi trovate (nel testo)', # MODIF
 	'info_echange_message' => 'SPIP permette lo scambio di messaggi e la costituzione di forum di discussione
-privati tra i membri del sito. Puoi attivare o disattivare questa funzionalità.',
-	'info_erreur_restauration' => 'Errore di ripristino: file inesistente.',
-	'info_forum_administrateur' => 'forum delle amministratrici',
-	'info_forum_interne' => 'forum interno',
-	'info_forum_ouvert' => 'Nell\'area riservata del sito, è disponibile un forum per
+privati tra i membri del sito. Puoi attivare o disattivare questa funzionalità.', # MODIF
+	'info_erreur_restauration' => 'Errore di ripristino: file inesistente.', # MODIF
+	'info_forum_administrateur' => 'forum delle amministratrici', # MODIF
+	'info_forum_interne' => 'forum interno', # MODIF
+	'info_forum_ouvert' => 'Nell’area riservata del sito, è disponibile un forum per
 tutte le redattrici registrate. È anche possibile attivare un
-secondo forum riservato alle sole amministratrici.',
-	'info_gauche_suivi_forum' => 'La pagina di <i>monitoraggio dei forum</i> è uno strumento di gestione del sito (e non uno spazio di discussione o di redazione). In essa sono pubblicati tutti i contributi del forum pubblico di quest\'articolo, permettendone la gestione.',
-	'info_modifier_breve' => 'Modifica la breve:',
-	'info_nombre_breves' => '@nb_breves@ brevi, ',
-	'info_option_ne_pas_faire_suivre' => 'Non segnalare i nuovi messaggi',
+secondo forum riservato alle sole amministratrici.', # MODIF
+	'info_gauche_suivi_forum' => 'La pagina di <i>monitoraggio dei forum</i> è uno strumento di gestione del sito (e non uno spazio di discussione o di redazione). In essa sono pubblicati tutti i contributi del forum pubblico di quest’articolo, permettendone la gestione.', # MODIF
+	'info_modifier_breve' => 'Modifica la breve:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ brevi, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Non segnalare i nuovi messaggi', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Inserimento di @archive@ nel database',
 	'info_sauvegarde_articles' => 'Salva gli articoli',
 	'info_sauvegarde_articles_sites_ref' => 'Salva gli articoli dei siti citati',
@@ -64,7 +64,7 @@ secondo forum riservato alle sole amministratrici.',
 	'item_nouvelle_breve' => 'Nuova breve',
 
 	// L
-	'lien_forum_public' => 'Gestisci il forum pubblico di quest\'articolo',
+	'lien_forum_public' => 'Gestisci il forum pubblico di quest’articolo',
 	'lien_reponse_breve' => 'Risposta alla breve',
 
 	// S

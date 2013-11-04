@@ -8,38 +8,38 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORO & PETICIÓN',
-	'bouton_radio_sauvegarde_compressee' => 'copia de seguridade comprimida en @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'copia de seguridade sen comprimir en @fichier@',
+	'bouton_forum_petition' => 'FORO & PETICIÓN', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'copia de seguridade comprimida en @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'copia de seguridade sen comprimir en @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problema da base de datos, a súa mensaxe non foi rexistrada.',
+	'forum_probleme_database' => 'Problema da base de datos, a súa mensaxe non foi rexistrada.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Afiliación das breves do web',
-	'icone_creer_mot_cle_breve' => 'Crear un nova palabra chave e ligala a esta breve',
-	'icone_forum_administrateur' => 'Foro de xestión',
-	'icone_forum_suivi' => 'Seguimento dos foros',
-	'icone_publier_breve' => 'Publica esta breve',
-	'icone_refuser_breve' => 'Rexeitar esta breve',
-	'info_base_restauration' => 'A base está en proceso de restauración.',
-	'info_breves_03' => 'breves',
-	'info_breves_liees_mot' => 'As breves ligadas a esta palabra chave',
-	'info_breves_touvees' => 'Breves atopadas',
-	'info_breves_touvees_dans_texte' => 'Breves atopadas (no texto)',
+	'ical_lien_rss_breves' => 'Afiliación das breves do web', # MODIF
+	'icone_creer_mot_cle_breve' => 'Crear un nova palabra chave e ligala a esta breve', # MODIF
+	'icone_forum_administrateur' => 'Foro de xestión', # MODIF
+	'icone_forum_suivi' => 'Seguimento dos foros', # MODIF
+	'icone_publier_breve' => 'Publica esta breve', # MODIF
+	'icone_refuser_breve' => 'Rexeitar esta breve', # MODIF
+	'info_base_restauration' => 'A base está en proceso de restauración.', # MODIF
+	'info_breves_03' => 'breves', # MODIF
+	'info_breves_liees_mot' => 'As breves ligadas a esta palabra chave', # MODIF
+	'info_breves_touvees' => 'Breves atopadas', # MODIF
+	'info_breves_touvees_dans_texte' => 'Breves atopadas (no texto)', # MODIF
 	'info_echange_message' => 'SPIP permite o intercambio de mensaxes e a constitución de foros de discusión
   privados entre os participantes do web. Pode activar ou
-  desactivar esta funcionalidade.',
-	'info_erreur_restauration' => 'Erro de restauración: o ficheiro non existe.',
-	'info_forum_administrateur' => 'foro do equipo de xestión',
-	'info_forum_interne' => 'foro interno',
+  desactivar esta funcionalidade.', # MODIF
+	'info_erreur_restauration' => 'Erro de restauración: o ficheiro non existe.', # MODIF
+	'info_forum_administrateur' => 'foro do equipo de xestión', # MODIF
+	'info_forum_interne' => 'foro interno', # MODIF
 	'info_forum_ouvert' => 'Dentro do espazo privado do web, hai un foro aberto
   a toda os usuarios rexistrados. Aquí abaixo pode activar un foro
-  complementar, reservado ao equipo de xestión.',
-	'info_gauche_suivi_forum' => 'A p&aacute;xina de <i>seguimento dos foros</i> &eeacute; unha ferramenta de xesti&oacute;n do web (e non un espazo de discusi&oacute;n ou de redacci&oacute;n). Mostra todas as contribuci&oacute;ns no foro p&uacute;blico deste artigo e permite xestionar estas contribuci&oacute;ns.',
-	'info_modifier_breve' => 'Modificar a breve:',
-	'info_nombre_breves' => '@nb_breves@ breves,',
-	'info_option_ne_pas_faire_suivre' => 'Non enviar avisos das mensaxes dos foros',
+  complementar, reservado ao equipo de xestión.', # MODIF
+	'info_gauche_suivi_forum' => 'A páxina de <i>seguimento dos foros</i> &eeacute; unha ferramenta de xestión do web (e non un espazo de discusión ou de redacción). Mostra todas as contribucións no foro público deste artigo e permite xestionar estas contribucións.', # MODIF
+	'info_modifier_breve' => 'Modificar a breve:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ breves,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Non enviar avisos das mensaxes dos foros', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Inserción de @archive@ na base de datos',
 	'info_sauvegarde_articles' => 'Gardar os artigos',
 	'info_sauvegarde_articles_sites_ref' => 'Gardar os artigos dos webs referidos',

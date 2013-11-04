@@ -9,7 +9,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// G
 	'grenier_description' => 'Deprecated functions and APIs',
-	'grenier_slogan' => 'Deprecated SPIP\'s functions and APIs'
+	'grenier_slogan' => 'Deprecated SPIP’s functions and APIs'
 );
 
 ?>

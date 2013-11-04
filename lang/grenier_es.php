@@ -9,35 +9,35 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORO & FIRMAS', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'respaldo comprimido en @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'respaldo no comprimido en @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'respaldo comprimido en @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'respaldo no comprimido en @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Problema de la base de datos, tu mensaje no ha sido registrado.',
+	'forum_probleme_database' => 'Problema de la base de datos, tu mensaje no ha sido registrado.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Sindicación de breves del sitio',
-	'icone_creer_mot_cle_breve' => 'Crear una nueva palabra clave y aplicarla a esta breve',
-	'icone_forum_administrateur' => 'Foro de administradoras y administradores',
-	'icone_forum_suivi' => 'Seguimiento de los foros',
-	'icone_publier_breve' => 'Publicar esta breve',
-	'icone_refuser_breve' => 'Rechazar esta breve',
-	'info_base_restauration' => 'La base está siendo restaurada',
-	'info_breves_03' => 'breves',
-	'info_breves_liees_mot' => 'Las breves ligadas a esta palabra clave',
-	'info_breves_touvees' => 'Breves localizadas',
-	'info_breves_touvees_dans_texte' => 'Breves localizadas (en el texto)',
+	'ical_lien_rss_breves' => 'Sindicación de breves del sitio', # MODIF
+	'icone_creer_mot_cle_breve' => 'Crear una nueva palabra clave y aplicarla a esta breve', # MODIF
+	'icone_forum_administrateur' => 'Foro de administradoras y administradores', # MODIF
+	'icone_forum_suivi' => 'Seguimiento de los foros', # MODIF
+	'icone_publier_breve' => 'Publicar esta breve', # MODIF
+	'icone_refuser_breve' => 'Rechazar esta breve', # MODIF
+	'info_base_restauration' => 'La base está siendo restaurada', # MODIF
+	'info_breves_03' => 'breves', # MODIF
+	'info_breves_liees_mot' => 'Las breves ligadas a esta palabra clave', # MODIF
+	'info_breves_touvees' => 'Breves localizadas', # MODIF
+	'info_breves_touvees_dans_texte' => 'Breves localizadas (en el texto)', # MODIF
 	'info_echange_message' => 'En función de las preferencias, SPIP permite el intercambio de mensajes y la existencia de foros internos
  privados entre los participantes del sitio. Esta funcionalidad
-se puede activar o desactivar .',
-	'info_erreur_restauration' => 'Error de restauración. Archivo inexistente.',
-	'info_forum_administrateur' => 'Foro del grupo de administración ',
-	'info_forum_interne' => 'foro interno',
-	'info_forum_ouvert' => 'En el espacio privado del sitio hay un foro abierto a todas las personas inscritas. A continuación, puedes activar un foro suplementario reservado a los administradores y administradoras.',
-	'info_gauche_suivi_forum' => 'La página de <i>seguimiento de los foros</i> es una herramienta de gestión de tu sitio (y no un espacio de diálogo o de redacción). Muestra todas las contribuciones del foro público de este artículo y te permite administrarlas.',
-	'info_modifier_breve' => 'Modificar la breve',
-	'info_nombre_breves' => '@nb_breves@ breves,',
-	'info_option_ne_pas_faire_suivre' => 'No enviar los mensajes de los foros',
+se puede activar o desactivar .', # MODIF
+	'info_erreur_restauration' => 'Error de restauración. Archivo inexistente.', # MODIF
+	'info_forum_administrateur' => 'Foro del grupo de administración ', # MODIF
+	'info_forum_interne' => 'foro interno', # MODIF
+	'info_forum_ouvert' => 'En el espacio privado del sitio hay un foro abierto a todas las personas inscritas. A continuación, puedes activar un foro suplementario reservado a los administradores y administradoras.', # MODIF
+	'info_gauche_suivi_forum' => 'La página de <i>seguimiento de los foros</i> es una herramienta de gestión de tu sitio (y no un espacio de diálogo o de redacción). Muestra todas las contribuciones del foro público de este artículo y te permite administrarlas.', # MODIF
+	'info_modifier_breve' => 'Modificar la breve', # MODIF
+	'info_nombre_breves' => '@nb_breves@ breves,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'No enviar los mensajes de los foros', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Inserción de @archive@ en la base',
 	'info_sauvegarde_articles' => 'Guardar los artículos',
 	'info_sauvegarde_articles_sites_ref' => 'Guarar los artículos de los sitios referenciados',

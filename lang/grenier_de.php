@@ -8,34 +8,34 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORUM + PETITION',
-	'bouton_radio_sauvegarde_compressee' => 'komprimiert sichern nach @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'unkomprimiert sichern nach @fichier@',
+	'bouton_forum_petition' => 'FORUM + PETITION', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'komprimiert sichern nach @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'unkomprimiert sichern nach @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Datenbankfehler. Ihr Beitrag wurde nicht gespeichert',
+	'forum_probleme_database' => 'Datenbankfehler. Ihr Beitrag wurde nicht gespeichert', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Syndikation der Meldungen dieser Website',
-	'icone_creer_mot_cle_breve' => 'Schlagwort anlegen und dieser Meldung zuordnen.',
-	'icone_forum_administrateur' => 'Forum der Administratoren',
-	'icone_forum_suivi' => 'Foren moderieren',
-	'icone_publier_breve' => 'Meldung veröffentlichen',
-	'icone_refuser_breve' => 'Kurzmeldung ablehnen',
-	'info_base_restauration' => 'Datenbank wird wieder hergestellt.',
-	'info_breves_03' => 'Meldungen',
-	'info_breves_liees_mot' => 'Mit diesem Schlagwort verknüpfte Meldungen',
-	'info_breves_touvees' => 'Gefundene Meldungen',
-	'info_breves_touvees_dans_texte' => 'Gefundene Meldungen (im Text)',
-	'info_echange_message' => 'In SPIP können Sie interne Nachrichten austauschen und interne Foren für Teilnehmer der Website anlegen. Diese Funktionen können Sie abschalten.',
-	'info_erreur_restauration' => 'Fehler bei der Wiederherstellung: Datei nicht vorhanden.',
-	'info_forum_administrateur' => 'Forum der Administratoren',
-	'info_forum_interne' => 'Internes Forum',
-	'info_forum_ouvert' => 'Im Redaktionssystem der Website gibt es ein Forum für alle Redakteure. Sie können hier ein Forum <i>nur für Administratoren</i> einschalten.',
-	'info_gauche_suivi_forum' => 'Die Seite zum <i>Verwalten der Foren</i> hat eine administrative Funktion und dient nicht zum Diskutieren mit den Lesern. Es werden alle Einträge im öffentlichen Forum des Artikels gezeigt, so dass Sie diese einzeln ein- und ausschalten können.',
-	'info_modifier_breve' => 'Meldung bearbeiten:',
-	'info_nombre_breves' => '@nb_breves@ Kurzmeldugen, ',
-	'info_option_ne_pas_faire_suivre' => 'Keine Beiträge aus den Foren an die Autoren verschicken.',
+	'ical_lien_rss_breves' => 'Syndikation der Meldungen dieser Website', # MODIF
+	'icone_creer_mot_cle_breve' => 'Schlagwort anlegen und dieser Meldung zuordnen.', # MODIF
+	'icone_forum_administrateur' => 'Forum der Administratoren', # MODIF
+	'icone_forum_suivi' => 'Foren moderieren', # MODIF
+	'icone_publier_breve' => 'Meldung veröffentlichen', # MODIF
+	'icone_refuser_breve' => 'Kurzmeldung ablehnen', # MODIF
+	'info_base_restauration' => 'Datenbank wird wieder hergestellt.', # MODIF
+	'info_breves_03' => 'Meldungen', # MODIF
+	'info_breves_liees_mot' => 'Mit diesem Schlagwort verknüpfte Meldungen', # MODIF
+	'info_breves_touvees' => 'Gefundene Meldungen', # MODIF
+	'info_breves_touvees_dans_texte' => 'Gefundene Meldungen (im Text)', # MODIF
+	'info_echange_message' => 'In SPIP können Sie interne Nachrichten austauschen und interne Foren für Teilnehmer der Website anlegen. Diese Funktionen können Sie abschalten.', # MODIF
+	'info_erreur_restauration' => 'Fehler bei der Wiederherstellung: Datei nicht vorhanden.', # MODIF
+	'info_forum_administrateur' => 'Forum der Administratoren', # MODIF
+	'info_forum_interne' => 'Internes Forum', # MODIF
+	'info_forum_ouvert' => 'Im Redaktionssystem der Website gibt es ein Forum für alle Redakteure. Sie können hier ein Forum <i>nur für Administratoren</i> einschalten.', # MODIF
+	'info_gauche_suivi_forum' => 'Die Seite zum <i>Verwalten der Foren</i> hat eine administrative Funktion und dient nicht zum Diskutieren mit den Lesern. Es werden alle Einträge im öffentlichen Forum des Artikels gezeigt, so dass Sie diese einzeln ein- und ausschalten können.', # MODIF
+	'info_modifier_breve' => 'Meldung bearbeiten:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ Kurzmeldugen, ', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Keine Beiträge aus den Foren an die Autoren verschicken.', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Einfügen der Sicherung @archive@ in die Datenbank',
 	'info_sauvegarde_articles' => 'Artikel sichern',
 	'info_sauvegarde_articles_sites_ref' => 'Artikel der verlinkten Sites sichern',

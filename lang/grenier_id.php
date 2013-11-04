@@ -9,38 +9,36 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FORUM & PETISI', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'simpan dalam bentuk kompresi di @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'simpan dalam bentuk tidak terkompresi di @fichier@',
+	'bouton_radio_sauvegarde_compressee' => 'simpan dalam bentuk kompresi di @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'simpan dalam bentuk tidak terkompresi di @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Permasalahan database, pesan anda tidak dapat disimpan.',
+	'forum_probleme_database' => 'Permasalahan database, pesan anda tidak dapat disimpan.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Sindikasi artikel berita situs',
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # NEW
-	'icone_forum_administrateur' => 'Forum administrator',
-	'icone_forum_suivi' => 'Tindak lanjut forum',
-	'icone_publier_breve' => 'Publikasi artikel berita ini',
-	'icone_refuser_breve' => 'Tolak artikel berita ini',
-	'info_base_restauration' => 'Pemulihan database dalam proses.',
-	'info_breves_03' => 'artikel berita',
-	'info_breves_liees_mot' => 'Berita-berita yang terasosiasi dengan kata kunci ini',
-	'info_breves_touvees' => 'Artikel berita ditemukan',
-	'info_breves_touvees_dans_texte' => 'Artikel berita ditemukan (dalam teks)',
+	'ical_lien_rss_breves' => 'Sindikasi artikel berita situs', # MODIF
+	'icone_forum_administrateur' => 'Forum administrator', # MODIF
+	'icone_forum_suivi' => 'Tindak lanjut forum', # MODIF
+	'icone_publier_breve' => 'Publikasi artikel berita ini', # MODIF
+	'icone_refuser_breve' => 'Tolak artikel berita ini', # MODIF
+	'info_base_restauration' => 'Pemulihan database dalam proses.', # MODIF
+	'info_breves_03' => 'artikel berita', # MODIF
+	'info_breves_liees_mot' => 'Berita-berita yang terasosiasi dengan kata kunci ini', # MODIF
+	'info_breves_touvees' => 'Artikel berita ditemukan', # MODIF
+	'info_breves_touvees_dans_texte' => 'Artikel berita ditemukan (dalam teks)', # MODIF
 	'info_echange_message' => 'SPIP mengizinkan pertukaran pesan dan pembuatan forum
 		diskusi pribadi di antara pengunjung situs. Anda dapat mengaktifkan
-		atau menonaktifka fitur ini.',
-	'info_erreur_restauration' => 'Kesalahan pemulihan: berkas tidak ditemukan.',
-	'info_forum_administrateur' => 'forum administrators',
-	'info_forum_interne' => 'forum internal',
+		atau menonaktifka fitur ini.', # MODIF
+	'info_erreur_restauration' => 'Kesalahan pemulihan: berkas tidak ditemukan.', # MODIF
+	'info_forum_administrateur' => 'forum administrators', # MODIF
+	'info_forum_interne' => 'forum internal', # MODIF
 	'info_forum_ouvert' => 'Di area pribadi situs, sebuah forum terbuka untuk semua
 		editor yang terdaftar. Di bawah, anda dapat mengaktifkan
-		forum tambahan direservasi untuk para administrator.',
-	'info_gauche_suivi_forum' => 'Halaman <i>tindak lanjut forum</i> adalah alat bantu pengelola situs anda (bukan area diskusi atau pengeditan). Halaman ini menampilkan semua kontribusi forum umum artikel ini dan mengizinkan anda untuk mengelola kontribusi-kontribusi ini.',
-	'info_modifier_breve' => 'Modifikasi artikel berita:',
-	'info_nombre_breves' => '@nb_breves@ artikel berita,',
-	'info_option_ne_pas_faire_suivre' => 'Jangan teruskan pesan forum',
-	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base', # NEW
+		forum tambahan direservasi untuk para administrator.', # MODIF
+	'info_gauche_suivi_forum' => 'Halaman <i>tindak lanjut forum</i> adalah alat bantu pengelola situs anda (bukan area diskusi atau pengeditan). Halaman ini menampilkan semua kontribusi forum umum artikel ini dan mengizinkan anda untuk mengelola kontribusi-kontribusi ini.', # MODIF
+	'info_modifier_breve' => 'Modifikasi artikel berita:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ artikel berita,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Jangan teruskan pesan forum', # MODIF
 	'info_sauvegarde_articles' => 'Backup artikel',
 	'info_sauvegarde_articles_sites_ref' => 'Backup artikel-artikel dari situs-situs referensi',
 	'info_sauvegarde_auteurs' => 'Backup penulis',
@@ -54,7 +52,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_petitions' => 'Backup petisi',
 	'info_sauvegarde_refers' => 'Backup pereferensi',
 	'info_sauvegarde_reussi_01' => 'Backup berhasil.',
-	'info_sauvegarde_rubrique_reussi' => 'Les tables de la rubrique @titre@ ont été sauvegardée dans @archive@. Vous pouvez', # NEW
 	'info_sauvegarde_rubriques' => 'Backup Bagian',
 	'info_sauvegarde_signatures' => 'Backup tanda tangan petisi',
 	'info_sauvegarde_sites_references' => 'Backup situs-situs referensi',
@@ -70,19 +67,16 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// S
 	'sauvegarde_fusionner' => 'Gabung database sekarang dengan backup',
-	'sauvegarde_fusionner_depublier' => 'Dépublier les objets fusionnés', # NEW
 	'sauvegarde_url_origine' => 'Jika diperlukan, URL situs sumber:',
 
 	// T
 	'texte_admin_tech_03' => 'Anda dapat memilih untuk menyimpan berkas dalam bentuk kompresi 
 	untuk mempercepat tranfer ke mesin anda atau server backup dan menyimpan sejumlah ruangan di disk.',
-	'texte_admin_tech_04' => 'Dans un but de fusion avec une autre base, vous pouvez limiter la sauvegarde à la rubrique: ', # NEW
 	'texte_sauvegarde_compressee' => 'Backup akan disimpan dalam berkas tidak terkompresi @fichier@.',
 	'titre_nouvelle_breve' => 'Artikel berita baru',
 	'titre_page_breves_edit' => 'Modifikasi artikel berita: «@titre@»',
 	'titre_page_forum' => 'Forum administrator',
-	'titre_page_forum_envoi' => 'Kirim sebuah pesan',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum' # NEW
+	'titre_page_forum_envoi' => 'Kirim sebuah pesan'
 );
 
 ?>

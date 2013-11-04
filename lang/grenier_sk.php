@@ -8,38 +8,38 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'DISKUSNÉ FÓRUM A PETÍCIA',
-	'bouton_radio_sauvegarde_compressee' => 'uložiť komprimovanú v súbore @fichier@',
-	'bouton_radio_sauvegarde_non_compressee' => 'uložiť ako dekomprimovanú v súbore @fichier@',
+	'bouton_forum_petition' => 'DISKUSNÉ FÓRUM A PETÍCIA', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'uložiť komprimovanú v súbore @fichier@', # MODIF
+	'bouton_radio_sauvegarde_non_compressee' => 'uložiť ako dekomprimovanú v súbore @fichier@', # MODIF
 
 	// F
-	'forum_probleme_database' => 'Database problem, your message could not be recorded.',
+	'forum_probleme_database' => 'Database problem, your message could not be recorded.', # MODIF
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication of the site\'s news items',
-	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item',
-	'icone_forum_administrateur' => 'Fórum administrátorov',
-	'icone_forum_suivi' => 'Sledovanie diskusných fór',
-	'icone_publier_breve' => 'Uverejniť túto správu',
-	'icone_refuser_breve' => 'Zamietnuť túto správu',
-	'info_base_restauration' => 'Prebieha obnova databázy.',
-	'info_breves_03' => 'news items',
-	'info_breves_liees_mot' => 'News associated with this keyword',
-	'info_breves_touvees' => 'News items found',
-	'info_breves_touvees_dans_texte' => 'News items found (in the text)',
+	'ical_lien_rss_breves' => 'Syndication of the site’s news items', # MODIF
+	'icone_creer_mot_cle_breve' => 'Create a new keyword and attach it to this news item', # MODIF
+	'icone_forum_administrateur' => 'Fórum administrátorov', # MODIF
+	'icone_forum_suivi' => 'Sledovanie diskusných fór', # MODIF
+	'icone_publier_breve' => 'Uverejniť túto správu', # MODIF
+	'icone_refuser_breve' => 'Zamietnuť túto správu', # MODIF
+	'info_base_restauration' => 'Prebieha obnova databázy.', # MODIF
+	'info_breves_03' => 'news items', # MODIF
+	'info_breves_liees_mot' => 'News associated with this keyword', # MODIF
+	'info_breves_touvees' => 'News items found', # MODIF
+	'info_breves_touvees_dans_texte' => 'News items found (in the text)', # MODIF
 	'info_echange_message' => 'Systém SPIP umožňuje výmenu správ a vytváranie súkromných
   diskusných fór pre používateľov stránky. Túto funkciu môžete
-  zapnúť alebo vypnúť.',
-	'info_erreur_restauration' => 'Chyba pri obnove: súbor sa nenašiel.',
-	'info_forum_administrateur' => 'diskusné fórum administrátorov',
-	'info_forum_interne' => 'interné diskusné fórum',
-	'info_forum_ouvert' => 'In the site\'s private area, a forum is open to all
+  zapnúť alebo vypnúť.', # MODIF
+	'info_erreur_restauration' => 'Chyba pri obnove: súbor sa nenašiel.', # MODIF
+	'info_forum_administrateur' => 'diskusné fórum administrátorov', # MODIF
+	'info_forum_interne' => 'interné diskusné fórum', # MODIF
+	'info_forum_ouvert' => 'In the site’s private area, a forum is open to all
 		registered editors. Below, you can enable an
-		extra forum reserved for the administrators.',
-	'info_gauche_suivi_forum' => 'Stránka na <i>sledovanie diskusných fór</i> je riadiaci nástroj vášho webu (nie zóna na diskusie alebo úpravy). Uvádza všetky príspevky verejného diskusného fóra k tomuto článku a umožňuje vám o týchto príspevkoch rozhodovať.',
-	'info_modifier_breve' => 'Modify the news item:',
-	'info_nombre_breves' => '@nb_breves@ news items,',
-	'info_option_ne_pas_faire_suivre' => 'Nepreposielať príspevky z diskusných fór',
+		extra forum reserved for the administrators.', # MODIF
+	'info_gauche_suivi_forum' => 'Stránka na <i>sledovanie diskusných fór</i> je riadiaci nástroj vášho webu (nie zóna na diskusie alebo úpravy). Uvádza všetky príspevky verejného diskusného fóra k tomuto článku a umožňuje vám o týchto príspevkoch rozhodovať.', # MODIF
+	'info_modifier_breve' => 'Modify the news item:', # MODIF
+	'info_nombre_breves' => '@nb_breves@ news items,', # MODIF
+	'info_option_ne_pas_faire_suivre' => 'Nepreposielať príspevky z diskusných fór', # MODIF
 	'info_restauration_sauvegarde_insert' => 'Vkladanie archívu @archive@ do databázy',
 	'info_sauvegarde_articles' => 'Zálohovať články',
 	'info_sauvegarde_articles_sites_ref' => 'Backup articles of referenced sites',
