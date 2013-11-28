@@ -79,7 +79,8 @@
 	</langue>
 	<langue code="nb" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=nb" total="60" traduits="18" relire="0" modifs="9" nouveaux="33" pourcent="30.00">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=nl" total="60" traduits="36" relire="0" modifs="24" nouveaux="0" pourcent="60.00">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=nl" total="60" traduits="60" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 		<traducteur nom="Suske" lien="http://trad.spip.net/auteur/suske" />
 	</langue>
 	<langue code="oc_auv" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=oc_auv" total="60" traduits="29" relire="0" modifs="22" nouveaux="9" pourcent="48.33">
