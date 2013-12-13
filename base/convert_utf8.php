@@ -60,7 +60,7 @@ function base_convert_utf8_dist($titre='', $reprise=false)
 
 	echo install_debut_html($titre);
 	
-	echo "<p>", _T('utf8_convert_timeout'), "</p><hr />\n";
+	echo "<p>", _T('grenier:utf8_convert_timeout'), "</p><hr />\n";
 
 	// preparer un fichier de sauvegarde au cas ou
 	// on met 'a' car ca peut demander plusieurs rechargements
@@ -72,8 +72,8 @@ function base_convert_utf8_dist($titre='', $reprise=false)
 
 	if ($f) fclose($f);
 
-	echo "<p><b>"._T('utf8_convert_termine')."</b></p>";
-	echo "<p>,"._T('utf8_convert_verifier', array('rep' => joli_repertoire(_DIR_TMP))), '</p>';
+	echo "<p><b>"._T('grenier:utf8_convert_termine')."</b></p>";
+	echo "<p>,"._T('grenier:utf8_convert_verifier', array('rep' => joli_repertoire(_DIR_TMP))), '</p>';
 
 	// bouton "retour au site" + redirige_par_entete
 	echo "<p style='text-align: right'>",

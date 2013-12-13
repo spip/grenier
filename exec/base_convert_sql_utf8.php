@@ -22,7 +22,7 @@ function exec_base_convert_sql_utf8_dist() {
 	$charset_spip = $GLOBALS['meta']['charset'];
 
 	// Definir le titre de la page (et le nom du fichier admin)
-	//$action = _T('utf8_convertir_votre_site');
+	//$action = _T('grenier:utf8_convertir_votre_site');
 	$action = _L("Conversion de la base en $charset_spip"); #volontairement non traduit (obsolete)
 
 	// si meta deja la, c'est une reprise apres timeout.
@@ -48,13 +48,13 @@ function exec_base_convert_sql_utf8_dist() {
 		} else {
 
 		$commentaire = "";
-		//$commentaire = _T('utf8_convert_avertissement',
+		//$commentaire = _T('grenier:utf8_convert_avertissement',
 		//	array('orig' => $charset_orig,'charset' => 'utf-8'));
 		$commentaire .=  "<small>"
 		. http_img_pack("warning-48.png", _T('info_avertissement'), " float: right;margin: 10px;'");
-		$commentaire .= _T('utf8_convert_backup', array('charset' => 'utf-8'))
+		$commentaire .= _T('grenier:utf8_convert_backup', array('charset' => 'utf-8'))
 		."</small>";
-		$commentaire .= '<br />'._T('utf8_convert_timeout');
+		$commentaire .= '<br />'._T('grenier:utf8_convert_timeout');
 		$commentaire .= "<hr />\n";
 
 		$admin = charger_fonction('admin', 'inc');

@@ -20,11 +20,11 @@ function base_convert_sql_utf8_dist($titre='', $reprise=false)
 	ecrire_meta('convert_sql_utf8','oui','non');
 	echo install_debut_html($titre);
 	
-	echo "<p>", _T('utf8_convert_timeout'), "</p><hr />\n";
+	echo "<p>", _T('grenier:utf8_convert_timeout'), "</p><hr />\n";
 	
 	convert_sql_utf8($titre);
 
-	echo "<p><b>"._T('utf8_convert_termine')."</b></p>";
+	echo "<p><b>"._T('grenier:utf8_convert_termine')."</b></p>";
 	effacer_meta('convert_sql_utf8');
 
 	// bouton "retour au site" + redirige_par_entete
