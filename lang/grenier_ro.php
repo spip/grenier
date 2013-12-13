@@ -81,7 +81,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Modificaţi ştirea: « @titre@ »',
 	'titre_page_forum' => 'Forum-ul administratorilor',
 	'titre_page_forum_envoi' => 'Trimiteţi un mesaj',
-	'titre_page_statistiques_messages_forum' => 'Mesajele forum-ului'
+	'titre_page_statistiques_messages_forum' => 'Mesajele forum-ului',
+
+	// U
+	'utf8_convert_attendez' => 'Aşteptaţi câteva momente şi reîncărcaţi această pagină.',
+	'utf8_convert_avertissement' => 'Puteţi să convertiţi conţinutul bazei dumneavoastră de date (articole, ştiri, etc.) din codarea <b>@orig@</b> catre codarea <b>@charset@</b>.',
+	'utf8_convert_backup' => 'Nu uitaţi să faceţi înainte de orice o copie de siguranţă a totalităţii site-ului dumneavoastră. Va trebui, de asemenea, să verificaţi că scheletele şi fişierele de limbă sunt compatibile @charset@.',
+	'utf8_convert_erreur_deja' => 'Site-ul dumneavoastră este deja în  @charset@, conversia e inutilă ...',
+	'utf8_convert_termine' => 'Gata !',
+	'utf8_convert_timeout' => '<b>Important :</b> în caz de <i>timeout</i> al server-ului de web, vă rugăm să reîncărcaţi această pagină până când aceasta vă va indica « terminat ».',
+	'utf8_convert_verifier' => 'Va trebui ca acum să goliţi memoria tampon şi să verificaţi că totul se petrece bine în cadrul site-ului public. În caz de probleme majore, o copie de siguranţă a fost efectuată (în format SQL) în directorul @rep@.',
+	'utf8_convertir_votre_site' => 'Convertiţi site-ul dumneavoastră în utf-8'
 );
 
 ?>

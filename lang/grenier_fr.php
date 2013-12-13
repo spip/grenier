@@ -81,7 +81,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_forum' => 'Forum des administrateurs',
 	'titre_page_forum_envoi' => 'Envoyer un message',
 	'titre_page_statistiques_messages_forum' => 'Messages de forum',
-	
+
+	// U
 	'utf8_convert_attendez' => 'Attendez quelques instants et rechargez cette page.',
 	'utf8_convert_avertissement' => 'Vous vous apprêtez à convertir le contenu de votre base de données (articles, brèves, etc) du jeu de caractères <b>@orig@</b> vers le jeu de caractères <b>@charset@</b>.',
 	'utf8_convert_backup' => 'N’oubliez pas de faire auparavant une sauvegarde complète de votre site. Vous devrez aussi vérifier que vos squelettes et fichiers de langue sont compatibles @charset@.',

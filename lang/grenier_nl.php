@@ -80,7 +80,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Wijzigen bericht : «@titre@»',
 	'titre_page_forum' => 'Forum van de beheerders',
 	'titre_page_forum_envoi' => 'Een bericht versturen',
-	'titre_page_statistiques_messages_forum' => 'Berichten van forum'
+	'titre_page_statistiques_messages_forum' => 'Berichten van forum',
+
+	// U
+	'utf8_convert_attendez' => 'Wacht enkele ogenblikken en herlaadt deze pagina.',
+	'utf8_convert_avertissement' => 'U heeft zich klaargemaakt om de inhoud van uw site (artikels, berichten, enz) om te zetten van karakterset <b>@orig@</b> naar karakterset <b>@charset@</b>.',
+	'utf8_convert_backup' => 'Vergeet niet om vooraf uw volledige site te bewaren. U dient ook na te gaan of uw sjablonen en taalbestanden @charset@ compatibel zijn.',
+	'utf8_convert_erreur_deja' => 'Uw site is reeds in @charset@, onnodig om hem om te zetten...',
+	'utf8_convert_termine' => 'Opdracht volbracht !',
+	'utf8_convert_timeout' => '<b>Belangrijk :</b> indien de server <i>timeout</i> aangeeft, dien je de pagina te herladen tot ze « volbracht » aangeeft.',
+	'utf8_convert_verifier' => 'Je kan nu de buffer leegmaken en nagaan of alles goed werkt op je publieke site. Als het goed fout gaat, kan je terugvallen op een backup die in SQL formaat in de map @rep@ bewaard werd.',
+	'utf8_convertir_votre_site' => 'Je site omzetten naar utf-8'
 );
 
 ?>

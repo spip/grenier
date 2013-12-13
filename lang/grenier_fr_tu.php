@@ -82,7 +82,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »',
 	'titre_page_forum' => 'Forum des administrateurs',
 	'titre_page_forum_envoi' => 'Envoyer un message',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum'
+	'titre_page_statistiques_messages_forum' => 'Messages de forum',
+
+	// U
+	'utf8_convert_attendez' => 'Attends quelques instants et recharge cette page.',
+	'utf8_convert_avertissement' => 'Tu t’apprêtes à convertir le contenu de ta base de données (articles, brèves, etc) du jeu de caractères <b>@orig@</b> vers le jeu de caractères <b>@charset@</b>.',
+	'utf8_convert_backup' => 'N’oublie pas de faire auparavant une sauvegarde complète de ton site. Tu devras aussi vérifier que tes squelettes et fichiers de langue sont compatibles @charset@.',
+	'utf8_convert_erreur_deja' => 'Ton site est déjà en @charset@, inutile de le convertir...',
+	'utf8_convert_termine' => 'C’est terminé !',
+	'utf8_convert_timeout' => '<b>Important :</b> en cas de <i>timeout</i> du serveur, recharge la page jusqu’à ce qu’elle indique « terminé ».',
+	'utf8_convert_verifier' => 'Tu dois maintenant aller vider le cache, et vérifier que tout se passe bien sur les pages publiques du site. En cas de gros problème, une sauvegarde de tes données a été réalisée (au format SQL) dans le répertoire @rep@.',
+	'utf8_convertir_votre_site' => 'Convertir ton site en utf-8'
 );
 
 ?>
