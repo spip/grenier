@@ -80,7 +80,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Modifi la fulm-informon : « @titre@ »',
 	'titre_page_forum' => 'Forumo de la mastrumantoj',
 	'titre_page_forum_envoi' => 'Sendi mesaĝon',
-	'titre_page_statistiques_messages_forum' => 'Forumaj mesaĝoj'
+	'titre_page_statistiques_messages_forum' => 'Forumaj mesaĝoj',
+
+	// U
+	'utf8_convert_attendez' => 'Atendu kelkajn momentojn kaj refreŝigu tiun paĝon.',
+	'utf8_convert_avertissement' => 'Vi estas konvertonta la enhavon de via datenbazo (artikoloj, fulm-informoj, ktp...) kun la litertiparo <b>@orig@</b> al la litertiparo <b>@charset@</b>.',
+	'utf8_convert_backup' => 'Antaŭe, ne forgesu fari kompletan savkopion de via retejo. Vi devos ankaŭ kontroli, ke viaj skeletoj kaj lingvaj dosieroj kungruas kun @charset@.',
+	'utf8_convert_erreur_deja' => 'Via retejo jam estas je @charset@, estas senutile konverti ĝin...',
+	'utf8_convert_termine' => 'Finite !',
+	'utf8_convert_timeout' => '<b>Grava :</b> kaze de servila <i>eltempiĝo</i> bonvolu freŝigi la paĝon ĝis kiam ĝi indikos « finite ».',
+	'utf8_convert_verifier' => 'Vi devas nun malplenigi la staplon, kaj kontroli ke ĉio bonas ĉe la publikaj paĝoj de la retejo. Kaze de grava problemo, savkopio de viaj datenoj estas farita (je la SQL-formato) en la dosierujo @rep@.',
+	'utf8_convertir_votre_site' => 'Konverti vian retejon en utf-8'
 );
 
 ?>

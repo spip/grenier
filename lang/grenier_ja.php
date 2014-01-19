@@ -69,7 +69,11 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_nouvelle_breve' => '新しいニュース',
 	'titre_page_breves_edit' => 'ニュースの変更: «@titre@»',
 	'titre_page_forum' => '管理者用の掲示板',
-	'titre_page_forum_envoi' => 'メッセージを送る'
+	'titre_page_forum_envoi' => 'メッセージを送る',
+
+	// U
+	'utf8_convert_termine' => '完了しました!!',
+	'utf8_convertir_votre_site' => 'あなたのサイトをutf-8に変換します。'
 );
 
 ?>

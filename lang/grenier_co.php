@@ -81,7 +81,21 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Mudificà i dispacci : «@titre@»',
 	'titre_page_forum' => 'Foru di l’amministratori',
 	'titre_page_forum_envoi' => 'Mandà un messagiu',
-	'titre_page_statistiques_messages_forum' => 'Messagi di i fori'
+	'titre_page_statistiques_messages_forum' => 'Messagi di i fori',
+
+	// U
+	'utf8_convert_attendez' => 'Aspettate dui minuti è ricaricate puru sta pàgina.',
+	'utf8_convert_avertissement' => 'V’appruntate à cunvertisce u cuntenutu di a vostra basa di dati (artìculi, dispacci, ecc.) da u ghjocu di caràtteri
+		<b>@orig@</b> à u chjocu di caràtteri <b>@charset@</b>.',
+	'utf8_convert_backup' => 'Ùn vi scurdate micca di fà una copia di salvezza di u situ sanu sanu capunanzu. Inoltre vi tuccherà à verificà chì i vostri mudelli
+ è schedari di lingua rispettanu @charset@.',
+	'utf8_convert_erreur_deja' => 'U vostru situ hè digià in @charset@, ùn ghjova à nunda di cunvertisce lu...',
+	'utf8_convert_termine' => 'Hè finita !',
+	'utf8_convert_timeout' => '<b>Impurtante :</b> in casu di <i>timeout</i> di u servore, ricaricate puru a pàgina finch’ella vi dessi u messagiu 
+	« Hè finita ».',
+	'utf8_convert_verifier' => 'Avà vi tocca à andà à sviutà u cache, è verificà chì tuttu viaghji bè nant’à e pàgine pùbbliche di u situ. 
+	In casu di prublemi maiò, hè stata fatta una copia di i vostri dati (in furmatu SQL) in u cartulare @rep@.',
+	'utf8_convertir_votre_site' => 'Cunvertisce u situ in UTF-8'
 );
 
 ?>
