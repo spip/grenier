@@ -82,7 +82,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'تعديل الخبر: «@titre@»',
 	'titre_page_forum' => 'منتدى الإدارة',
 	'titre_page_forum_envoi' => 'إرسال مشاركة',
-	'titre_page_statistiques_messages_forum' => 'مشاركات المنتدى'
+	'titre_page_statistiques_messages_forum' => 'مشاركات المنتدى',
+
+	// U
+	'utf8_convert_attendez' => 'انتظر للحظات قليلة ثم أعد تحميل هذه الصفحة.',
+	'utf8_convert_avertissement' => 'أنت تستعد لتحويل محتوى قاعدة بياناتك (مقالات وأخبار الخ.) من طقم حروف <b>@orig@</b> الى طقم حروف <b>@charset@</b>.',
+	'utf8_convert_backup' => 'لا تنسى إنشاء نسخة احتياطية كاملة من موقعك اولاً. يجب ان تتأكد ايضاً من ان صفحاتك النموذجية وملفات لغاتك تتوافق مع @charset@.  ',
+	'utf8_convert_erreur_deja' => 'موقعك يخضع اصلاً لطقم @charset@، فلا لزوم لتحويله... ',
+	'utf8_convert_termine' => 'انتهى!',
+	'utf8_convert_timeout' => '<b>مهم: في حال حصل تخط للوقت (</b> <i>timeout</i>) في جهاز الخدمة، الرجاء تكرار اعادة تحميل الصفحة حتى تظهر عبارة «إنتهى».',
+	'utf8_convert_verifier' => 'عليك الآن بتفريغ الذاكرة المخبأة والتأكد من ان كل شيء سليم في صفحات الموقع العمومي. في حال حدوث مشاكل، لديك نسخة احتياطية من البيانات (بتنسيق SQL) في الدليل @rep@.',
+	'utf8_convertir_votre_site' => 'تحويل موقعك الى utf-8'
 );
 
 ?>
