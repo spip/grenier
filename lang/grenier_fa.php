@@ -77,17 +77,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => ' اصلاح مقاله كوتاه : « @titre@ »',
 	'titre_page_forum' => 'سخنگاه گردانندگان سايت',
 	'titre_page_forum_envoi' => 'يك پيام بفرستيد',
-	'titre_page_statistiques_messages_forum' => 'پيام‌هاي سخنگاه',
-
-	// U
-	'utf8_convert_attendez' => 'چند لحظه صبر کنید سپس این صفحه را تازه کنید.',
-	'utf8_convert_avertissement' => 'شما آماده ی تبدیل محتوی سایت از نویسه های <b>@orig@</b> به نویسه های <b>@charset@</b> هستید.',
-	'utf8_convert_backup' => 'پیش از هر چیز فراموش نکنید که داده هایتان را ضبط کنید. شما باید همچنین ببینید که اسکلتها و فایلهای زبانتان با @charset@ همخوانی دارد.',
-	'utf8_convert_erreur_deja' => 'سایت شما با @charset@ میباشد تبدیل لازم نیست.',
-	'utf8_convert_termine' => 'پایان یافت!',
-	'utf8_convert_timeout' => 'مهم: درصورت <i>timeout</i> سرورها لطفأ صفحه را تا نمایان شدن «پایان» نو کنید.',
-	'utf8_convert_verifier' => 'شما اکنون باید فایل cache را خالی کنید پیشتر مطمئن شوید که در صفحات سایت مشکلی دیده نمیشود. در صورت اشکال ذخیره ی داده هایتان را به صورت (format SQL) در رپرتوار @rep@ مییابید.',
-	'utf8_convertir_votre_site' => 'تبدیل سایتتان به utf-8'
+	'titre_page_statistiques_messages_forum' => 'پيام‌هاي سخنگاه'
 );
 
 ?>

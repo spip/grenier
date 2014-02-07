@@ -57,7 +57,6 @@ lang/grenier_fr_sc.php -text
 lang/grenier_fr_tu.php -text
 lang/grenier_gl.php -text
 lang/grenier_hac.php -text
-lang/grenier_he.php -text
 lang/grenier_hu.php -text
 lang/grenier_id.php -text
 lang/grenier_is.php -text
@@ -105,7 +104,6 @@ lang/paquet-grenier_ar.php -text
 lang/paquet-grenier_en.php -text
 lang/paquet-grenier_fa.php -text
 lang/paquet-grenier_it.php -text
-lang/paquet-grenier_nl.php -text
 lang/paquet-grenier_ru.php -text
 lang/paquet-grenier_sk.php -text
 prive/javascript/layer_old.js -text

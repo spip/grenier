@@ -81,17 +81,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => ' Modificar la breu: " @titre@ "',
 	'titre_page_forum' => 'Fòrum dels administradors',
 	'titre_page_forum_envoi' => 'Enviar un missatge',
-	'titre_page_statistiques_messages_forum' => 'Missatges de fòrum',
-
-	// U
-	'utf8_convert_attendez' => 'Espereu-vos uns instants i recarregueu aquesta pàgina. ',
-	'utf8_convert_avertissement' => 'Us prepareu per convertir el contingut de la vostra base de dades (articles, breus, etc) del joc de caràcter <b>@orig@</b> cap al joc de caràcters <b>@charset@</b>.',
-	'utf8_convert_backup' => 'No oblideu fer abans una còpia de seguretat sencera del vostre lloc Web. Haureu també de verificar que les vostre plantilles i fitxers de llengua són compatibles @charset@.',
-	'utf8_convert_erreur_deja' => 'El vostre lloc Web ja està en @charset@, és inútil convertir-lo...',
-	'utf8_convert_termine' => 'S’ha acabat!',
-	'utf8_convert_timeout' => 'Important:</b> en cas de <i>temps excedit</i> del servidor, volgueu recarregar la pàgina fins que indiqui «acabat».',
-	'utf8_convert_verifier' => 'Ara heu de buidar la memòria cau, i verificar que tot és correcte a les pàgines publicades del vostre lloc Web. En cas que tingueu problemes, s’ha fet una còpia de seguretat de les vostres dades (en format SQL) dins del directori @rep@.',
-	'utf8_convertir_votre_site' => 'Convertir el vostre lloc Web a utf-8'
+	'titre_page_statistiques_messages_forum' => 'Missatges de fòrum'
 );
 
 ?>

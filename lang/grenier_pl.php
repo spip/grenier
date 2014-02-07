@@ -77,17 +77,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_nouvelle_breve' => 'Nowy news',
 	'titre_page_breves_edit' => 'Edytuj newsa: «@titre@»',
 	'titre_page_forum' => 'Forum administratorów',
-	'titre_page_forum_envoi' => 'Wyślij wiadomość',
-
-	// U
-	'utf8_convert_attendez' => 'Poczekaj chwilę i odśwież stronę.',
-	'utf8_convert_avertissement' => 'Zamierzasz przekonwertować zawartość Twojej bazy danych (artykuły, aktualności, etc.) z kodowania <b>@orig@</b> na kodowanie <b>@charset@</b>.',
-	'utf8_convert_backup' => 'Nie zapomnij wykonać wcześniej kopii bezpieczeństwa Twojej strony. Powinieneś także zweryfikować czy Twoje szkielety i pliki językowe są zgodne z @charset@. W innym wypadku przegląd zmian - jeśli jest aktywny - zostanie zniszczony.',
-	'utf8_convert_erreur_deja' => 'Twoja strona już jest w kodowaniu @charset@, nie ma potrzeby konwertowania...',
-	'utf8_convert_termine' => 'Zakończone !',
-	'utf8_convert_timeout' => '<b>Ważne :</b> w przypadu <i>timeout</i> serwera, odśwież stronę aż wyświetlenia się "Zakończone".',
-	'utf8_convert_verifier' => 'Teraz powineneś opróżnić CACHE i sprawdzić, czy wszystko przebiegło dobrze. W przypadku jakichkolwiek problemów pamiętaj, że zawsze masz w odwodzie kopię bazy dancyh (w formacie SQL) w katalogu @rep@.',
-	'utf8_convertir_votre_site' => 'Konwertuj stronę na utf-8.'
+	'titre_page_forum_envoi' => 'Wyślij wiadomość'
 );
 
 ?>
