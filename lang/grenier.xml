@@ -49,8 +49,9 @@
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=fr" total="60" traduits="68" relire="0" modifs="0" nouveaux="-8" pourcent="113.33">
 	</langue>
-	<langue code="fr_tu" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=fr_tu" total="60" traduits="45" relire="0" modifs="23" nouveaux="-8" pourcent="75.00">
+	<langue code="fr_tu" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=fr_tu" total="60" traduits="68" relire="0" modifs="0" nouveaux="-8" pourcent="113.33">
 		<traducteur nom="beatnick" lien="http://trad.spip.net/auteur/beatnick" />
+		<traducteur nom="Cerf" lien="http://trad.spip.net/auteur/cerf" />
 	</langue>
 	<langue code="gl" url="http://trad.spip.net/tradlang_module/grenier?lang_cible=gl" total="60" traduits="44" relire="0" modifs="24" nouveaux="-8" pourcent="73.33">
 		<traducteur nom="Antón Méixome" lien="http://trad.spip.net/auteur/anton-meixome" />
