@@ -9,8 +9,8 @@ function hide_obj(obj) {
 function admin_tech_selection_titre(titre, id, idom, nid)
 {
 	nom = titre.replace(/\W+/g, '_');
-	findObj_forcer("znom_sauvegarde").value=nom;
-	findObj_forcer("nom_sauvegarde").value=nom;
+	jQuery("#znom_sauvegarde").attr('value',nom);
+	jQuery("#nom_sauvegarde").attr('value',nom);
 	aff_selection_titre(titre, id, idom, nid);
 }
 
