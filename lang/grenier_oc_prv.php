@@ -67,11 +67,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_nouvelle_breve' => 'Brèva novèla',
 	'titre_page_breves_edit' => 'Modificar la brèva: «@titre@»',
 	'titre_page_forum' => 'Forum per leis administrators',
-	'titre_page_forum_envoi' => 'Mandar un messatge',
-
-	// U
-	'utf8_convert_termine' => 'Es acabat !',
-	'utf8_convertir_votre_site' => 'Convertir vòstre sit en utf-8'
+	'titre_page_forum_envoi' => 'Mandar un messatge'
 );
 
 ?>

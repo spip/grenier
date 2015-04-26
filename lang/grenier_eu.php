@@ -79,10 +79,7 @@ Funtzionalitate hau aktiba edo desaktibatzen ahal duzu.', # MODIF
 	'titre_page_breves_edit' => '« @titre@ » notalaburra aldatu',
 	'titre_page_forum' => 'Administratzaileen eztabaida-lekua',
 	'titre_page_forum_envoi' => 'Mezu bat bidali',
-	'titre_page_statistiques_messages_forum' => 'Foroko mezuak',
-
-	// U
-	'utf8_convertir_votre_site' => 'Zure gunean utf-8-era konbertitu'
+	'titre_page_statistiques_messages_forum' => 'Foroko mezuak'
 );
 
 ?>
