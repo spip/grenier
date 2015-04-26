@@ -71,7 +71,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_nouvelle_breve' => 'Nová novinka',
 	'titre_page_breves_edit' => 'Změnit novinku: "@titre@"',
 	'titre_page_forum' => 'Diskusní skupina správců',
-	'titre_page_forum_envoi' => 'Odeslat zprávu'
+	'titre_page_forum_envoi' => 'Odeslat zprávu',
+
+	// U
+	'utf8_convert_attendez' => 'Počkejte několik sekund a potom znovu načtěte tuto stránku.',
+	'utf8_convert_avertissement' => 'Nyní zkonvertujete obsah databáze (články, novinky, ...) ze znakové sady <b>@orig@</b> do znakové sady  <b>@charset@</b>.',
+	'utf8_convert_backup' => 'Nezapomeňte nejprve udělat kompletní zálohu vašeho webu. Rovněž zkontrolujte, zda jsou vaše šablony a jazykové soubory kompatibilní se znakovou sadou @charset@. ',
+	'utf8_convert_erreur_deja' => 'Váš web již používá znakovou sadu @charset@, není důvod ke konverzi.',
+	'utf8_convert_termine' => 'Hotovo!',
+	'utf8_convert_timeout' => '<b>Důležité:</b> Pokud server odpoví <i>timeout</i> nebo podobně, obnovujte stránku dokud se neobjeví «Hotovo!».',
+	'utf8_convert_verifier' => 'Nyní vyprázdněte cache a zkontrolujte veřejnou část vašeho webu. Pokud by nastaly vážné problémy, najdete zálohu původních dat (ve formátu SQL) v adresáři @rep@.',
+	'utf8_convertir_votre_site' => 'Zkovertujte web do UTF-8'
 );
 
 ?>

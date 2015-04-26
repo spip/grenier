@@ -8,37 +8,37 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
-	'bouton_forum_petition' => 'FORUM & PÉTITION', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'sauvegarde compressée sous @fichier@', # MODIF
-	'bouton_radio_sauvegarde_non_compressee' => 'sauvegarde non compressée sous @fichier@', # MODIF
+	'bouton_forum_petition' => 'FORUM & PÉTITION',
+	'bouton_radio_sauvegarde_compressee' => 'sauvegarde compressée sous @fichier@',
+	'bouton_radio_sauvegarde_non_compressee' => 'sauvegarde non compressée sous @fichier@',
 
 	// F
-	'forum_probleme_database' => 'Problème de base de données, ton message n’a pas été enregistré.', # MODIF
+	'forum_probleme_database' => 'Problème de base de données, ton message n’a pas été enregistré.',
 
 	// I
-	'ical_lien_rss_breves' => 'Syndication des brèves du site', # MODIF
-	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève', # MODIF
-	'icone_forum_administrateur' => 'Forum des administrateurs', # MODIF
-	'icone_forum_suivi' => 'Suivi des forums', # MODIF
-	'icone_publier_breve' => 'Publier cette brève', # MODIF
-	'icone_refuser_breve' => 'Refuser cette brève', # MODIF
-	'info_base_restauration' => 'La base est en cours de restauration.', # MODIF
-	'info_breves_03' => 'brèves', # MODIF
-	'info_breves_liees_mot' => 'Les brèves liées à ce mot-clé', # MODIF
-	'info_breves_touvees' => 'Brèves trouvées', # MODIF
-	'info_breves_touvees_dans_texte' => 'Brèves trouvées (dans le texte)', # MODIF
+	'ical_lien_rss_breves' => 'Syndication des brèves du site',
+	'icone_creer_mot_cle_breve' => 'Créer un nouveau mot-clé et le lier à cette brève',
+	'icone_forum_administrateur' => 'Forum des administrateurs',
+	'icone_forum_suivi' => 'Suivi des forums',
+	'icone_publier_breve' => 'Publier cette brève',
+	'icone_refuser_breve' => 'Refuser cette brève',
+	'info_base_restauration' => 'La base est en cours de restauration.',
+	'info_breves_03' => 'brèves',
+	'info_breves_liees_mot' => 'Les brèves liées à ce mot-clé',
+	'info_breves_touvees' => 'Brèves trouvées',
+	'info_breves_touvees_dans_texte' => 'Brèves trouvées (dans le texte)',
 	'info_echange_message' => 'SPIP permet l’échange de messages et la constitution de forums de discussion
 		privés entre les participants du site. Tu peux activer ou
-		désactiver cette fonctionnalité.', # MODIF
-	'info_erreur_restauration' => 'Erreur de restauration : fichier inexistant.', # MODIF
-	'info_forum_administrateur' => 'forum des administrateurs', # MODIF
-	'info_forum_interne' => 'forum interne', # MODIF
+		désactiver cette fonctionnalité.',
+	'info_erreur_restauration' => 'Erreur de restauration : fichier inexistant.',
+	'info_forum_administrateur' => 'forum des administrateurs',
+	'info_forum_interne' => 'forum interne',
 	'info_forum_ouvert' => 'Dans l’espace privé du site, un forum est ouvert à tous
 		les rédacteurs enregistrés. Tu peux, ci-dessous, activer un
-		forum supplémentaire, réservé aux seuls administrateurs.', # MODIF
-	'info_gauche_suivi_forum' => 'La page de <i>suivi des forums</i> est un outil de gestion de ton site (et non un espace de discussion ou de rédaction). Elle affiche toutes les contributions du forum public de cet article et te permet de gérer ces contributions.', # MODIF
-	'info_modifier_breve' => 'Modifier la brève :', # MODIF
-	'info_nombre_breves' => '@nb_breves@ brèves,', # MODIF
+		forum supplémentaire, réservé aux seuls administrateurs.',
+	'info_gauche_suivi_forum' => 'La page de <i>suivi des forums</i> est un outil de gestion de ton site (et non un espace de discussion ou de rédaction). Elle affiche toutes les contributions du forum public de cet article et te permet de gérer ces contributions.',
+	'info_modifier_breve' => 'Modifier la brève :',
+	'info_nombre_breves' => '@nb_breves@ brèves,',
 	'info_option_ne_pas_faire_suivre' => 'Ne pas faire suivre les messages des forums',
 	'info_restauration_sauvegarde_insert' => 'Insertion de @archive@ dans la base',
 	'info_sauvegarde_articles' => 'Sauvegarder les articles',
@@ -82,7 +82,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Modifier la brève : « @titre@ »',
 	'titre_page_forum' => 'Forum des administrateurs',
 	'titre_page_forum_envoi' => 'Envoyer un message',
-	'titre_page_statistiques_messages_forum' => 'Messages de forum'
+	'titre_page_statistiques_messages_forum' => 'Messages de forum',
+
+	// U
+	'utf8_convert_attendez' => 'Attends quelques instants et recharge cette page.',
+	'utf8_convert_avertissement' => 'Tu t’apprêtes à convertir le contenu de ta base de données (articles, brèves, etc) du jeu de caractères <b>@orig@</b> vers le jeu de caractères <b>@charset@</b>.',
+	'utf8_convert_backup' => 'N’oublie pas de faire auparavant une sauvegarde complète de ton site. Tu devras aussi vérifier que tes squelettes et fichiers de langue sont compatibles @charset@.',
+	'utf8_convert_erreur_deja' => 'Ton site est déjà en @charset@, inutile de le convertir...',
+	'utf8_convert_termine' => 'C’est terminé !',
+	'utf8_convert_timeout' => '<b>Important :</b> en cas de <i>timeout</i> du serveur, recharge la page jusqu’à ce qu’elle indique « terminé ».',
+	'utf8_convert_verifier' => 'Tu dois maintenant aller vider le cache, et vérifier que tout se passe bien sur les pages publiques du site. En cas de gros problème, une sauvegarde de tes données a été réalisée (au format SQL) dans le répertoire @rep@.',
+	'utf8_convertir_votre_site' => 'Convertir ton site en utf-8'
 );
 
 ?>
