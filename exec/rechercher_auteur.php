@@ -14,13 +14,13 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 # gerer un charset minimaliste en convertissant tout en unicode &#xxx;
 
-// http://doc.spip.org/@exec_rechercher_auteur_dist
+// http://code.spip.net/@exec_rechercher_auteur_dist
 function exec_rechercher_auteur_dist()
 {
 	exec_rechercher_auteur_args(_request('idom'));
 }
 
-// http://doc.spip.org/@exec_rechercher_auteur_args
+// http://code.spip.net/@exec_rechercher_auteur_args
 function exec_rechercher_auteur_args($idom)
 {
 	if (!preg_match('/\w+/',$idom))

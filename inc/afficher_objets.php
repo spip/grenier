@@ -14,7 +14,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 $GLOBALS['my_sites']=array();
 
-// http://doc.spip.org/@icone_table
+// http://code.spip.net/@icone_table
 function icone_table($type){
 	$derog = array('document'=> 'doc-24.png','syndic_article'=>'site-24.png', 'groupes_mot'=>'groupes-mot-24.png');
 	if (isset($derog[$type]))
@@ -22,17 +22,17 @@ function icone_table($type){
 	return "$type-24.png";
 }
 
-// http://doc.spip.org/@lien_editer_objet
+// http://code.spip.net/@lien_editer_objet
 function lien_editer_objet($type,$key,$id){
 	return $type == 'document' ? '' : generer_url_ecrire($type . "s_edit","$key=$id");
 }
 
-// http://doc.spip.org/@lien_voir_objet
+// http://code.spip.net/@lien_voir_objet
 function lien_voir_objet($type,$key,$id){
 	return generer_url_entite($id,$type);
 }
 
-// http://doc.spip.org/@afficher_numero_edit
+// http://code.spip.net/@afficher_numero_edit
 function afficher_numero_edit($id, $key, $type,$row=NULL) {
 	global $spip_lang_right, $spip_lang_left,$my_sites;
 	static $numero , $style='' ;
@@ -84,7 +84,7 @@ function afficher_numero_edit($id, $key, $type,$row=NULL) {
 // libelle du titre de l'objet :
 // la partie du titre a afficher dans un lien
 // puis la partie hors lien
-// http://doc.spip.org/@afficher_titre_objet
+// http://code.spip.net/@afficher_titre_objet
 function afficher_titre_objet($type,$row){
 	if (function_exists($f = "afficher_titre_$type"))
 		return $f($row);
@@ -95,7 +95,7 @@ function afficher_titre_objet($type,$row){
 	  ""));
 	return array(typo(supprime_img($titre,'')),'');
 }
-// http://doc.spip.org/@afficher_titre_site
+// http://code.spip.net/@afficher_titre_site
 function afficher_titre_site($row){
 	$nom = $row['nom_site'];
 
@@ -106,7 +106,7 @@ function afficher_titre_site($row){
 
 	return array($nom,$s2);
 }
-// http://doc.spip.org/@afficher_titre_auteur
+// http://code.spip.net/@afficher_titre_auteur
 function afficher_titre_auteur($row){
 	return array($row['nom'],
 		((isset($row['restreint']) AND $row['restreint'])
@@ -114,7 +114,7 @@ function afficher_titre_auteur($row){
 		   : ''));
 }
 
-// http://doc.spip.org/@afficher_titre_syndic_article
+// http://code.spip.net/@afficher_titre_syndic_article
 function afficher_titre_syndic_article($row){
 	return array('', recuperer_fond(
 		'prive/objets/contenu/syndic_article',
@@ -122,14 +122,14 @@ function afficher_titre_syndic_article($row){
 	));
 }
 
-// http://doc.spip.org/@afficher_complement_objet
+// http://code.spip.net/@afficher_complement_objet
 function afficher_complement_objet($type,$row){
 	if (function_exists($f = "afficher_complement_$type"))
 		return $f($row);
 	 return "";
 }
 
-// http://doc.spip.org/@afficher_complement_site
+// http://code.spip.net/@afficher_complement_site
 function afficher_complement_site($row){
 	$syndication = $row['syndication'];
 	$s = "";
@@ -150,7 +150,7 @@ function afficher_complement_site($row){
 	}
 	return $s;
 }
-// http://doc.spip.org/@afficher_complement_syndic_article
+// http://code.spip.net/@afficher_complement_syndic_article
 function afficher_complement_syndic_article($row){
 	global $my_sites;
 	if ($GLOBALS['exec'] != 'sites') {
@@ -172,7 +172,7 @@ function afficher_complement_syndic_article($row){
 
 // affichage des liste d'objets
 // Cas generique, utilise pour tout sauf article
-// http://doc.spip.org/@inc_afficher_objets_dist
+// http://code.spip.net/@inc_afficher_objets_dist
 function inc_afficher_objets_dist($type, $titre,$requete,$formater='', $force=false){
 	if ($afficher = charger_fonction("afficher_{$type}s",'inc',true)){
 		return $afficher($titre,$requete,$formater);
@@ -200,7 +200,7 @@ function inc_afficher_objets_dist($type, $titre,$requete,$formater='', $force=fa
 	return $presenter_liste($requete, $skel, $tableau, $arg, $force, $styles, $tmp_var, $titre, icone_table($type));
 }
 
-// http://doc.spip.org/@charger_fonction_logo_if
+// http://code.spip.net/@charger_fonction_logo_if
 function charger_fonction_logo_if()
 {
 	global $spip_display;
@@ -211,7 +211,7 @@ function charger_fonction_logo_if()
 	return charger_fonction('chercher_logo', 'inc');
 }
 
-// http://doc.spip.org/@afficher_objet_boucle
+// http://code.spip.net/@afficher_objet_boucle
 function afficher_objet_boucle($row, $own)
 {
 	global $connect_statut, $spip_lang_right;
@@ -300,7 +300,7 @@ function afficher_objet_boucle($row, $own)
 //
 // Afficher tableau d'articles
 //
-// http://doc.spip.org/@inc_afficher_articles_dist
+// http://code.spip.net/@inc_afficher_articles_dist
 function inc_afficher_articles_dist($titre, $requete, $formater='') {
 
 	if (!isset($requete['FROM'])) $requete['FROM'] = 'spip_articles AS A';
@@ -333,7 +333,7 @@ function inc_afficher_articles_dist($titre, $requete, $formater='') {
 // Stocke la fonction ajax dans le fichier temp pour exec=memoriser
 //
 
-// http://doc.spip.org/@sauver_requete
+// http://code.spip.net/@sauver_requete
 function sauver_requete($titre, $requete, $formater)
 {
 	$r = $requete;
@@ -360,7 +360,7 @@ function sauver_requete($titre, $requete, $formater)
 	return $hash;
 
 }
-// http://doc.spip.org/@afficher_articles_trad
+// http://code.spip.net/@afficher_articles_trad
 function afficher_articles_trad($titre_table, $requete, $formater, $hash, $cpt, $trad=0) {
 
 	global $spip_lang_right;
@@ -415,7 +415,7 @@ function afficher_articles_trad($titre_table, $requete, $formater, $hash, $cpt, 
 	return ajax_action_greffe($tmp_var, '', $res);
 }
 
-// http://doc.spip.org/@afficher_boutons_tri
+// http://code.spip.net/@afficher_boutons_tri
 function afficher_boutons_tri($url, $tmp_var)
 {
 	static $monter = '';
@@ -432,7 +432,7 @@ function afficher_boutons_tri($url, $tmp_var)
 	return "<a href='$url'$url_d>$monter</a><a href='$url'$url_a>$descendre</a>";
 }
 
-// http://doc.spip.org/@afficher_articles_trad_boucle
+// http://code.spip.net/@afficher_articles_trad_boucle
 function afficher_articles_trad_boucle($row, $own='')
 {
   	global $spip_lang_right, $spip_display;
@@ -511,7 +511,7 @@ function afficher_articles_trad_boucle($row, $own='')
 		      . "</div>");
 }
 
-// http://doc.spip.org/@afficher_auteurs_boucle
+// http://code.spip.net/@afficher_auteurs_boucle
 function afficher_auteurs_boucle($row, $own){
 	$vals = array();
 	list($afficher_langue, $affrub, $langue_defaut, $formater,$type,$primary) = $own;

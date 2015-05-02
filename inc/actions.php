@@ -19,7 +19,7 @@ include_once _ROOT_RESTREINT . "inc/actions.php";
 // Utilise Ajax si dispo, en ecrivant le resultat dans le innerHTML du noeud
 // d'attribut  id = $action-$id (cf. AjaxSqueeze dans layer.js)
 
-// http://doc.spip.org/@ajax_action_auteur
+// http://code.spip.net/@ajax_action_auteur
 function ajax_action_auteur($action, $id, $script, $args='', $corps=false, $args_ajax='', $fct_ajax='')
 {
 	if (strpos($args,"#")===FALSE)
@@ -88,7 +88,7 @@ function ajax_action_auteur($action, $id, $script, $args='', $corps=false, $args
 
 // Comme ci-dessus, mais reduit au cas POST et on fournit le bouton Submit.
 //
-// http://doc.spip.org/@ajax_action_post
+// http://code.spip.net/@ajax_action_post
 function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic='', $atts_i='', $atts_span = "", $args_ajax='')
 {
 	global $spip_lang_right;
@@ -148,7 +148,7 @@ function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic='', $atts_
 // il faut onsubmit="return AjaxSqueeze(x,'truc',...)"
 // et non pas onsubmit='return AjaxSqueeze(x,"truc",...)'
 //
-// http://doc.spip.org/@ajax_action_declencheur
+// http://code.spip.net/@ajax_action_declencheur
 function ajax_action_declencheur($request, $noeud, $fct_ajax='') {
 	if (strpos($request, 'this') !== 0)
 		$request = "'".$request."'";
@@ -168,7 +168,7 @@ function ajax_action_declencheur($request, $noeud, $fct_ajax='') {
 // sauf si c'est un appel Ajax car alors la div y est deja
 // $fonction : denomination semantique du bloc, que l'on retouve en attribut class
 // $id : id de l'objet concerne si il y a lieu ou "", sert a construire un identifiant unique au bloc ("fonction-id")
-// http://doc.spip.org/@ajax_action_greffe
+// http://code.spip.net/@ajax_action_greffe
 function ajax_action_greffe($fonction, $id, $corps)
 {
 	$idom = $fonction.(strlen($id)?"-$id":"");

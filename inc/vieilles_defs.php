@@ -24,7 +24,7 @@ define('_SIGNALER_ECHOS', false);
 
 
 // Log des appels aux vieilles_defs
-// http://doc.spip.org/@vieilles_log
+// http://code.spip.net/@vieilles_log
 function vieilles_log($quoi) {
 	static $vus = array();
 	$c = crc32($quoi);
@@ -940,7 +940,7 @@ define('SPIP_BOTH', MYSQL_BOTH);
 define('SPIP_ASSOC', MYSQL_ASSOC);
 define('SPIP_NUM', MYSQL_NUM);
 
-// http://doc.spip.org/@article_select
+// http://code.spip.net/@article_select
 function article_select($id_article, $id_rubrique=0, $lier_trad=0, $id_version=0) {
 	$article_select = charger_fonction('article_select','inc');
 	return $article_select($id_article,$id_rubrique,$lier_trad,$id_version);

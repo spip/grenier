@@ -11,7 +11,7 @@
 \***************************************************************************/
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
-// http://doc.spip.org/@inc_meme_rubrique_dist
+// http://code.spip.net/@inc_meme_rubrique_dist
 function inc_meme_rubrique_dist($id_rubrique, $id, $type, $order=''){
 
 	$table = table_objet($type);

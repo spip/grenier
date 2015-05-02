@@ -14,7 +14,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 # Les informations sur un auteur selectionne dans le mini navigateur
 
-// http://doc.spip.org/@inc_informer_auteur_dist
+// http://code.spip.net/@inc_informer_auteur_dist
 function inc_informer_auteur_dist($id)
 {
 	global $spip_display,$spip_lang_right ;

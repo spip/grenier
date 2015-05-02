@@ -15,7 +15,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 // Gestion ou simulation du register_globals a 'On' (PHP < 4.1.x)
 // Code a l'agonie, heureusement.
 // NB: c'est une fonction de maniere a ne pas pourrir $GLOBALS
-// http://doc.spip.org/@spip_register_globals
+// http://code.spip.net/@spip_register_globals
 function spip_register_globals($type='') {
 
 	spip_log("spip_register_globals($type)");
