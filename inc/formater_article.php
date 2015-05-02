@@ -16,7 +16,7 @@ include_spip('inc/autoriser'); // auteurs_article
 // Fonction appelee dans une boucle, calculer les invariants au premier appel.
 // obsolete, utilise uniquement par afficher_objets
 
-// http://doc.spip.org/@inc_formater_article_dist
+// http://code.spip.net/@inc_formater_article_dist
 function inc_formater_article_dist($row, $own='')
 {
 	global $spip_lang_right, $spip_display;

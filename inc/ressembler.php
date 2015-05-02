@@ -27,7 +27,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  * @param string $b	second mot
  * @return distance de levenshtein
 **/
-// http://doc.spip.org/@levenshtein255
+// http://code.spip.net/@levenshtein255
 function levenshtein255 ($a, $b) {
 	$a = substr($a, 0, 254);
 	$b = substr($b, 0, 254);
@@ -41,7 +41,7 @@ function levenshtein255 ($a, $b) {
   * @param string $mot Mot a transliterer
   * @return Mot translittere en minuscule.
  **/
-// http://doc.spip.org/@reduire_mot
+// http://code.spip.net/@reduire_mot
 function reduire_mot($mot) {
 	return strtr(
 		translitteration(trim($mot)),
@@ -62,7 +62,7 @@ function reduire_mot($mot) {
  * @param array $table_ids		Optionnel, table d'identifiants correspondants : array(3, 5)
  * @return array	Liste des noms (ou identifiants si transmis) approchants : array('junior') ou array(3)
 **/
-// http://doc.spip.org/@mots_ressemblants
+// http://code.spip.net/@mots_ressemblants
 function mots_ressemblants($mot, $table_mots, $table_ids='') {
 
 	$result = array();

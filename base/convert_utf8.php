@@ -12,7 +12,7 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-// http://doc.spip.org/@convert_utf8_init
+// http://code.spip.net/@convert_utf8_init
 function convert_utf8_init($tables_a_convertir)
 {
 	// noter dans les meta qu'on veut convertir, et quoi
@@ -33,7 +33,7 @@ function convert_utf8_init($tables_a_convertir)
 	}
 }
 
-// http://doc.spip.org/@base_convert_utf8_dist
+// http://code.spip.net/@base_convert_utf8_dist
 function base_convert_utf8_dist($titre='', $reprise=false)
 {
 	if (!$titre) return; // anti-testeur automatique
@@ -83,7 +83,7 @@ function base_convert_utf8_dist($titre='', $reprise=false)
 }
 
 
-// http://doc.spip.org/@convert_table_utf8
+// http://code.spip.net/@convert_table_utf8
 function convert_table_utf8($f, $table, $champ)
 {
 	echo "<br /><b>$table</b> &nbsp; ";
@@ -147,7 +147,7 @@ function convert_table_utf8($f, $table, $champ)
 }
 
 // stocker le nouvel extra
-// http://doc.spip.org/@convert_extra
+// http://code.spip.net/@convert_extra
 function convert_extra($v, $charset_source) {
 	if ($extra = @unserialize($v)) {
 		foreach ($extra as $key=>$val)

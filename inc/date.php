@@ -13,20 +13,20 @@
 //
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-// http://doc.spip.org/@my_sel
+// http://code.spip.net/@my_sel
 function my_sel($num, $tex, $comp) {
   return "<option value='$num'" . (($num != $comp) ? '' : " selected='selected'") .
     ">$tex</option>\n";
 }
 
-// http://doc.spip.org/@format_mysql_date
+// http://code.spip.net/@format_mysql_date
 function format_mysql_date($annee=0, $mois=0, $jour=0, $h=0, $m=0, $s=0) {
 	include_spip('base/abstract_sql');
 	return sql_format_date($annee, $mois, $jour, $h, $m, $s);
 }
 
 
-// http://doc.spip.org/@afficher_mois
+// http://code.spip.net/@afficher_mois
 function afficher_mois($mois, $attributs, $autre=false){
   return
 	"<select $attributs>\n" .
@@ -46,7 +46,7 @@ function afficher_mois($mois, $attributs, $autre=false){
 	"</select>\n";
 }
 
-// http://doc.spip.org/@afficher_annee
+// http://code.spip.net/@afficher_annee
 function afficher_annee($annee, $attributs, $debut=null, $fin=null) {
 
 	if (!isset($debut)) $debut = $annee - 8;
@@ -65,7 +65,7 @@ function afficher_annee($annee, $attributs, $debut=null, $fin=null) {
 	return "<select $attributs>\n$res</select>\n";
 }
 
-// http://doc.spip.org/@afficher_jour
+// http://code.spip.net/@afficher_jour
 function afficher_jour($jour, $attributs, $autre=false){
 
 	$res = (!$autre ? "" : my_sel("00",_T('jour_non_connu_nc'),$jour));
@@ -76,7 +76,7 @@ function afficher_jour($jour, $attributs, $autre=false){
 	return "<select $attributs>\n$res</select>\n";
 }
 
-// http://doc.spip.org/@afficher_heure
+// http://code.spip.net/@afficher_heure
 function afficher_heure($heure, $attributs, $autre=false){
 	$res = '';
 	for($i=0;$i<=23;$i++){
@@ -86,7 +86,7 @@ function afficher_heure($heure, $attributs, $autre=false){
 	return "<select $attributs>\n$res</select>\n";
 }
 
-// http://doc.spip.org/@afficher_minute
+// http://code.spip.net/@afficher_minute
 function afficher_minute($minute, $attributs, $autre=false){
 	$res = '';
 	for($i=0;$i<=59;$i+=5){
@@ -100,7 +100,7 @@ function afficher_minute($minute, $attributs, $autre=false){
 }
 
 
-// http://doc.spip.org/@afficher_jour_mois_annee_h_m
+// http://code.spip.net/@afficher_jour_mois_annee_h_m
 function afficher_jour_mois_annee_h_m($date, $heures, $minutes, $suffixe='')
 {
   return 
