@@ -28,4 +28,3 @@ function exec_configuration_dist()
 	$configuration = charger_fonction(_request('configuration'), 'configuration', true);
 	ajax_retour($configuration ? $configuration() : 'configure quoi?');
 }
-?>

@@ -24,5 +24,3 @@ function exec_informer_auteur_dist()
 	$informer_auteur = charger_fonction('informer_auteur', 'inc');
 	ajax_retour($informer_auteur($id));
 }
-
-?>

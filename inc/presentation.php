@@ -19,9 +19,9 @@ include_once(_ROOT_RESTREINT."inc/presentation.php");
 
 
 if (!function_exists('afficher_objets')) {
-function afficher_objets($type, $titre_table,$requete,$formater='',$force=false){
-	$afficher_objets = charger_fonction('afficher_objets','inc');
-	return $afficher_objets($type, $titre_table,$requete,$formater,$force);
+function afficher_objets($type, $titre_table, $requete, $formater = '', $force = false) {
+	$afficher_objets = charger_fonction('afficher_objets', 'inc');
+	return $afficher_objets($type, $titre_table, $requete, $formater, $force);
 }
 }
 
@@ -29,7 +29,7 @@ function afficher_objets($type, $titre_table,$requete,$formater='',$force=false)
 // Cadres
 //
 // http://code.spip.net/@afficher_onglets_pages
-function afficher_onglets_pages($ordre,$onglets){
+function afficher_onglets_pages($ordre, $onglets) {
 	static $onglet_compteur = 0;
 	$res = "";
 	$corps = "";
@@ -65,18 +65,18 @@ function afficher_onglets_pages($ordre,$onglets){
 
 // Voir en ligne, ou apercu, ou rien (renvoie tout le bloc)
 // http://code.spip.net/@voir_en_ligne
-function voir_en_ligne ($type, $id, $statut=false, $image='racine-24.png', $af = true, $inline=true) {
+function voir_en_ligne($type, $id, $statut = false, $image = 'racine-24.png', $af = true, $inline = true) {
 
 	$en_ligne = $message = '';
 	switch ($type) {
 	case 'article':
-			if ($statut == "publie" AND $GLOBALS['meta']["post_dates"] == 'non') {
+			if ($statut == "publie" and $GLOBALS['meta']["post_dates"] == 'non') {
 				$n = sql_fetsel("id_article", "spip_articles", "id_article=$id AND date<=NOW()");
 				if (!$n) $statut = 'prop';
 			}
 			if ($statut == 'publie')
 				$en_ligne = 'calcul';
-			else if ($statut == 'prop')
+			elseif ($statut == 'prop')
 				$en_ligne = 'preview';
 			break;
 	case 'rubrique':
@@ -90,7 +90,7 @@ function voir_en_ligne ($type, $id, $statut=false, $image='racine-24.png', $af =
 	case 'site':
 			if ($statut == 'publie')
 				$en_ligne = 'calcul';
-			else if ($statut == 'prop')
+			elseif ($statut == 'prop')
 				$en_ligne = 'preview';
 			break;
 	case 'mot':
@@ -106,8 +106,8 @@ function voir_en_ligne ($type, $id, $statut=false, $image='racine-24.png', $af =
 
 	if ($en_ligne == 'calcul')
 		$message = _T('icone_voir_en_ligne');
-	else if ($en_ligne == 'preview'
-	AND autoriser('previsualiser'))
+	elseif ($en_ligne == 'preview'
+	and autoriser('previsualiser'))
 		$message = _T('previsualiser');
 	else
 		return '';
@@ -116,29 +116,29 @@ function voir_en_ligne ($type, $id, $statut=false, $image='racine-24.png', $af =
 
 	return $inline
 	  ? icone_inline($message, $h, $image, "", $GLOBALS['spip_lang_left'])
-	: icone_horizontale($message, $h, $image, "",$af);
+	: icone_horizontale($message, $h, $image, "", $af);
 
 }
 
 // http://code.spip.net/@icone_inline
-function icone_inline($texte, $lien, $fond, $fonction="", $align="", $ajax=false, $javascript=''){
+function icone_inline($texte, $lien, $fond, $fonction = "", $align = "", $ajax = false, $javascript = '') {
 	// cas d'ajax_action_auteur: faut defaire le boulot
 	// (il faudrait fusionner avec le cas $javascript)
-	if (preg_match(",^<a\shref='([^']*)'([^>]*)>(.*)</a>$,i",$lien,$r)) {
-		list($x,$lien,$atts,$texte)= $r;
+	if (preg_match(",^<a\shref='([^']*)'([^>]*)>(.*)</a>$,i", $lien, $r)) {
+		list($x, $lien, $atts, $texte) = $r;
 		$javascript .= $atts;
 	}
 
 	// l'ajax de l'espace prive made in php
 	if ($ajax)
-		$javascript .= ' onclick=' . ajax_action_declencheur($lien,$ajax);
+		$javascript .= ' onclick=' . ajax_action_declencheur($lien, $ajax);
 
-	return icone_base($lien, $texte, $fond, $fonction,"verticale $align",$javascript);
+	return icone_base($lien, $texte, $fond, $fonction, "verticale $align", $javascript);
 }
 
 
 // http://code.spip.net/@navigation_pagination
-function navigation_pagination($num_rows, $nb_aff=10, $href=null, $debut, $tmp_var=null, $on='') {
+function navigation_pagination($num_rows, $nb_aff = 10, $href = null, $debut, $tmp_var = null, $on = '') {
 
 	$texte = '';
 	$self = parametre_url(self(), 'date', '');
@@ -148,8 +148,8 @@ function navigation_pagination($num_rows, $nb_aff=10, $href=null, $debut, $tmp_v
 		$deb = $i + 1;
 
 		// Pagination : si on est trop loin, on met des '...'
-		if (abs($deb-$deb_aff)>101) {
-			if ($deb<$deb_aff) {
+		if (abs($deb - $deb_aff) > 101) {
+			if ($deb < $deb_aff) {
 				if (!isset($premiere)) {
 					$premiere = '0 ... ';
 					$texte .= $premiere;
@@ -167,12 +167,12 @@ function navigation_pagination($num_rows, $nb_aff=10, $href=null, $debut, $tmp_v
 
 			if ($deb > 1)
 				$texte .= " |\n";
-			if ($deb_aff + 1 >= $deb AND $deb_aff + 1 <= $fin) {
+			if ($deb_aff + 1 >= $deb and $deb_aff + 1 <= $fin) {
 				$texte .= "<b>$deb</b>";
 			}
 			else {
-				$script = parametre_url($self, $tmp_var, $deb-1);
-				if ($on) $on = generer_onclic_ajax($href, $tmp_var, $deb-1);
+				$script = parametre_url($self, $tmp_var, $deb - 1);
+				if ($on) $on = generer_onclic_ajax($href, $tmp_var, $deb - 1);
 				$texte .= "<a href=\"$script\"$on>$deb</a>";
 			}
 		}
@@ -197,40 +197,40 @@ function generer_onclic_ajax($url, $idom, $val)
 //
 
 // http://code.spip.net/@afficher_hierarchie
-function afficher_hierarchie($id_parent, $editable=true,$id_objet=0,$type='',$id_secteur=0,$restreint='') {
+function afficher_hierarchie($id_parent, $editable = true, $id_objet = 0, $type = '', $id_secteur = 0, $restreint = '') {
 	$out = recuperer_fond('prive/squelettes/hierarchie/dist',
 					array(
-						'id_parent'=>$id_parent,
-						'objet'=>$type,
-						'id_objet'=>$id_objet,
-						'deplacer'=>_request('deplacer')?'oui':'',
-						'id_secteur'=>$id_secteur,
-						'restreint'=>$restreint,
-						'editable'=>$editable?' ':'',
-					),array('ajax'=>true));
-	$out = pipeline('affiche_hierarchie',array('args'=>array(
-			'id_parent'=>$id_parent,
-			'id_objet'=>$id_objet,
-			'objet'=>$type,
-			'id_secteur'=>$id_secteur,
-			'restreint'=>$restreint,
-			'editable'=>$editable?' ':'',
+						'id_parent' => $id_parent,
+						'objet' => $type,
+						'id_objet' => $id_objet,
+						'deplacer' => _request('deplacer')?'oui':'',
+						'id_secteur' => $id_secteur,
+						'restreint' => $restreint,
+						'editable' => $editable?' ':'',
+					), array('ajax' => true));
+	$out = pipeline('affiche_hierarchie', array('args' => array(
+			'id_parent' => $id_parent,
+			'id_objet' => $id_objet,
+			'objet' => $type,
+			'id_secteur' => $id_secteur,
+			'restreint' => $restreint,
+			'editable' => $editable?' ':'',
 			),
-			'data'=>$out));
+			'data' => $out));
 
  	return $out;
 }
 // Cadre formulaires
 
 // http://code.spip.net/@debut_cadre_formulaire
-function debut_cadre_formulaire($style=''){return "\n<div class='cadre-formulaire'" .(!$style ? "" : " style='$style'") .">";}
+function debut_cadre_formulaire($style = '') {return "\n<div class='cadre-formulaire'" .(!$style ? "" : " style='$style'") .">";}
 // http://code.spip.net/@fin_cadre_formulaire
-function fin_cadre_formulaire($return=false){return "</div>\n";}
+function fin_cadre_formulaire($return = false) {return "</div>\n";}
 
 // Pour construire des menu avec SELECTED
 // http://code.spip.net/@mySel
-function mySel($varaut,$variable, $option = NULL) {
-	$res = ' value="'.$varaut.'"' . (($variable==$varaut) ? ' selected="selected"' : '');
+function mySel($varaut, $variable, $option = null) {
+	$res = ' value="'.$varaut.'"' . (($variable == $varaut) ? ' selected="selected"' : '');
 	return  (!isset($option) ? $res : "<option".$res.">$option</option>\n");
 }
 
@@ -243,7 +243,7 @@ function bonhomme_statut($row) {
 
 
 // http://code.spip.net/@bouton_radio
-function bouton_radio($nom, $valeur, $titre, $actif = false, $onClick="") {
+function bouton_radio($nom, $valeur, $titre, $actif = false, $onClick = "") {
 	static $id_label = 0;
 
 	if (strlen($onClick) > 0) $onClick = " onclick=\"$onClick\"";
@@ -266,4 +266,3 @@ function afficher_choix($nom, $valeur_actuelle, $valeurs, $sep = "<br />") {
 	}
 	return "\n".join($sep, $choix);
 }
-?>

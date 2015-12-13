@@ -12,47 +12,47 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-$GLOBALS['my_sites']=array();
+$GLOBALS['my_sites'] = array();
 
 // http://code.spip.net/@icone_table
-function icone_table($type){
-	$derog = array('document'=> 'doc-24.png','syndic_article'=>'site-24.png', 'groupes_mot'=>'groupes-mot-24.png');
+function icone_table($type) {
+	$derog = array('document' => 'doc-24.png','syndic_article' => 'site-24.png', 'groupes_mot' => 'groupes-mot-24.png');
 	if (isset($derog[$type]))
 		return $derog[$type];
 	return "$type-24.png";
 }
 
 // http://code.spip.net/@lien_editer_objet
-function lien_editer_objet($type,$key,$id){
-	return $type == 'document' ? '' : generer_url_ecrire($type . "s_edit","$key=$id");
+function lien_editer_objet($type, $key, $id) {
+	return $type == 'document' ? '' : generer_url_ecrire($type . "s_edit", "$key=$id");
 }
 
 // http://code.spip.net/@lien_voir_objet
-function lien_voir_objet($type,$key,$id){
-	return generer_url_entite($id,$type);
+function lien_voir_objet($type, $key, $id) {
+	return generer_url_entite($id, $type);
 }
 
 // http://code.spip.net/@afficher_numero_edit
-function afficher_numero_edit($id, $key, $type,$row=NULL) {
+function afficher_numero_edit($id, $key, $type, $row = null) {
 	global $spip_lang_right, $spip_lang_left,$my_sites;
-	static $numero , $style='' ;
-	if ($type=='syndic_article') {
+	static $numero , $style = '' ;
+	if ($type == 'syndic_article') {
 		$redirect = _request('id_syndic') ? 'id_syndic='._request('id_syndic') : '';
-		if (autoriser('modifier',$type,$id)) {
+		if (autoriser('modifier', $type, $id)) {
 			if ($row['statut'] == "publie"){
-			  $s =  "[<a href='". redirige_action_auteur('instituer_syndic',"$id-refuse", _request('exec'), $redirect) . "'><span style='color: black'>"._T('info_bloquer_lien')."</span></a>]";
+			  $s =  "[<a href='". redirige_action_auteur('instituer_syndic', "$id-refuse", _request('exec'), $redirect) . "'><span style='color: black'>"._T('info_bloquer_lien')."</span></a>]";
 
 			}
-			else if ($row['statut'] == "refuse"){
-			  $s =  "[<a href='". redirige_action_auteur('instituer_syndic',"$id-publie", _request('exec'), $redirect) . "'>"._T('info_retablir_lien')."</a>]";
+			elseif ($row['statut'] == "refuse"){
+			  $s =  "[<a href='". redirige_action_auteur('instituer_syndic', "$id-publie", _request('exec'), $redirect) . "'>"._T('info_retablir_lien')."</a>]";
 			}
-			else if ($row['statut'] == "off"
-			AND isset($my_sites[$id]['miroir']) AND $my_sites[$id]['miroir'] == 'oui') {
+			elseif ($row['statut'] == "off"
+			and isset($my_sites[$id]['miroir']) and $my_sites[$id]['miroir'] == 'oui') {
 				$s = '('._T('syndic_lien_obsolete').')';
 			}
 			else /* 'dispo' ou 'off' (dans le cas ancien site 'miroir') */
 			{
-			  $s = "[<a href='". redirige_action_auteur('instituer_syndic',"$id-publie", _request('exec'), $redirect) . "'>"._T('info_valider_lien')."</a>]";
+			  $s = "[<a href='". redirige_action_auteur('instituer_syndic', "$id-publie", _request('exec'), $redirect) . "'>"._T('info_valider_lien')."</a>]";
 			}
 			return $s;
 		}
@@ -64,9 +64,9 @@ function afficher_numero_edit($id, $key, $type,$row=NULL) {
 		$numero = _T('info_numero_abbreviation');
 	}
 
-	if (!autoriser('modifier',$type,$id) OR
-	    !$href = lien_editer_objet($type,$key,$id)) {
-		$bal ='span';
+	if (!autoriser('modifier', $type, $id) or
+	    !$href = lien_editer_objet($type, $key, $id)) {
+		$bal = 'span';
 	} else {
 		$bal = 'a';
 		$href = "\nhref='"
@@ -85,7 +85,7 @@ function afficher_numero_edit($id, $key, $type,$row=NULL) {
 // la partie du titre a afficher dans un lien
 // puis la partie hors lien
 // http://code.spip.net/@afficher_titre_objet
-function afficher_titre_objet($type,$row){
+function afficher_titre_objet($type, $row) {
 	if (function_exists($f = "afficher_titre_$type"))
 		return $f($row);
 
@@ -93,13 +93,13 @@ function afficher_titre_objet($type,$row){
 	(isset($row['nom'])?sinon($row['nom'], "("._T('info_sans_titre_2').")"):
 	 (isset($row['nom_email'])?sinon($row['nom_email'], "("._T('info_sans_titre_2').")"):
 	  ""));
-	return array(typo(supprime_img($titre,'')),'');
+	return array(typo(supprime_img($titre, '')),'');
 }
 // http://code.spip.net/@afficher_titre_site
-function afficher_titre_site($row){
+function afficher_titre_site($row) {
 	$nom = $row['nom_site'];
 
-	$nom = $nom?(strlen($nom)>1?typo($nom):_T('info_sans_titre_2')):("("._T('info_sans_titre_2').")");
+	$nom = $nom?(strlen($nom) > 1?typo($nom):_T('info_sans_titre_2')):("("._T('info_sans_titre_2').")");
 
 	$s2 = "&nbsp;&nbsp; <span class='spip_xx-small'>[<a href='"
 	.$row['url_site']."'>"._T('lien_visite_site')."</a>]</span>";
@@ -107,15 +107,15 @@ function afficher_titre_site($row){
 	return array($nom,$s2);
 }
 // http://code.spip.net/@afficher_titre_auteur
-function afficher_titre_auteur($row){
+function afficher_titre_auteur($row) {
 	return array($row['nom'],
-		((isset($row['restreint']) AND $row['restreint'])
+		((isset($row['restreint']) and $row['restreint'])
 		   ? (" &nbsp;<small>"._T('statut_admin_restreint')."</small>")
 		   : ''));
 }
 
 // http://code.spip.net/@afficher_titre_syndic_article
-function afficher_titre_syndic_article($row){
+function afficher_titre_syndic_article($row) {
 	return array('', recuperer_fond(
 		'prive/objets/contenu/syndic_article',
 		array('id' => $row['id_syndic_article'])
@@ -123,25 +123,25 @@ function afficher_titre_syndic_article($row){
 }
 
 // http://code.spip.net/@afficher_complement_objet
-function afficher_complement_objet($type,$row){
+function afficher_complement_objet($type, $row) {
 	if (function_exists($f = "afficher_complement_$type"))
 		return $f($row);
 	 return "";
 }
 
 // http://code.spip.net/@afficher_complement_site
-function afficher_complement_site($row){
+function afficher_complement_site($row) {
 	$syndication = $row['syndication'];
 	$s = "";
-	if ($syndication == 'off' OR $syndication == 'sus') {
+	if ($syndication == 'off' or $syndication == 'sus') {
 		$s .= "<div style='color: red;'>"
-			. http_img_pack('puce-orange-anim.gif', $syndication, "class='puce'",_T('info_panne_site_syndique'))
+			. http_img_pack('puce-orange-anim.gif', $syndication, "class='puce'", _T('info_panne_site_syndique'))
 			. " "._T('info_probleme_grave')." </div>";
 	}
-	if ($syndication == "oui" or $syndication == "off" OR $syndication == 'sus'){
+	if ($syndication == "oui" or $syndication == "off" or $syndication == 'sus'){
 		$s .= "<div style='color: red;'>"._T('info_syndication')."</div>";
 	}
-	if ($syndication == "oui" OR $syndication == "off" OR $syndication == "sus") {
+	if ($syndication == "oui" or $syndication == "off" or $syndication == "sus") {
 		$id_syndic = $row['id_syndic'];
 		$total_art = sql_countsel("spip_syndic_articles", "id_syndic=$id_syndic");
 		$s .= " " . $total_art . " " . _T('info_syndication_articles');
@@ -151,7 +151,7 @@ function afficher_complement_site($row){
 	return $s;
 }
 // http://code.spip.net/@afficher_complement_syndic_article
-function afficher_complement_syndic_article($row){
+function afficher_complement_syndic_article($row) {
 	global $my_sites;
 	if ($GLOBALS['exec'] != 'sites') {
 		$id_syndic = $row['id_syndic'];
@@ -163,7 +163,7 @@ function afficher_complement_syndic_article($row){
 		if ($my_sites[$id_syndic]['moderation'] == 'oui')
 			$aff = "<i>$aff</i>";
 
-		$s = "<a href='" . generer_url_ecrire("sites","id_syndic=$id_syndic") . "'>$aff</a>";
+		$s = "<a href='" . generer_url_ecrire("sites", "id_syndic=$id_syndic") . "'>$aff</a>";
 
 		return $s;
 	}
@@ -173,14 +173,14 @@ function afficher_complement_syndic_article($row){
 // affichage des liste d'objets
 // Cas generique, utilise pour tout sauf article
 // http://code.spip.net/@inc_afficher_objets_dist
-function inc_afficher_objets_dist($type, $titre,$requete,$formater='', $force=false){
-	if ($afficher = charger_fonction("afficher_{$type}s",'inc',true)){
-		return $afficher($titre,$requete,$formater);
+function inc_afficher_objets_dist($type, $titre, $requete, $formater = '', $force = false) {
+	if ($afficher = charger_fonction("afficher_{$type}s", 'inc', true)){
+		return $afficher($titre, $requete, $formater);
 	}
 
 	if (($GLOBALS['meta']['multi_rubriques'] == 'oui'
-	     AND (!isset($GLOBALS['id_rubrique'])))
-	OR $GLOBALS['meta']['multi_articles'] == 'oui') {
+	     and (!isset($GLOBALS['id_rubrique'])))
+	or $GLOBALS['meta']['multi_articles'] == 'oui') {
 		$afficher_langue = true;
 
 		if (isset($GLOBALS['langue_rubrique'])) $langue_defaut = $GLOBALS['langue_rubrique'];
@@ -205,7 +205,7 @@ function charger_fonction_logo_if()
 {
 	global $spip_display;
 
-	if ($spip_display == 1 OR $spip_display == 4 OR !isset($GLOBALS['meta']['image_process']))
+	if ($spip_display == 1 or $spip_display == 4 or !isset($GLOBALS['meta']['image_process']))
 	  return false;
 	if ($GLOBALS['meta']['image_process'] == "non") return false;
 	return charger_fonction('chercher_logo', 'inc');
@@ -217,10 +217,10 @@ function afficher_objet_boucle($row, $own)
 	global $connect_statut, $spip_lang_right;
 	static $chercher_logo = true;
 
-	list($afficher_langue, $affrub, $langue_defaut, $formater,$type,$primary) = $own;
+	list($afficher_langue, $affrub, $langue_defaut, $formater, $type, $primary) = $own;
 	$vals = array();
 	$id_objet = $row[$primary];
-	if (autoriser('voir',$type,$id_objet)){
+	if (autoriser('voir', $type, $id_objet)){
 
 		$date_heure = isset($row['date'])?$row['date']:(isset($row['date_heure'])?$row['date_heure']:"");
 
@@ -234,11 +234,11 @@ function afficher_objet_boucle($row, $own)
 		$puce_statut = charger_fonction('puce_statut', 'inc');
 		$vals[] = $puce_statut($id_objet, $statut, $id_rubrique, $type);
 
-		list($titre,$suite) = afficher_titre_objet($type,$row);
+		list($titre, $suite) = afficher_titre_objet($type, $row);
 		$flogo = '';
 		if ($chercher_logo) {
 			if ($chercher_logo !== true
-			    OR $chercher_logo = charger_fonction_logo_if())
+			    or $chercher_logo = charger_fonction_logo_if())
 			  if ($logo = $chercher_logo($id_objet, $primary, 'on')) {
 				list($fid, $dir, $nom, $format) = $logo;
 				include_spip('inc/filtres_images_mini');
@@ -249,7 +249,7 @@ function afficher_objet_boucle($row, $own)
 		}
 		if ($titre) {
 			$titre = "<a href='"
-			.  lien_voir_objet($type,$primary,$id_objet)
+			.  lien_voir_objet($type, $primary, $id_objet)
 			.  "'>"
 			. $titre
 			. "</a>";
@@ -274,15 +274,14 @@ function afficher_objet_boucle($row, $own)
 		}
 		$vals[] = $s;
 
-		$vals[] = afficher_complement_objet($type,$row);
+		$vals[] = afficher_complement_objet($type, $row);
 
 		$s = "";
 		if ($affrub && $id_rubrique) {
 			$rub = sql_fetsel("id_rubrique, titre", "spip_rubriques", "id_rubrique=$id_rubrique");
 			$id_rubrique = $rub['id_rubrique'];
-			$s .= "<a href='" . generer_url_entite($id_rubrique,'rubrique') . "' style=\"display:block;\">".typo($rub['titre'])."</a>";
-		} else
-		if ($statut){
+			$s .= "<a href='" . generer_url_entite($id_rubrique, 'rubrique') . "' style=\"display:block;\">".typo($rub['titre'])."</a>";
+		} elseif ($statut){
 			if ($statut != "prop")
 					$s = affdate_jourcourt($date_heure);
 				else
@@ -301,7 +300,7 @@ function afficher_objet_boucle($row, $own)
 // Afficher tableau d'articles
 //
 // http://code.spip.net/@inc_afficher_articles_dist
-function inc_afficher_articles_dist($titre, $requete, $formater='') {
+function inc_afficher_articles_dist($titre, $requete, $formater = '') {
 
 	if (!isset($requete['FROM'])) $requete['FROM'] = 'spip_articles AS A';
 
@@ -350,7 +349,7 @@ function sauver_requete($titre, $requete, $formater)
 
 	// supprime les fonctions trop vieilles
 	foreach ($ajax_fonctions as $h => $fonc)
-		if (time() - $fonc[0] > 48*3600)
+		if (time() - $fonc[0] > 48 * 3600)
 			unset($ajax_fonctions[$h]);
 
 	// enregistre
@@ -361,7 +360,7 @@ function sauver_requete($titre, $requete, $formater)
 
 }
 // http://code.spip.net/@afficher_articles_trad
-function afficher_articles_trad($titre_table, $requete, $formater, $hash, $cpt, $trad=0) {
+function afficher_articles_trad($titre_table, $requete, $formater, $hash, $cpt, $trad = 0) {
 
 	global $spip_lang_right;
 
@@ -433,12 +432,12 @@ function afficher_boutons_tri($url, $tmp_var)
 }
 
 // http://code.spip.net/@afficher_articles_trad_boucle
-function afficher_articles_trad_boucle($row, $own='')
+function afficher_articles_trad_boucle($row, $own = '')
 {
   	global $spip_lang_right, $spip_display;
 
 	$id_article = $row['id_article'];
-	if (!autoriser('voir','article',$id_article)) return '';
+	if (!autoriser('voir', 'article', $id_article)) return '';
 
 	$titre = $row['titre'];
 	$id_rubrique = $row['id_rubrique'];
@@ -463,7 +462,7 @@ function afficher_articles_trad_boucle($row, $own='')
 
 	// faudrait sortir ces invariants de boucle
 
-	if (($GLOBALS['meta']['multi_rubriques'] == 'oui' AND (!isset($GLOBALS['id_rubrique']))) OR $GLOBALS['meta']['multi_articles'] == 'oui') {
+	if (($GLOBALS['meta']['multi_rubriques'] == 'oui' and (!isset($GLOBALS['id_rubrique']))) or $GLOBALS['meta']['multi_articles'] == 'oui') {
 			$langue_defaut = isset($GLOBALS['langue_rubrique'])
 			  ? $GLOBALS['meta']['langue_site']
 			  : $GLOBALS['langue_rubrique'];
@@ -472,7 +471,7 @@ function afficher_articles_trad_boucle($row, $own='')
 	} else $afficher_langue = '';
 
 	foreach(explode(',', $GLOBALS['meta']['langues_multilingue']) as $k){
-		if (isset($langues_art[$k]) AND $langues_art[$k]<> $id_trad){
+		if (isset($langues_art[$k]) and $langues_art[$k] <> $id_trad){
 			$h = generer_url_ecrire("articles", "id_article=".$langues_art[$k]);
 			$style = strtotime($dates_art[$k]) < strtotime($date_ref);
 			$style = $style ? 'claire' : 'foncee';
@@ -492,7 +491,7 @@ function afficher_articles_trad_boucle($row, $own='')
 	$titre = "\n<div>"
 	  . $img
 	  . "<a href='$h' dir='$lang_dir' style=\"display:block;\">"
-	  . typo(supprime_img($titre,''))
+	  . typo(supprime_img($titre, ''))
 	  . "</a></div>";
 
 	if ($spip_display == 4) return array($ligne);
@@ -501,7 +500,7 @@ function afficher_articles_trad_boucle($row, $own='')
 
 	// La petite puce de changement de statut
 	$puce_statut = charger_fonction('puce_statut', 'inc');
-	$puce = $puce_statut($id_article, $statut, $id_rubrique,'article');
+	$puce = $puce_statut($id_article, $statut, $id_rubrique, 'article');
 
 	return array($puce,
 		      $titre,
@@ -512,27 +511,26 @@ function afficher_articles_trad_boucle($row, $own='')
 }
 
 // http://code.spip.net/@afficher_auteurs_boucle
-function afficher_auteurs_boucle($row, $own){
+function afficher_auteurs_boucle($row, $own) {
 	$vals = array();
-	list($afficher_langue, $affrub, $langue_defaut, $formater,$type,$primary) = $own;
+	list($afficher_langue, $affrub, $langue_defaut, $formater, $type, $primary) = $own;
 	$formater_auteur = $formater ? $formater : charger_fonction('formater_auteur', 'inc');
 	if ($row['statut'] == '0minirezo')
 		$row['restreint'] = sql_countsel('spip_auteurs_liens', "objet='rubrique' AND id_auteur=".intval($row['id_auteur']));
 
-	list($s, $mail, $nom, $w, $p) = $formater_auteur($row['id_auteur'],$row);
+	list($s, $mail, $nom, $w, $p) = $formater_auteur($row['id_auteur'], $row);
 	if ($w) {
-	  if (preg_match(',^([^>]*>)[^<]*(.*)$,', $w,$r)) {
-	    $w = $r[1] . substr($row['site'],0,20) . $r[2];
+	  if (preg_match(',^([^>]*>)[^<]*(.*)$,', $w, $r)) {
+	    $w = $r[1] . substr($row['site'], 0, 20) . $r[2];
 	  }
 	}
 	$vals[] = $s;
 	$vals[] = $mail;
 	$vals[] = $nom
-		. ((isset($row['restreint']) AND $row['restreint'])
+		. ((isset($row['restreint']) and $row['restreint'])
 		   ? (" &nbsp;<small>"._T('statut_admin_restreint')."</small>")
 		   : '');
 	$vals[] = $w;
 	$vals[] = $p;
 	return $vals;
 }
-?>

@@ -29,7 +29,7 @@ function exec_base_convert_utf8_dist() {
 	$action = _T('grenier:utf8_convertir_votre_site');
 
 	// si meta deja la, c'est une reprise apres timeout.
-	if ($GLOBALS['meta']['convert_utf8'] AND $GLOBALS['meta']['admin']) {
+	if ($GLOBALS['meta']['convert_utf8'] and $GLOBALS['meta']['admin']) {
 		$admin = charger_fonction('admin', 'inc');
 		echo $admin('convert_utf8', $action, '', true);
 	} else {
@@ -41,16 +41,16 @@ function exec_base_convert_utf8_dist() {
 
 		// ne pas convertir si deja utf8
 		// ou si l'interface du serveur ne comprend rien
-		else if (($charset_orig == 'utf-8'))
+		elseif (($charset_orig == 'utf-8'))
 			convert_utf8_non($action,
 						_T('grenier:utf8_convert_erreur_deja',
 						array('charset' => $charset_orig)));
-		else if(!sql_get_charset('utf-8'))
+		elseif(!sql_get_charset('utf-8'))
 			convert_utf8_non($action,
 						_L('Votre version du serveur SQL ne gere pas les charset'));
 		else {
 			$commentaire = _T('grenier:utf8_convert_avertissement',
-				array('orig' => $charset_orig,'charset' => 'utf-8'));
+				array('orig' => $charset_orig, 'charset' => 'utf-8'));
 			$commentaire .=  "<small>"
 			. http_img_pack("warning-48.png", _T('info_avertissement'), "style='float: right;margin: 10px;'");
 			$commentaire .= _T('grenier:utf8_convert_backup', array('charset' => 'utf-8'))
@@ -63,4 +63,3 @@ function exec_base_convert_utf8_dist() {
 		}
 	}
 }
-?>

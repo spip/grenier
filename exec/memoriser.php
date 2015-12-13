@@ -27,9 +27,9 @@ function exec_memoriser_dist()
 
 	if ($res = $ajax_fonctions[$hash]) {
 		include_spip('inc/afficher_objets');
-		list(,$t,$r,$f) = $res;
+		list(, $t, $r, $f) = $res;
 		if (preg_match('/^[a-z0-9+.,]+$/', $by)
-		AND preg_match('/^\w*$/', $order)) {
+		and preg_match('/^\w*$/', $order)) {
 			$r['ORDER BY'] = str_replace(',', " $order, ", $by) .  " $order";
 			sauver_requete($t, $r, $f);
 		}
@@ -40,5 +40,3 @@ function exec_memoriser_dist()
 	include_spip('inc/actions');
 	ajax_retour($res);
 }
-
-?>

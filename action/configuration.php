@@ -34,19 +34,17 @@ function action_configuration_dist() {
 	}
 
 	$r = rawurldecode(_request('redirect'));
-	$r = parametre_url($r, 'configuration', $arg,"&");
+	$r = parametre_url($r, 'configuration', $arg, "&");
 	appliquer_modifs_config();
 
 	// Cette globale est fixee par appliquer_modifs_config();
 	// c'est un message a afficher dans l'exec de retour (relayeur si comme ici on est en ajax)
 	if ($arg == 'relayeur')
-		$r = parametre_url($r, 'retour_proxy', $GLOBALS['retour_proxy'],"&");
-	else if ($arg == 'langue') {
+		$r = parametre_url($r, 'retour_proxy', $GLOBALS['retour_proxy'], "&");
+	elseif ($arg == 'langue') {
 	  	include_spip('inc/rubriques');
 		calculer_langues_rubriques();
 	}
 	if (_request('envoi_now')) cron(0, array('mail' => -1));
 	redirige_par_entete($r);
 }
-
-?>

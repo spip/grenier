@@ -31,7 +31,7 @@ function exec_base_convert_sql_utf8_dist() {
 		$base($action, true);
 	} else {
 		$charset_supporte = false;
-		$utf8_supporte = false;	
+		$utf8_supporte = false;
 		// verifier que mysql gere le charset courant pour effectuer les conversions 
 		include_spip('base/abstract_sql');
 		if ($c = sql_get_charset($charset_spip)){
@@ -62,4 +62,3 @@ function exec_base_convert_sql_utf8_dist() {
 		}
 	}
 }
-?>

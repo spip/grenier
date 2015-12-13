@@ -30,7 +30,7 @@ function inc_informer_auteur_dist($id)
 		$nb = sql_countsel("spip_auteurs_liens", "objet='article' AND id_auteur=$id");
 		if ($nb > 1)
 		  $nb = $nb . "&nbsp;" . _T('info_article_2');
-		else if($nb == 1)
+		elseif($nb == 1)
 		  $nb = "1&nbsp;" . _T('info_article');
 		else $nb = "&nbsp;";
 	} else {
@@ -40,7 +40,7 @@ function inc_informer_auteur_dist($id)
 		$bio = $mail = $nb = '';
 	}
 	$res = '';
-	if ($spip_display != 1 AND $spip_display!=4 AND $GLOBALS['meta']['image_process'] != "non") {
+	if ($spip_display != 1 and $spip_display != 4 and $GLOBALS['meta']['image_process'] != "non") {
 		$chercher_logo = charger_fonction('chercher_logo', 'inc');
 		if ($res = $chercher_logo($id, 'id_auteur', 'on'))  {
 			list($fid, $dir, $n, $format) = $res;
@@ -67,4 +67,3 @@ function inc_informer_auteur_dist($id)
 	. "<div>$bio</div>"
 	.  "</div>";
 }
-?>

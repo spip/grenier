@@ -23,7 +23,7 @@ function exec_rechercher_auteur_dist()
 // http://code.spip.net/@exec_rechercher_auteur_args
 function exec_rechercher_auteur_args($idom)
 {
-	if (!preg_match('/\w+/',$idom))
+	if (!preg_match('/\w+/', $idom))
 	      {
 		include_spip('inc/minipres');
 		echo minipres();
@@ -31,12 +31,11 @@ function exec_rechercher_auteur_args($idom)
 		include_spip('inc/actions');
 		$where = preg_split(",\s+,", _request('nom'));
 		if ($where) {
-		  foreach ($where as $k => $v) 
-			$where[$k] = "'%" . substr(str_replace("%","\%", sql_quote($v)),1,-1) . "%'";
-		  $where= ("(nom LIKE " . join(" AND nom LIKE ", $where) . ")");
+		  foreach ($where as $k => $v)
+			$where[$k] = "'%" . substr(str_replace("%", "\%", sql_quote($v)), 1, -1) . "%'";
+		  $where = ("(nom LIKE " . join(" AND nom LIKE ", $where) . ")");
 		}
 		include_spip('inc/selectionner_auteur');
 		ajax_retour(selectionner_auteur_boucle($where, $idom));
 	}
 }
-?>

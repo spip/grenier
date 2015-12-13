@@ -14,10 +14,10 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 
 // http://code.spip.net/@base_convert_sql_utf8_dist
-function base_convert_sql_utf8_dist($titre='', $reprise=false)
+function base_convert_sql_utf8_dist($titre = '', $reprise = false)
 {
 	if (!$titre) return; // anti-testeur automatique
-	ecrire_meta('convert_sql_utf8','oui','non');
+	ecrire_meta('convert_sql_utf8', 'oui', 'non');
 	echo install_debut_html($titre);
 	
 	echo "<p>", _T('grenier:utf8_convert_timeout'), "</p><hr />\n";
@@ -35,12 +35,12 @@ function base_convert_sql_utf8_dist($titre='', $reprise=false)
 }
 
 // http://code.spip.net/@convert_sql_utf8
-function convert_sql_utf8($titre){
+function convert_sql_utf8($titre) {
 
 	define('_DEBUG_CONVERT', false);
 	$charset_spip = $GLOBALS['meta']['charset'];
 	$charset_supporte = false;
-	$utf8_supporte = false;	
+	$utf8_supporte = false;
 	// verifier que mysql gere le charset courant pour effectuer les conversions 
 	if ($c = sql_get_charset($charset_spip)){
 		$sql_charset = $c['charset'];
@@ -50,7 +50,7 @@ function convert_sql_utf8($titre){
 	if (!$charset_supporte){
 		$res = spip_query("SHOW CHARACTER SET");
 		while ($row = sql_fetch($res)){
-			if ($row['Charset']=='utf8') $utf8_supporte = true;
+			if ($row['Charset'] == 'utf8') $utf8_supporte = true;
 		}
 		echo install_debut_html($titre);
 		echo _L("Le charset SPIP actuel $charset_spip n'est pas supporte par votre serveur MySQL<br/>");  # non traduit car complexe & obsolete
@@ -75,7 +75,7 @@ function convert_sql_utf8($titre){
 	$res = spip_query("SHOW TABLES");
 	while (($row = sql_fetch($res)) /*&& ($count<1)*/){
 		$nom = array_shift($row);
-		if (preg_match(',^'.$GLOBALS['table_prefix'].'_(.*)$,',$nom,$regs)){
+		if (preg_match(',^'.$GLOBALS['table_prefix'].'_(.*)$,', $nom, $regs)){
 			$count++;
 			$nom = $regs[1];
 			echo "<hr /><h2>$nom</h2>";
@@ -84,26 +84,26 @@ function convert_sql_utf8($titre){
 			while ($row2 = sql_fetch($res2)){
 				$collation = $row2['Collation'];
 				$champ = $row2['Field'];
-				if ($collation!="NULL" 
-				&& isset($charset2collations[$collation]) 
-				&& $charset2collations[$collation]=='latin1'){
+				if ($collation != "NULL"
+				&& isset($charset2collations[$collation])
+				&& $charset2collations[$collation] == 'latin1'){
 					echo "Conversion de '$champ' depuis $collation (".$charset2collations[$collation]."):";
 					// conversion de latin1 vers le charset reel du contenu
-					$type_texte= $row2['Type'];
+					$type_texte = $row2['Type'];
 					$type_blob = "blob";
-					if (strpos($type_texte,"text")!==FALSE)
-						$type_blob = str_replace("text","blob",$type_texte);
+					if (strpos($type_texte, "text") !== false)
+						$type_blob = str_replace("text", "blob", $type_texte);
 
 					// sauf si blob expressement demande dans la description !
 					if ((
 					$a = $GLOBALS['tables_principales']['spip_'.$nom]['field'][$champ]
-					OR $a = $GLOBALS['tables_auxiliaires']['spip_'.$nom]['field'][$champ]
-					) AND preg_match(',blob,i', $a)) {
+					or $a = $GLOBALS['tables_auxiliaires']['spip_'.$nom]['field'][$champ]
+					) and preg_match(',blob,i', $a)) {
 						echo "On ignore le champ blob $nom.$champ <hr />\n";
 					} else {
 
 						$default = $row2['Default']?(" DEFAULT ".sql_quote($row2['Default'])):"";
-						$notnull = ($row2['Null']=='YES')?"":" NOT NULL";
+						$notnull = ($row2['Null'] == 'YES')?"":" NOT NULL";
 						$q = "ALTER TABLE spip_$nom CHANGE $champ $champ $type_blob $default $notnull";
 						if (!_DEBUG_CONVERT)
 							$b = spip_query($q);
@@ -122,8 +122,7 @@ function convert_sql_utf8($titre){
 			echo "<pre>$q</pre>$b\n";
 		}
 	}
-	ecrire_meta('charset_sql_base',$sql_charset,'non');
-	ecrire_meta('charset_sql_connexion',$sql_charset,'non');
+	ecrire_meta('charset_sql_base', $sql_charset, 'non');
+	ecrire_meta('charset_sql_connexion', $sql_charset, 'non');
 	}
 }
-?>

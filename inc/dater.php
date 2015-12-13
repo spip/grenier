@@ -18,10 +18,8 @@ include_spip('inc/actions');
 include_spip('inc/date');
 
 // http://code.spip.net/@inc_dater_dist
-function inc_dater_dist($id, $flag, $statut, $type, $script, $date, $date_redac='')
+function inc_dater_dist($id, $flag, $statut, $type, $script, $date, $date_redac = '')
 {
   return
-		recuperer_fond("prive/objets/editer/dater",array('objet'=>$type,'id_objet'=>$id));
+		recuperer_fond("prive/objets/editer/dater", array('objet' => $type, 'id_objet' => $id));
 }
-
-?>

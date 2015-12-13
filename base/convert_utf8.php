@@ -19,7 +19,7 @@ function convert_utf8_init($tables_a_convertir)
 	$charset_source = $GLOBALS['meta']['charset'];
 	ecrire_meta('charset', 'utf-8');
 	foreach ($tables_a_convertir as $table => $champ) {
-		spip_log( "demande update charset table $table ($champ)", _LOG_INFO_IMPORTANTE);
+		spip_log("demande update charset table $table ($champ)", _LOG_INFO_IMPORTANTE);
 		spip_query("UPDATE $table SET $champ = CONCAT('<CONVERT ".$charset_source.">', $champ)	WHERE $champ NOT LIKE '<CONVERT %'");
 	}
 
@@ -34,7 +34,7 @@ function convert_utf8_init($tables_a_convertir)
 }
 
 // http://code.spip.net/@base_convert_utf8_dist
-function base_convert_utf8_dist($titre='', $reprise=false)
+function base_convert_utf8_dist($titre = '', $reprise = false)
 {
 	if (!$titre) return; // anti-testeur automatique
 	// une liste des tables a convertir, avec le champ dans lequel on
@@ -100,7 +100,7 @@ function convert_table_utf8($f, $table, $champ)
 		$query = array();
 		$query_no_convert = '';
 		$query_extra = '';
-		$charset_source='AUTO';
+		$charset_source = 'AUTO';
 		foreach ($t as $c => $v) {
 			if ($c == $champ) {
 				preg_match(',^<CONVERT (.*?)>,', $v, $reg);
@@ -109,7 +109,7 @@ function convert_table_utf8($f, $table, $champ)
 				$query[] = "$c=" . sql_quote($v);
 			} else {
 				if (!is_numeric($v)
-				AND !is_ascii($v)) {
+				and !is_ascii($v)) {
 					// traitement special car donnees serializees
 					if ($c == 'extra') {
 						$query_no_convert .= ", $c=".sql_quote($v);
@@ -150,10 +150,9 @@ function convert_table_utf8($f, $table, $champ)
 // http://code.spip.net/@convert_extra
 function convert_extra($v, $charset_source) {
 	if ($extra = @unserialize($v)) {
-		foreach ($extra as $key=>$val)
+		foreach ($extra as $key => $val)
 			$extra[$key] = unicode_to_utf_8(
 			charset2unicode($val, $charset_source));
 		return ", extra=".sql_quote(serialize($extra));
 	}
 }
-?>

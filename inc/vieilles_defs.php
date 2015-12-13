@@ -31,7 +31,7 @@ function vieilles_log($quoi) {
 	if (!isset($vus[$c])) {
 		spip_log($quoi.' '.$GLOBALS['REQUEST_URI'].' - '.$_SERVER['SCRIPT_NAME'], 'vieilles_defs');
 		$vus[$c] = 1;
-	} else if (++$vus[$c] > 100) spip_log("$quoi doit imperativement etre remplacee");
+	} elseif (++$vus[$c] > 100) spip_log("$quoi doit imperativement etre remplacee");
 }
 
 foreach (
@@ -865,7 +865,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 	return "\n<li>$res</li>\n";
 }',
 
-'barre_textarea' =>'($texte, $rows, $cols, $lang=\'\') {
+'barre_textarea' => '($texte, $rows, $cols, $lang=\'\') {
 	static $num_textarea = 0;
 	include_spip("inc/layer"); // definit browser_barre
 
@@ -919,11 +919,11 @@ ondblclick=\'storeCaret(this);\'>$texte</textarea>";
 
 // SPIP < 2.3
 
-  'icone'=> '($texte, $lien, $fond, $fonction="", $align="", $echo=false){
+  'icone' => '($texte, $lien, $fond, $fonction="", $align="", $echo=false){
 	$retour = "<div style=\'padding-top: 20px;width:100px\' class=\'icone36\'>" . icone_inline($texte, $lien, $fond, $fonction, $align) . "</div>";
 	if ($echo) echo_log(\'icone\',$retour); else return $retour;}',
 
-	'icone_horizontale_display'=> '($texte, $lien, $fond = "", $fonction = "", $af = true, $js=\'\') {
+	'icone_horizontale_display' => '($texte, $lien, $fond = "", $fonction = "", $af = true, $js=\'\') {
 	return icone_horizontale($texte, $lien, $fond, $fonction, $af, $js);}',
 
 	 	
@@ -941,10 +941,7 @@ define('SPIP_ASSOC', MYSQL_ASSOC);
 define('SPIP_NUM', MYSQL_NUM);
 
 // http://code.spip.net/@article_select
-function article_select($id_article, $id_rubrique=0, $lier_trad=0, $id_version=0) {
-	$article_select = charger_fonction('article_select','inc');
-	return $article_select($id_article,$id_rubrique,$lier_trad,$id_version);
+function article_select($id_article, $id_rubrique = 0, $lier_trad = 0, $id_version = 0) {
+	$article_select = charger_fonction('article_select', 'inc');
+	return $article_select($id_article, $id_rubrique, $lier_trad, $id_version);
 }
-
-
-?>

@@ -17,7 +17,7 @@ include_spip('inc/autoriser'); // auteurs_article
 // obsolete, utilise uniquement par afficher_objets
 
 // http://code.spip.net/@inc_formater_article_dist
-function inc_formater_article_dist($row, $own='')
+function inc_formater_article_dist($row, $own = '')
 {
 	global $spip_lang_right, $spip_display;
 	static $pret = false;
@@ -25,16 +25,16 @@ function inc_formater_article_dist($row, $own='')
 
 	$id_article = $row['id_article'];
 
-	if (!autoriser('voir','article',$id_article)) return '';
+	if (!autoriser('voir', 'article', $id_article)) return '';
 
 	if (!$pret) {
-		$chercher_logo = ($spip_display != 1 AND $spip_display != 4 AND $GLOBALS['meta']['image_process'] != "non");
-		if ($chercher_logo) 
+		$chercher_logo = ($spip_display != 1 and $spip_display != 4 and $GLOBALS['meta']['image_process'] != "non");
+		if ($chercher_logo)
 			$chercher_logo = charger_fonction('chercher_logo', 'inc');
 		$formater_auteur = charger_fonction('formater_auteur', 'inc');
 		$img_admin = http_img_pack('auteur-0minirezo-16.png', "", "", _T('titre_image_admin_article'));
 
-		if (($GLOBALS['meta']['multi_rubriques'] == 'oui' AND (!isset($GLOBALS['id_rubrique']))) OR $GLOBALS['meta']['multi_articles'] == 'oui') {
+		if (($GLOBALS['meta']['multi_rubriques'] == 'oui' and (!isset($GLOBALS['id_rubrique']))) or $GLOBALS['meta']['multi_articles'] == 'oui') {
 			$afficher_langue = true;
 			$langue_defaut = !isset($GLOBALS['langue_rubrique'])
 			  ? $GLOBALS['meta']['langue_site']
@@ -50,7 +50,7 @@ function inc_formater_article_dist($row, $own='')
 			include_spip('inc/filtres_images_mini');
 			$logo = image_reduire("<img src='$fid' alt='' />", 26, 20);
 		}
-	} else $logo ='';
+	} else $logo = '';
 
 	$titre = sinon($row['titre'], _T('ecrire:info_sans_titre'));
 	$id_rubrique = $row['id_rubrique'];
@@ -61,16 +61,16 @@ function inc_formater_article_dist($row, $own='')
 
 	$lien  = "<div>"
 	. "<a href='"
-	. generer_url_ecrire("articles","id_article=$id_article")
+	. generer_url_ecrire("articles", "id_article=$id_article")
 	. "'"
-	. (!$descriptif ? '' : 
+	. (!$descriptif ? '' :
 	     (' title="'.attribut_html(typo($descriptif)).'"'))
 	. " dir='$lang_dir'>"
 	. (!$logo ? '' :
 	   ("<span style='float: $spip_lang_right; margin-top: -2px; margin-bottom: -2px;'>" . $logo . "</span>"))
 	. (acces_restreint_rubrique($id_rubrique) ? $img_admin : '')
-	  . typo(supprime_img($titre,''))
-	. (!($afficher_langue AND $lang != $GLOBALS['meta']['langue_site'] AND strlen($lang)) ? '' :
+	  . typo(supprime_img($titre, ''))
+	. (!($afficher_langue and $lang != $GLOBALS['meta']['langue_site'] and strlen($lang)) ? '' :
 	   (" <span class='spip_xx-small' style='color: #666666' dir='$lang_dir'>(".traduire_nom_langue($lang).")</span>"))
 	  . (!$row['petition'] ? '' :
 	     ("</a> <a href='" . generer_url_ecrire('controle_petition', "id_article=$id_article") . "' class='spip_xx-small' style='color: red'>"._T('lien_petitions')))
@@ -79,12 +79,12 @@ function inc_formater_article_dist($row, $own='')
 	
 	if ($spip_display == 4) return array($lien);
 
-	$puce = $puce_statut($id_article, $statut, $id_rubrique,'article');
+	$puce = $puce_statut($id_article, $statut, $id_rubrique, 'article');
 
-	$auteurs = auteurs_article($id_article); 
+	$auteurs = auteurs_article($id_article);
 	foreach ($auteurs as $k => $r) {
-		list(, $mail, $nom,,) = $formater_auteur($r['id_auteur']);
-		$auteurs[$k]= "$mail&nbsp;$nom";
+		list(, $mail, $nom, , ) = $formater_auteur($r['id_auteur']);
+		$auteurs[$k] = "$mail&nbsp;$nom";
 	}
 
 	$date = affdate_jourcourt($date);
@@ -96,5 +96,3 @@ function inc_formater_article_dist($row, $own='')
 
 	return array($puce, $lien, join('<br />', $auteurs), $date, $num);
 }
-
-?>

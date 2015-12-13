@@ -20,11 +20,11 @@ include_spip('inc/selectionner');
 //
 
 // http://code.spip.net/@inc_selectionner_auteur_dist
-function inc_selectionner_auteur_dist($id_article, $type='article')
+function inc_selectionner_auteur_dist($id_article, $type = 'article')
 {
 	$idom = "auteur_$type" . "_$id_article";
 	$new = $idom . '_new';
-	if (!$determiner_non_auteurs = charger_fonction('determiner_non_auteurs_'.$type,'inc',true))
+	if (!$determiner_non_auteurs = charger_fonction('determiner_non_auteurs_'.$type, 'inc', true))
 		$determiner_non_auteurs = 'determiner_non_auteurs';
 
 	$futurs = selectionner_auteur_boucle($determiner_non_auteurs($type, $id_article), $idom);
@@ -75,4 +75,3 @@ function selectionner_auteur_boucle($where, $idom)
 
 	return $res;
 }
-?>

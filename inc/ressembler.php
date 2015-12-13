@@ -28,10 +28,10 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  * @return distance de levenshtein
 **/
 // http://code.spip.net/@levenshtein255
-function levenshtein255 ($a, $b) {
+function levenshtein255($a, $b) {
 	$a = substr($a, 0, 254);
 	$b = substr($b, 0, 254);
-	return @levenshtein($a,$b);
+	return @levenshtein($a, $b);
 }
 
 
@@ -63,7 +63,7 @@ function reduire_mot($mot) {
  * @return array	Liste des noms (ou identifiants si transmis) approchants : array('junior') ou array(3)
 **/
 // http://code.spip.net/@mots_ressemblants
-function mots_ressemblants($mot, $table_mots, $table_ids='') {
+function mots_ressemblants($mot, $table_mots, $table_ids = '') {
 
 	$result = array();
 
@@ -76,7 +76,7 @@ function mots_ressemblants($mot, $table_mots, $table_ids='') {
 	$mot = reduire_mot($mot);
 	$len = strlen($mot);
 
-	while (!$nb AND $lim < 10) {
+	while (!$nb and $lim < 10) {
 		reset($table_mots);
 		if ($table_ids) reset($table_ids);
 		while (list(, $val) = each($table_mots)) {
@@ -89,13 +89,13 @@ function mots_ressemblants($mot, $table_mots, $table_ids='') {
 					$len2 = strlen($val2);
 					if ($val2 == $mot)
 						$m = -2; # resultat exact
-					else if (substr($val2, 0, $len) == $mot)
+					elseif (substr($val2, 0, $len) == $mot)
 						$m = -1; # sous-chaine
 					else {
 						# distance
 						$m = levenshtein255($val2, $mot);
 						# ne pas compter la distance due a la longueur
-						$m -= max(0, $len2 - $len); 
+						$m -= max(0, $len2 - $len);
 					}
 					$distance[$id] = $m;
 				} else $m = 0;
@@ -117,7 +117,7 @@ function mots_ressemblants($mot, $table_mots, $table_ids='') {
 	if ($opt > -1) {
 		$moy = 1;
 		while(list(, $val) = each($selection)) $moy *= $val;
-		if($moy) $moy = pow($moy, 1.0/$nb);
+		if($moy) $moy = pow($moy, 1.0 / $nb);
 		$lim = ($opt + $moy) / 2;
 	}
 	else $lim = -1;
@@ -130,7 +130,3 @@ function mots_ressemblants($mot, $table_mots, $table_ids='') {
 	}
 	return $result;
 }
-
-
-
-?>

@@ -20,12 +20,12 @@ include_once _ROOT_RESTREINT . "inc/actions.php";
 // d'attribut  id = $action-$id (cf. AjaxSqueeze dans layer.js)
 
 // http://code.spip.net/@ajax_action_auteur
-function ajax_action_auteur($action, $id, $script, $args='', $corps=false, $args_ajax='', $fct_ajax='')
+function ajax_action_auteur($action, $id, $script, $args = '', $corps = false, $args_ajax = '', $fct_ajax = '')
 {
-	if (strpos($args,"#")===FALSE)
+	if (strpos($args, "#") === false)
 		$ancre = "$action-" . intval($id);
 	else {
-		$ancre = explode("#",$args);
+		$ancre = explode("#", $args);
 		$args = $ancre[0];
 		$ancre = $ancre[1];
 	}
@@ -45,7 +45,7 @@ function ajax_action_auteur($action, $id, $script, $args='', $corps=false, $args
 
 		// Methode Ajax
 		else {
-			if ($args AND !$args_ajax) $args_ajax = "&$args";
+			if ($args and !$args_ajax) $args_ajax = "&$args";
 			if (isset($_GET['var_profile']))
 				$args_ajax .= '&var_profile=1';
 			return redirige_action_post($action,
@@ -67,7 +67,7 @@ function ajax_action_auteur($action, $id, $script, $args='', $corps=false, $args
 			"$args#$ancre",
 			false);
 
-		if ($args AND !$args_ajax) $args_ajax = "&$args";
+		if ($args and !$args_ajax) $args_ajax = "&$args";
 		if (isset($_GET['var_profile']))
 			$args_ajax .= '&var_profile=1';
 
@@ -89,16 +89,16 @@ function ajax_action_auteur($action, $id, $script, $args='', $corps=false, $args
 // Comme ci-dessus, mais reduit au cas POST et on fournit le bouton Submit.
 //
 // http://code.spip.net/@ajax_action_post
-function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic='', $atts_i='', $atts_span = "", $args_ajax='')
+function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic = '', $atts_i = '', $atts_span = "", $args_ajax = '')
 {
 	global $spip_lang_right;
 
-	if (strpos($gra,"#")===FALSE) {
+	if (strpos($gra, "#") === false) {
 	  // A etudier: prendre systematiquement arg en trancodant les \W
 		$n = intval($arg);
 		$ancre = "$action-" . ($n ? $n : $arg);
 	} else {
-		$ancre = explode("#",$gra);
+		$ancre = explode("#", $gra);
 		$args = $ancre[0];
 		$ancre = $ancre[1];
 	}
@@ -129,7 +129,7 @@ function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic='', $atts_
 				        $corps);
 	} else {
 
-		if ($gra AND !$args_ajax) $args_ajax = "&$gra";
+		if ($gra and !$args_ajax) $args_ajax = "&$gra";
 		if (isset($GLOBALS['var_profile']))
 			$args_ajax .= '&var_profile=1';
 
@@ -149,7 +149,7 @@ function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic='', $atts_
 // et non pas onsubmit='return AjaxSqueeze(x,"truc",...)'
 //
 // http://code.spip.net/@ajax_action_declencheur
-function ajax_action_declencheur($request, $noeud, $fct_ajax='') {
+function ajax_action_declencheur($request, $noeud, $fct_ajax = '') {
 	if (strpos($request, 'this') !== 0)
 		$request = "'".$request."'";
 

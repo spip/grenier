@@ -16,12 +16,12 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 // Code a l'agonie, heureusement.
 // NB: c'est une fonction de maniere a ne pas pourrir $GLOBALS
 // http://code.spip.net/@spip_register_globals
-function spip_register_globals($type='') {
+function spip_register_globals($type = '') {
 
 	spip_log("spip_register_globals($type)");
 
 	// Liste des variables dont on refuse qu'elles puissent provenir du client
-	$refuse_gpc = array (
+	$refuse_gpc = array(
 		# inc-public
 		'fond', 'delais' /*,
 
@@ -33,7 +33,7 @@ function spip_register_globals($type='') {
 
 	// Liste des variables (contexte) dont on refuse qu'elles soient cookie
 	// (histoire que personne ne vienne fausser le cache)
-	$refuse_c = array (
+	$refuse_c = array(
 		# inc-calcul
 		'id_parent', 'id_rubrique', 'id_article',
 		'id_auteur', 'id_breve', 'id_forum', 'id_secteur',
@@ -57,20 +57,20 @@ function spip_register_globals($type='') {
 			if (isset($GLOBALS[$var])) {
 				if (
 				// demande par le client
-				$_REQUEST[$var] !== NULL
+				$_REQUEST[$var] !== null
 				// et pas modifie par les fichiers d'appel
-				AND $GLOBALS[$var] == $_REQUEST[$var]
+				and $GLOBALS[$var] == $_REQUEST[$var]
 				) // Alors on ne sait pas si c'est un hack
-					die ("register_globals: $var interdite");
+					die("register_globals: $var interdite");
 			}
 		}
 		foreach ($refuse_c as $var) {
 			if (isset($GLOBALS[$var])) {
 				if (
-				isset ($_COOKIE[$var])
-				AND $_COOKIE[$var] == $GLOBALS[$var]
+				isset($_COOKIE[$var])
+				and $_COOKIE[$var] == $GLOBALS[$var]
 				)
-					define ('spip_interdire_cache', true);
+					define('spip_interdire_cache', true);
 			}
 		}
 	}
@@ -81,13 +81,12 @@ function spip_register_globals($type='') {
 		foreach (array('_SERVER', '_COOKIE', '_POST', '_GET') as $_table) {
 			foreach ($GLOBALS[$_table] as $var => $val) {
 				if (!isset($GLOBALS[$var]) # indispensable securite
-				AND isset($GLOBALS[$_table][$var])
-				AND ($_table == '_SERVER' OR !in_array($var, $refuse_gpc))
-				AND ($_table <> '_COOKIE' OR !in_array($var, $refuse_c)))
+				and isset($GLOBALS[$_table][$var])
+				and ($_table == '_SERVER' or !in_array($var, $refuse_gpc))
+				and ($_table <> '_COOKIE' or !in_array($var, $refuse_c)))
 					$GLOBALS[$var] = $val;
 			}
 		}
 	}
 
 }
-?>

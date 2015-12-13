@@ -20,17 +20,17 @@ function my_sel($num, $tex, $comp) {
 }
 
 // http://code.spip.net/@format_mysql_date
-function format_mysql_date($annee=0, $mois=0, $jour=0, $h=0, $m=0, $s=0) {
+function format_mysql_date($annee = 0, $mois = 0, $jour = 0, $h = 0, $m = 0, $s = 0) {
 	include_spip('base/abstract_sql');
 	return sql_format_date($annee, $mois, $jour, $h, $m, $s);
 }
 
 
 // http://code.spip.net/@afficher_mois
-function afficher_mois($mois, $attributs, $autre=false){
+function afficher_mois($mois, $attributs, $autre = false) {
   return
 	"<select $attributs>\n" .
-	(!$autre ? '' : my_sel("00",_T('mois_non_connu'),$mois)) .
+	(!$autre ? '' : my_sel("00", _T('mois_non_connu'), $mois)) .
 	my_sel("01", _T('date_mois_1'), $mois) .
 	my_sel("02", _T('date_mois_2'), $mois) .
 	my_sel("03", _T('date_mois_3'), $mois) .
@@ -47,7 +47,7 @@ function afficher_mois($mois, $attributs, $autre=false){
 }
 
 // http://code.spip.net/@afficher_annee
-function afficher_annee($annee, $attributs, $debut=null, $fin=null) {
+function afficher_annee($annee, $attributs, $debut = null, $fin = null) {
 
 	if (!isset($debut)) $debut = $annee - 8;
 	if (!isset($fin)) $fin = max($annee, date('Y')) + 3;
@@ -55,60 +55,58 @@ function afficher_annee($annee, $attributs, $debut=null, $fin=null) {
 	if ($fin - $debut > 15)
 		return "<input type='text' value='$annee' size='4' $attributs />";
 
-	$res = ($annee > $debut) ? '' : my_sel($annee,$annee,$annee);
-	for ($i=$debut; $i < $fin; $i++) {
-		$res .= my_sel($i,$i,$annee);
+	$res = ($annee > $debut) ? '' : my_sel($annee, $annee, $annee);
+	for ($i = $debut; $i < $fin; $i++) {
+		$res .= my_sel($i, $i, $annee);
 	}
 	// plus de choix... on met une vieille date arbitraire, et au tour
 	// suivant on aura un champ input a la place du select (pas genial...)
-	$res .= my_sel(date('Y')-10,'&nbsp; ...',$annee);
+	$res .= my_sel(date('Y') - 10, '&nbsp; ...', $annee);
 	return "<select $attributs>\n$res</select>\n";
 }
 
 // http://code.spip.net/@afficher_jour
-function afficher_jour($jour, $attributs, $autre=false){
+function afficher_jour($jour, $attributs, $autre = false) {
 
-	$res = (!$autre ? "" : my_sel("00",_T('jour_non_connu_nc'),$jour));
-	for($i=1;$i<32;$i++){
-		if ($i<10){$aff="&nbsp;".$i;}else{$aff=$i;}
-		$res .= my_sel($i,$aff,$jour);
+	$res = (!$autre ? "" : my_sel("00", _T('jour_non_connu_nc'), $jour));
+	for($i = 1;$i < 32;$i++){
+		if ($i < 10){$aff = "&nbsp;".$i;}else{$aff = $i;}
+		$res .= my_sel($i, $aff, $jour);
 	}
 	return "<select $attributs>\n$res</select>\n";
 }
 
 // http://code.spip.net/@afficher_heure
-function afficher_heure($heure, $attributs, $autre=false){
+function afficher_heure($heure, $attributs, $autre = false) {
 	$res = '';
-	for($i=0;$i<=23;$i++){
+	for($i = 0;$i <= 23;$i++){
 		$aff = sprintf("%02s", $i);
-		$res .= my_sel($i,$aff,$heure);
+		$res .= my_sel($i, $aff, $heure);
 	}
 	return "<select $attributs>\n$res</select>\n";
 }
 
 // http://code.spip.net/@afficher_minute
-function afficher_minute($minute, $attributs, $autre=false){
+function afficher_minute($minute, $attributs, $autre = false) {
 	$res = '';
-	for($i=0;$i<=59;$i+=5){
+	for($i = 0;$i <= 59;$i += 5){
 		$aff = sprintf("%02s", $i);
-		$res .= my_sel($i,$aff,$minute);
+		$res .= my_sel($i, $aff, $minute);
 
-		if ($minute>$i AND $minute<$i+5)
-			$res .= my_sel($minute,sprintf("%02s", $minute),$minute);
+		if ($minute > $i and $minute < $i + 5)
+			$res .= my_sel($minute, sprintf("%02s", $minute), $minute);
 	}
 	return "<select $attributs>\n$res</select>\n";
 }
 
 
 // http://code.spip.net/@afficher_jour_mois_annee_h_m
-function afficher_jour_mois_annee_h_m($date, $heures, $minutes, $suffixe='')
+function afficher_jour_mois_annee_h_m($date, $heures, $minutes, $suffixe = '')
 {
-  return 
+  return
     afficher_jour(jour($date), "name='jour$suffixe' id='jour$suffixe' size='1' class='fondl verdana1'") .
     afficher_mois(mois($date), "name='mois$suffixe' id='mois$suffixe' size='1' class='fondl verdana1'") .
-    afficher_annee(annee($date), "name='annee$suffixe' id='annee$suffixe' class='fondl verdana1'", date('Y')-1) .
+    afficher_annee(annee($date), "name='annee$suffixe' id='annee$suffixe' class='fondl verdana1'", date('Y') - 1) .
     "&nbsp;  <input type='text' class='fondl verdana1' name='heures$suffixe' id='heures$suffixe' value=\"".$heures."\" size='3'/>&nbsp;".majuscules(_T('date_mot_heures'))."&nbsp;" .
     "<input type='text' class='fondl verdana1' name='minutes$suffixe' id='minutes$suffixe' value=\"$minutes\" size='3'/>";
 }
-
-?>

@@ -16,9 +16,7 @@ include_spip('inc/actions');
 include_spip('inc/mots');
 
 // http://code.spip.net/@inc_editer_mots_dist
-function inc_editer_mots_dist($type, $id, $cherche_mot, $select_groupe, $flag, $visible = false, $url_base='') {
+function inc_editer_mots_dist($type, $id, $cherche_mot, $select_groupe, $flag, $visible = false, $url_base = '') {
 	return
-	recuperer_fond('prive/objets/editer/liens',array('table_source'=>'mots','objet'=>$type,'id_objet'=>$id));
+	recuperer_fond('prive/objets/editer/liens', array('table_source' => 'mots', 'objet' => $type, 'id_objet' => $id));
 }
-
-?>
