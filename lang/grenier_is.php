@@ -19,4 +19,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_sauvegarde_documents' => 'Vistið skjölin'
 );
 
-?>

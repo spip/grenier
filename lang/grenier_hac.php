@@ -25,4 +25,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convertir_votre_site' => 'پەڕیانەکەیت فاڕە پێ utf-8'
 );
 
-?>

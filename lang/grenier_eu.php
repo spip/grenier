@@ -87,4 +87,3 @@ Funtzionalitate hau aktiba edo desaktibatzen ahal duzu.', # MODIF
 	'utf8_convertir_votre_site' => 'Zure gunean utf-8-era konbertitu'
 );
 
-?>

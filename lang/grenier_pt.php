@@ -86,4 +86,3 @@ encurtar a sua transferência para o seu computador ou para um servidor de salva
 	'utf8_convertir_votre_site' => 'Converter o seu sítio em utf-8'
 );
 
-?>

@@ -96,4 +96,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convertir_votre_site' => 'Convertir el vostre lloc Web a utf-8'
 );
 
-?>

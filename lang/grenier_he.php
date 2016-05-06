@@ -52,4 +52,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_termine' => 'סיימת!'
 );
 
-?>

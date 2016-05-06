@@ -86,4 +86,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convertir_votre_site' => 'သင့်ဝက်ဘ်ဆိုက်ကို ယူနီကုဒ် သို့ပြောင်းပါ'
 );
 
-?>

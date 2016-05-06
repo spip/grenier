@@ -96,4 +96,3 @@ i tempi di trasferimento in rete e di risparmiare dello spazio su disco.',
 	'utf8_convertir_votre_site' => 'Convertire il sito in UTF-8'
 );
 
-?>

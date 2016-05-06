@@ -88,4 +88,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convertir_votre_site' => 'បំ​លែង​ សៃថ៍ របស់អ្នក ជា utf-8'
 );
 
-?>

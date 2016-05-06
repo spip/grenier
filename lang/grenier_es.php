@@ -94,4 +94,3 @@ se puede activar o desactivar .', # MODIF
 	'utf8_convertir_votre_site' => 'Convertir tu sitio en utf-8'
 );
 
-?>

@@ -36,4 +36,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_gauche_suivi_forum' => 'Web qamawixa &lt;i&gt;aruskipañawinakat uñch’ukiwi&lt;/i&gt; mä irnaqañatak qamawimat apnaqawiwa ( janiw aruskipaw qamawxakiti ukhamarak janiw qillqayaw qamawxakiti). Taqpach yanapanaka aruskipañawinakat aka qillqatata ukhamarak apnaqayaraktamwa.' # MODIF
 );
 
-?>
