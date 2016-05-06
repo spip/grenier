@@ -11,4 +11,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_description' => 'Fonctions et API dépréciées',
 	'grenier_slogan' => 'Fonctions et API SPIP dépréciées'
 );
-

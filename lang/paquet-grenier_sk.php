@@ -13,4 +13,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_description' => 'Funkcie a zastarané aplikácie',
 	'grenier_slogan' => 'Funkcie a zastarané aplikácie SPIPu'
 );
-

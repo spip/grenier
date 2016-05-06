@@ -13,4 +13,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_description' => 'كاركردها و اي.پي.آي‌هاي رد شده',
 	'grenier_slogan' => 'كاركردها و اي.پي.آي اسپيپ رد شده '
 );
-

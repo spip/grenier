@@ -13,4 +13,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_description' => 'Поддержка API и функций предыдущих версий',
 	'grenier_slogan' => 'Поддержка API и функций предыдущих версий'
 );
-
