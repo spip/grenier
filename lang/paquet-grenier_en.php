@@ -14,4 +14,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_slogan' => 'Deprecated SPIP’s functions and APIs'
 );
 
-?>

@@ -14,4 +14,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_slogan' => 'وظائف SPIP عفى عليها الزمن'
 );
 
-?>

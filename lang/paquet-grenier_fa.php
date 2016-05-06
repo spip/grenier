@@ -14,4 +14,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_slogan' => 'كاركردها و اي.پي.آي اسپيپ رد شده '
 );
 
-?>

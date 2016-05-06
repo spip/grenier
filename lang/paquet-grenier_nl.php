@@ -14,4 +14,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'grenier_slogan' => 'Gedepreciëerde functie en SPIP API'
 );
 
-?>
