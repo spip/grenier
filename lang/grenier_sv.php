@@ -88,4 +88,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Nu behöver du tömma webbplatsens cache och sedan kontrollera att allt är bra med de offentliga delarna av webbplatsen. Om du upplever allvarliga problem har en säkerhetskopia av ditt ursprungliga data (i SQL-format) placerats i @rep@-katalogen.',
 	'utf8_convertir_votre_site' => 'Konvertera din webbplats till utf-8'
 );
-

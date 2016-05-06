@@ -95,4 +95,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Ara heu de buidar la memòria cau, i verificar que tot és correcte a les pàgines publicades del vostre lloc Web. En cas que tingueu problemes, s’ha fet una còpia de seguretat de les vostres dades (en format SQL) dins del directori @rep@.',
 	'utf8_convertir_votre_site' => 'Convertir el vostre lloc Web a utf-8'
 );
-

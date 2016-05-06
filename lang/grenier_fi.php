@@ -51,4 +51,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_forum' => 'Ylläpitäjien foorumi',
 	'titre_page_forum_envoi' => 'Lähetä viesti'
 );
-

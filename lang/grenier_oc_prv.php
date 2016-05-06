@@ -75,4 +75,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_termine' => 'Es acabat !',
 	'utf8_convertir_votre_site' => 'Convertir vòstre sit en utf-8'
 );
-

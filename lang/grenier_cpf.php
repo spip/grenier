@@ -81,4 +81,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Fok ou sava vid lo kach, epi gad byen tout lé normal sir lo sit piblik. Si ou nénna in larlik, inkièt pa ou, in sovgard out donné la té fin fini (ek lo forma SQL) andan lo répertwar @rep@.',
 	'utf8_convertir_votre_site' => 'Po chanjer out sit ek utf-8'
 );
-

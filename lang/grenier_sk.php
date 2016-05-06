@@ -96,4 +96,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Teraz treba vyprázdniť cache stránky a potom skontrolovať, či je na verejne prístupnej stránke všetko v poriadku. Pre prípad, že by sa objavil veľký problém, bola v priečinku @rep@ vytvorená záloha pôvodných dát (vo formáte SQL).',
 	'utf8_convertir_votre_site' => 'Konvertovať stránku na utf-8'
 );
-

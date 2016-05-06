@@ -95,4 +95,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Va trebui ca acum să goliţi memoria tampon şi să verificaţi că totul se petrece bine în cadrul site-ului public. În caz de probleme majore, o copie de siguranţă a fost efectuată (în format SQL) în directorul @rep@.',
 	'utf8_convertir_votre_site' => 'Convertiţi site-ul dumneavoastră în utf-8'
 );
-

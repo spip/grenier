@@ -90,4 +90,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Anda sekarang harus mengosongkan cache situs dan periksa apakah semuanya baik-baik saja di halaman-halaman umum situs. Jika anda mengalami sebuah permasalahan besar, sebuah backup data asli anda (dalam format SQL) telah dibuat di direktori @rep@.',
 	'utf8_convertir_votre_site' => 'Ubah situs anda ke utf-8'
 );
-

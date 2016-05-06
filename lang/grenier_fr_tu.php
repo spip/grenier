@@ -96,4 +96,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Tu dois maintenant aller vider le cache, et vérifier que tout se passe bien sur les pages publiques du site. En cas de gros problème, une sauvegarde de tes données a été réalisée (au format SQL) dans le répertoire @rep@.',
 	'utf8_convertir_votre_site' => 'Convertir ton site en utf-8'
 );
-

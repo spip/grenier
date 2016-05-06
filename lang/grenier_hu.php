@@ -81,4 +81,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Most ürítse a cache-t, és ellenőrizze, hogy minden rendben van a publikus lapokon. Nagyobb problema esetére egy adatmentés (SQL formátumban) megtörtént a @rep@ n. mappában.',
 	'utf8_convertir_votre_site' => 'utf-8 karaktertáblába konvertálodjon a honlapja'
 );
-

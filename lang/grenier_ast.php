@@ -96,4 +96,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Agora tienes que vaciar la caché, y verificar que too se vea bien nes páxines públiques del sitiu. En casu de problemes graves, fízose una copia de seguridá de los datos (en formatu SQL) nel direutoriu @rep@.',
 	'utf8_convertir_votre_site' => 'Convertir esti sitiu a utf-8'
 );
-

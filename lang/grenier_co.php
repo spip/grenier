@@ -99,4 +99,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	In casu di prublemi maiò, hè stata fatta una copia di i vostri dati (in furmatu SQL) in u cartulare @rep@.',
 	'utf8_convertir_votre_site' => 'Cunvertisce u situ in UTF-8'
 );
-

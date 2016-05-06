@@ -96,4 +96,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Agora debe baleirar a memoria temporal (caché), e comprobar que todo vai ben nas páxinas públicas do web. No caso de que haxa problemas graves, unha copia de salvagarda dos seus datos foi realizada (en formato SQL) no cartafol @rep@.',
 	'utf8_convertir_votre_site' => 'Converter o seu web a utf-8'
 );
-

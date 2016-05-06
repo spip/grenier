@@ -94,4 +94,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Je kan nu de buffer leegmaken en nagaan of alles goed werkt op je publieke site. Als het goed fout gaat, kan je terugvallen op een backup die in SQL formaat in de map @rep@ bewaard werd.',
 	'utf8_convertir_votre_site' => 'Je site omzetten naar utf-8'
 );
-

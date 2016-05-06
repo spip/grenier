@@ -46,4 +46,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_breves_edit' => 'Endre nyheten: «@titre@»',
 	'titre_page_forum_envoi' => 'Send en melding'
 );
-

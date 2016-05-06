@@ -91,4 +91,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Teraz powineneś opróżnić CACHE i sprawdzić, czy wszystko przebiegło dobrze. W przypadku jakichkolwiek problemów pamiętaj, że zawsze masz w odwodzie kopię bazy dancyh (w formacie SQL) w katalogu @rep@.',
 	'utf8_convertir_votre_site' => 'Konwertuj stronę na utf-8.'
 );
-

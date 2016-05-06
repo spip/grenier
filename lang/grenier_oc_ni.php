@@ -86,4 +86,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Vos cau aüra vuar l’amagador, e verificar que tot va plan sus li pàginas publicas dau site. En cas de gròs problèma, una sauvagarda de voastri donadas s’es realizada (de format SQL) dins lo repertòri @rep@.',
 	'utf8_convertir_votre_site' => 'Convertir lo voastre site en utf-8'
 );
-

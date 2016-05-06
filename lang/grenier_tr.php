@@ -96,4 +96,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Şimdi önbelleği boşaltmalı ve sitenin kamusal sayfalarında herşeyin yolunda olduğunu doğrulamalısınız. Büyük bir soun varsa, @rep@ dizininde verilerinizin bir yedeği (SQL formatında) alınmıştır.',
 	'utf8_convertir_votre_site' => 'Sitenizi utf-8’e dönüştürmek'
 );
-

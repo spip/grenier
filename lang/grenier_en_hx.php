@@ -75,4 +75,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_forum' => '4dm1n157r470r5 f0rum',
 	'titre_page_forum_envoi' => '53nd 4 m3554g3'
 );
-

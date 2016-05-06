@@ -70,4 +70,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_forum' => 'Administratorforum',
 	'titre_page_forum_envoi' => 'Send meddelelse'
 );
-

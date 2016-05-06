@@ -74,4 +74,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_page_forum' => 'Fowom komandè yo',
 	'titre_page_forum_envoi' => 'Voye yon mesaj'
 );
-

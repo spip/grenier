@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'icone_refuser_breve' => 'Hafna þessari stuttu frétt', # MODIF
 	'info_sauvegarde_documents' => 'Vistið skjölin'
 );
-

@@ -96,4 +96,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'You now need to empty the site cache and then check if all is well on the public pages of the site. If you are stuck with a major problem, a backup of your original data (in SQL format) has been made in the @rep@ directory.',
 	'utf8_convertir_votre_site' => 'Convert your site to utf-8'
 );
-

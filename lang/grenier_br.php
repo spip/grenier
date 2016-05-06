@@ -92,4 +92,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Bremañ e rankit goullonderiñ ar grubuilh ha gwiriañ eo mat pep tra war lodenn foran al lec’hienn. Ma c’hoarvez ur gudenn vras, ez eo bet miret ho roadoù (er stumm SQL) er c’havlec’h @rep@.',
 	'utf8_convertir_votre_site' => 'Amdreiñ ho lec’hienn davet uft-8'
 );
-

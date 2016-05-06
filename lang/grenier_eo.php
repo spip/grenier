@@ -94,4 +94,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'utf8_convert_verifier' => 'Vi devas nun malplenigi la staplon, kaj kontroli ke ĉio bonas ĉe la publikaj paĝoj de la retejo. Kaze de grava problemo, savkopio de viaj datenoj estas farita (je la SQL-formato) en la dosierujo @rep@.',
 	'utf8_convertir_votre_site' => 'Konverti vian retejon en utf-8'
 );
-

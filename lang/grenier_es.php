@@ -93,4 +93,3 @@ se puede activar o desactivar .', # MODIF
 	'utf8_convert_verifier' => 'Ahora debe ir a vaciar la cache y verificar que todo funciona bien en las páginas públicas del sitio. En caso de graves problemas, un respaldo de los datos se ha realizado (al formato SQL) en la carpeta @rep@.', # Respaldo de los datos quiere decir copia de seguridad, por si alguien no lo sabe. Se puede decir de las dos maneras.
 	'utf8_convertir_votre_site' => 'Convertir tu sitio en utf-8'
 );
-

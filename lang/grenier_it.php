@@ -95,4 +95,3 @@ i tempi di trasferimento in rete e di risparmiare dello spazio su disco.',
 	'utf8_convert_verifier' => 'Ora è necessario svuotale la cache e verificare che non vi siano problemi sulle pagine pubbliche del sito. In caso di problemi gravi è stato effettuato un backup dei dati (in formato SQL) nella cartella @rep@.',
 	'utf8_convertir_votre_site' => 'Convertire il sito in UTF-8'
 );
-
