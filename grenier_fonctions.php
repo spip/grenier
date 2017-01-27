@@ -33,3 +33,23 @@ if (!function_exists('extraire_image_couleur')) {
 		return _image_couleur_extraire($img, $x, $y);
 	}
 }
+
+/**
+ * Fonctions d'affichage
+ */
+if (!function_exists('afficher_plus')) {
+	/**
+	 * Afficher un petit "i" pour lien vers autre page
+	 *
+	 * @deprecated utiliser `afficher_plus_info()`
+	 * @uses afficher_plus_info()
+	 * @param string $lien
+	 *    URL du lien desire
+	 *
+	 * @return string
+	 */
+	function afficher_plus($lien) {
+		include_spip('inc/filtres_ecrire');
+		afficher_plus_info($lien);
+	}
+}
