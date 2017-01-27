@@ -10,6 +10,7 @@ exec/memoriser.php -text
 exec/rechercher_auteur.php -text
 exec/selectionner_auteur.php -text
 /grenier-32.png -text
+/grenier_fonctions.php -text
 inc/actions.php -text
 inc/afficher_objets.php -text
 inc/date.php -text
