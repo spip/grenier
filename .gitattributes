@@ -16,6 +16,8 @@ inc/date.php -text
 inc/dater.php -text
 inc/editer_auteurs.php -text
 inc/editer_mots.php -text
+inc/filtres_images.php -text
+inc/filtres_images_compat.php -text
 inc/formater_article.php -text
 inc/formater_auteur.php -text
 inc/informer_auteur.php -text
