@@ -18,7 +18,7 @@ define('_INTERFACE_ONGLETS', false);
 include_once(_ROOT_RESTREINT."inc/presentation.php");
 
 // Faux HR, avec controle de couleur
-// http://code.spip.net/@hr
+// https://code.spip.net/@hr
 /*
 function hr($color, $retour = false) {
 	$ret = "\n<div style='height: 1px; margin-top: 5px; padding-top: 5px; border-top: 1px solid $color;'></div>";
@@ -29,7 +29,7 @@ function hr($color, $retour = false) {
 //
 // Cadres
 //
-// http://code.spip.net/@afficher_onglets_pages
+// https://code.spip.net/@afficher_onglets_pages
 function afficher_onglets_pages($ordre,$onglets){
 	static $onglet_compteur = 0;
 	$res = "";
@@ -65,7 +65,7 @@ function afficher_onglets_pages($ordre,$onglets){
 
 
 // Voir en ligne, ou apercu, ou rien (renvoie tout le bloc)
-// http://code.spip.net/@voir_en_ligne
+// https://code.spip.net/@voir_en_ligne
 function voir_en_ligne ($type, $id, $statut=false, $image='racine-24.png', $af = true, $inline=true) {
 
 	$en_ligne = $message = '';
@@ -121,7 +121,7 @@ function voir_en_ligne ($type, $id, $statut=false, $image='racine-24.png', $af =
 
 }
 
-// http://code.spip.net/@icone_inline
+// https://code.spip.net/@icone_inline
 function icone_inline($texte, $lien, $fond, $fonction="", $align="", $ajax=false, $javascript=''){
 	// cas d'ajax_action_auteur: faut defaire le boulot
 	// (il faudrait fusionner avec le cas $javascript)
@@ -138,7 +138,7 @@ function icone_inline($texte, $lien, $fond, $fonction="", $align="", $ajax=false
 }
 
 
-// http://code.spip.net/@navigation_pagination
+// https://code.spip.net/@navigation_pagination
 function navigation_pagination($num_rows, $nb_aff=10, $href=null, $debut, $tmp_var=null, $on='') {
 
 	$texte = '';
@@ -183,7 +183,7 @@ function navigation_pagination($num_rows, $nb_aff=10, $href=null, $debut, $tmp_v
 }
 
 
-// http://code.spip.net/@generer_onclic_ajax
+// https://code.spip.net/@generer_onclic_ajax
 function generer_onclic_ajax($url, $idom, $val)
 {
 	return "\nonclick=\"return charger_id_url('"
@@ -197,7 +197,7 @@ function generer_onclic_ajax($url, $idom, $val)
 // Afficher la hierarchie des rubriques
 //
 
-// http://code.spip.net/@afficher_hierarchie
+// https://code.spip.net/@afficher_hierarchie
 function afficher_hierarchie($id_parent, $editable=true,$id_objet=0,$type='',$id_secteur=0,$restreint='') {
 	$out = recuperer_fond('prive/squelettes/hierarchie/dist',
 					array(
@@ -223,27 +223,27 @@ function afficher_hierarchie($id_parent, $editable=true,$id_objet=0,$type='',$id
 }
 // Cadre formulaires
 
-// http://code.spip.net/@debut_cadre_formulaire
+// https://code.spip.net/@debut_cadre_formulaire
 function debut_cadre_formulaire($style=''){return "\n<div class='cadre-formulaire'" .(!$style ? "" : " style='$style'") .">";}
-// http://code.spip.net/@fin_cadre_formulaire
+// https://code.spip.net/@fin_cadre_formulaire
 function fin_cadre_formulaire($return=false){return "</div>\n";}
 
 // Pour construire des menu avec SELECTED
-// http://code.spip.net/@mySel
+// https://code.spip.net/@mySel
 function mySel($varaut,$variable, $option = NULL) {
 	$res = ' value="'.$varaut.'"' . (($variable==$varaut) ? ' selected="selected"' : '');
 	return  (!isset($option) ? $res : "<option".$res.">$option</option>\n");
 }
 
 
-// http://code.spip.net/@bonhomme_statut
+// https://code.spip.net/@bonhomme_statut
 function bonhomme_statut($row) {
 	$puce_statut = charger_fonction('puce_statut', 'inc');
 	return $puce_statut(0, $row['statut'], 0, 'auteur');
 }
 
 
-// http://code.spip.net/@bouton_radio
+// https://code.spip.net/@bouton_radio
 function bouton_radio($nom, $valeur, $titre, $actif = false, $onClick="") {
 	static $id_label = 0;
 
@@ -259,7 +259,7 @@ function bouton_radio($nom, $valeur, $titre, $actif = false, $onClick="") {
 }
 
 
-// http://code.spip.net/@afficher_choix
+// https://code.spip.net/@afficher_choix
 function afficher_choix($nom, $valeur_actuelle, $valeurs, $sep = "<br />") {
 	$choix = array();
 	while (list($valeur, $titre) = each($valeurs)) {

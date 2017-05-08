@@ -19,7 +19,7 @@ include_spip('inc/actions');
 define('_SPIP_SELECT_MIN_AUTEURS', 30); // en dessous: balise Select
 define('_SPIP_SELECT_MAX_AUTEURS', 30); // au-dessus: saisie + return
 
-// http://code.spip.net/@inc_editer_auteurs_dist
+// https://code.spip.net/@inc_editer_auteurs_dist
 function inc_editer_auteurs_dist($type, $id, $flag, $cherche_auteur, $ids, $titre_boite = NULL, $script_edit_objet = NULL) {
 	return
 	recuperer_fond('prive/objets/editer/liens',array('table_source'=>'auteurs','objet'=>$type,'id_objet'=>$id));

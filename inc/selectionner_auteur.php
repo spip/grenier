@@ -19,7 +19,7 @@ include_spip('inc/selectionner');
 // Affiche un mini-navigateur ajax sur les auteurs
 //
 
-// http://code.spip.net/@inc_selectionner_auteur_dist
+// https://code.spip.net/@inc_selectionner_auteur_dist
 function inc_selectionner_auteur_dist($id_article, $type='article')
 {
 	$idom = "auteur_$type" . "_$id_article";
@@ -35,7 +35,7 @@ function inc_selectionner_auteur_dist($id_article, $type='article')
 	return construire_selectionner_hierarchie($idom, $futurs, '', $url, $new);
 }
 
-// http://code.spip.net/@selectionner_auteur_boucle
+// https://code.spip.net/@selectionner_auteur_boucle
 function selectionner_auteur_boucle($where, $idom)
 {
 	$info = generer_url_ecrire('informer_auteur', "id=");

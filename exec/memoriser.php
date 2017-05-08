@@ -15,7 +15,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 // Recupere et affiche (en ajax) une fonction memorisee dans inc/presentation
 // obsolete : utilise uniquement par afficher_objets
-// http://code.spip.net/@exec_memoriser_dist
+// https://code.spip.net/@exec_memoriser_dist
 function exec_memoriser_dist()
 {
 	$hash = _request('hash');

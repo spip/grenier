@@ -15,7 +15,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 // En cas d'erreur, une page admin normale avec bouton de retour
 
 
-// http://code.spip.net/@exec_convert_sql_utf8_dist
+// https://code.spip.net/@exec_convert_sql_utf8_dist
 function exec_base_convert_sql_utf8_dist() {
 	include_spip('inc/minipres');
 	include_spip('inc/charsets');
