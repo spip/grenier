@@ -16,7 +16,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 // apres sa modification par appel du script action/configurer 
 // redirigeant ici.
 
-// http://code.spip.net/@exec_configurer_dist
+// https://code.spip.net/@exec_configurer_dist
 function exec_configuration_dist()
 {
 	if(!autoriser('configurer', '_'._request('configuration'))) {
