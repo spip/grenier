@@ -945,3 +945,31 @@ function article_select($id_article, $id_rubrique = 0, $lier_trad = 0, $id_versi
 	$article_select = charger_fonction('article_select', 'inc');
 	return $article_select($id_article, $id_rubrique, $lier_trad, $id_version);
 }
+
+
+// SPIP < 3.3
+if (!function_exists('generer_url_retour')) {
+	/**
+	 * Permet d'ajouter lien vers une page privée à un paramètre d'url (déprécié)
+	 *
+	 *     ```
+	 *     // deprecié
+	 *     $h = generer_url_ecrire('article', "id_article=$id_article&redirect=" . generer_url_retour('articles'));
+	 *     // utiliser
+	 *     $h = generer_url_ecrire('article');
+	 *     $h = parametre_url($h, 'id_article', $id_article);
+	 *     $h = parametre_url($h, 'redirect', generer_url_ecrire('articles'));
+	 *     ```
+	 *
+	 * @deprecated Utiliser parametre_url() et generer_url_ecrire()
+	 * @see parametre_url()
+	 * @see generer_url_ecrire()
+	 *
+	 * @param string $script
+	 * @param string $args
+	 * @return string
+	 */
+	function generer_url_retour($script, $args = "") {
+		return rawurlencode(generer_url_ecrire($script, $args, true, true));
+	}
+}
