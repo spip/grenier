@@ -19,11 +19,11 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// I
 	'ical_lien_rss_breves' => 'Syndicatie van nieuwsberichten van de site',
-	'icone_creer_mot_cle_breve' => 'Maak een nieuw trefwoord en koppel het aan dit nieuwsbericht',
+	'icone_creer_mot_cle_breve' => 'Maak een nieuw trefwoord en koppel het aan deze nieuwsflits',
 	'icone_forum_administrateur' => 'Forum van de beheerders',
 	'icone_forum_suivi' => 'Opvolging van de forums',
-	'icone_publier_breve' => 'Dit nieuwsbericht publiceren',
-	'icone_refuser_breve' => 'Dit nieuwsbericht weigeren',
+	'icone_publier_breve' => 'Deze nieuwsflits publiceren',
+	'icone_refuser_breve' => 'Deze nieuwsflits weigeren',
 	'info_base_restauration' => 'De database wordt hersteld.',
 	'info_breves_03' => 'nieuwsberichten',
 	'info_breves_liees_mot' => 'Nieuwsberichten gekoppeld aan dit trefwoord',
@@ -38,7 +38,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
   voor alle geregistreerde redacteurs. Hieronder kan je een
   extra forum aanmaken dat alleen bestemd is voor de beheerders.',
 	'info_gauche_suivi_forum' => 'Op de pagina voor <i>opvolging van de forums</i> beheer je de site. Het is dus niet bedoeld voor discussie of redactie. Alle bijdragen aan het publieke forum aansluitend op dit artikel worden getoond en je kan ze hier beheren.',
-	'info_modifier_breve' => 'Wijzig nieuwsbericht:',
+	'info_modifier_breve' => 'Wijzig nieuwsflits:',
 	'info_nombre_breves' => '@nb_breves@ nieuwsberichten,',
 	'info_option_ne_pas_faire_suivre' => 'Forumberichten niet laten opvolgen',
 	'info_restauration_sauvegarde_insert' => 'Integratie van @archive@ in de basis',
@@ -67,7 +67,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// L
 	'lien_forum_public' => 'Beheer het publieke forum van dit artikel',
-	'lien_reponse_breve' => 'Beantwoord dit nieuwsbericht',
+	'lien_reponse_breve' => 'Beantwoord deze nieuwsflits',
 
 	// S
 	'sauvegarde_fusionner' => 'De huidige basis en de bescherming fusioneren',
