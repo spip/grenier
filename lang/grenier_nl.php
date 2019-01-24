@@ -43,7 +43,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_option_ne_pas_faire_suivre' => 'Forumberichten niet laten opvolgen',
 	'info_restauration_sauvegarde_insert' => 'Integratie van @archive@ in de basis',
 	'info_sauvegarde_articles' => 'Artikel redden',
-	'info_sauvegarde_articles_sites_ref' => 'Artikels van de referentiesites bewaren',
+	'info_sauvegarde_articles_sites_ref' => 'Artikelen van de referentiesites bewaren',
 	'info_sauvegarde_auteurs' => 'Backup de auteurs',
 	'info_sauvegarde_breves' => 'Backup de berichten',
 	'info_sauvegarde_documents' => 'Backup de dokumenten',
@@ -86,7 +86,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// U
 	'utf8_convert_attendez' => 'Wacht enkele ogenblikken en herlaadt deze pagina.',
-	'utf8_convert_avertissement' => 'U heeft zich klaargemaakt om de inhoud van uw site (artikels, berichten, enz) om te zetten van karakterset <b>@orig@</b> naar karakterset <b>@charset@</b>.',
+	'utf8_convert_avertissement' => 'Je hebt voorbereidingen getroffen om de inhoud van jouw site (artikelen, berichten, enz) om te zetten van karakterset <b>@orig@</b> naar karakterset <b>@charset@</b>.',
 	'utf8_convert_backup' => 'Vergeet niet om vooraf uw volledige site te bewaren. U dient ook na te gaan of uw sjablonen en taalbestanden @charset@ compatibel zijn.',
 	'utf8_convert_erreur_deja' => 'Uw site is reeds in @charset@, onnodig om hem om te zetten...',
 	'utf8_convert_termine' => 'Opdracht volbracht !',
