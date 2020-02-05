@@ -1,9 +1,9 @@
 <traduction
 	module="paquet-grenier"
-	id="paquet-grenier--grenier-dec8a"
+	id="paquet-grenier--grenier-aaa86"
 	gestionnaire="salvatore"
 	url="https://trad.spip.net"
-	source="svn://zone.spip.org/spip-zone/_core_/plugins/grenier/lang"
+	source="https://git.spip.net/spip/grenier.git"
 	reference="fr">
 	<langue code="ar" url="https://trad.spip.net/tradlang_module/paquet-grenier?lang_cible=ar" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="George" lien="https://trad.spip.net/auteur/جورج-قندلفت" />
