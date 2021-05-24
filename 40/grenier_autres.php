@@ -109,6 +109,30 @@ function charger_php_extension($module) {
 }
 }
 
+if (!function_exists('version_svn_courante')) {
+/**
+ * Retrouve un numéro de révision SVN d'un répertoire
+ *
+ * Mention de la révision SVN courante d'un répertoire
+ * /!\ Retourne un nombre négatif si on est sur .svn
+ *
+ * @removed from SPIP 4.0
+ * @deprecated 4.0 Utiliser version_vcs_courante()
+ * @param string $dir Chemin du répertoire
+ * @return int
+ *
+ *     - 0 si aucune info trouvée
+ *     - -NN (entier) si info trouvée par .svn/wc.db
+ *
+ **/
+function version_svn_courante($dir) {
+	if ($desc = decrire_version_svn($dir)) {
+		return -$desc['commit'];
+	}
+	return 0;
+}
+}
+
 
 if (!function_exists('admin_repair_plat')) {
 /**
