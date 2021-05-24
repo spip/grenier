@@ -12,6 +12,7 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+
 define('_SIGNALER_ECHOS', true);
 define('_INTERFACE_ONGLETS', false);
 
@@ -19,6 +20,9 @@ include_once(_ROOT_RESTREINT."inc/presentation.php");
 
 
 if (!function_exists('afficher_objets')) {
+/**
+ * @removed from SPIP 3.1
+ */
 function afficher_objets($type, $titre_table, $requete, $formater = '', $force = false) {
 	$afficher_objets = charger_fonction('afficher_objets', 'inc');
 	return $afficher_objets($type, $titre_table, $requete, $formater, $force);
@@ -28,7 +32,10 @@ function afficher_objets($type, $titre_table, $requete, $formater = '', $force =
 //
 // Cadres
 //
-// https://code.spip.net/@afficher_onglets_pages
+
+/**
+ * @removed from SPIP 3.0
+ */
 function afficher_onglets_pages($ordre, $onglets) {
 	static $onglet_compteur = 0;
 	$res = "";
@@ -64,7 +71,9 @@ function afficher_onglets_pages($ordre, $onglets) {
 
 
 // Voir en ligne, ou apercu, ou rien (renvoie tout le bloc)
-// https://code.spip.net/@voir_en_ligne
+/**
+ * @removed from SPIP 3.0
+ */
 function voir_en_ligne($type, $id, $statut = false, $image = 'racine-24.png', $af = true, $inline = true) {
 
 	$en_ligne = $message = '';
@@ -120,7 +129,9 @@ function voir_en_ligne($type, $id, $statut = false, $image = 'racine-24.png', $a
 
 }
 
-// https://code.spip.net/@icone_inline
+/**
+ * @removed from SPIP 3.0
+ */
 function icone_inline($texte, $lien, $fond, $fonction = "", $align = "", $ajax = false, $javascript = '') {
 	// cas d'ajax_action_auteur: faut defaire le boulot
 	// (il faudrait fusionner avec le cas $javascript)
@@ -137,7 +148,9 @@ function icone_inline($texte, $lien, $fond, $fonction = "", $align = "", $ajax =
 }
 
 
-// https://code.spip.net/@navigation_pagination
+/**
+ * @removed from SPIP 3.0
+ */
 function navigation_pagination($num_rows, $nb_aff = 10, $href = null, $debut = 0, $tmp_var = null, $on = '') {
 
 	$texte = '';
@@ -182,7 +195,9 @@ function navigation_pagination($num_rows, $nb_aff = 10, $href = null, $debut = 0
 }
 
 
-// https://code.spip.net/@generer_onclic_ajax
+/**
+ * @removed from SPIP 3.0
+ */
 function generer_onclic_ajax($url, $idom, $val)
 {
 	return "\nonclick=\"return charger_id_url('"
@@ -196,7 +211,9 @@ function generer_onclic_ajax($url, $idom, $val)
 // Afficher la hierarchie des rubriques
 //
 
-// https://code.spip.net/@afficher_hierarchie
+/**
+ * @removed from SPIP 3.0
+ */
 function afficher_hierarchie($id_parent, $editable = true, $id_objet = 0, $type = '', $id_secteur = 0, $restreint = '') {
 	$out = recuperer_fond('prive/squelettes/hierarchie/dist',
 					array(
@@ -222,27 +239,38 @@ function afficher_hierarchie($id_parent, $editable = true, $id_objet = 0, $type 
 }
 // Cadre formulaires
 
-// https://code.spip.net/@debut_cadre_formulaire
+/**
+ * @removed from SPIP 3.0
+ */
 function debut_cadre_formulaire($style = '') {return "\n<div class='cadre-formulaire'" .(!$style ? "" : " style='$style'") .">";}
-// https://code.spip.net/@fin_cadre_formulaire
+
+/**
+ * @removed from SPIP 3.0
+ */
 function fin_cadre_formulaire($return = false) {return "</div>\n";}
 
 // Pour construire des menu avec SELECTED
-// https://code.spip.net/@mySel
+/**
+ * @removed from SPIP 3.0
+ */
 function mySel($varaut, $variable, $option = null) {
 	$res = ' value="'.$varaut.'"' . (($variable == $varaut) ? ' selected="selected"' : '');
 	return  (!isset($option) ? $res : "<option".$res.">$option</option>\n");
 }
 
 
-// https://code.spip.net/@bonhomme_statut
+/**
+ * @removed from SPIP 3.0
+ */
 function bonhomme_statut($row) {
 	$puce_statut = charger_fonction('puce_statut', 'inc');
 	return $puce_statut(0, $row['statut'], 0, 'auteur');
 }
 
 
-// https://code.spip.net/@bouton_radio
+/**
+ * @removed from SPIP 3.0
+ */
 function bouton_radio($nom, $valeur, $titre, $actif = false, $onClick = "") {
 	static $id_label = 0;
 
@@ -258,7 +286,9 @@ function bouton_radio($nom, $valeur, $titre, $actif = false, $onClick = "") {
 }
 
 
-// https://code.spip.net/@afficher_choix
+/**
+ * @removed from SPIP 3.0
+ */
 function afficher_choix($nom, $valeur_actuelle, $valeurs, $sep = "<br />") {
 	$choix = array();
 	while (list($valeur, $titre) = each($valeurs)) {

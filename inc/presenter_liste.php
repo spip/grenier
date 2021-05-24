@@ -12,6 +12,12 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 define('_TRANCHES', 10);
 
 // Cette fonction prend un argument un tableau decrivant une requete Select

@@ -12,12 +12,17 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 include_spip('inc/presentation');
 include_spip('inc/texte');
 include_spip('inc/actions');
 include_spip('inc/date');
 
-// https://code.spip.net/@inc_dater_dist
 function inc_dater_dist($id, $flag, $statut, $type, $script, $date, $date_redac = '')
 {
   return

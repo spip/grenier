@@ -12,9 +12,11 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-# afficher un mini-navigateur de rubriques
-
-// https://code.spip.net/@exec_selectionner_auteur_dist
+/**
+ * afficher un mini-navigateur de rubriques
+ * 
+ * @removed from SPIP 3.0
+ */
 function exec_selectionner_auteur_dist()
 {
   	$id = intval(_request('id_article'));

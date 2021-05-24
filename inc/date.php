@@ -13,6 +13,12 @@
 //
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 // https://code.spip.net/@my_sel
 function my_sel($num, $tex, $comp) {
   return "<option value='$num'" . (($num != $comp) ? '' : " selected='selected'") .

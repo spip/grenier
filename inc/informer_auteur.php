@@ -12,6 +12,12 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 # Les informations sur un auteur selectionne dans le mini navigateur
 
 // https://code.spip.net/@inc_informer_auteur_dist

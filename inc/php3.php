@@ -12,6 +12,12 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 // Gestion ou simulation du register_globals a 'On' (PHP < 4.1.x)
 // Code a l'agonie, heureusement.
 // NB: c'est une fonction de maniere a ne pas pourrir $GLOBALS

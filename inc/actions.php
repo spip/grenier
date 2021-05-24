@@ -14,12 +14,14 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 include_once _ROOT_RESTREINT . "inc/actions.php";
 
-// Retourne un formulaire d'execution de $action sur $id,
-// revenant a l'envoyeur $script d'arguments $args.
-// Utilise Ajax si dispo, en ecrivant le resultat dans le innerHTML du noeud
-// d'attribut  id = $action-$id (cf. AjaxSqueeze dans layer.js)
-
-// https://code.spip.net/@ajax_action_auteur
+/**
+ * Retourne un formulaire d'execution de $action sur $id,
+ * revenant a l'envoyeur $script d'arguments $args.
+ * Utilise Ajax si dispo, en ecrivant le resultat dans le innerHTML du noeud
+ * d'attribut  id = $action-$id (cf. AjaxSqueeze dans layer.js)
+ * 
+ * @removed from SPIP 3.0
+ */
 function ajax_action_auteur($action, $id, $script, $args = '', $corps = false, $args_ajax = '', $fct_ajax = '')
 {
 	if (strpos($args, "#") === false)
@@ -85,10 +87,11 @@ function ajax_action_auteur($action, $id, $script, $args = '', $corps = false, $
 	}
 }
 
-
-// Comme ci-dessus, mais reduit au cas POST et on fournit le bouton Submit.
-//
-// https://code.spip.net/@ajax_action_post
+/**
+ * Comme ci-dessus, mais reduit au cas POST et on fournit le bouton Submit.
+ * 
+ * @removed from SPIP 3.0
+ */
 function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic = '', $atts_i = '', $atts_span = "", $args_ajax = '')
 {
 	global $spip_lang_right;
@@ -142,13 +145,13 @@ function ajax_action_post($action, $arg, $retour, $gra, $corps, $clic = '', $att
 	}
 }
 
-
-//
-// Attention pour que Safari puisse manipuler cet evenement
-// il faut onsubmit="return AjaxSqueeze(x,'truc',...)"
-// et non pas onsubmit='return AjaxSqueeze(x,"truc",...)'
-//
-// https://code.spip.net/@ajax_action_declencheur
+/**
+ * Attention pour que Safari puisse manipuler cet evenement
+ * il faut onsubmit="return AjaxSqueeze(x,'truc',...)"
+ * et non pas onsubmit='return AjaxSqueeze(x,"truc",...)'
+ * 
+ * @removed from SPIP 3.0
+ */
 function ajax_action_declencheur($request, $noeud, $fct_ajax = '') {
 	if (strpos($request, 'this') !== 0)
 		$request = "'".$request."'";
@@ -163,12 +166,14 @@ function ajax_action_declencheur($request, $noeud, $fct_ajax = '') {
 }
 
 
-
-// Place un element HTML dans une div nommee,
-// sauf si c'est un appel Ajax car alors la div y est deja
-// $fonction : denomination semantique du bloc, que l'on retouve en attribut class
-// $id : id de l'objet concerne si il y a lieu ou "", sert a construire un identifiant unique au bloc ("fonction-id")
-// https://code.spip.net/@ajax_action_greffe
+/**
+ * Place un element HTML dans une div nommee,
+ * sauf si c'est un appel Ajax car alors la div y est deja
+ * $fonction : denomination semantique du bloc, que l'on retouve en attribut class
+ * $id : id de l'objet concerne si il y a lieu ou "", sert a construire un identifiant unique au bloc ("fonction-id")
+ * 
+ * @removed from SPIP 3.0
+ */
 function ajax_action_greffe($fonction, $id, $corps)
 {
 	$idom = $fonction.(strlen($id)?"-$id":"");

@@ -16,6 +16,13 @@
  *
  */
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.2 (Filtres Images)
+ */
+
+
 if (!defined('_ECRIRE_INC_VERSION')) {
 	return;
 }

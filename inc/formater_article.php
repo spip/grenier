@@ -11,6 +11,13 @@
 \***************************************************************************/
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
+
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 include_spip('inc/afficher_objets');
 include_spip('inc/autoriser'); // auteurs_article
 // Fonction appelee dans une boucle, calculer les invariants au premier appel.

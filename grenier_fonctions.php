@@ -24,6 +24,7 @@ if (!function_exists('extraire_image_couleur')) {
 	/**
 	 * Extraire une couleur d'une image
 	 *
+	 * @removed from SPIP 3.2 (Filtres Images)
 	 * @param string $img
 	 * @param int $x
 	 * @param int $y
@@ -42,6 +43,7 @@ if (!function_exists('afficher_plus')) {
 	/**
 	 * Afficher un petit "i" pour lien vers autre page
 	 *
+	 * @removed from SPIP 3.2
 	 * @deprecated utiliser `afficher_plus_info()`
 	 * @uses afficher_plus_info()
 	 * @param string $lien
@@ -59,6 +61,8 @@ if (!function_exists('afficher_plus')) {
 if (!function_exists('debut_cadre_couleur_foncee')) {
 	/**
 	 * Ouvre un cadre foncé
+	 * 
+	 * @removed from SPIP 3.2
 	 * @deprecated utiliser boite_ouvrir()
 	 */
 	function debut_cadre_couleur_foncee($icone = '', $dummy = '', $fonction = '', $titre = '', $id = "", $class = "") {
@@ -70,6 +74,8 @@ if (!function_exists('debut_cadre_couleur_foncee')) {
 if (!function_exists('fin_cadre_couleur_foncee')) {
 	/**
 	 * Ferme un cadre foncé
+	 * 
+	 * @removed from SPIP 3.2
 	 * @deprecated utiliser boite_fermer()
 	 */
 	function fin_cadre_couleur_foncee() { 
@@ -82,6 +88,8 @@ if (!function_exists('fin_cadre_couleur_foncee')) {
 /**
  * Ouvre un cadre.
  * Copie de debut_cadre() pour historique
+ * 
+ * @removed from SPIP 3.2
  */
 function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $id = "", $class = "", $padding = true) {
 	$style_mapping = array(
@@ -127,6 +135,8 @@ function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $
 /**
  * Ferme un cadre.
  * Copie de fin_cadre() pour historique
+ * 
+ * @removed from SPIP 3.2
  */
 function fin_cadre_grenier() { 
 	return boite_fermer(); 
@@ -139,6 +149,7 @@ if (!function_exists('aligner')) {
 	 *
 	 * Cette fonction ne crée pas de paragraphe
 	 *
+	 * @removed from SPIP 4.0
 	 * @deprecated Utiliser CSS
 	 * @param string $letexte
 	 * @param string $justif
@@ -163,6 +174,7 @@ if (!function_exists('justifier')) {
 	/**
 	 * Justifie en HTML (Old-style, préférer CSS)
 	 *
+	 * @removed from SPIP 4.0
 	 * @deprecated Utiliser CSS
 	 * @uses aligner()
 	 * @param string $letexte
@@ -177,6 +189,7 @@ if (!function_exists('aligner_droite')) {
 	/**
 	 * Aligne à droite en HTML (Old-style, préférer CSS)
 	 *
+	 * @removed from SPIP 4.0
 	 * @deprecated Utiliser CSS
 	 * @uses aligner()
 	 * @param string $letexte
@@ -189,6 +202,7 @@ if (!function_exists('aligner_gauche')) {
 	/**
 	 * Aligne à gauche en HTML (Old-style, préférer CSS)
 	 *
+	 * @removed from SPIP 4.0
 	 * @deprecated Utiliser CSS
 	 * @uses aligner()
 	 * @param string $letexte
@@ -203,6 +217,7 @@ if (!function_exists('centrer')) {
 	/**
 	 * Centre en HTML (Old-style, préférer CSS)
 	 *
+	 * @removed from SPIP 4.0
 	 * @deprecated Utiliser CSS
 	 * @uses aligner()
 	 * @param string $letexte
@@ -217,6 +232,7 @@ if (!function_exists('style_align')) {
 	/**
 	 * Retourne un texte de style CSS aligné sur la langue en cours
 	 *
+	 * @removed from SPIP 4.0
 	 * @deprecated
 	 * @param mixed $bof Inutilisé
 	 * @return string Style CSS

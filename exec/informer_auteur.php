@@ -16,7 +16,9 @@ include_spip('inc/actions');
 
 # Les informations d'une rubrique selectionnee dans le mini navigateur
 
-// https://code.spip.net/@exec_informer_auteur_dist
+/**
+ * @removed from SPIP 3.0
+ */
 function exec_informer_auteur_dist()
 {
 	$id = intval(_request('id'));

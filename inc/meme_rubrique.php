@@ -11,6 +11,13 @@
 \***************************************************************************/
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
+
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 // https://code.spip.net/@inc_meme_rubrique_dist
 function inc_meme_rubrique_dist($id_rubrique, $id, $type, $order = '') {
 

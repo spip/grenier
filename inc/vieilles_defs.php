@@ -940,14 +940,16 @@ define('SPIP_BOTH', MYSQL_BOTH);
 define('SPIP_ASSOC', MYSQL_ASSOC);
 define('SPIP_NUM', MYSQL_NUM);
 
-// https://code.spip.net/@article_select
+/**
+ * @removed from SPIP 3.0
+ */
 function article_select($id_article, $id_rubrique = 0, $lier_trad = 0, $id_version = 0) {
 	$article_select = charger_fonction('article_select', 'inc');
 	return $article_select($id_article, $id_rubrique, $lier_trad, $id_version);
 }
 
 
-// SPIP < 3.3
+// SPIP < 4.0
 if (!function_exists('generer_url_retour')) {
 	/**
 	 * Permet d'ajouter lien vers une page privée à un paramètre d'url (déprécié)
@@ -961,6 +963,7 @@ if (!function_exists('generer_url_retour')) {
 	 *     $h = parametre_url($h, 'redirect', generer_url_ecrire('articles'));
 	 *     ```
 	 *
+	 * @removed from SPIP 4.0
 	 * @deprecated Utiliser parametre_url() et generer_url_ecrire()
 	 * @see parametre_url()
 	 * @see generer_url_ecrire()
@@ -979,6 +982,7 @@ if (!function_exists('spip_fetch_array')) {
 	/**
 	 * Retourne une ligne d'un résultat de requête mysql (déprécié)
 	 *
+	 * @removed from SPIP 4.0
 	 * @see sql_fetch()
 	 * @deprecated Utiliser sql_fetch()
 	 * @param Ressource $r Ressource mysql

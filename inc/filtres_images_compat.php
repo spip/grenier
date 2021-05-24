@@ -15,6 +15,13 @@
  *
  */
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.2
+ */
+
+
 if (!defined('_ECRIRE_INC_VERSION')) {
 	return;
 }

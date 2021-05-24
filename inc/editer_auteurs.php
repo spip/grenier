@@ -12,6 +12,12 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 include_spip('inc/presentation');
 include_spip('inc/actions');
 

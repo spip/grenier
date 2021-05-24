@@ -13,9 +13,12 @@
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 
-// Recupere et affiche (en ajax) une fonction memorisee dans inc/presentation
-// obsolete : utilise uniquement par afficher_objets
-// https://code.spip.net/@exec_memoriser_dist
+/**
+ * Recupere et affiche (en ajax) une fonction memorisee dans inc/presentation
+ * obsolete : utilise uniquement par afficher_objets
+ * 
+ * @removed from SPIP 3.0
+ */
 function exec_memoriser_dist()
 {
 	$hash = _request('hash');

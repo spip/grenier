@@ -12,6 +12,12 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
+/**
+ * File removed
+ * 
+ * @removed from SPIP 3.0
+ */
+
 $GLOBALS['my_sites'] = array();
 
 // https://code.spip.net/@icone_table
