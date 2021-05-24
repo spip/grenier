@@ -138,7 +138,7 @@ function icone_inline($texte, $lien, $fond, $fonction = "", $align = "", $ajax =
 
 
 // https://code.spip.net/@navigation_pagination
-function navigation_pagination($num_rows, $nb_aff = 10, $href = null, $debut, $tmp_var = null, $on = '') {
+function navigation_pagination($num_rows, $nb_aff = 10, $href = null, $debut = 0, $tmp_var = null, $on = '') {
 
 	$texte = '';
 	$self = parametre_url(self(), 'date', '');
