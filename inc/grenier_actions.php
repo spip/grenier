@@ -185,3 +185,69 @@ function revision_auteur($id_auteur, $c = false) {
 	return auteur_modifier($id_auteur, $c);
 }
 }
+
+
+if (!function_exists('insert_rubrique')) {
+/**
+ * Crée une rubrique
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ *     Utiliser rubrique_inserer()
+ * @see rubrique_inserer()
+ *
+ * @param int $id_parent
+ *     Identifiant de la rubrique parente.
+ *     0 pour la racine.
+ * @return int
+ *     Identifiant de la rubrique crée
+ **/
+function insert_rubrique($id_parent) {
+	return rubrique_inserer($id_parent);
+}
+}
+
+if (!function_exists('revisions_rubriques')) {
+/**
+ * Modifie les contenus d'une rubrique
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ *     Utiliser rubrique_modifier()
+ * @see rubrique_modifier()
+ *
+ * @param int $id_rubrique
+ *     Identifiant de la rubrique à instituer
+ * @param array|null $set
+ *     Tableau qu'on peut proposer en lieu et place de _request()
+ * @return bool|string
+ *     - false  : Aucune modification, aucun champ n'est à modifier
+ *     - chaîne vide : Vide si tout s'est bien passé
+ *     - chaîne : Texte d'un message d'erreur
+ **/
+function revisions_rubriques($id_rubrique, $set = null) {
+	return rubrique_modifier($id_rubrique, $set);
+}
+}
+
+if (!function_exists('instituer_rubrique')) {
+/**
+ * Institue une rubrique (change son parent)
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ *     Utiliser rubrique_instituer()
+ * @see rubrique_instituer()
+ *
+ * @param int $id_rubrique
+ *     Identifiant de la rubrique à instituer
+ * @param array $c
+ *     Informations pour l'institution (id_rubrique, confirme_deplace)
+ * @return string
+ *     Chaine vide : aucune erreur
+ *     Chaîne : Texte du message d'erreur
+ **/
+function instituer_rubrique($id_rubrique, $c) {
+	return rubrique_instituer($id_rubrique, $c);
+}
+}
