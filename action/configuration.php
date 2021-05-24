@@ -19,7 +19,9 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 include_spip('inc/config');
 
-// https://code.spip.net/@action_configurer_dist
+/**
+ * @removed from SPIP 3.0
+ */
 function action_configuration_dist() {
 	
 	$securiser_action = charger_fonction('securiser_action', 'inc');

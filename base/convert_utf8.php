@@ -12,7 +12,9 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-// https://code.spip.net/@convert_utf8_init
+/**
+ * @removed from SPIP 3.1
+ */
 function convert_utf8_init($tables_a_convertir)
 {
 	// noter dans les meta qu'on veut convertir, et quoi
@@ -83,7 +85,9 @@ function base_convert_utf8_dist($titre = '', $reprise = false)
 }
 
 
-// https://code.spip.net/@convert_table_utf8
+/**
+ * @removed from SPIP 3.1
+ */
 function convert_table_utf8($f, $table, $champ)
 {
 	echo "<br /><b>$table</b> &nbsp; ";
@@ -146,8 +150,9 @@ function convert_table_utf8($f, $table, $champ)
 	sql_free($s);
 }
 
-// stocker le nouvel extra
-// https://code.spip.net/@convert_extra
+/**
+ * @removed from SPIP 3.1
+ */
 function convert_extra($v, $charset_source) {
 	if ($extra = @unserialize($v)) {
 		foreach ($extra as $key => $val)

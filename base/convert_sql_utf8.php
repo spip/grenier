@@ -13,7 +13,9 @@
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 
-// https://code.spip.net/@base_convert_sql_utf8_dist
+/**
+ * @removed from SPIP 3.1
+ */
 function base_convert_sql_utf8_dist($titre = '', $reprise = false)
 {
 	if (!$titre) return; // anti-testeur automatique
@@ -34,7 +36,9 @@ function base_convert_sql_utf8_dist($titre = '', $reprise = false)
 	  install_fin_html();
 }
 
-// https://code.spip.net/@convert_sql_utf8
+/**
+ * @removed from SPIP 3.1
+ */
 function convert_sql_utf8($titre) {
 
 	define('_DEBUG_CONVERT', false);

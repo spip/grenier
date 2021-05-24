@@ -14,13 +14,17 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 // En cas d'erreur, une page admin normale avec bouton de retour
 
-// https://code.spip.net/@convert_utf8_non
+/**
+ * @removed from SPIP 3.1
+ */
 function convert_utf8_non($action, $message) {
 
 	echo minipres($action, ('<p>'.$message. "</p>\n<p style='text-align: right'><a href='" . generer_url_ecrire("configurer_langue"). "'> &gt;&gt; "._T('icone_retour')."</a></p>"));
 }
 
-// https://code.spip.net/@exec_convert_utf8_dist
+/**
+ * @removed from SPIP 3.1
+ */
 function exec_base_convert_utf8_dist() {
 	include_spip('inc/minipres');
 	include_spip('inc/charsets');
