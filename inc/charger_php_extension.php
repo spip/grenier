@@ -11,6 +11,13 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 }
 
 /**
+ * File removed
+ * 
+ * @removed from SPIP 4.0
+ */
+
+
+/**
  * Permettait de charger un module PHP dont le nom est donné en argument
  *
  * @deprecated Utiliser la fonction native `extension_loaded($module)`
