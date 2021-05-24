@@ -93,7 +93,7 @@ if (!function_exists('charger_php_extension')) {
  * Teste la présence d’une extension PHP
  *
  * @removed from SPIP 4.0
- * @deprected Utiliser directement la fonction native `extension_loaded($module)`
+ * @deprected 4.0 Utiliser directement la fonction native `extension_loaded($module)`
  * @example
  *     ```
  *     $ok = charger_php_extension('sqlite');
@@ -106,5 +106,56 @@ function charger_php_extension($module) {
 		return true;
 	}
 	return false;
+}
+}
+
+
+if (!function_exists('admin_repair_plat')) {
+/**
+ * Réparer les documents stockés dans des faux répertoires .plat
+ *
+ * @removed from SPIP 4.0
+ * @deprecated 2.0 Les fichiers .plat ne sont plus utilisés. Cette fonction n'est plus appelée depuis r14292
+ * @todo À supprimer ou déplacer dans le plugin Medias.
+ *
+ * @return string Description des changements de chemins des documents
+ **/
+function admin_repair_plat() {
+	spip_log("verification des documents joints", _LOG_INFO_IMPORTANTE);
+	$out = "";
+	$repertoire = array();
+	include_spip('inc/getdocument');
+	$res = sql_select('*', 'spip_documents', "fichier REGEXP CONCAT('^',extension,'[^/\]') AND distant='non'");
+
+	while ($row = sql_fetch($res)) {
+		$ext = $row['extension'];
+		if (!$ext) {
+			spip_log("document sans extension: " . $row['id_document'], _LOG_INFO_IMPORTANTE);
+			continue;
+		}
+		if (!isset($repertoire[$ext])) {
+			if (@file_exists($plat = _DIR_IMG . $ext . ".plat")) {
+				spip_unlink($plat);
+			}
+			$repertoire[$ext] = creer_repertoire_documents($ext);
+			if (preg_match(',_$,', $repertoire[$ext])) {
+				$repertoire[$ext] = false;
+			}
+		}
+		if ($d = $repertoire[$ext]) {
+			$d = substr($d, strlen(_DIR_IMG));
+			$src = $row['fichier'];
+			$dest = $d . substr($src, strlen($d));
+			if (@copy(_DIR_IMG . $src, _DIR_IMG . $dest)
+				and file_exists(_DIR_IMG . $dest)
+			) {
+				sql_updateq('spip_documents', array('fichier' => $dest), 'id_document=' . intval($row['id_document']));
+				spip_unlink(_DIR_IMG . $src);
+				$out .= "$src => $dest<br />";
+			}
+		}
+	}
+
+	return $out;
 }
 }
