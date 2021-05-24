@@ -115,3 +115,73 @@ function instituer_article($id_article, $c, $calcul_rub = true) {
 	return article_instituer($id_article, $c, $calcul_rub);
 }
 }
+
+
+
+if (!function_exists('insert_auteur')) {
+/**
+ * Insertion d'un auteur
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser auteur_inserer()
+ * @see auteur_inserer()
+ *
+ * @param string|null $source
+ * @return int
+ */
+function insert_auteur($source = null) {
+	return auteur_inserer($source);
+}
+}
+
+if (!function_exists('auteurs_set')) {
+/**
+ * Modification d'un auteur
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser auteur_modifier()
+ * @see auteur_modifier()
+ *
+ * @param int $id_auteur
+ * @param array|null $set
+ * @return string|null
+ */
+function auteurs_set($id_auteur, $set = null) {
+	return auteur_modifier($id_auteur, $set);
+}
+}
+
+if (!function_exists('instituer_auteur')) {
+/**
+ * Modifier le statut d'un auteur, ou son login/pass
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser auteur_instituer()
+ * @see auteur_instituer()
+ *
+ * @param int $id_auteur
+ * @param array $c
+ * @param bool $force_webmestre
+ * @return bool|string
+ */
+function instituer_auteur($id_auteur, $c, $force_webmestre = false) {
+	return auteur_instituer($id_auteur, $c, $force_webmestre);
+}
+}
+
+if (!function_exists('revision_auteur')) {
+/**
+ * Créer une révision d'un auteur
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser auteur_modifier()
+ * @see auteur_modifier()
+ *
+ * @param int $id_auteur
+ * @param array $c
+ * @return string|null
+ */
+function revision_auteur($id_auteur, $c = false) {
+	return auteur_modifier($id_auteur, $c);
+}
+}
