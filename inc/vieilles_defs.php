@@ -36,6 +36,7 @@ function vieilles_log($quoi) {
 
 foreach (
 array(
+/** @removed from SPIP 3.0  */
 'debut_raccourcis' => '() {
 	vieilles_log(\'debut_raccourcis()\');
 
@@ -53,7 +54,7 @@ array(
 	}
 }
 ',
-
+/** @removed from SPIP 3.0  */
 'fin_raccourcis' => '() {
 	vieilles_log(\'fin_raccourcis()\');
 
@@ -66,7 +67,7 @@ array(
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'include_ecrire' => '($file, $silence=false) {
 	vieilles_log(\'include_ecrire()\');
 
@@ -88,14 +89,14 @@ array(
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'afficher_script_layer' => '(){
 	vieilles_log(\'afficher_script_layer()\');
 
 echo $GLOBALS[\'browser_layer\'];}
 
 ',
-
+/** @removed from SPIP 3.0  */
 'test_layer' => '(){
 	vieilles_log(\'test_layer()\');
 
@@ -103,7 +104,7 @@ return $GLOBALS[\'browser_layer\'];}
 
 
 ',
-
+/** @removed from SPIP 3.0  */
 'affiche_auteur_boucle' => '($row, &$tous_id){
 	vieilles_log(\'affiche_auteur_boucle()\');
 
@@ -123,7 +124,7 @@ return $GLOBALS[\'browser_layer\'];}
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_quote' => '($arg_sql) {
 	vieilles_log(\'spip_abstract_quote()\');
 
@@ -131,7 +132,7 @@ return $GLOBALS[\'browser_layer\'];}
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'creer_repertoire' => '($base, $subdir) {
 	vieilles_log(\'creer_repertoire()\');
 
@@ -139,7 +140,7 @@ return $GLOBALS[\'browser_layer\'];}
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'parse_plugin_xml' => '($texte, $clean=true){
 	vieilles_log(\'parse_plugin_xml()\');
 
@@ -148,7 +149,7 @@ return $GLOBALS[\'browser_layer\'];}
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'applatit_arbre' => '($arbre,$separateur = " "){
 	vieilles_log(\'applatit_arbre()\');
 
@@ -161,7 +162,7 @@ return $GLOBALS[\'browser_layer\'];}
 // une autre boite
 //
 ',
-
+/** @removed from SPIP 3.0  */
 'bandeau_titre_boite' => '($titre, $afficher_auteurs, $boite_importante = true) {
 	vieilles_log(\'bandeau_titre_boite()\');
 
@@ -188,7 +189,7 @@ return $GLOBALS[\'browser_layer\'];}
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'debut_page' => '($titre = "", $rubrique = "accueil", $sous_rubrique = "accueil", $onLoad = "" /* ignore */, $id_rubrique = "") {
 	vieilles_log(\'debut_page()\');
 
@@ -199,7 +200,7 @@ return $GLOBALS[\'browser_layer\'];}
 
 // obsolete, utiliser calculer_url
 ',
-
+/** @removed from SPIP 3.0  */
 'extraire_lien' => '($regs) {
 	vieilles_log(\'extraire_lien()\');
 
@@ -212,7 +213,7 @@ return $GLOBALS[\'browser_layer\'];}
 
 // Prendre la fonction inc_dater_dist, qui fait du Ajax.
 ',
-
+/** @removed from SPIP 3.0  */
 'afficher_formulaire_date' => '($script, $args, $texte, $jour, $mois, $annee){
 	vieilles_log(\'afficher_formulaire_date()\');
 
@@ -237,7 +238,7 @@ return $GLOBALS[\'browser_layer\'];}
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'ratio_image' => '($logo, $nom, $format, $taille, $taille_y, $attributs) {
 	vieilles_log(\'ratio_image()\');
 
@@ -249,7 +250,7 @@ return $GLOBALS[\'browser_layer\'];}
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'entites_unicode' => '($texte) {
 	vieilles_log(\'entites_unicode()\');
 
@@ -260,7 +261,7 @@ return $GLOBALS[\'browser_layer\'];}
 // utiliser directement le corps a present.
 
 ',
-
+/** @removed from SPIP 3.0  */
 'afficher_claret' => '() {
 	vieilles_log(\'afficher_claret()\');
 
@@ -270,7 +271,7 @@ return $GLOBALS[\'browser_layer\'];}
 
 
 ',
-
+/** @removed from SPIP 3.0  */
 'spip_insert_id' => '() {
 	vieilles_log(\'spip_insert_id()\');
 
@@ -280,7 +281,7 @@ return $GLOBALS[\'browser_layer\'];}
 
 // revenir a la langue precedente
 ',
-
+/** @removed from SPIP 3.0  */
 'lang_dselect' => '() {
 	vieilles_log(\'lang_dselect()\');
 
@@ -297,6 +298,7 @@ $GLOBALS[\'langue_site\'] = $GLOBALS[\'meta\'][\'langue_site\'];
 $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 ',
 
+/** @removed from SPIP 3.0  */
 'generer_url_post_ecrire' => '($script, $args=\'\', $name=\'\', $ancre=\'\', $onchange=\'\') {
 	vieilles_log(\'generer_url_post_ecrire()\');
 
@@ -308,28 +310,28 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'afficher_articles' => '($titre, $requete, $formater=\'\') {
 	vieilles_log(\'afficher_articles()\');
 
 	afficher_objets(\'article\',$titre,$requete,$formater);
 }
 ',
-
+/** @removed from SPIP 3.0  */
 'afficher_auteurs' => '($titre_table, $requete) {
 	vieilles_log(\'afficher_auteurs()\');
 
 	afficher_objets(\'auteur\',$titre_table,$requete,\'\');
 }
 ',
-
+/** @removed from SPIP 3.0  */
 'afficher_sites' => '($titre_table, $requete){
 	vieilles_log(\'afficher_sites()\');
 
 	afficher_objets(\'site\',$titre_table,$requete,\'\');	
 }
 ',
-
+/** @removed from SPIP 3.0  */
 'afficher_syndic_articles' => '($titre_table, $requete, $id = 0) {
 	vieilles_log(\'afficher_syndic_articles()\');
 
@@ -342,7 +344,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 // - la chaine indiquant son statut s\'il n\'est pas admin
 
 ',
-
+/** @removed from SPIP 3.0  */
 'auth_rubrique' => '($id_auteur, $statut)
 {
 
@@ -368,7 +370,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'bouton_block_invisible' => '($nom_block, $icone=\'\') {
 	vieilles_log(\'bouton_block_invisible()\');
 	include_spip(\'inc/layer\');
@@ -376,7 +378,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'bouton_block_visible' => '($nom_block){
 	vieilles_log(\'bouton_block_visible()\');
 	include_spip(\'inc/layer\');
@@ -384,7 +386,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'debut_block_visible' => '($id=""){
 	vieilles_log(\'debut_block_visible()\');
 	include_spip(\'inc/layer\');
@@ -392,7 +394,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'debut_block_invisible' => '($id=""){
 	vieilles_log(\'debut_block_invisible()\');
 	include_spip(\'inc/layer\');
@@ -400,7 +402,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'init_config' => '(){
 	vieilles_log(\'init_config()\');
 	
@@ -410,6 +412,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 
 ',
 
+/** @removed from SPIP 3.0  */
 /*
 'extraire_tags' => '($texte) {
 	vieilles_log(\'extraire_tags()\');
@@ -431,7 +434,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 //
 // une autre boite
 //
-
+/** @removed from SPIP 3.0  */
 'bandeau_titre_boite2' => '($titre, $logo="", $fond="toile_blanche", $texte="ligne_noire") {
 	vieilles_log(\'bandeau_titre_boite2()\');
 	global $spip_lang_left, $spip_display, $browser_name;
@@ -451,7 +454,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'spip_free_result' => '($r) {
 	vieilles_log(\'spip_free_result()\');
 
@@ -459,7 +462,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'creer_objet_multi' => '($r, $l) {
 	vieilles_log(\'creer_objet_multi()\');
 
@@ -467,7 +470,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 }
 
 ',
-
+/** @removed from SPIP 3.0  */
 'envoyer_mail' => '($email, $sujet, $texte, $from = "", $headers = "") {
 	vieilles_log(\'envoyer_mail()\');
 	define(\'_FUNCTION_ENVOYER_MAIL\', charger_fonction(\'envoyer_mail\', \'inc\'));
@@ -479,7 +482,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 
 
 ',
-
+/** @removed from SPIP 3.0  */
 'spip_num_rows' => '($r) {
 	vieilles_log(\'spip_num_rows()\');
 	
@@ -488,14 +491,14 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_serveur' => '($ins_sql, $serveur) {
 	vieilles_log(\'spip_abstract_serveur()\');
    	 return sql_serveur($ins_sql, $serveur);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_select' => '(
     $select = array(), $from = array(), $where = array(),
   	$groupby = \'\', $orderby = array(), $limit = \'\',
@@ -509,84 +512,84 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_fetch' => '($res, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_fetch()\');
     return sql_fetch($res, $serveur);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_count' => '($res, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_count()\');
     return sql_count($res, $serveur);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_free' => '($res, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_free()\');
     return sql_free($res, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_insert' => '($table, $noms, $valeurs, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_insert()\');
     return sql_insert($table, $noms, $valeurs, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_update' => '($table, $exp, $where, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_update()\');
     return sql_update($table, $exp, $where, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_delete' => '($table, $where, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_delete()\');
     return sql_delete($table, $where, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_replace' => '($table, $values, $keys, $serveur=\'\'){
 	vieilles_log(\'spip_abstract_replace()\');
     return sql_replace($table, $values, $keys, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_showtable' => '($table, $serveur=\'\', $table_spip = false) {
 	vieilles_log(\'spip_abstract_showtable()\');
     return sql_showtable($table, $table_spip, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_create' => '($nom, $champs, $cles, $autoinc=false, $temporary=false, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_create()\');
     return sql_create($nom, $champs, $cles, $autoinc, $temporary, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_create_table' => '($nom, $champs, $cles, $autoinc=false, $temporary=false) {
 	vieilles_log(\'spip_create_table()\');
     return sql_create($nom, $champs, $cles, $autoinc, $temporary);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_multi' => '($sel, $lang, $serveur=\'\') {
 	vieilles_log(\'spip_abstract_multi()\');
     return sql_multi($sel, $lang, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_fetsel' => '(
   	$select = array(), $from = array(), $where = array(),
   	$groupby = \'\', $orderby = array(), $limit = \'\',
@@ -600,7 +603,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_abstract_countsel($from = array(), $where = array' => '(),
   	$groupby = \'\', $limit = \'\', $sousrequete = \'\', $having = array(),
   	$serveur=\'\') {
@@ -610,21 +613,21 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_sql_error' => '($query, $serveur=\'\') {
 	vieilles_log(\'spip_sql_error()\');
     return sql_error($query, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_mysql_version' => '($serveur=\'\', $option=true) {
 	vieilles_log(\'spip_mysql_version()\');
     return sql_version($query, $serveur);
   }
 
   ',
-
+/** @removed from SPIP 3.0  */
 'spip_sql_errno' => '($serveur=\'\') {
 	vieilles_log(\'spip_sql_errno()\');
     return sql_errno($serveur);
@@ -632,91 +635,91 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
   
   // r9916
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_mois' => '($annee,$mois,$jour) {
 	vieilles_log(\'sql_calendrier_mois()\');
 	return quete_calendrier_mois($annee,$mois,$jour);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_semaine' => '($annee,$mois,$jour) {
 	vieilles_log(\'sql_calendrier_semaine()\');
 	return quete_calendrier_semaine($annee,$mois,$jour);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_jour' => '($annee,$mois,$jour) {
 	vieilles_log(\'sql_calendrier_jour()\');
 	return quete_calendrier_jour($annee,$mois,$jour);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_interval' => '($limites) {
 	vieilles_log(\'sql_calendrier_interval()\');
 	return quete_calendrier_interval($limites);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 ' sql_calendrier_interval_forums' => '($limites, &$evenements) {
 	vieilles_log(\' sql_calendrier_interval_forums()\');
 	return quete_calendrier_interval_forums($limites, $evenements);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_interval_articles' => '($avant, $apres, &$evenements) {
 	vieilles_log(\'sql_calendrier_interval_articles()\');
 	return quete_calendrier_interval_articles($avant, $apres, $evenements);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_interval_rubriques' => '($avant, $apres, &$evenements) {
 	vieilles_log(\'sql_calendrier_interval_rubriques()\');
 	return quete_calendrier_interval_rubriques($avant, $apres, $evenements);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_interval_breves' => '($avant, $apres, &$evenements) {
 	vieilles_log(\'sql_calendrier_interval_breves()\');
 	return quete_calendrier_interval_breves($avant, $apres, $evenements);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_interval_rv' => '($avant, $apres) {
 	vieilles_log(\'sql_calendrier_interval_rv()\');
 	return quete_calendrier_interval_rv($avant, $apres);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_taches_annonces' => '() {
 	vieilles_log(\'sql_calendrier_taches_annonces()\');
 	return quete_calendrier_taches_annonces ();
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_taches_pb' => '() {
 	vieilles_log(\'sql_calendrier_taches_pb()\');
 	return quete_calendrier_taches_pb ();
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_taches_rv' => '() {
 	vieilles_log(\'sql_calendrier_taches_rv()\');
 	return quete_calendrier_taches_rv ();
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_calendrier_agenda' => '($annee, $mois) {
 	vieilles_log(\'sql_calendrier_agenda()\');
 	return quete_calendrier_agenda ($annee, $mois);
@@ -724,56 +727,56 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
   
   //r9918
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_rubrique_fond' => '($contexte) {
 	vieilles_log(\'sql_rubrique_fond()\');
 	return quete_rubrique_fond($contexte);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_chapo' => '($id_article) {
 	vieilles_log(\'sql_chapo()\');
 	return quete_virtuel($id_article);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_parent' => '($id_rubrique) {
 	vieilles_log(\'sql_parent()\');
 	return quete_parent($id_rubrique);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_profondeur' => '($id) {
 	vieilles_log(\'sql_profondeur()\');
 	return quete_profondeur($id);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_rubrique' => '($id_article) {
 	vieilles_log(\'sql_rubrique()\');
 	return quete_rubrique($id_article);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_petitions' => '($id_article, $table, $id_boucle, $serveur, &$cache) {
 	vieilles_log(\'sql_petitions()\');
 	return quete_petitions($id_article, $table, $id_boucle, $serveur, $cache);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'sql_accepter_forum' => '($id_article) {
 	vieilles_log(\'sql_accepter_forum()\');
 	return quete_accepter_forum($id_article);
   }
   
   ',
-
+/** @removed from SPIP 3.0  */
 'trouver_def_table' => '($nom, &$boucle) {
 	vieilles_log(\'trouver_def_table()\');
 	global $tables_principales, $tables_auxiliaires, $table_des_tables, $tables_des_serveurs_sql; 
@@ -804,11 +807,13 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 	return false;
   }
 ',
+/** @removed from SPIP 3.0  */
 'meme_rubrique' => '($id_rubrique, $id, $type, $order="date", $limit=NULL, $ajax=false) {
 	$meme_rubrique = charger_fonction("meme_rubrique", "inc");
 	return $meme_rubrique($id_rubrique, $id, $type, $order, $limit, $ajax);
   }
 ',
+/** @removed from SPIP 3.0  */
 'afficher_liste' => '($largeurs, $table, $styles = \'\') { 
 	global $spip_display; 
 
@@ -830,6 +835,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 	return $res; 
   }
 ',
+/** @removed from SPIP 3.0  */
 'afficher_liste_display_neq4' => '($largeurs, $t, $styles = \'\') {
 
 	global $browser_name;
@@ -864,7 +870,7 @@ $GLOBALS[\'all_langs\'] = @$GLOBALS[\'meta\'][\'langues_proposees\'];
 
 	return "\n<li>$res</li>\n";
 }',
-
+/** @removed from SPIP 3.0  */
 'barre_textarea' => '($texte, $rows, $cols, $lang=\'\') {
 	static $num_textarea = 0;
 	include_spip("inc/layer"); // definit browser_barre
@@ -933,11 +939,14 @@ ondblclick=\'storeCaret(this);\'>$texte</textarea>";
 	}
 }
 
-
+/** @removed from SPIP 3.0  */
 define('_DIR_DOC', _DIR_IMG);
 //constantes spip pour mysql_fetch_array()
+/** @removed from SPIP 3.0  */
 define('SPIP_BOTH', MYSQL_BOTH);
+/** @removed from SPIP 3.0  */
 define('SPIP_ASSOC', MYSQL_ASSOC);
+/** @removed from SPIP 3.0  */
 define('SPIP_NUM', MYSQL_NUM);
 
 /**
