@@ -22,6 +22,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  * reecrites conformement a la nouvelle interface.
  */
 
+include_spip('inc/grenier_actions');
 include_spip('inc/grenier_balises');
 include_spip('inc/grenier_boucles');
 include_spip('inc/grenier_criteres');
