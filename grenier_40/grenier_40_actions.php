@@ -429,3 +429,78 @@ function revision_mot($id_mot, $c = false) {
 	return mot_modifier($id_mot, $c);
 }
 }
+
+
+
+// Sites
+// --------------------
+
+if (!function_exists('insert_syndic')) {
+/**
+ * Insérer un site
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser site_inserer()
+ * @uses site_inserer()
+ *
+ * @param int $id_rubrique
+ * @return int
+ **/
+function insert_syndic($id_rubrique) {
+	return site_inserer($id_rubrique);
+}
+}
+
+if (!function_exists('syndic_set')) {
+/**
+ * Modifier un site
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser site_modifier()
+ * @uses site_modifier()
+ *
+ * @param int $id_syndic
+ * @param array|bool $set
+ * @return string
+ **/
+function syndic_set($id_syndic, $set = false) {
+	return site_modifier($id_syndic, $set);
+}
+}
+
+if (!function_exists('revisions_sites')) {
+/**
+ * Créer une révision d'un site
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser site_modifier()
+ * @uses site_modifier()
+ *
+ * @param int $id_syndic
+ * @param array|bool $set
+ * @return string
+ **/
+function revisions_sites($id_syndic, $set = false) {
+	return site_modifier($id_syndic, $set);
+}
+}
+
+if (!function_exists('instituer_syndic')) {
+/**
+ * Instituer un site
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser objet_instituer()
+ * @uses objet_instituer()
+ *
+ * @param int $id_syndic
+ * @param array $c
+ * @param bool $calcul_rub
+ * @return string
+ **/
+function instituer_syndic($id_syndic, $c, $calcul_rub = true) {
+	include_spip('action/editer_objet');
+
+	return objet_instituer('site', $id_syndic, $c, $calcul_rub);
+}
+}
