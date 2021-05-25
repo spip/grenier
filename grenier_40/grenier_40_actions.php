@@ -318,3 +318,114 @@ function revision_document($id_document, $c = false) {
 }
 }
 
+// MOTS
+
+if (!function_exists('groupemots_inserer')) {
+/**
+ * Insertion d'un groupe de mots clés
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser groupe_mots_inserer() ou objet_inserer()
+ * @see groupe_mots_inserer()
+ *
+ * @param string $table
+ *     Tables sur lesquels des mots de ce groupe pourront être liés
+ * @param null|array $set
+ * @return int|bool
+ *     Identifiant du nouveau groupe de mots clés.
+ */
+function groupemots_inserer($table = '', $set = null) {
+	return groupe_mots_inserer($table, $set);
+}
+}
+
+if (!function_exists('groupemots_modifier')) {
+/**
+ * Modifier un groupe de mot
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser groupe_mots_modifier() ou objet_modifier()
+ * @see groupe_mots_modifier()
+ *
+ * @param int $id_groupe
+ *     Identifiant du grope de mots clés à modifier
+ * @param array|null $set
+ *     Couples (colonne => valeur) de données à modifier.
+ *     En leur absence, on cherche les données dans les champs éditables
+ *     qui ont été postés
+ * @return string|null
+ *     Chaîne vide si aucune erreur,
+ *     Null si aucun champ à modifier,
+ *     Chaîne contenant un texte d'erreur sinon.
+ */
+function groupemots_modifier($id_groupe, $set = null) {
+	return groupe_mots_modifier($id_groupe, $set);
+}
+}
+
+
+if (!function_exists('insert_mot')) {
+/**
+ * Insertion d'un mot dans un groupe
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser mot_inserer()
+ * @see mot_inserer()
+ *
+ * @param int $id_groupe
+ *     Identifiant du groupe de mot
+ * @return int|bool
+ *     Identifiant du nouveau mot clé, false si erreur.
+ */
+function insert_mot($id_groupe) {
+	return mot_inserer($id_groupe);
+}
+}
+
+if (!function_exists('mots_set')) {
+/**
+ * Modifier un mot
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser mot_modifier()
+ * @see mot_modifier()
+ *
+ * @param int $id_mot
+ *     Identifiant du mot clé à modifier
+ * @param array|null $set
+ *     Couples (colonne => valeur) de données à modifier.
+ *     En leur absence, on cherche les données dans les champs éditables
+ *     qui ont été postés
+ * @return string|null
+ *     - Chaîne vide si aucune erreur,
+ *     - Null si aucun champ à modifier,
+ *     - Chaîne contenant un texte d'erreur sinon.
+ */
+function mots_set($id_mot, $set = null) {
+	return mot_modifier($id_mot, $set);
+}
+}
+
+if (!function_exists('revision_mot')) {
+/**
+ * Créer une révision d'un mot
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser mot_modifier()
+ * @see mot_modifier()
+ *
+ * @param int $id_mot
+ *     Identifiant du mot clé à modifier
+ * @param array|null $c
+ *     Couples (colonne => valeur) de données à modifier.
+ *     En leur absence, on cherche les données dans les champs éditables
+ *     qui ont été postés
+ * @return string|null
+ *     - Chaîne vide si aucune erreur,
+ *     - Null si aucun champ à modifier,
+ *     - Chaîne contenant un texte d'erreur sinon.
+ */
+function revision_mot($id_mot, $c = false) {
+	return mot_modifier($id_mot, $c);
+}
+}
