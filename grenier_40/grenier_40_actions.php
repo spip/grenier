@@ -504,3 +504,48 @@ function instituer_syndic($id_syndic, $c, $calcul_rub = true) {
 	return objet_instituer('site', $id_syndic, $c, $calcul_rub);
 }
 }
+
+
+
+// Brèves
+// --------------------
+
+if (!function_exists('insert_breve')) {
+/**
+ * Insertion d'une brève dans une rubrique
+ *
+ * @deprecated Utiliser breve_inserer()
+ * @see breve_inserer()
+ *
+ * @param int $id_rubrique
+ *     Identifiant de la rubrique
+ * @return int
+ *     Identifiant de la nouvelle brève.
+ */
+function insert_breve($id_rubrique) {
+	return breve_inserer($id_rubrique);
+}
+}
+
+if (!function_exists('breve_modifier')) {
+/**
+ * Créer une révision de brève
+ *
+ * @deprecated Utiliser breve_modifier()
+ * @see breve_modifier()
+ *
+ * @param int $id_breve
+ *     Identifiant de la brève à modifier
+ * @param array|null $set
+ *     Couples (colonne => valeur) de données à modifier.
+ *     En leur absence, on cherche les données dans les champs éditables
+ *     qui ont été postés (via _request())
+ * @return string|null
+ *     Chaîne vide si aucune erreur,
+ *     Null si aucun champ à modifier,
+ *     Chaîne contenant un texte d'erreur sinon.
+ */
+function revisions_breves($id_breve, $set = false) {
+	return breve_modifier($id_breve, $set);
+}
+}
