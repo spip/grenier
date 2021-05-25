@@ -263,6 +263,7 @@ if (!function_exists('insert_document')) {
 /**
  * Insertion d'un document
  *
+ * @removed from SPIP 4.0
  * @deprecated Utiliser document_inserer()
  * @see document_inserer()
  * @return int Identifiant du nouveau document
@@ -276,6 +277,7 @@ if (!function_exists('document_set')) {
 /**
  * Modification d'un document
  *
+ * @removed from SPIP 4.0
  * @deprecated Utiliser document_modifier()
  * @see document_modifier()
  * @param int $id_document Identifiant du document
@@ -290,6 +292,7 @@ if (!function_exists('instituer_document')) {
 /**
  * Insituer un document
  *
+ * @removed from SPIP 4.0
  * @deprecated Utiliser document_instituer()
  * @see document_instituer()
  * @param int $id_document Identifiant du document
@@ -304,6 +307,7 @@ if (!function_exists('revision_document')) {
 /**
  * Réviser un document
  *
+ * @removed from SPIP 4.0
  * @deprecated Utiliser document_modifier()
  * @see document_modifier()
  * @param int $id_document Identifiant du document
@@ -313,3 +317,4 @@ function revision_document($id_document, $c = false) {
 	return document_modifier($id_document, $c);
 }
 }
+
