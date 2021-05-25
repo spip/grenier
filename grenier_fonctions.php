@@ -14,5 +14,5 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 	return;
 }
 
-include_spip('32/grenier_fonctions.php');
-include_spip('40/grenier_fonctions.php');
+include_spip('grenier_32/grenier_32_fonctions.php');
+include_spip('grenier_40/grenier_40_fonctions.php');

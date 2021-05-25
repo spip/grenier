@@ -22,10 +22,11 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  * reecrites conformement a la nouvelle interface.
  */
 
-include_spip('40/grenier_actions');
-include_spip('40/grenier_balises');
-include_spip('40/grenier_boucles');
-include_spip('40/grenier_criteres');
-include_spip('40/grenier_fonctions');
-include_spip('40/grenier_autres');
+include_spip('grenier_32/grenier_32_fonctions');
+
+include_spip('grenier_40/grenier_40_actions');
+include_spip('grenier_40/grenier_40_autres');
+include_spip('grenier_40/grenier_40_balises');
+include_spip('grenier_40/grenier_40_criteres');
+include_spip('grenier_40/grenier_40_fonctions');
 
