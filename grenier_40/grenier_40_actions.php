@@ -1,6 +1,63 @@
 <?php
 
 
+if (!function_exists('modifier_contenu')) {
+/**
+ * Modifie un contenu
+ *
+ * Dépreciée :
+ * Fonction générique pour l'API de modification de contenu
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ * @param string $type
+ *     Type d'objet
+ * @param int $id
+ *     Identifiant de l'objet
+ * @param array $options
+ *     Toutes les options
+ * @param array|null $c
+ *     Couples champ/valeur à modifier
+ * @param string $serveur
+ *     Nom du connecteur à la base de données
+ * @return bool
+ *     true si quelque chose est modifié correctement
+ *     false sinon (erreur ou aucun champ modifié)
+ */
+function modifier_contenu($type, $id, $options, $c = null, $serveur = '') {
+	$res = objet_modifier_champs($type, $id, $options, $c, $serveur);
+
+	return ($res === '' ? true : false);
+}
+}
+
+if (!function_exists('revision_objet')) {
+/**
+ * Crée une modification d'un objet
+ *
+ * Wrapper pour remplacer tous les obsoletes revision_xxx
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ *     Utiliser objet_modifier();
+ * @uses objet_modifier()
+ *
+ * @param string $objet
+ *     Nom de l'objet
+ * @param int $id_objet
+ *     Identifiant de l'objet
+ * @param array $c
+ *     Couples des champs/valeurs modifiées
+ * @return mixed|string
+ */
+function revision_objet($objet, $id_objet, $c = null) {
+	$objet = objet_type($objet); // securite
+	include_spip('action/editer_objet');
+
+	return objet_modifier($objet, $id_objet, $c);
+}
+}
+
 if (!function_exists('revisions_articles')) {
 /**
  * Créer une révision d'un article
@@ -185,6 +242,25 @@ function revision_auteur($id_auteur, $c = false) {
 	return auteur_modifier($id_auteur, $c);
 }
 }
+
+
+if (!function_exists('auteur_referent')) {
+/**
+ * Ancien nommage pour compatibilité
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser auteur_associer()
+ * @see auteur_associer()
+ *
+ * @param int $id_auteur
+ * @param array $c
+ * @return string
+ */
+function auteur_referent($id_auteur, $c) {
+	return auteur_associer($id_auteur, $c);
+}
+}
+
 
 
 if (!function_exists('insert_rubrique')) {

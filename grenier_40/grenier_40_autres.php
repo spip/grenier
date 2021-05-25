@@ -227,3 +227,133 @@ function lien_objet($id, $type, $longueur = 80, $connect = null) {
 	return generer_lien_entite($id, $type, $longueur, $connect);
 }
 }
+
+
+if (!function_exists('sha256')) {
+	/**
+	 * Calcul du SHA256
+	 *
+	 * 2009-07-23: Added check for function as the Suhosin plugin adds this routine.
+	 * 
+	 * @removed from SPIP 4.0
+	 * @param string $str Chaîne dont on veut calculer le SHA
+	 * @param bool $ig_func
+	 * @return string Le SHA de la chaîne
+	 * @deprecated
+	 */
+	function sha256($str, $ig_func = true) { return spip_sha256($str); }
+}
+
+
+
+if (!function_exists('table_jointure')) {
+/**
+ * Récupérer le nom de la table de jointure `xxxx` sur l'objet `yyyy`
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ *     Utiliser l'API editer_liens ou les tables de liaisons spip_xx_liens
+ *     ou spip_yy_liens selon.
+ *
+ * @param string $x Table de destination
+ * @param string $y Objet source
+ * @return array|string
+ *     - array : Description de la table de jointure si connue
+ *     - chaîne vide si non trouvé.
+ **/
+function table_jointure($x, $y) {
+	$trouver_table = charger_fonction('trouver_table', 'base');
+	$xdesc = $trouver_table(table_objet($x));
+	$ydesc = $trouver_table(table_objet($y));
+	$ix = @$xdesc['key']["PRIMARY KEY"];
+	$iy = @$ydesc['key']["PRIMARY KEY"];
+	if ($table = $ydesc['tables_jointures'][$ix]) {
+		return $table;
+	}
+	if ($table = $xdesc['tables_jointures'][$iy]) {
+		return $table;
+	}
+
+	return '';
+}
+}
+
+
+if (!function_exists('notifier_publication_article')) {
+/**
+ * Notifier la publication d'un article
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Ne plus utiliser
+ * @param int $id_article
+ **/
+function notifier_publication_article($id_article) {
+	if ($GLOBALS['meta']["suivi_edito"] == "oui") {
+		$adresse_suivi = $GLOBALS['meta']["adresse_suivi"];
+		$texte = email_notification_article($id_article, "notifications/article_publie");
+		notifications_envoyer_mails($adresse_suivi, $texte);
+	}
+}
+}
+
+if (!function_exists('notifier_proposition_article')) {
+/**
+ * Notifier la proposition d'un article
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Ne plus utiliser
+ * @param int $id_article
+ **/
+function notifier_proposition_article($id_article) {
+	if ($GLOBALS['meta']["suivi_edito"] == "oui") {
+		$adresse_suivi = $GLOBALS['meta']["adresse_suivi"];
+		$texte = email_notification_article($id_article, "notifications/article_propose");
+		notifications_envoyer_mails($adresse_suivi, $texte);
+	}
+}
+}
+
+
+if (!function_exists('calcul_branche')) {
+/**
+ * Calcule une branche de rubriques
+ *
+ * Dépréciée, pour compatibilité
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ * @see calcul_branche_in()
+ *
+ * @param string|int|array $generation
+ * @return string
+ */
+function calcul_branche($generation) { return calcul_branche_in($generation); }
+}
+
+if (!function_exists('ecrire_metas')) {
+/**
+ * ecrire_metas : fonction dépréciée
+ *
+ * @removed from SPIP 4.0
+ * @deprecated
+ **/
+function ecrire_metas() { }
+}
+
+
+if (!function_exists('spip_query_db')) {
+/**
+ * Exécute une requête Mysql (obsolète, ne plus utiliser)
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser sql_query() ou autres
+ *
+ * @param string $query Requête
+ * @param string $serveur Nom de la connexion
+ * @param bool $requeter Exécuter la requête, sinon la retourner
+ * @return Resource        Ressource pour fetch()
+ **/
+function spip_query_db($query, $serveur = '', $requeter = true) {
+	return spip_mysql_query($query, $serveur, $requeter);
+}
+}
