@@ -330,6 +330,23 @@ if (!function_exists('calcul_branche')) {
 function calcul_branche($generation) { return calcul_branche_in($generation); }
 }
 
+
+if (!function_exists('lire_meta')) {
+/**
+ * lire_meta : fonction dépréciée
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Utiliser `$GLOBALS['meta'][$nom]` ou `lire_config('nom')`
+ * @see lire_config()
+ * @param string $nom Clé de meta à lire
+ * @return mixed Valeur de la meta.
+ **/
+function lire_meta($nom) {
+	return isset($GLOBALS['meta'][$nom]) ? $GLOBALS['meta'][$nom] : null;
+}
+}
+
+
 if (!function_exists('ecrire_metas')) {
 /**
  * ecrire_metas : fonction dépréciée
