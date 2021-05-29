@@ -374,3 +374,42 @@ function spip_query_db($query, $serveur = '', $requeter = true) {
 	return spip_mysql_query($query, $serveur, $requeter);
 }
 }
+
+
+if (!function_exists('recuperer_entetes')) {
+/**
+ * Obsolete : version simplifiee de recuperer_entetes_complets
+ * Retourne les informations d'entête HTTP d'un socket
+ *
+ * Lit les entêtes de reponse HTTP sur la socket $f
+ *
+ * @removed from SPIP 4.0
+ * @uses recuperer_entetes_complets()
+ * @deprecated
+ *
+ * @param resource $f
+ *     Socket d'un fichier (issu de fopen)
+ * @param int|string $date_verif
+ *     Pour tester une date de dernière modification
+ * @return string|int|array
+ *     - la valeur (chaîne) de l'en-tete Location si on l'a trouvée
+ *     - la valeur (numerique) du statut si different de 200, notamment Not-Modified
+ *     - le tableau des entetes dans tous les autres cas
+ **/
+function recuperer_entetes($f, $date_verif = '') {
+	//Cas ou la page distante n'a pas bouge depuis
+	//la derniere visite
+	$res = recuperer_entetes_complets($f, $date_verif);
+	if (!$res) {
+		return false;
+	}
+	if ($res['location']) {
+		return $res['location'];
+	}
+	if ($res['status'] != 200) {
+		return $res['status'];
+	}
+
+	return explode("\n", $res['headers']);
+}
+}

@@ -590,6 +590,7 @@ if (!function_exists('insert_breve')) {
 /**
  * Insertion d'une brève dans une rubrique
  *
+ * @removed from SPIP 4.0
  * @deprecated Utiliser breve_inserer()
  * @see breve_inserer()
  *
@@ -607,6 +608,7 @@ if (!function_exists('breve_modifier')) {
 /**
  * Créer une révision de brève
  *
+ * @removed from SPIP 4.0
  * @deprecated Utiliser breve_modifier()
  * @see breve_modifier()
  *
@@ -623,5 +625,151 @@ if (!function_exists('breve_modifier')) {
  */
 function revisions_breves($id_breve, $set = false) {
 	return breve_modifier($id_breve, $set);
+}
+}
+
+
+
+if (!function_exists('maj_version')) {
+/**
+ * Mise à jour des versions de SPIP < 1.926
+ *
+ * @removed from SPIP 4.0
+ * @deprecated 3.1
+ * @see maj_plugin() ou la globale `maj` pour le core.
+ * @see maj_base()
+ * @see https://core.spip.net/issues/4798
+ *
+ * @param float $version
+ * @param bool $test
+ * @return void
+ **/
+function maj_version($version, $test = true) {
+	if ($test) {
+		if ($version >= 1.922) {
+			ecrire_meta('version_installee', $version, 'oui');
+		} else {
+			// on le fait manuellement, car ecrire_meta utilise le champs impt qui est absent sur les vieilles versions
+			$GLOBALS['meta']['version_installee'] = $version;
+			sql_updateq('spip_meta', array('valeur' => $version), 'nom=' . sql_quote('version_installee'));
+		}
+		spip_log("mise a jour de la base en $version", 'maj.' . _LOG_INFO_IMPORTANTE);
+	} else {
+		echo _T('alerte_maj_impossible', array('version' => $version));
+		exit;
+	}
+}
+}
+
+if (!function_exists('upgrade_vers')) {
+/**
+ * Teste de mise à jour des versions de SPIP < 1.926
+ *
+ * @removed from SPIP 4.0
+ * @deprecated 3.1
+ * @see maj_plugin() ou la globale `maj` pour le core.
+ * @see maj_base()
+ *
+ * @param float $version
+ * @param float $version_installee
+ * @param int $version_cible
+ * @return bool true si la mise à jour doit se réaliser
+ **/
+function upgrade_vers($version, $version_installee, $version_cible = 0) {
+	return ($version_installee < $version
+		and (($version_cible >= $version) or ($version_cible == 0))
+	);
+}
+}
+
+if (!function_exists('upgrade_types_documents')) {
+/**
+ * Mise à jour des types MIME de documents
+ *
+ * Fonction utilisé par les vieilles mises à jour de SPIP, à appeler dans
+ * le tableau `$maj` quand on rajoute des types MIME. Remplacé actuellement
+ * par le plugin Medias.
+ *
+ * @removed from SPIP 4.0
+ * @deprecated 3.1
+ * @see Utiliser directement `creer_base_types_doc()` du plugin Medias
+ * @example
+ *     ```
+ *     $GLOBALS['maj'][1953] = array(array('upgrade_types_documents'));
+ *
+ *     ```
+ * @uses creer_base_types_doc()
+ *
+ **/
+function upgrade_types_documents() {
+	if (include_spip('base/medias')
+		and function_exists('creer_base_types_doc')
+	) {
+		creer_base_types_doc();
+	}
+}
+}
+
+
+if (!function_exists('spip_get_lock')) {
+/**
+ * Poser un verrou SQL local
+ *
+ * Changer de nom toutes les heures en cas de blocage MySQL (ca arrive)
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Pas d'équivalence actuellement en dehors de MySQL
+ * @see spip_release_lock()
+ *
+ * @param string $nom
+ *     Inutilisé. Le nom est calculé en fonction de la connexion principale
+ * @param int $timeout
+ * @return string|bool
+ *     - Nom du verrou si réussite,
+ *     - false sinon
+ */
+function spip_get_lock($nom, $timeout = 0) {
+
+	define('_LOCK_TIME', intval(time() / 3600 - 316982));
+
+	$connexion = &$GLOBALS['connexions'][0];
+	$bd = $connexion['db'];
+	$prefixe = $connexion['prefixe'];
+	$nom = "$bd:$prefixe:$nom" . _LOCK_TIME;
+
+	$connexion['last'] = $q = "SELECT GET_LOCK(" . _q($nom) . ", $timeout) AS n";
+
+	$q = @sql_fetch(mysqli_query(_mysql_link(), $q));
+	if (!$q) {
+		spip_log("pas de lock sql pour $nom", _LOG_ERREUR);
+	}
+
+	return $q['n'];
+}
+}
+
+
+if (!function_exists('spip_release_lock')) {
+/**
+ * Relâcher un verrou SQL local
+ *
+ * @removed from SPIP 4.0
+ * @deprecated Pas d'équivalence actuellement en dehors de MySQL
+ * @see spip_get_lock()
+ *
+ * @param string $nom
+ *     Inutilisé. Le nom est calculé en fonction de la connexion principale
+ * @return string|bool
+ *     True si réussite, false sinon.
+ */
+function spip_release_lock($nom) {
+
+	$connexion = &$GLOBALS['connexions'][0];
+	$bd = $connexion['db'];
+	$prefixe = $connexion['prefixe'];
+	$nom = "$bd:$prefixe:$nom" . _LOCK_TIME;
+
+	$connexion['last'] = $q = "SELECT RELEASE_LOCK(" . _q($nom) . ")";
+	mysqli_query(_mysql_link(), $q);
 }
 }
