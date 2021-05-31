@@ -75,32 +75,6 @@ function balise_FIN_SURLIGNE_dist($p) {
 }
 
 
-if (!function_exists('balise_DOSSIER_SQUELETTE_dist')) {
-/**
- * Compile la balise `#DOSSIER_SQUELETTE` retournant le chemin vers le
- * répertoire de squelettes actuellement utilisé
- *
- * @balise
- * @removed from SPIP 4.0
- * @deprecated 3.1 Utiliser `#CHEMIN`
- * @link https://www.spip.net/4627
- * @see balise_CHEMIN_dist()
- *
- * @param Champ $p
- *     Pile au niveau de la balise.
- * @return Champ
- *     Pile completée du code PHP d'exécution de la balise
- */
-function balise_DOSSIER_SQUELETTE_dist($p) {
-	$code = substr(addslashes(dirname($p->descr['sourcefile'])), strlen(_DIR_RACINE));
-	$p->code = "_DIR_RACINE . '$code'" .
-		$p->interdire_scripts = false;
-
-	return $p;
-}
-}
-
-
 if (!function_exists('balise_NOOP_dist')) {
 /**
  * Compile la balise `#NOOP`, alias (déprécié) de `#VAL`
