@@ -1,4 +1,4 @@
-ls<paquet
+<paquet
 	prefix="grenier"
 	categorie="outil"
 	version="1.1.0-dev"
