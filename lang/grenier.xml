@@ -79,8 +79,9 @@
 	<langue code="oc_prv" url="https://trad.spip.net/tradlang_module/grenier?lang_cible=oc_prv" total="68" traduits="31" relire="0" modifs="22" nouveaux="15" pourcent="45.59" />
 	<langue code="oc_va" url="https://trad.spip.net/tradlang_module/grenier?lang_cible=oc_va" total="68" traduits="29" relire="0" modifs="22" nouveaux="17" pourcent="42.65" />
 	<langue code="pl" url="https://trad.spip.net/tradlang_module/grenier?lang_cible=pl" total="68" traduits="39" relire="0" modifs="24" nouveaux="5" pourcent="57.35" />
-	<langue code="pt" url="https://trad.spip.net/tradlang_module/grenier?lang_cible=pt" total="68" traduits="36" relire="0" modifs="23" nouveaux="9" pourcent="52.94">
+	<langue code="pt" url="https://trad.spip.net/tradlang_module/grenier?lang_cible=pt" total="68" traduits="38" relire="0" modifs="21" nouveaux="9" pourcent="55.88">
 		<traducteur nom="Cláudia Anjos Lopes" lien="https://trad.spip.net/auteur/claudia_a_lopes" />
+		<traducteur nom="Miguel" lien="https://trad.spip.net/auteur/miguel" />
 	</langue>
 	<langue code="pt_br" url="https://trad.spip.net/tradlang_module/grenier?lang_cible=pt_br" total="68" traduits="68" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Ricardo Porto" lien="https://trad.spip.net/auteur/ricardo-porto" />

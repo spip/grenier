@@ -11,8 +11,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_forum_petition' => 'FÓRUM & ABAIXO-ASSINADO', # MODIF
-	'bouton_radio_sauvegarde_compressee' => 'Salvaguarda comprimida como @fichier@', # MODIF
-	'bouton_radio_sauvegarde_non_compressee' => 'salvaguarda não comprimida como   @fichier@', # MODIF
+	'bouton_radio_sauvegarde_compressee' => 'Arquivo comprimido como @fichier@',
+	'bouton_radio_sauvegarde_non_compressee' => 'Arquivo não comprimido como @fichier@',
 
 	// F
 	'forum_probleme_database' => 'Problema de base de dados, a sua mensagem não foi registada.', # MODIF
