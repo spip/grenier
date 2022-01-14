@@ -65,7 +65,7 @@ if (!function_exists('fin_cadre_couleur_foncee')) {
 	 * @deprecated utiliser boite_fermer()
 	 */
 	function fin_cadre_couleur_foncee() { 
-		return fin_cadre_grenier('couleur-foncee'); 
+		return fin_cadre_grenier(); 
 	}
 }
 
@@ -78,6 +78,7 @@ if (!function_exists('fin_cadre_couleur_foncee')) {
  * @removed from SPIP 3.2
  */
 function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $id = "", $class = "", $padding = true) {
+	$fond = null;
 	$style_mapping = array(
 		'r' => 'simple',
 		'e' => 'raccourcis',
@@ -89,7 +90,7 @@ function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $
 		'sous_rub' => 'simple sous-rub'
 	);
 	$style_titre_mapping = array('couleur' => 'topper', 'trait-couleur' => 'section');
-	$c = isset($style_mapping[$style]) ? $style_mapping[$style] : 'simple';
+	$c = $style_mapping[$style] ?? 'simple';
 	$class = $c . ($class ? " $class" : "");
 	if (!$padding) {
 		$class .= ($class ? " " : "") . "no-padding";
@@ -98,7 +99,7 @@ function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $
 	//($id?"id='$id' ":"")
 	if (strlen($icone) > 1) {
 		if ($icone_renommer = charger_fonction('icone_renommer', 'inc', true)) {
-			list($fond, $fonction) = $icone_renommer($icone, $fonction);
+			[$fond, $fonction] = $icone_renommer($icone, $fonction);
 		}
 		$size = 24;
 		if (preg_match("/-([0-9]{1,3})[.](gif|png)$/i", $fond, $match)) {
@@ -115,7 +116,7 @@ function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $
 		$titre = $icone . $titre;
 	}
 
-	return boite_ouvrir($titre, $class, isset($style_titre_mapping[$style]) ? $style_titre_mapping[$style] : '', $id);
+	return boite_ouvrir($titre, $class, $style_titre_mapping[$style] ?? '', $id);
 }
 
 /**

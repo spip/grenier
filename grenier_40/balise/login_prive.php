@@ -56,7 +56,7 @@ function balise_LOGIN_PRIVE($p) {
  *   Liste (url, login) des arguments collectés.
  */
 function balise_LOGIN_PRIVE_stat($args, $context_compil) {
-	return array(isset($args[1]) ? $args[1] : $args[0], (isset($args[2]) ? $args[2] : ''));
+	return array($args[1] ?? $args[0], ($args[2] ?? ''));
 }
 
 /**

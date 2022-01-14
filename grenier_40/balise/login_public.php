@@ -58,7 +58,7 @@ function balise_LOGIN_PUBLIC($p, $nom = 'LOGIN_PUBLIC') {
  *   Liste (url, login) des arguments collectés.
  */
 function balise_LOGIN_PUBLIC_stat($args, $context_compil) {
-	return array(isset($args[1]) ? $args[1] : $args[0], (isset($args[2]) ? $args[2] : ''));
+	return array($args[1] ?? $args[0], ($args[2] ?? ''));
 }
 
 /**

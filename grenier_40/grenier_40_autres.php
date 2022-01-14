@@ -342,7 +342,7 @@ if (!function_exists('lire_meta')) {
  * @return mixed Valeur de la meta.
  **/
 function lire_meta($nom) {
-	return isset($GLOBALS['meta'][$nom]) ? $GLOBALS['meta'][$nom] : null;
+	return $GLOBALS['meta'][$nom] ?? null;
 }
 }
 
@@ -540,7 +540,7 @@ function recuperer_lapage(
 	$url,
 	$trans = false,
 	$get = 'GET',
-	$taille_max = 1048576,
+	$taille_max = 1_048_576,
 	$datas = '',
 	$refuser_gz = false,
 	$date_verif = '',
