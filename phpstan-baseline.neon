@@ -1,0 +1,597 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function _image_couleur_extraire not found\\.$#"
+			count: 1
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function afficher_plus\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function afficher_plus_info not found\\.$#"
+			count: 1
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function boite_fermer not found\\.$#"
+			count: 1
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function boite_ouvrir not found\\.$#"
+			count: 1
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function charger_fonction not found\\.$#"
+			count: 1
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function http_img_pack not found\\.$#"
+			count: 2
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function http_style_background not found\\.$#"
+			count: 1
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 4
+			path: grenier_32/grenier_32_fonctions.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 4
+			path: grenier_32/inc/filtres_images.php
+
+		-
+			message: "#^Function _couleur_dec_to_hex not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _couleur_hex_to_dec not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _couleur_hsl2rgb not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _couleur_hsv2rgb not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _couleur_rgb2hsl not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _couleur_rgb2hsv not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_couleur_extraire not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_creer_vignette not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_decale_composante not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_decale_composante_127 not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_distance_pixel not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_ecrire_tag not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_gd_output not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_imagegif not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_imageico not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_imagepng not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_ratio not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_tag_changer_taille not found\\.$#"
+			count: 1
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _image_valeurs_trans not found\\.$#"
+			count: 2
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function filtrer not found\\.$#"
+			count: 2
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 21
+			path: grenier_32/inc/filtres_images_compat.php
+
+		-
+			message: "#^Function _request not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_prive.php
+
+		-
+			message: "#^Function balise_FORMULAIRE__dyn not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_prive.php
+
+		-
+			message: "#^Function calculer_balise_dynamique not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_prive.php
+
+		-
+			message: "#^Function generer_url_ecrire not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_prive.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_prive.php
+
+		-
+			message: "#^Function _request not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_public.php
+
+		-
+			message: "#^Function balise_FORMULAIRE__dyn not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_public.php
+
+		-
+			message: "#^Function calculer_balise_dynamique not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_public.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_public.php
+
+		-
+			message: "#^Function parametre_url not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_public.php
+
+		-
+			message: "#^Function self not found\\.$#"
+			count: 1
+			path: grenier_40/balise/login_public.php
+
+		-
+			message: "#^Function _request not found\\.$#"
+			count: 3
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function charger_fonction not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function creer_colonne_droite not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function debut_droite not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function debut_gauche not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function debut_grand_cadre not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function fin_gauche not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function fin_grand_cadre not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function fin_page not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 2
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function minipres not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function pipeline not found\\.$#"
+			count: 4
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function recuperer_fond not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function trouver_objet_exec not found\\.$#"
+			count: 1
+			path: grenier_40/exec/fond_monobloc.php
+
+		-
+			message: "#^Function _T not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function _mysql_link not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function _q not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function article_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function article_instituer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function article_modifier not found\\.$#"
+			count: 3
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function auteur_associer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function auteur_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function auteur_instituer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function auteur_modifier not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function breve_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function breve_modifier not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function document_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function document_instituer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function document_modifier not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function ecrire_meta not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function groupe_mots_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function groupe_mots_modifier not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 3
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function mot_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function mot_modifier not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function objet_instituer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function objet_modifier not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function objet_modifier_champs not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function objet_type not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function rubrique_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function rubrique_instituer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function rubrique_modifier not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function site_inserer not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function site_modifier not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function spip_log not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function spip_release_lock\\(\\) should return bool\\|string but return statement is missing\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function sql_fetch not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function sql_quote not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function sql_updateq not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_actions.php
+
+		-
+			message: "#^Function calcul_branche_in not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function charger_fonction not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function creer_repertoire_documents not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function decrire_version_svn not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function email_notification_article not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function generer_lien_entite not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function generer_url_ecrire not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function notifications_envoyer_mails not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function recuperer_entetes_complets not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function recuperer_fond not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function recuperer_url not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function self not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function spip_log not found\\.$#"
+			count: 4
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function spip_mysql_query not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function spip_sha256 not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function spip_unlink not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function sql_fetch not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function sql_select not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function sql_updateq not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function table_objet not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_autres.php
+
+		-
+			message: "#^Function balise_VAL_dist not found\\.$#"
+			count: 1
+			path: grenier_40/grenier_40_balises.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_balises.php
+
+		-
+			message: "#^Function calculer_liste not found\\.$#"
+			count: 2
+			path: grenier_40/grenier_40_criteres.php
+
+		-
+			message: "#^Function charger_fonction not found\\.$#"
+			count: 1
+			path: grenier_40/inc/mail.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 2
+			path: grenier_fonctions.php
+
+		-
+			message: "#^Function _chemin not found\\.$#"
+			count: 2
+			path: grenier_options.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 6
+			path: inc/vieilles_defs.php
+
