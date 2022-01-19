@@ -53,33 +53,32 @@ function exec_fond_monobloc_dist() {
 		include_spip('inc/minipres');
 		echo minipres();
 	} else {
-
 		$titre = "exec_$exec";
-		$hierarchie = "";
-		$navigation = "";
-		$extra = "";
+		$hierarchie = '';
+		$navigation = '';
+		$extra = '';
 
 		// recuperer le titre dans le premier hn de la page
-		if (preg_match(",<h[1-6][^>]*>(.+)</h[1-6]>,Uims", $fond, $match)) {
+		if (preg_match(',<h[1-6][^>]*>(.+)</h[1-6]>,Uims', $fond, $match)) {
 			$titre = $match[1];
 		}
 
 		// recuperer la hierarchie (au-dessus du contenu)
-		if (preg_match(",<!--#hierarchie-->.+<!--/#hierarchie-->,Uims", $fond, $match)) {
+		if (preg_match(',<!--#hierarchie-->.+<!--/#hierarchie-->,Uims', $fond, $match)) {
 			$hierarchie = $match[0];
-			$fond = str_replace($hierarchie, "", $fond);
+			$fond = str_replace($hierarchie, '', $fond);
 		}
 
 		// recuperer la navigation (colonne de gauche)
-		if (preg_match(",<!--#navigation-->.+<!--/#navigation-->,Uims", $fond, $match)) {
+		if (preg_match(',<!--#navigation-->.+<!--/#navigation-->,Uims', $fond, $match)) {
 			$navigation = $match[0];
-			$fond = str_replace($navigation, "", $fond);
+			$fond = str_replace($navigation, '', $fond);
 		}
 
 		// recuperer les extras (colonne de droite)
-		if (preg_match(",<!--#extra-->.+<!--/#extra-->,Uims", $fond, $match)) {
+		if (preg_match(',<!--#extra-->.+<!--/#extra-->,Uims', $fond, $match)) {
 			$extra = $match[0];
-			$fond = str_replace($extra, "", $fond);
+			$fond = str_replace($extra, '', $fond);
 		}
 
 		include_spip('inc/presentation'); // alleger les inclusions avec un inc/presentation_mini
@@ -90,19 +89,19 @@ function exec_fond_monobloc_dist() {
 			echo debut_grand_cadre(true);
 			echo pipeline(
 				'affiche_hierarchie',
-				array(
-					'args' => array(
+				[
+					'args' => [
 						'exec' => $exec
-					),
+					],
 					'data' => $hierarchie
-				)
+				]
 			);
 			echo fin_grand_cadre(true);
 		}
 
 		echo debut_gauche("exec_$exec", true);
 
-		$contexte = array('exec' => $exec);
+		$contexte = ['exec' => $exec];
 		if ($objet_exec = trouver_objet_exec($exec)) {
 			$id = $objet_exec['id_table_objet'];
 			if (_request($id)) {
@@ -111,15 +110,15 @@ function exec_fond_monobloc_dist() {
 		}
 
 		echo $navigation;
-		echo pipeline('affiche_gauche', array('args' => $contexte, 'data' => ''));
+		echo pipeline('affiche_gauche', ['args' => $contexte, 'data' => '']);
 
 		echo creer_colonne_droite("exec_$exec", true);
 		echo $extra;
-		echo pipeline('affiche_droite', array('args' => $contexte, 'data' => ''));
+		echo pipeline('affiche_droite', ['args' => $contexte, 'data' => '']);
 
 		echo debut_droite("exec_$exec", true);
 		echo $fond;
-		echo pipeline('affiche_milieu', array('args' => $contexte, 'data' => ''));
+		echo pipeline('affiche_milieu', ['args' => $contexte, 'data' => '']);
 
 		echo fin_gauche(), fin_page();
 	}

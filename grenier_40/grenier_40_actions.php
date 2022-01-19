@@ -1,6 +1,5 @@
 <?php
 
-
 if (!function_exists('modifier_contenu')) {
 /**
  * Modifie un contenu
@@ -374,7 +373,7 @@ if (!function_exists('instituer_document')) {
  * @param int $id_document Identifiant du document
  * @param array $champs
  */
-function instituer_document($id_document, $champs = array()) {
+function instituer_document($id_document, $champs = []) {
 	return document_instituer($id_document, $champs);
 }
 }
@@ -651,11 +650,11 @@ function maj_version($version, $test = true) {
 		} else {
 			// on le fait manuellement, car ecrire_meta utilise le champs impt qui est absent sur les vieilles versions
 			$GLOBALS['meta']['version_installee'] = $version;
-			sql_updateq('spip_meta', array('valeur' => $version), 'nom=' . sql_quote('version_installee'));
+			sql_updateq('spip_meta', ['valeur' => $version], 'nom=' . sql_quote('version_installee'));
 		}
 		spip_log("mise a jour de la base en $version", 'maj.' . _LOG_INFO_IMPORTANTE);
 	} else {
-		echo _T('alerte_maj_impossible', array('version' => $version));
+		echo _T('alerte_maj_impossible', ['version' => $version]);
 		exit;
 	}
 }
@@ -702,7 +701,8 @@ if (!function_exists('upgrade_types_documents')) {
  *
  **/
 function upgrade_types_documents() {
-	if (include_spip('base/medias')
+	if (
+		include_spip('base/medias')
 		and function_exists('creer_base_types_doc')
 	) {
 		creer_base_types_doc();
@@ -737,7 +737,7 @@ function spip_get_lock($nom, $timeout = 0) {
 	$prefixe = $connexion['prefixe'];
 	$nom = "$bd:$prefixe:$nom" . _LOCK_TIME;
 
-	$connexion['last'] = $q = "SELECT GET_LOCK(" . _q($nom) . ", $timeout) AS n";
+	$connexion['last'] = $q = 'SELECT GET_LOCK(' . _q($nom) . ", $timeout) AS n";
 
 	$q = @sql_fetch(mysqli_query(_mysql_link(), $q));
 	if (!$q) {
@@ -769,7 +769,7 @@ function spip_release_lock($nom) {
 	$prefixe = $connexion['prefixe'];
 	$nom = "$bd:$prefixe:$nom" . _LOCK_TIME;
 
-	$connexion['last'] = $q = "SELECT RELEASE_LOCK(" . _q($nom) . ")";
+	$connexion['last'] = $q = 'SELECT RELEASE_LOCK(' . _q($nom) . ')';
 	mysqli_query(_mysql_link(), $q);
 }
 }

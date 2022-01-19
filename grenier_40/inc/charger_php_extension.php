@@ -12,7 +12,7 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 /**
  * File removed
- * 
+ *
  * @removed from SPIP 4.0
  */
 

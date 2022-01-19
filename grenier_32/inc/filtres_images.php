@@ -1,4 +1,5 @@
 <?php
+
 /***************************************************************************\
  *  SPIP, Système de publication pour l'internet                           *
  *                                                                         *
@@ -9,7 +10,6 @@
  *  Pour plus de détails voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
-
 /**
  * Ce fichier ne sert plus
  * Il est maintenu pour assurer la compatibilite des anciens scripts
@@ -18,7 +18,7 @@
 
 /**
  * File removed
- * 
+ *
  * @removed from SPIP 3.2 (Filtres Images)
  */
 

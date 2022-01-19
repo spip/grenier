@@ -1,6 +1,5 @@
 <?php
 
-
 if (!function_exists('aligner')) {
 	/**
 	 * Alignements en HTML (Old-style, préférer CSS)
@@ -22,7 +21,7 @@ if (!function_exists('aligner')) {
 		// Paragrapher rapidement
 		$letexte = "<div style='text-align:$justif'>"
 			. $letexte
-			. "</div>";
+			. '</div>';
 
 		return $letexte;
 	}
@@ -38,8 +37,8 @@ if (!function_exists('justifier')) {
 	 * @param string $letexte
 	 * @return string
 	 */
-	function justifier($letexte) { 
-		return aligner($letexte, 'justify'); 
+	function justifier($letexte) {
+		return aligner($letexte, 'justify');
 	}
 }
 
@@ -53,7 +52,9 @@ if (!function_exists('aligner_droite')) {
 	 * @param string $letexte
 	 * @return string
 	 */
-	function aligner_droite($letexte) { return aligner($letexte, 'right'); }
+	function aligner_droite($letexte) {
+ 		return aligner($letexte, 'right');
+	}
 }
 
 if (!function_exists('aligner_gauche')) {
@@ -66,8 +67,8 @@ if (!function_exists('aligner_gauche')) {
 	 * @param string $letexte
 	 * @return string
 	 */
-	function aligner_gauche($letexte) { 
-		return aligner($letexte, 'left'); 
+	function aligner_gauche($letexte) {
+		return aligner($letexte, 'left');
 	}
 }
 
@@ -81,8 +82,8 @@ if (!function_exists('centrer')) {
 	 * @param string $letexte
 	 * @return string
 	 */
-	function centrer($letexte) { 
-		return aligner($letexte, 'center'); 
+	function centrer($letexte) {
+		return aligner($letexte, 'center');
 	}
 }
 
@@ -96,6 +97,6 @@ if (!function_exists('style_align')) {
 	 * @return string Style CSS
 	 **/
 	function style_align($bof) {
-		return "text-align: " . $GLOBALS['spip_lang_left'];
+		return 'text-align: ' . $GLOBALS['spip_lang_left'];
 	}
 }

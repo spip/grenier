@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Ancien marqueur de début de surlignement
  *
@@ -8,6 +7,7 @@
  * @removed from SPIP 4.0
  * @deprecated 2.0 N'a plus d'effet
  **/
+
 define('MARQUEUR_SURLIGNE', 'debut_surligneconditionnel');
 
 /**
@@ -91,5 +91,7 @@ if (!function_exists('balise_NOOP_dist')) {
  * @return Champ
  *     Pile complétée par le code à générer
  **/
-function balise_NOOP_dist($p) { return balise_VAL_dist($p); }
+function balise_NOOP_dist($p) {
+	return balise_VAL_dist($p);
+}
 }

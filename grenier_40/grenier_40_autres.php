@@ -1,6 +1,5 @@
 <?php
 
-
 if (!function_exists('generer_url_retour')) {
 	/**
 	 * Permet d'ajouter lien vers une page privée à un paramètre d'url (déprécié)
@@ -23,7 +22,7 @@ if (!function_exists('generer_url_retour')) {
 	 * @param string $args
 	 * @return string
 	 */
-	function generer_url_retour($script, $args = "") {
+	function generer_url_retour($script, $args = '') {
 		return rawurlencode(generer_url_ecrire($script, $args, true, true));
 	}
 }
@@ -82,8 +81,8 @@ if (!function_exists('echo_log')) {
  * @return void
  **/
 function echo_log($f, $ret) {
-	spip_log("Page " . self() . " function $f: echo " . substr($ret, 0, 50) . "...", 'echo');
-	echo(_SIGNALER_ECHOS ? "#Echo par $f#" : "") . $ret;
+	spip_log('Page ' . self() . " function $f: echo " . substr($ret, 0, 50) . '...', 'echo');
+	echo(_SIGNALER_ECHOS ? "#Echo par $f#" : '') . $ret;
 }
 }
 
@@ -145,20 +144,20 @@ if (!function_exists('admin_repair_plat')) {
  * @return string Description des changements de chemins des documents
  **/
 function admin_repair_plat() {
-	spip_log("verification des documents joints", _LOG_INFO_IMPORTANTE);
-	$out = "";
-	$repertoire = array();
+	spip_log('verification des documents joints', _LOG_INFO_IMPORTANTE);
+	$out = '';
+	$repertoire = [];
 	include_spip('inc/getdocument');
 	$res = sql_select('*', 'spip_documents', "fichier REGEXP CONCAT('^',extension,'[^/\]') AND distant='non'");
 
 	while ($row = sql_fetch($res)) {
 		$ext = $row['extension'];
 		if (!$ext) {
-			spip_log("document sans extension: " . $row['id_document'], _LOG_INFO_IMPORTANTE);
+			spip_log('document sans extension: ' . $row['id_document'], _LOG_INFO_IMPORTANTE);
 			continue;
 		}
 		if (!isset($repertoire[$ext])) {
-			if (@file_exists($plat = _DIR_IMG . $ext . ".plat")) {
+			if (@file_exists($plat = _DIR_IMG . $ext . '.plat')) {
 				spip_unlink($plat);
 			}
 			$repertoire[$ext] = creer_repertoire_documents($ext);
@@ -170,10 +169,11 @@ function admin_repair_plat() {
 			$d = substr($d, strlen(_DIR_IMG));
 			$src = $row['fichier'];
 			$dest = $d . substr($src, strlen($d));
-			if (@copy(_DIR_IMG . $src, _DIR_IMG . $dest)
+			if (
+				@copy(_DIR_IMG . $src, _DIR_IMG . $dest)
 				and file_exists(_DIR_IMG . $dest)
 			) {
-				sql_updateq('spip_documents', array('fichier' => $dest), 'id_document=' . intval($row['id_document']));
+				sql_updateq('spip_documents', ['fichier' => $dest], 'id_document=' . intval($row['id_document']));
 				spip_unlink(_DIR_IMG . $src);
 				$out .= "$src => $dest<br />";
 			}
@@ -205,7 +205,7 @@ if (!function_exists('afficher_documents_colonne')) {
  *     Code HTML permettant de gérer des documents
  */
 function afficher_documents_colonne($id, $type = 'article', $script = null) {
-	return recuperer_fond('prive/objets/editer/colonne_document', array('objet' => $type, 'id_objet' => $id));
+	return recuperer_fond('prive/objets/editer/colonne_document', ['objet' => $type, 'id_objet' => $id]);
 }
 }
 
@@ -234,14 +234,16 @@ if (!function_exists('sha256')) {
 	 * Calcul du SHA256
 	 *
 	 * 2009-07-23: Added check for function as the Suhosin plugin adds this routine.
-	 * 
+	 *
 	 * @removed from SPIP 4.0
 	 * @param string $str Chaîne dont on veut calculer le SHA
 	 * @param bool $ig_func
 	 * @return string Le SHA de la chaîne
 	 * @deprecated
 	 */
-	function sha256($str, $ig_func = true) { return spip_sha256($str); }
+	function sha256($str, $ig_func = true) {
+ 		return spip_sha256($str);
+	}
 }
 
 
@@ -265,8 +267,8 @@ function table_jointure($x, $y) {
 	$trouver_table = charger_fonction('trouver_table', 'base');
 	$xdesc = $trouver_table(table_objet($x));
 	$ydesc = $trouver_table(table_objet($y));
-	$ix = @$xdesc['key']["PRIMARY KEY"];
-	$iy = @$ydesc['key']["PRIMARY KEY"];
+	$ix = @$xdesc['key']['PRIMARY KEY'];
+	$iy = @$ydesc['key']['PRIMARY KEY'];
 	if ($table = $ydesc['tables_jointures'][$ix]) {
 		return $table;
 	}
@@ -288,9 +290,9 @@ if (!function_exists('notifier_publication_article')) {
  * @param int $id_article
  **/
 function notifier_publication_article($id_article) {
-	if ($GLOBALS['meta']["suivi_edito"] == "oui") {
-		$adresse_suivi = $GLOBALS['meta']["adresse_suivi"];
-		$texte = email_notification_article($id_article, "notifications/article_publie");
+	if ($GLOBALS['meta']['suivi_edito'] == 'oui') {
+		$adresse_suivi = $GLOBALS['meta']['adresse_suivi'];
+		$texte = email_notification_article($id_article, 'notifications/article_publie');
 		notifications_envoyer_mails($adresse_suivi, $texte);
 	}
 }
@@ -305,9 +307,9 @@ if (!function_exists('notifier_proposition_article')) {
  * @param int $id_article
  **/
 function notifier_proposition_article($id_article) {
-	if ($GLOBALS['meta']["suivi_edito"] == "oui") {
-		$adresse_suivi = $GLOBALS['meta']["adresse_suivi"];
-		$texte = email_notification_article($id_article, "notifications/article_propose");
+	if ($GLOBALS['meta']['suivi_edito'] == 'oui') {
+		$adresse_suivi = $GLOBALS['meta']['adresse_suivi'];
+		$texte = email_notification_article($id_article, 'notifications/article_propose');
 		notifications_envoyer_mails($adresse_suivi, $texte);
 	}
 }
@@ -327,7 +329,9 @@ if (!function_exists('calcul_branche')) {
  * @param string|int|array $generation
  * @return string
  */
-function calcul_branche($generation) { return calcul_branche_in($generation); }
+function calcul_branche($generation) {
+	return calcul_branche_in($generation);
+}
 }
 
 
@@ -354,7 +358,8 @@ if (!function_exists('ecrire_metas')) {
  * @removed from SPIP 4.0
  * @deprecated
  **/
-function ecrire_metas() { }
+function ecrire_metas() {
+}
 }
 
 
@@ -472,7 +477,7 @@ function recuperer_page(
 		$get = 'GET';
 	}
 
-	$options = array(
+	$options = [
 		'transcoder' => $trans === true,
 		'methode' => $get,
 		'datas' => $datas,
@@ -482,7 +487,7 @@ function recuperer_page(
 		'uri_referer' => $uri_referer,
 		'file' => $copy ? $trans : '',
 		'follow_location' => 10,
-	);
+	];
 	if (!is_null($taille_max)) {
 		$options['taille_max'] = $taille_max;
 	}
@@ -555,7 +560,7 @@ function recuperer_lapage(
 		$refuser_gz = true;
 	}
 
-	$options = array(
+	$options = [
 		'transcoder' => $trans === true,
 		'methode' => $get,
 		'datas' => $datas,
@@ -564,7 +569,7 @@ function recuperer_lapage(
 		'uri_referer' => $uri_referer,
 		'file' => $copy ? $trans : '',
 		'follow_location' => false,
-	);
+	];
 	if (!is_null($taille_max)) {
 		$options['taille_max'] = $taille_max;
 	}
@@ -578,6 +583,6 @@ function recuperer_lapage(
 		return false;
 	}
 
-	return array($res['headers'], $res['page']);
+	return [$res['headers'], $res['page']];
 }
 }

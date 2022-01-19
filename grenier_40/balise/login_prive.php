@@ -16,7 +16,7 @@
  * @package SPIP\Core\Compilateur\Balises
  **/
 
-if (!defined("_ECRIRE_INC_VERSION")) {
+if (!defined('_ECRIRE_INC_VERSION')) {
 	return;
 }  #securite
 
@@ -35,7 +35,7 @@ if (!defined("_ECRIRE_INC_VERSION")) {
  *     Pile complétée du code compilé
  **/
 function balise_LOGIN_PRIVE($p) {
-	return calculer_balise_dynamique($p, 'LOGIN_PRIVE', array('url'));
+	return calculer_balise_dynamique($p, 'LOGIN_PRIVE', ['url']);
 }
 
 /**
@@ -56,7 +56,7 @@ function balise_LOGIN_PRIVE($p) {
  *   Liste (url, login) des arguments collectés.
  */
 function balise_LOGIN_PRIVE_stat($args, $context_compil) {
-	return array($args[1] ?? $args[0], ($args[2] ?? ''));
+	return [$args[1] ?? $args[0], ($args[2] ?? '')];
 }
 
 /**
@@ -74,7 +74,8 @@ function balise_LOGIN_PRIVE_stat($args, $context_compil) {
  **/
 function balise_LOGIN_PRIVE_dyn($url, $login) {
 	include_spip('balise/formulaire_');
-	if (!$url    # pas d'url passee en filtre ou dans le contexte
+	if (
+		!$url    # pas d'url passee en filtre ou dans le contexte
 		and !$url = _request('url') # ni d'url passee par l'utilisateur
 	) {
 		$url = generer_url_ecrire('accueil', '', true);

@@ -1,4 +1,5 @@
 <?php
+
 /***************************************************************************\
  *  SPIP, Système de publication pour l'internet                           *
  *                                                                         *
@@ -17,7 +18,7 @@
 
 /**
  * File removed
- * 
+ *
  * @removed from SPIP 3.2
  */
 

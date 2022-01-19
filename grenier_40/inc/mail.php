@@ -14,7 +14,7 @@
  * Module de compatibilite ascendante : desormais inc/envoyer_mail
  *
  * File removed
- * 
+ *
  * @removed from SPIP 4.0
  * @deprecated Utiliser inc/envoyer_mail
  * @package SPIP\Core\Mail

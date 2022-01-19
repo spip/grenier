@@ -10,9 +10,11 @@
  *  Pour plus de détails voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
-if (!defined('_ECRIRE_INC_VERSION')) return;
+if (!defined('_ECRIRE_INC_VERSION')) { 
+    return;
+}
 
-/* 
+/*
  * Ce fichier contient des fonctions, globales ou constantes
  * qui ont fait partie des fichiers de configurations de Spip
  * mais en ont ete retires ensuite.
@@ -29,4 +31,3 @@ include_spip('grenier_40/grenier_40_autres');
 include_spip('grenier_40/grenier_40_balises');
 include_spip('grenier_40/grenier_40_criteres');
 include_spip('grenier_40/grenier_40_fonctions');
-

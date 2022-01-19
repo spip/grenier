@@ -47,11 +47,11 @@ if (!function_exists('afficher_plus')) {
 if (!function_exists('debut_cadre_couleur_foncee')) {
 	/**
 	 * Ouvre un cadre foncé
-	 * 
+	 *
 	 * @removed from SPIP 3.2
 	 * @deprecated utiliser boite_ouvrir()
 	 */
-	function debut_cadre_couleur_foncee($icone = '', $dummy = '', $fonction = '', $titre = '', $id = "", $class = "") {
+	function debut_cadre_couleur_foncee($icone = '', $dummy = '', $fonction = '', $titre = '', $id = '', $class = '') {
 		include_spip('inc/presentation');
 		return debut_cadre_grenier('couleur-foncee', $icone, $fonction, $titre, $id, $class);
 	}
@@ -60,12 +60,12 @@ if (!function_exists('debut_cadre_couleur_foncee')) {
 if (!function_exists('fin_cadre_couleur_foncee')) {
 	/**
 	 * Ferme un cadre foncé
-	 * 
+	 *
 	 * @removed from SPIP 3.2
 	 * @deprecated utiliser boite_fermer()
 	 */
-	function fin_cadre_couleur_foncee() { 
-		return fin_cadre_grenier(); 
+	function fin_cadre_couleur_foncee() {
+		return fin_cadre_grenier();
 	}
 }
 
@@ -74,12 +74,12 @@ if (!function_exists('fin_cadre_couleur_foncee')) {
 /**
  * Ouvre un cadre.
  * Copie de debut_cadre() pour historique
- * 
+ *
  * @removed from SPIP 3.2
  */
-function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $id = "", $class = "", $padding = true) {
+function debut_cadre_grenier($style, $icone = '', $fonction = '', $titre = '', $id = '', $class = '', $padding = true) {
 	$fond = null;
-	$style_mapping = array(
+	$style_mapping = [
 		'r' => 'simple',
 		'e' => 'raccourcis',
 		'couleur' => 'basic highlight',
@@ -88,12 +88,12 @@ function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $
 		'alerte' => 'notice',
 		'info' => 'info',
 		'sous_rub' => 'simple sous-rub'
-	);
-	$style_titre_mapping = array('couleur' => 'topper', 'trait-couleur' => 'section');
+	];
+	$style_titre_mapping = ['couleur' => 'topper', 'trait-couleur' => 'section'];
 	$c = $style_mapping[$style] ?? 'simple';
-	$class = $c . ($class ? " $class" : "");
+	$class = $c . ($class ? " $class" : '');
 	if (!$padding) {
-		$class .= ($class ? " " : "") . "no-padding";
+		$class .= ($class ? ' ' : '') . 'no-padding';
 	}
 
 	//($id?"id='$id' ":"")
@@ -102,16 +102,16 @@ function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $
 			[$fond, $fonction] = $icone_renommer($icone, $fonction);
 		}
 		$size = 24;
-		if (preg_match("/-([0-9]{1,3})[.](gif|png)$/i", $fond, $match)) {
+		if (preg_match('/-([0-9]{1,3})[.](gif|png)$/i', $fond, $match)) {
 			$size = $match[1];
 		}
 		if ($fonction) {
 			// 2 images pour composer l'icone : le fond (article) en background,
 			// la fonction (new) en image
-			$icone = http_img_pack($fonction, "", "class='cadre-icone' width='$size' height='$size'\n" .
-				http_style_background($fond, "no-repeat center center"));
+			$icone = http_img_pack($fonction, '', "class='cadre-icone' width='$size' height='$size'\n" .
+				http_style_background($fond, 'no-repeat center center'));
 		} else {
-			$icone = http_img_pack($fond, "", "class='cadre-icone' width='$size' height='$size'");
+			$icone = http_img_pack($fond, '', "class='cadre-icone' width='$size' height='$size'");
 		}
 		$titre = $icone . $titre;
 	}
@@ -122,10 +122,9 @@ function debut_cadre_grenier($style, $icone = "", $fonction = "", $titre = "", $
 /**
  * Ferme un cadre.
  * Copie de fin_cadre() pour historique
- * 
+ *
  * @removed from SPIP 3.2
  */
-function fin_cadre_grenier() { 
-	return boite_fermer(); 
+function fin_cadre_grenier() {
+	return boite_fermer();
 }
-

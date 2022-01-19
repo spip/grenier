@@ -1,6 +1,5 @@
 <?php
 
-
 if (!function_exists('critere_DATA_datasource_dist')) {
 /**
  * Compile le critère {datasource} d'une boucle DATA
