@@ -156,7 +156,6 @@ function image_valeurs_trans($img, $effet, $forcer_format = false, $fonction_cre
 
 // Pour assurer la compatibilite avec les anciens nom des filtres image_xxx
 // commencent par "image_"
-// https://code.spip.net/@reduire_image
 function reduire_image($texte, $taille = -1, $taille_y = -1) {
 	return filtrer(
 		'image_graver',
@@ -164,7 +163,6 @@ function reduire_image($texte, $taille = -1, $taille_y = -1) {
 	);
 }
 
-// https://code.spip.net/@valeurs_image_trans
 function valeurs_image_trans($img, $effet, $forcer_format = false) {
 	include_spip('inc/filtres_images_lib_mini');
 
