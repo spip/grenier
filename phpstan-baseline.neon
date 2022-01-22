@@ -481,7 +481,7 @@ parameters:
 			path: grenier_40/grenier_40_autres.php
 
 		-
-			message: "#^Function generer_lien_entite not found\\.$#"
+			message: "#^Function generer_objet_lien not found\\.$#"
 			count: 1
 			path: grenier_40/grenier_40_autres.php
 

@@ -211,11 +211,11 @@ function afficher_documents_colonne($id, $type = 'article', $script = null) {
 
 if (!function_exists('lien_objet')) {
 /**
- * Pour compat uniquement, utiliser generer_lien_entite
+ * Pour compat uniquement, utiliser generer_objet_lien
  *
  * @removed from SPIP 4.0
  * @deprecated
- * @uses generer_lien_entite()
+ * @uses generer_objet_lien()
  *
  * @param int $id
  * @param string $type
@@ -224,7 +224,7 @@ if (!function_exists('lien_objet')) {
  * @return string
  */
 function lien_objet($id, $type, $longueur = 80, $connect = null) {
-	return generer_lien_entite($id, $type, $longueur, $connect);
+	return generer_objet_lien($id, $type, $longueur, $connect);
 }
 }
 
